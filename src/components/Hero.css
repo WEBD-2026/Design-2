@@ -1,0 +1,26 @@
+.hero1{
+    position: absolute;
+    z-index: 10; /* Lower than Navbar */
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the text */
+    width: 70vw; /* Covers 70% of the viewport width */
+    font-size: 10vw; /* Responsive font size based on viewport width */
+    color: #4b0000;
+    text-align: center;
+    white-space: nowrap; /* Ensures the text remains in a single line */
+  }
+  .hero-section {
+    position: relative;
+    width: 100vw;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .animation {
+    position: relative;
+    z-index: 1; /* Lower than navbar */
+  }
+  

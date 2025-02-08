@@ -1,0 +1,135 @@
+/* Navbar.css */
+
+/* General Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    height: 10%;
+    background: rgb(40, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease-in-out;
+    z-index: 1000;
+    animation: slideDown 0.4s ease-in-out;
+}
+
+/* Navbar expands and sticks to top with animation */
+.navbar.scrolling {
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: none;
+    border-radius: 0;
+    padding: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    animation: slideDown 0.4s ease-in-out;
+}
+
+/* Smooth animation for sticking to top */
+@keyframes slideDown {
+    from {
+        top: -80px;
+        opacity: 0;
+        width: 75%;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+        width: 100%;
+    }
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #9a5500;
+}
+
+/* Navigation Links */
+.nav-links {
+    font-size: x-large;
+    display: flex;
+    gap: 10%;
+    font-weight: 500;
+    color: #ff8e04;
+    list-style: none;
+}
+
+/* Mobile Menu */
+.nav-links-mobile {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 200px;
+    background: white;
+    padding: 12px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: none;
+}
+
+/* Show menu when open */
+.nav-links-mobile.open {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hover effect */
+.nav-links li a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links li a:hover {
+    color: #3b82f6; /* Blue-400 */
+}
+
+/* Mobile Menu Button */
+.menu-btn {
+    display: block;
+    color: #f2ca00;
+    cursor: pointer;
+}
+
+/* Hide menu button on larger screens */
+@media (min-width: 768px) {
+    .menu-btn {
+        display: none;
+    }
+}
+
+/* Full-screen backdrop when menu is open */
+.menu-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: none;
+}
+
+.menu-backdrop.show {
+    display: block;
+    opacity: 1;
+}
