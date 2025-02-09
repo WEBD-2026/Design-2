@@ -1,26 +1,36 @@
-.hero1{
-    position: absolute;
-    z-index: 10; /* Lower than Navbar */
-    top: 15%;
-    left: 24%;
-    /* transform: translate(-50%, -50%); */
-    width: 70vw; /* Covers 70% of the viewport width */
-    font-size: 13vw; /* Responsive font size based on viewport width */
-    color: #4b0000;
-    text-align: center;
-    white-space: nowrap; /* Ensures the text remains in a single line */
+.hero1 {
+  position: absolute;
+  z-index: 10; /* Lower than Navbar */
+  top: 15%;
+  left: 15%;
+  /* transform: translate(-20%, -50%); */
+  width: 70vw; /* Covers 70% of the viewport width */
+  font-size: 10vw; /* Responsive font size based on viewport width */
+  color: #4b0000;
+  text-align: center;
+  white-space: nowrap; /* Ensures the text remains in a single line */
+}
+.hero-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh; /* Full screen height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation {
+  position: relative;
+  z-index: 1; /* Lower than navbar */
+}
+@media (max-width: 900px) {
+  .hero1 {
+    top: 40%;
+    transform: translate(0%, -50%);
   }
-  .hero-section {
-    position: relative;
-    width: 100vw;
-    height: 100vh; /* Full screen height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+@media (max-width: 600px) {
+  .hero1 {
+    font-size: 14vw;
   }
-  
-  .animation {
-    position: relative;
-    z-index: 1; /* Lower than navbar */
-  }
-  
+}
