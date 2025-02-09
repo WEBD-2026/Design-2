@@ -1,14 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 import './Navbar.css'
+import { Link } from 'react-router-dom';
 
 const Button = () => {
     return (
 
         <div className='navbar'>
-            <button className="button">
-                <div><span>EVENT</span></div>
-            </button>
+            <Link to={'/event'}>
+                <button className="button">
+                    <div><span>EVENT</span></div>
+                </button>
+            </Link>
             <button className="button">
                 <div><span>COMPETATIONS</span></div>
             </button>

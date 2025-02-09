@@ -2,7 +2,7 @@
 .navbar {
     position: fixed;
     top: 2%;
-    left: 70%;
+    left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: space-between;

@@ -1,14 +1,16 @@
 import React from 'react'
-import Hero from './components/Hero.js'
-import Navbar from './components/Navbar/Navbar.js'
+
 import './index.css'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home/Home.jsx'
+import Event from './pages/Events/Event.jsx'
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-    </div>
+    <Routes>
+      <Route path={'/'} element={<Home />} />
+      <Route path={'/event'} element={<Event />} />
+    </Routes>
   )
 }
 
