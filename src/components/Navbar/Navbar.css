@@ -1,135 +1,121 @@
-/* Navbar.css */
 
-/* General Navbar Styling */
 .navbar {
     position: fixed;
     top: 2%;
-    left: 50%;
+    left: 70%;
     transform: translateX(-50%);
-    width: 75%;
-    height: 10%;
-    background: rgb(40, 28, 28);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 24px;
-    border-radius: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.4s ease-in-out;
+    gap: 1rem;
     z-index: 1000;
-    animation: slideDown 0.4s ease-in-out;
+
 }
 
-/* Navbar expands and sticks to top with animation */
-.navbar.scrolling {
-    top: 0;
-    left: 0;
-    width: 100%;
-    transform: none;
-    border-radius: 0;
-    padding: 16px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-    animation: slideDown 0.4s ease-in-out;
-}
-
-/* Smooth animation for sticking to top */
-@keyframes slideDown {
-    from {
-        top: -80px;
-        opacity: 0;
-        width: 75%;
-    }
-    to {
-        top: 0;
-        opacity: 1;
-        width: 100%;
-    }
-}
-
-/* Logo Styling */
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    font-style: italic;
-    text-transform: uppercase;
-    color: #9a5500;
-}
-
-/* Navigation Links */
-.nav-links {
-    font-size: x-large;
-    display: flex;
-    gap: 10%;
-    font-weight: 500;
-    color: #ff8e04;
-    list-style: none;
-}
-
-/* Mobile Menu */
-.nav-links-mobile {
-    position: absolute;
-    top: 80px;
-    right: 20px;
-    width: 200px;
-    background: white;
-    padding: 12px;
-    text-align: center;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    transform: translateY(-20px);
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    display: none;
-}
-
-/* Show menu when open */
-.nav-links-mobile.open {
-    display: flex;
-    flex-direction: column;
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* Hover effect */
-.nav-links li a {
-    text-decoration: none;
-    color: inherit;
-    transition: color 0.3s ease-in-out;
-}
-
-.nav-links li a:hover {
-    color: #3b82f6; /* Blue-400 */
-}
-
-/* Mobile Menu Button */
-.menu-btn {
-    display: block;
-    color: #f2ca00;
+.button {
+    --stone-50: #280003;
+    --stone-800: #280003;
+    --yellow-400: #FFAF1B;
+    width: auto;
+    font-size: 1rem;
     cursor: pointer;
-}
+    position: relative;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    padding: 1px;
+    transform: translate(-4px, -4px);
+    outline: 2px solid transparent;
+    outline-offset: 5px;
+    border-radius: 9999px;
+    background-color: var(--stone-800);
+    color: var(--stone-800);
+    transition:
+      transform 150ms ease,
+      box-shadow 150ms ease;
+    text-align: center;
+    box-shadow:
+      0.5px 0.5px 0 0 var(--stone-800),
+      1px 1px 0 0 var(--stone-800),
+      1.5px 1.5px 0 0 var(--stone-800),
+      2px 2px 0 0 var(--stone-800),
+      2.5px 2.5px 0 0 var(--stone-800),
+      3px 3px 0 0 var(--stone-800),
+      0 0 0 2px var(--stone-50),
+      0.5px 0.5px 0 2px var(--stone-50),
+      1px 1px 0 2px var(--stone-50),
+      1.5px 1.5px 0 2px var(--stone-50),
+      2px 2px 0 2px var(--stone-50),
+      2.5px 2.5px 0 2px var(--stone-50),
+      3px 3px 0 2px var(--stone-50),
+      3.5px 3.5px 0 2px var(--stone-50),
+      4px 4px 0 2px var(--stone-50);
 
-/* Hide menu button on larger screens */
-@media (min-width: 768px) {
-    .menu-btn {
-        display: none;
+    &:hover {
+      transform: translate(0, 0);
+      box-shadow: 0 0 0 2px var(--stone-50);
     }
-}
 
-/* Full-screen backdrop when menu is open */
-.menu-backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 999;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    display: none;
-}
+    &:active,
+    &:focus-visible {
+      outline-color: var(--yellow-400);
+    }
 
-.menu-backdrop.show {
-    display: block;
-    opacity: 1;
-}
+    &:focus-visible {
+      outline-style: dashed;
+    }
+
+    & > div {
+      position: relative;
+      pointer-events: none;
+      background-color: var(--yellow-400);
+      /* border: 2px solid rgba(255, 255, 255, 0.3); */
+      border-radius: 9999px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 9999px;
+        opacity: 0.5;
+        background-image: radial-gradient(
+            rgb(255 255 255 / 80%) 20%,
+            transparent 20%
+          ),
+          radial-gradient(rgb(255 255 255 / 100%) 20%, transparent 20%);
+        background-position:
+          0 0,
+          4px 4px;
+        background-size: 8px 8px;
+        mix-blend-mode: hard-light;
+        animation: dots 0.5s infinite linear;
+      }
+
+      & > span {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.75rem 1.25rem;
+        gap: 0.25rem;
+        filter: drop-shadow(0 -1px 0 rgba(255, 255, 255, 0.25));
+
+        &:active {
+          transform: translateY(2px);
+        }
+      }
+    }
+  }
+ 
+  @keyframes dots {
+    0% {
+      background-position:
+        0 0,
+        4px 4px;
+    }
+    100% {
+      background-position:
+        8px 0,
+        12px 4px;
+    }
+  };

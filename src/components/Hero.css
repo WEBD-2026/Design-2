@@ -1,11 +1,11 @@
 .hero1{
     position: absolute;
     z-index: 10; /* Lower than Navbar */
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centers the text */
+    top: 15%;
+    left: 24%;
+    /* transform: translate(-50%, -50%); */
     width: 70vw; /* Covers 70% of the viewport width */
-    font-size: 10vw; /* Responsive font size based on viewport width */
+    font-size: 13vw; /* Responsive font size based on viewport width */
     color: #4b0000;
     text-align: center;
     white-space: nowrap; /* Ensures the text remains in a single line */
