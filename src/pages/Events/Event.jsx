@@ -81,7 +81,6 @@ const Event = () => {
         </div>
         <div className="event_mid">
           <div className="event_mid_top">
-            <h1>All Events</h1>
             <Searchbar />
           </div>
           <div className="event_mid_mid">

@@ -1,20 +1,12 @@
-import React, { useContext } from "react";
-import { Context } from "../Context/Context";
-import "../components/Searchbar.css";
-
-const Searchbar = () => {
-  const { search, setSearch } = useContext(Context);
+import React from 'react';
+import './Searchbar.css'
+const Search = () => {
   return (
-    <div className="search">
-      <input
-        type="text"
-        placeholder="Search"
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-      />
-      <i class="fa-solid fa-magnifying-glass"></i>
+    <div className="brutalist-container">
+      <input placeholder="TYPE HERE" className="brutalist-input smooth-type" type="text" />
+      <label className="brutalist-label">SEARCH The Event</label>
     </div>
   );
-};
+}
 
-export default Searchbar;
+export default Search;
