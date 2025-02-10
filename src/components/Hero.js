@@ -16,7 +16,7 @@ const Hero = () => {
                 </ParallaxLayer>
                 <ParallaxLayer offset={0} speed={-0.1}>
                     {/* <div className="animation_layer parallax" id="logoland"></div> */}
-                    <h1 className="hero1">CYLISTRA</h1>
+                    <h1 className="hero1">CELESTRA</h1>
 
                 </ParallaxLayer>
                 <ParallaxLayer offset={0} speed={0.3}>
@@ -37,7 +37,7 @@ const Hero = () => {
                 <ParallaxLayer offset={0} speed={0.35}>
                     <div className="animation_layer parallax" id="jungle5"></div>
                 </ParallaxLayer>
-                <ParallaxLayer offset={1} speed={0.25}>
+                <ParallaxLayer offset={1} speed={0.5}>
                     <TextBlock />
                 </ParallaxLayer>
             </Parallax>
