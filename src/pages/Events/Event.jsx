@@ -3,6 +3,7 @@ import "./Event.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Searchbar from "../../components/Searchbar";
 import { Context } from "../../Context/Context";
+import Dropdown from "../../components/dropdown";
 import './button_event.css'
 
 const Event = () => {
@@ -81,6 +82,7 @@ const Event = () => {
         </div>
         <div className="event_mid">
           <div className="event_mid_top">
+            <Dropdown />
             <Searchbar />
           </div>
           <div className="event_mid_mid">
