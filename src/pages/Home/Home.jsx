@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../../components/Navbar/Navbar.js";
 import Hero from "../../components/Hero.js";
 import SpinLoader from "../../components/Loader/SpinLoader.js";
+import Gallery from "../../components/ArcadeGallery.jsx";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -16,6 +17,7 @@ const Home = () => {
         <>
           <Navbar />
           <Hero />
+          <Gallery />
         </>
       ) : (
         <SpinLoader />
