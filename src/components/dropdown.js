@@ -17,7 +17,7 @@ const Dropdown = () => {
             <div className="brutalist-input smooth-type" onClick={toggleDropdown}>
                 {selectedOption}
             </div>
-            <label className="brutalist-label">Innovate or Celebrate ? You Decide!</label>
+            <label className="brutalist-label">Tech or Culture?</label>
             {isOpen && (
                 <ul className="dropdown-menu">
                     {options.map((option, index) => (
