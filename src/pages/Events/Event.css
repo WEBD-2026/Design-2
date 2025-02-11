@@ -10,7 +10,7 @@
   min-height: 100vh;
   position: relative;
   padding-top: 25vh; /* Added space from top */
-  background-image: url('./background_image/background_event.png'); /* Add your image path here */
+  background-image: url("./background_image/background_event.png"); /* Add your image path here */
   background-attachment: fixed; /* Keeps the background image fixed */
   background-size: cover; /* Ensures the image covers the entire background */
   background-position: center; /* Centers the background image */
@@ -60,10 +60,54 @@
 .event_mid_mid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  transform: translate(-50%);
+  position: relative;
+  /* tran */
+  left: 50%;
+  column-gap: 10px;
+  width: 100vw;
+  /* margin: 0 auto; */
 }
 .event_mid .event_mid_mid .container {
   margin-top: 20px;
   border: 1px solid #ffaf1b;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
+}
+@media screen and (max-width: 1310px) {
+  .event_mid_mid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* Added media query for smaller screens */
+@media screen and (max-width: 810px) {
+  .event_mid .event_mid_mid .container {
+    margin-top: 20px;
+    border: 1px solid #ffaf1b;
+    width: 600px;
+    height: 600px;
+  }
+  .event_mid_mid {
+    grid-template-columns: 1fr;
+    /* Single column layout */
+    width: 100%;
+  }
+}
+@media screen and (max-width: 610px) {
+  .event_mid .event_mid_mid .container {
+    margin-top: 20px;
+    border: 1px solid #ffaf1b;
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 425px) {
+  .event_mid .event_mid_mid .container {
+    margin-top: 20px;
+    border: 1px solid #ffaf1b;
+    width: 300px;
+    height: 300px;
+  }
 }
