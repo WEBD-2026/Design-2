@@ -1,20 +1,23 @@
-/* #textblock {
+#textblock {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f8f9fa;
+    background-image: url('./pages/Events/background_image/background_event.png'); /* Add your image path here */
+    background-attachment: fixed; /* Keeps the background image fixed */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the background image */
     padding: 40px 20px;
 }
 
 #textblock-container {
     max-width: 800px;
     text-align: center;
-    background: white;
+    background: rgb(0, 0, 0);
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-} */
+}
 
 #textblock-title {
     font-size: 3.5rem;

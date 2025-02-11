@@ -1,0 +1,27 @@
+.dropdown-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 4px solid #000;
+    background-color: #fff;
+    box-shadow: 5px 5px 0 #000, 10px 10px 0 #ffaf1b;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .dropdown-item {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .dropdown-item:hover {
+    background: #ffaf1b;
+  }
+  

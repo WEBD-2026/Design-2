@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100..900&family=Prata&display=swap");
 .events {
-  background-color: #4b0000;
+  /* background-color: #4b0000; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,6 +10,10 @@
   min-height: 100vh;
   position: relative;
   padding-top: 25vh; /* Added space from top */
+  background-image: url('./background_image/background_event.png'); /* Add your image path here */
+  background-attachment: fixed; /* Keeps the background image fixed */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the background image */
 }
 .event_top {
   margin-bottom: 20vh; /* Space for next section */
@@ -18,8 +22,8 @@
 .event_top_top h1,
 .event_top_mid h1 {
   font-family: Salsa;
-  color: #ffaf1b;
-  -webkit-text-stroke: 2px #f6d9a3;
+  color: #ffffff;
+  -webkit-text-stroke: 3px #4b0000;
   font-size: 10vw;
   margin: 0;
 }
