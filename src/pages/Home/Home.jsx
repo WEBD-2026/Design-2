@@ -20,6 +20,9 @@ const Home = () => {
           <Hero />
           <MegaEvents/>
           {/* <Gallery /> */}
+
+          <Gallery />
+
         </>
       ) : (
         <SpinLoader />
