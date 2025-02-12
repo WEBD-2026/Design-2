@@ -17,7 +17,7 @@ const Home = () => {
         <>
           <Navbar />
           <Hero />
-          <Gallery />
+          {/* <Gallery /> */}
         </>
       ) : (
         <SpinLoader />

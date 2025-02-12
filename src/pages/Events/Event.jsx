@@ -5,6 +5,7 @@ import Searchbar from "../../components/Searchbar";
 import { Context } from "../../Context/Context";
 import Dropdown from "../../components/dropdown";
 import "./button_event.css";
+import styled from "styled-components";
 
 const Event = () => {
   const { search, setSearch } = useContext(Context);
@@ -107,9 +108,46 @@ const Event = () => {
             <Searchbar onSearchChange={handleSearchChange} />
           </div>
           <div className="event_mid_mid">
-            {filteredContainers.map((item, index) => (
+            {/* {filteredContainers.map((item, index) => (
               <div key={index} className="container">
                 {item}
+              </div>
+            ))} */}
+            {filteredContainers.map((item, index) => (
+              <div className="brutalist-card">
+                <div className="brutalist-card__header">
+                  {/* <div className="brutalist-card__icon">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" />
+                    </svg>
+                  </div>
+                  <div className="brutalist-card__alert">Warning</div> */}
+                  <img src="logo192.png" alt="" />
+                </div>
+                {/* <div className="brutalist-card__message">{item}</div> */}
+                <div className="brutalist-card__actions">
+                  {/* <a
+                    className="brutalist-card__button brutalist-card__button--mark"
+                    href="#"
+                  >
+                    Mark as Read
+                  </a> */}
+                  <div className="brutalist-card_mess">
+                    <a className="brutalist-card__button brutalist-card__button--read">
+                      {item}
+                    </a>
+                  </div>
+                  <div className="brutalist-card_butt">
+                    <button className="btn-class-name ">
+                      <span className="back" />
+                      <span className="front">Register</span>{" "}
+                    </button>
+                    <button className="btn-class-name">
+                      <span className="back" />
+                      <span className="front">More Info</span>
+                    </button>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
