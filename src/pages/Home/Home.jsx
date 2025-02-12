@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/Navbar.js";
 import Hero from "../../components/Hero.js";
 import SpinLoader from "../../components/Loader/SpinLoader.js";
 import Gallery from "../../components/ArcadeGallery.jsx";
+import MegaEvents from "../../components/MegaEvents.jsx";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -17,6 +18,7 @@ const Home = () => {
         <>
           <Navbar />
           <Hero />
+          <MegaEvents/>
           {/* <Gallery /> */}
         </>
       ) : (
