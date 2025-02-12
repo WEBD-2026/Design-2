@@ -77,7 +77,7 @@ export default function MegaEvents() {
           <motion.div
             key={section.id}
             className={`text absolute top-0 w-fit h-fit p-16 rounded-lg shadow-md text-center transition-opacity duration-500 ${
-              index === activeIndex ? "opacity-100 z-10 " : "opacity-0 z-0 translate-y-full "
+              index === activeIndex ? "opacity-100 z-10 " : "opacity-0 z-0"
             } rounded-xl`}
             style={{background:"#e0c2ff33", boxShadow:"inset 0px 0px 10px white"}}
           >
