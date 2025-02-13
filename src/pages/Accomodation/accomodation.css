@@ -1,0 +1,36 @@
+.accomodation {
+    /* background-color: #f8f8f8; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 0;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding-top: 25vh;
+    /* Added space from top */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Background/Accomodation_background.webp");
+
+    /* background-attachment: fixed; */
+
+    background-size: cover;
+    /* Ensures the image covers the entire background */
+    background-position: center;
+    /* Centers the background image */
+}
+
+.accomodation_top {
+    margin-bottom: 20vh;
+    /* Space for next section */
+    text-align: center;
+}
+
+.accomodation_top_top h1,
+.Accomodation_top_mid h1 {
+    font-family: Salsa;
+    color: #ffffff;
+    -webkit-text-stroke: 0px #ffffff;
+    font-size: 10vw;
+    margin: 0;
+}

@@ -67,6 +67,7 @@ const Event = () => {
                   <span style={{ "--index": 11 }}>O</span>
                   <span style={{ "--index": 12 }}>N</span>
                   <span style={{ "--index": 13 }}> </span>
+                  <span style={{ "--index": 13 }}> </span>
                   <span style={{ "--index": 14 }}>O</span>
                   <span style={{ "--index": 15 }}>P</span>
                   <span style={{ "--index": 16 }}>E</span>

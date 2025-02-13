@@ -44,7 +44,7 @@ const EventGallery = () => {
 
   return (
     <section className="relative w-full bg-black py-12 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 mb-10 relative">
+      {/* <div className="max-w-7xl mx-auto px-4 mb-10 relative">
         <motion.div className="flex items-center justify-center gap-4" initial={{ y: -20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }}>
           <motion.div animate={{ rotate: 360, scale: [1, 1.2, 1] }} transition={{ rotate: { duration: 4, repeat: Infinity, ease: "linear" }, scale: { duration: 2, repeat: Infinity } }}>
             <Gamepad className="w-10 h-10 text-purple-500" />
@@ -53,13 +53,13 @@ const EventGallery = () => {
             Gallery
           </h2>
         </motion.div>
-      </div>
+      </div> */}
 
       <div className="relative px-4 py-6" style={{ maskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)' }} onMouseEnter={() => setIsPaused(true)} onMouseLeave={() => setIsPaused(false)}>
         <div className="flex gap-6 relative" style={{ transform: `translateX(-${scrollX}px)`, width: 'fit-content' }}>
           {[...events, ...events, ...events].map((event, index) => (
             <motion.div key={index} className="relative flex-none w-[300px] h-[400px] rounded-xl overflow-hidden group" whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }}>
-              <img src={event.imageUrl} alt={event.title} className="w-full h-full object-cover" />
+              <img src={event.imageUrl} alt={event.title} className="w-full h-full object-cover" loading="lazy" />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <div className="flex items-center gap-2 mb-3">
