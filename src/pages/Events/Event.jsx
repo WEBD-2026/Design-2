@@ -5,6 +5,7 @@ import Searchbar from "../../components/Searchbar";
 import { Context } from "../../Context/Context";
 import Dropdown from "../../components/dropdown";
 import "./button_event.css";
+import styled from "styled-components";
 
 const Event = () => {
   const { search, setSearch } = useContext(Context);
@@ -66,6 +67,7 @@ const Event = () => {
                   <span style={{ "--index": 11 }}>O</span>
                   <span style={{ "--index": 12 }}>N</span>
                   <span style={{ "--index": 13 }}> </span>
+                  <span style={{ "--index": 13 }}> </span>
                   <span style={{ "--index": 14 }}>O</span>
                   <span style={{ "--index": 15 }}>P</span>
                   <span style={{ "--index": 16 }}>E</span>
@@ -108,8 +110,32 @@ const Event = () => {
           </div>
           <div className="event_mid_mid">
             {filteredContainers.map((item, index) => (
-              <div key={index} className="container">
-                {item}
+              <div className="brutalist-card">
+                <div className="brutalist-card__header">
+                  <img src={require("./background_image/background_event.png")} alt="Event" />
+                </div>
+
+                <div className="brutalist-card__actions">
+                  <div className="brutalist-card_mess">
+                    <a className="brutalist-card__button brutalist-card__button--read">
+                      {item}
+                    </a>
+                  </div>
+
+
+                  <div className="brutalist-card_butt">
+                    <button className="btn-class-name ">
+                      <button>
+                        Register
+                      </button>
+                    </button>
+                    <button className="btn-class-name">
+                      <button>
+                        More Info
+                      </button>
+                    </button>
+                  </div>
+                </div>
               </div>
             ))}
           </div>

@@ -1,7 +1,50 @@
-.setloader {
+.loading-container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.loading-wide {
+  width: 100vw;
   height: 100vh;
-  background-color: #172027;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.color {
+  background-color: #4285f4; /* Google Blue */
+}
+
+.l1 {
+  width: 15px;
+  height: 65px;
+  position: absolute;
+  animation: move-h 1.2s infinite cubic-bezier(0.65, 0.05, 0.36, 1);
+  background-color: #f4b400; /* Google Yellow */
+}
+
+.l2 {
+  width: 15px;
+  height: 60px;
+  position: absolute;
+  transform: rotate(90deg);
+  animation: move-v 1.2s infinite cubic-bezier(0.65, 0.05, 0.36, 1);
+  background-color: #db4437; /* Google Red */
+}
+
+@keyframes move-h {
+  0% {
+    top: 0;
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
 }
