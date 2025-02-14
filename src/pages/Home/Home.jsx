@@ -18,7 +18,7 @@ const Home = () => {
       {loading !== true ? (
         <>
           <Navbar />
-          <Hero />
+          <Hero/>
           
           <MegaEvents/>
           {/* <Gallery /> */}
