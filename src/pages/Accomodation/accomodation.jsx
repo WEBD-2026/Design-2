@@ -21,7 +21,7 @@ function Accomodation() {
     >
       <Navbar />
       <div className="flex flex-col items-center">
-        <h1 className="text-white text-8xl">Accomodation</h1>
+        <h1 className="text-white text-8xl">Accommodation</h1>
         <div className="w-full h-full p-16 flex gap-10">
           {sections.map((details) => (
             <div className="brutalist-card mx-auto">
