@@ -13,17 +13,24 @@ const Home = () => {
       setLoading(false);
     }, 5000);
   }, []);
+
+  let height = window.innerHeight
+  console.log(height)
   return (
     <div>
       {loading !== true ? (
         <>
           <Navbar />
-          <Hero/>
-          
-          <MegaEvents/>
-          {/* <Gallery /> */}
-
-          <Gallery />
+          <div className="relative">
+            <div className="fixed top-0">
+              <Hero />
+            </div>
+            <div style={{marginTop:`${height}px`}}>
+              <MegaEvents />
+            </div>
+            {/* <Gallery /> */}
+            <Gallery />
+          </div>
           <Footer />
         </>
       ) : (
