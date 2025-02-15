@@ -9,6 +9,13 @@ const Button = () => {
   return (
     <>
       <div className="navbar">
+        <Link to={'/'}>
+          <button className="button">
+            <div>
+              <span>HOME</span>
+            </div>
+          </button>
+        </Link>
 
         <Link to={"/event"}>
           <button className="button">
@@ -17,12 +24,6 @@ const Button = () => {
             </div>
           </button>
         </Link>
-        <button className="button">
-          <div>
-            <span>COMPETATIONS</span>
-          </div>
-        </button>
-
         <Link to={"/Accomodation"}>
           <button className="button">
             <div>

@@ -18,29 +18,6 @@ export default function MegaEvents() {
 
   const [isSwapped, setIsSwapped] = useState(false);
 
-  // useEffect(() => {
-  //   const handleScroll = (event) => {
-  //     const currentTime = new Date().getTime();
-
-  //     if (currentTime - lastScrollTime.current < scrollCooldown) {
-  //       return;
-  //     }
-
-  //     if (event.deltaY > scrollThreshold && activeIndex < sections.length - 1) {
-  //       setActiveIndex((prev) => prev + 1);
-  //       setIsSwapped(!isSwapped);
-  //       lastScrollTime.current = currentTime;
-  //     } else if (event.deltaY < -scrollThreshold && activeIndex > 0) {
-  //       setActiveIndex((prev) => prev - 1);
-  //       setIsSwapped(!isSwapped);
-  //       lastScrollTime.current = currentTime;
-  //     }
-  //   };
-
-  //   window.addEventListener("wheel", handleScroll);
-  //   return () => window.removeEventListener("wheel", handleScroll);
-  // }, [activeIndex]);
-
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % sections.length);
