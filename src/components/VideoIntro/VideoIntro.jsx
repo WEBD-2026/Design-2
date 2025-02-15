@@ -1,27 +1,20 @@
-import React from 'react'
+import React from "react";
+import "./VideoIntro.css"; // Import CSS for styling
+// import video from "../../../public/concert.mp4";
 
-const VideoIntro = () => {
-    return (
-        <div className="relative w-full h-auto">
-            {/* Top Gradient */}
-            <div className="absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-black to-black z-10"></div>
+const VideoBackground = () => {
+  return (
+    <div className="video-container">
+      <video autoPlay muted loop playsInline className="background-video">
+        <source src="/concert.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      {/* <div className="content">
+        <h1>Welcome to My Website</h1>
+        <p>Your awesome content goes here!</p>
+      </div> */}
+    </div>
+  );
+};
 
-            {/* Video Section */}
-            <video
-                className="w-full h-auto object-cover"
-                autoPlay
-                loop
-                muted
-                playsInline
-            >
-                <source src="./video/concert.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-
-            {/* Bottom Gradient */}
-            <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-black to-black z-10"></div>
-        </div>
-    );
-}
-
-export default VideoIntro
+export default VideoBackground;

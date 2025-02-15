@@ -6,30 +6,30 @@ import SpinLoader from "../../components/Loader/SpinLoader.js";
 // import Gallery from "../../components/ArcadeGallery.jsx";
 import MegaEvents from "../../components/MegaEvents.jsx";
 import VideoIntro from "../../components/VideoIntro/VideoIntro.jsx";
+
 import Sponsers from "../../components/Sponsers.jsx";
+
+import "./Home.css";
+
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 6000);
+    }, 3000);
   }, []);
 
-  let height = window.innerHeight
-  console.log(height)
+  let height = window.innerHeight;
+  console.log(height);
   return (
     <div>
       {loading !== true ? (
         <>
           <Navbar />
-          <div>
-            <Hero />
-          </div>
+          <Hero />
           <div>
             <VideoIntro />
-          </div>
-          <div >
             <MegaEvents />
           </div>
           <Sponsers/>
