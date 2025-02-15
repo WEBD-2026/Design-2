@@ -26,8 +26,8 @@ function Accomodation() {
           {sections.map((details) => (
             <div className="brutalist-card mx-auto">
               <div className="brutalist-card__actions">
-                <div className="brutalist-card_mess flex flex-col gap-5">
-                  <p className="text-4xl ">
+                <div className="brutalist-card_mess flex flex-col gap-5 text-black">
+                  <p className="text-4xl">
                     {details.pack}
                   </p>
                   <hr />
