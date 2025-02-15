@@ -69,7 +69,7 @@ export default function MegaEvents() {
             className="h-full object-cover shadow-lg"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 2 }}
           />
         </div>
         {/* <div className="content w-full h-screen flex items-center justify-center absolute -right-60 top-40">
