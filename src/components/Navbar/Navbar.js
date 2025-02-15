@@ -9,7 +9,7 @@ const Button = () => {
   return (
     <>
       <div className="navbar">
-        <Link to={'/'}>
+        <Link to={"/"}>
           <button className="button">
             <div>
               <span>HOME</span>
@@ -32,11 +32,13 @@ const Button = () => {
           </button>
         </Link>
 
-        <button className="button">
-          <div>
-            <span>SCHEDULE</span>
-          </div>
-        </button>
+        <Link to={"/schedule"}>
+          <button className="button">
+            <div>
+              <span>SCHEDULE</span>
+            </div>
+          </button>
+        </Link>
         <button className="button">
           <div>
             <span>CONTACT </span>
