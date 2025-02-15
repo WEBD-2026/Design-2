@@ -25,23 +25,17 @@ function Accomodation() {
         <div className="w-full h-full p-16 flex gap-10">
           {sections.map((details) => (
             <div className="brutalist-card mx-auto">
-              <div className="brutalist-card__header">
-                <img
-                  src={require("../Events/background_image/background_event.png")}
-                  alt="Event"
-                />
-              </div>
-
               <div className="brutalist-card__actions">
-                <div className="brutalist-card_mess">
-                  <p className="brutalist-card__button brutalist-card__button--read">
+                <div className="brutalist-card_mess flex flex-col gap-5">
+                  <p className="text-4xl ">
                     {details.pack}
                   </p>
-                  <p className="brutalist-card__button brutalist-card__button--read">
+                  <hr />
+                  <p className="text-4xl">
                     {details.cost}
-                    <span>/Person</span>
+                    <span className="text-sm">/Person</span>
                   </p>
-                  <p className="brutalist-card__button brutalist-card__button--read">
+                  <p className="text-2xl">
                     Combined Rooms
                   </p>
                 </div>
