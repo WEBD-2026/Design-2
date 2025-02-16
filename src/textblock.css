@@ -3,24 +3,30 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url("./pages/Events/background_image/background_event.png"); /* Add your image path here */
-  background-attachment: fixed; /* Keeps the background image fixed */
-  background-size: cover; /* Ensures the image covers the entire background */
-  background-position: center; /* Centers the background image */
+  background-image: url("./pages/Events/background_image/background_event.png");
+  /* Add your image path here */
+  background-attachment: fixed;
+  /* Keeps the background image fixed */
+  background-size: cover;
+  /* Ensures the image covers the entire background */
+  background-position: center;
+  /* Centers the background image */
   padding: 40px 20px;
 }
 
 #textblock-container {
-  max-width: 800px;
+  max-width: 80vw;
   text-align: center;
   background: rgb(0, 0, 0);
-  padding: 40px;
+  padding: 5%;
   border-radius: 12px;
+  backdrop-filter: blur(30px);
+  background: rgba(0, 0, 0, 0.7);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 #textblock-title {
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   font-weight: bold;
   color: #ffaf1b;
   margin-bottom: 20px;

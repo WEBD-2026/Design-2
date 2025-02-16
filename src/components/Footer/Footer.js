@@ -2,20 +2,20 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center bg-base-200 text-base-content rounded p-10 bg-black">
-      <nav className="grid grid-flow-col gap-4 ">
+    <footer className="footer footer-center bg-base-200 text-base-content rounded p-4 bg-black bg-opacity-70 backdrop-blur-md">
+      <nav className="grid grid-flow-col gap-2 text-sm md:text-base">
         <a className="link link-hover">About us</a>
         <a className="link link-hover">Contact</a>
         <a className="link link-hover">Jobs</a>
         <a className="link link-hover">Press kit</a>
       </nav>
       <nav>
-        <div className="grid grid-flow-col gap-4">
+        <div className="grid grid-flow-col gap-2">
           <a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="20"
+              height="20"
               viewBox="0 0 24 24"
               className="fill-current">
               <path
@@ -25,8 +25,8 @@ const Footer = () => {
           <a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="20"
+              height="20"
               viewBox="0 0 24 24"
               className="fill-current">
               <path
@@ -36,8 +36,8 @@ const Footer = () => {
           <a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="20"
+              height="20"
               viewBox="0 0 24 24"
               className="fill-current">
               <path
@@ -47,8 +47,8 @@ const Footer = () => {
           <a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="20"
+              height="20"
               viewBox="0 0 24 24"
               className="fill-current">
               <path
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
       </nav>
       <aside>
-        <p>Made with ❤️ by Developers</p>
+        <p className="text-xs md:text-sm">Made with ❤️ by Developers</p>
       </aside>
     </footer>
   )
