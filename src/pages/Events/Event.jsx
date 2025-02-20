@@ -1,139 +1,79 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./Event.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Searchbar from "../../components/Searchbar";
 import { Context } from "../../Context/Context";
 import Dropdown from "../../components/dropdown";
 import "./button_event.css";
-import styled from "styled-components";
+import { Link, Links } from "react-router-dom";
 
 const Event = () => {
-  const { search, setSearch } = useContext(Context);
-  const [containers, setContainers] = React.useState([
-    "ABC",
-    "ABD",
-    "ABE",
-    "ABF",
-    "ABG",
-    "ABH",
-    "ABI",
-  ]);
-  const [filteredContainers, setFilteredContainers] =
-    React.useState(containers);
-  const applyFilter = () => {
-    let productsCopy = [];
-    if (search) {
-      setFilteredContainers(
-        containers.filter((item) =>
-          item.toLowerCase().includes(search.toLowerCase())
-        )
-      );
-    } else {
-      setFilteredContainers(containers);
-    }
-  };
-  const handleSearchChange = (event) => {
-    setSearch(event.target.value); // Update search state on input change
-  };
+  const { search, setSearch, events, technical_events } = useContext(Context);
+  const [filteredEvents, setFilteredEvents] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState("");
+  console.log(events);
+
   useEffect(() => {
-    applyFilter();
-  }, [search, containers]);
+    let updatedEvents = [];
+
+    if (selectedCategory === "technical") {
+      updatedEvents = technical_events;
+    } else if (selectedCategory === "cultural") {
+      updatedEvents = events;
+    } else {
+      updatedEvents = [...events, ...technical_events]; // Default: Show all events
+    }
+
+    if (search) {
+      updatedEvents = updatedEvents.filter((event) =>
+        event.name.toLowerCase().includes(search.toLowerCase())
+      );
+    }
+
+    setFilteredEvents(updatedEvents.slice(0, 41));
+  }, [search, events, technical_events, selectedCategory]);
+
   return (
     <>
       <Navbar />
       <div className="events">
         <div className="event_top">
           <div className="event_top_top">
-            <h1>Welcome to Clystra</h1>
+            <h1>Welcome to Utkansh</h1>
           </div>
           <div className="event_top_mid">
             <h1>Events</h1>
           </div>
-          <div className="event_top_bot">
-            <div className="button-wrapper">
-              <button className="button_event">
-                <p className="button__text">
-                  <span style={{ "--index": 0 }}>R</span>
-                  <span style={{ "--index": 1 }}>E</span>
-                  <span style={{ "--index": 2 }}>G</span>
-                  <span style={{ "--index": 3 }}>I</span>
-                  <span style={{ "--index": 4 }}>S</span>
-                  <span style={{ "--index": 5 }}>T</span>
-                  <span style={{ "--index": 6 }}>E</span>
-                  <span style={{ "--index": 7 }}>R</span>
-                  <span style={{ "--index": 8 }}>A</span>
-                  <span style={{ "--index": 9 }}>T</span>
-                  <span style={{ "--index": 10 }}>I</span>
-                  <span style={{ "--index": 11 }}>O</span>
-                  <span style={{ "--index": 12 }}>N</span>
-                  <span style={{ "--index": 13 }}> </span>
-                  <span style={{ "--index": 13 }}> </span>
-                  <span style={{ "--index": 14 }}>O</span>
-                  <span style={{ "--index": 15 }}>P</span>
-                  <span style={{ "--index": 16 }}>E</span>
-                  <span style={{ "--index": 17 }}>N</span>
-                </p>
-                <div className="button__circle">
-                  <svg
-                    viewBox="0 0 14 15"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="button__icon"
-                    width={14}
-                  >
-                    <path
-                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                  <svg
-                    viewBox="0 0 14 15"
-                    fill="none"
-                    width={14}
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="button__icon button__icon--copy"
-                  >
-                    <path
-                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </div>
-              </button>
-            </div>
-          </div>
         </div>
         <div className="event_mid">
           <div className="event_mid_top">
-            <Dropdown />
-            <Searchbar onSearchChange={handleSearchChange} />
+            <Dropdown onSelectCategory={setSelectedCategory} />
+            <Searchbar onSearchChange={(e) => setSearch(e.target.value)} />
           </div>
           <div className="event_mid_mid">
-            {filteredContainers.map((item, index) => (
-              <div className="brutalist-card">
+            {filteredEvents.map((item, index) => (
+              <div key={index} className="brutalist-card">
                 <div className="brutalist-card__header">
-                  <img src={require("./background_image/background_event.png")} alt="Event" />
+                  <img
+                    src={require("./background_image/background_event.png")}
+                    alt="Event"
+                  />
                 </div>
-
                 <div className="brutalist-card__actions">
                   <div className="brutalist-card_mess">
                     <a className="brutalist-card__button brutalist-card__button--read">
-                      {item}
+                      {item.name}
                     </a>
                   </div>
-
-
                   <div className="brutalist-card_butt">
-                    <button className="btn-class-name ">
-                      <button>
-                        Register
-                      </button>
-                    </button>
                     <button className="btn-class-name">
-                      <button>
-                        More Info
-                      </button>
+                      <button>Register</button>
                     </button>
+                    <Link to={`/event/${item.id}`}>
+                      <button className="btn-class-name">
+                        <button>More Info</button>
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

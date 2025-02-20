@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import { events, technical_events } from "../assets/Events";
 
 export const Context = createContext();
 
@@ -7,6 +8,8 @@ const ContextProvider = (props) => {
   const value = {
     search,
     setSearch,
+    events,
+    technical_events,
   };
   return <Context.Provider value={value}>{props.children}</Context.Provider>;
 };

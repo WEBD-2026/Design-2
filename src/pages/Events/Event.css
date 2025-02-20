@@ -10,12 +10,17 @@
   min-height: 100vh;
   position: relative;
   padding-top: 25vh; /* Added space from top */
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./background_image/background_image_desk.webp");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./background_image/background_image_desk.webp");
 
-  /* background-attachment: fixed; */
-  
-  background-size: cover; /* Ensures the image covers the entire background */
-  background-position: center; /* Centers the background image */
+  background-attachment: fixed;
+
+  background-size: cover;
+  /* background-position: ; */
 }
 .event_top {
   margin-bottom: 20vh; /* Space for next section */
@@ -197,7 +202,6 @@
   background-color: #ffaf1b;
 }
 
-
 .brutalist-card__button:active {
   transform: translate(5px, 5px);
   box-shadow: none;
@@ -210,7 +214,7 @@
   width: 140px;
   border: none;
   background: var(--bg);
-  color:#000;
+  color: #000;
   padding: 1em;
   font-weight: bold;
   text-transform: uppercase;
@@ -222,7 +226,7 @@
 }
 
 button:hover {
-  background:#000;
+  background: #000;
   color: #fff;
   opacity: 1;
 }
