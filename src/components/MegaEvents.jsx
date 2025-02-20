@@ -49,22 +49,6 @@ export default function MegaEvents() {
             transition={{ duration: 2 }}
           />
         </div>
-        {/* <div className="content w-full h-screen flex items-center justify-center absolute -right-60 top-40">
-          {sections.map((section, index) => (
-            <motion.div
-              key={section.id}
-              className={`text absolute top-0 w-fit h-fit p-16 rounded-lg shadow-md text-center transition-opacity duration-500 ${index === activeIndex ? "opacity-100 z-10 " : "opacity-0 z-0"
-                } rounded-xl`}
-              style={{ background: "#e0c2ff33", boxShadow: "inset 0px 0px 10px white" }}
-            >
-
-              <h2 className="text-5xl font-semibold text-white" style={{ fontFamily: "Style Script" }}>{section.text}</h2>
-              <p className="text-4xl text-purple-200 mt-5 font-semibold" style={{ fontFamily: "Style Script" }}>{section.des}</p>
-              <p className="text-4xl text-purple-200 mt-5 font-semibold" style={{ fontFamily: "Style Script" }}>{section.date}</p>
-              <p className="text-4xl text-purple-200 mt-5 font-semibold" style={{ fontFamily: "Style Script" }}>{section.location}</p>
-            </motion.div>
-          ))}
-        </div> */}
       </div>
 
     </div>

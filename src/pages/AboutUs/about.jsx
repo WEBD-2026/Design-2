@@ -2,15 +2,13 @@ import React from 'react';
 
 const aboutUs = () => {
     return (
-        <div id="textblock" style={{ background: "black", color: "white", padding: "20px" }}>
-            <div id="textblock-container">
-                <h1 id="textblock-title">UTKANSH</h1>
-                <p id="textblock-content">
-                    <strong>Techno Cultural Fest of NITJ</strong><br /><br />
-                    Utkansh is the annual cultural festival of NITJ, recognized as one of the greatest cultural festivals of North India. Entirely organized by the NITJ students' association, it serves as a perfect launch pad for artistic enthusiasts to showcase their intelligence and inventiveness. <br /><br />
-                    The fest is an amalgamation of music, dance, drama, and comedy. Students from all over the country come to participate in various competitions and enjoy the three-day cultural fiesta. <br /><br />
-                </p>
+        <div className="containerAbout w-full h-screen relative overflow-hidden" style={{ backgroundColor: "black" }}>
+            <div className="overlay absolute top-0 left-0 w-full h-full inset-10" style={{ backdropFilter: "blur(2px)", background: "#0000007f" }}></div>
+            <div className="w-full h-full relative">
+                <div className="absolute bottom-0 left-40 h-5/6">
+                </div>
             </div>
+
         </div>
     );
 }
