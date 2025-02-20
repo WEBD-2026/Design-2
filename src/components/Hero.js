@@ -6,7 +6,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div className="hero-section">
-      <Parallax pages={2} style={{ top: "0", left: "0" }} className="animation">
+      <Parallax pages={1} style={{ top: "0", left: "0" }} className="animation">
         <ParallaxLayer offset={0} speed={0.25}>
           <div className="animation_layer parallax" id="artback"></div>
         </ParallaxLayer>
@@ -34,9 +34,9 @@ const Hero = () => {
         <ParallaxLayer offset={0} speed={0.35}>
           <div className="animation_layer parallax" id="jungle5"></div>
         </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={0.5}>
+        {/* <ParallaxLayer offset={1} speed={0.5}>
           <TextBlock />
-        </ParallaxLayer>
+        </ParallaxLayer> */}
       </Parallax>
     </div>
   );

@@ -1,0 +1,51 @@
+#textblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("./pages/Events/background_image/background_event.png");
+    /* Add your image path here */
+    background-attachment: fixed;
+    /* Keeps the background image fixed */
+    background-size: cover;
+    /* Ensures the image covers the entire background */
+    background-position: center;
+    /* Centers the background image */
+    padding: 40px 20px;
+}
+
+#textblock-container {
+    max-width: 80vw;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 5%;
+    border-radius: 12px;
+    backdrop-filter: blur(30px);
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#textblock-title {
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: #ffaf1b;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#textblock-content {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #ffaf1b;
+    margin-top: 10px;
+}
+
+#textblock-content strong {
+    font-size: 1.3rem;
+    color: #d38900;
+}
+
+#textblock-container {
+    width: 100%;
+}

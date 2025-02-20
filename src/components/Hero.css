@@ -1,35 +1,47 @@
 .hero1 {
   position: absolute;
-  z-index: 10; /* Lower than Navbar */
+  z-index: 10;
+  /* Lower than Navbar */
   top: 17%;
   left: 18%;
   /* transform: translate(-20%, -50%); */
-  width: 80vw; /* Covers 70% of the viewport width */
-  font-size: 14vw; /* Responsive font size based on viewport width */
-  font-family:fantasy;
+  width: 80vw;
+  /* Covers 70% of the viewport width */
+  font-size: 14vw;
+  /* Responsive font size based on viewport width */
+  font-family: fantasy;
   color: #4b0000;
   text-align: center;
-  white-space: nowrap; /* Ensures the text remains in a single line */
+  white-space: nowrap;
+  /* Ensures the text remains in a single line */
 }
+
 .hero-section {
   position: relative;
   width: 100vw;
-  height: 100vh; /* Full screen height */
+  height: 100vh;
+  /* Full screen height */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .animation {
-  position: relative;
-  z-index: 1; /* Lower than navbar */
+  position: static;
+  z-index: 1;
+  /* Lower than navbar */
 }
+
 @media (max-width: 900px) {
   .hero1 {
     top: 40%;
     transform: translate(0%, -50%);
   }
 }
+
 @media (max-width: 600px) {
   .hero1 {
     font-size: 14vw;

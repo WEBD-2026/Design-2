@@ -6,7 +6,7 @@ import SpinLoader from "../../components/Loader/SpinLoader.js";
 // import Gallery from "../../components/ArcadeGallery.jsx";
 import MegaEvents from "../../components/MegaEvents.jsx";
 import VideoIntro from "../../components/VideoIntro/VideoIntro.jsx";
-
+import aboutUs from "../AboutUs/about.jsx";
 import Sponsers from "../../components/Sponsers.jsx";
 
 import "./Home.css";
@@ -27,12 +27,13 @@ const Home = () => {
       {loading !== true ? (
         <>
           <Navbar />
-          <Hero />
           <div>
+            <Hero />
+            <aboutUs />
             <VideoIntro />
             <MegaEvents />
           </div>
-          <Sponsers/>
+          <Sponsers />
           <Footer />
         </>
       ) : (
