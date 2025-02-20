@@ -1,67 +1,43 @@
-import React from 'react'
+import { FaInstagram, FaTwitter, FaYoutube, FaFacebook, FaMapMarker } from 'react-icons/fa';
+import ContactCard from './contactCard';
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center bg-base-200 text-base-content rounded p-4 bg-black bg-opacity-70 backdrop-blur-md">
-      <nav className="grid grid-flow-col gap-5 text-xl md:text-lg text-yellow-500">
-        <a href="/event" className="link link-hover">Event</a>
-        <a href="/accomodation" className="link link-hover">Accomodation</a>
-        <a href="/schedule" className="link link-hover">Schedule</a>
-        <a href="/press-kit" className="link link-hover">Register</a>
-      </nav>
-      <nav>
-        <div className="grid grid-flow-col gap-2">
-          <a href="https://twitter.com">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              className="fill-current text-yellow-500">
-              <path
-                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
-            </svg>
-          </a>
-          <a href="https://youtube.com">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              className="fill-current text-yellow-500">
-              <path
-                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-            </svg>
-          </a>
-          <a href="https://facebook.com">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              className="fill-current text-yellow-500">
-              <path
-                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-            </svg>
-          </a>
-          <a href="https://instagram.com">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              className="fill-current text-yellow-500">
-              <path
-                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-            </svg>
-          </a>
+    <footer className="bg-black bg-opacity-90 backdrop-blur-lg text-yellow-500 py-8 px-6 shadow-2xl">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center border-b border-yellow-500 pb-6">
+        <img src="/LOGO.svg" alt="logo" width={300} height={300} className="mb-4 md:mb-0" />
+        <div className="flex flex-col items-center text-center md:text-left space-y-4">
+          <nav className="flex flex-row gap-6 text-lg font-medium justify-center">
+            <a href="/event" className="hover:text-yellow-300 transition duration-300">Event</a>
+            <a href="/accomodation" className="hover:text-yellow-300 transition duration-300">Accomodation</a>
+            <a href="/schedule" className="hover:text-yellow-300 transition duration-300">Schedule</a>
+            <a href="/register" className="hover:text-yellow-300 transition duration-300">Register</a>
+          </nav>
+          <nav className="mt-4 justify-center pt-4">
+            <div className="flex gap-6">
+              <a href="https://twitter.com" className="hover:scale-110 transition-transform duration-300">
+                <FaTwitter size={24} />
+              </a>
+              <a href="https://youtube.com" className="hover:scale-110 transition-transform duration-300">
+                <FaYoutube size={24} />
+              </a>
+              <a href="https://facebook.com" className="hover:scale-110 transition-transform duration-300">
+                <FaFacebook size={24} />
+              </a>
+              <a href="https://instagram.com" className="hover:scale-110 transition-transform duration-300">
+                <FaInstagram size={24} />
+              </a>
+              <a href="https://maps.google.com" className="hover:scale-110 transition-transform duration-300">
+                <FaMapMarker size={24} />
+              </a>
+            </div>
+          </nav>
         </div>
-      </nav>
-      <aside>
-        <p className="text-sm md:text-base text-yellow-500">Made with ❤️ by Developers</p>
-      </aside>
+        <ContactCard />
+      </div>
+      <div className="text-center mt-6 text-sm opacity-80">Made with ❤️ by Developers</div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
