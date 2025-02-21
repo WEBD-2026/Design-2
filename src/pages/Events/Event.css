@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100..900&family=Prata&display=swap");
+
 .events {
   /* background-color: #f8f8f8; */
   display: flex;
@@ -9,12 +10,11 @@
   width: 100%;
   min-height: 100vh;
   position: relative;
-  padding-top: 25vh; /* Added space from top */
-  background-image: linear-gradient(
-      to bottom,
+  padding-top: 25vh;
+  /* Added space from top */
+  background-image: linear-gradient(to bottom,
       rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("./background_image/background_image_desk.webp");
 
   background-attachment: fixed;
@@ -22,10 +22,13 @@
   background-size: cover;
   /* background-position: ; */
 }
+
 .event_top {
-  margin-bottom: 20vh; /* Space for next section */
+  margin-bottom: 20vh;
+  /* Space for next section */
   text-align: center;
 }
+
 .event_top_top h1,
 .event_top_mid h1 {
   font-family: Salsa;
@@ -34,6 +37,7 @@
   font-size: 10vw;
   margin: 0;
 }
+
 /* .event_top_bot button {
   padding: 10px 20px;
   border-radius: 10px;
@@ -50,6 +54,7 @@
   /* align-items: center; */
   justify-content: center;
 }
+
 .event_mid_top {
   display: flex;
   flex-direction: column;
@@ -58,6 +63,7 @@
   gap: 10vh;
   margin-bottom: 20px;
 }
+
 .event_mid_top h1 {
   font-size: 10vw;
   font-weight: bold;
@@ -79,17 +85,20 @@
   justify-content: center;
   /* margin: 0 auto; */
 }
+
 .event_mid .event_mid_mid .container {
   margin-top: 20px;
   border: 1px solid #ffaf1b;
   width: 400px;
   height: 400px;
 }
+
 @media screen and (max-width: 1310px) {
   .event_mid_mid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 /* Added media query for smaller screens */
 @media screen and (max-width: 810px) {
   .event_mid .event_mid_mid .container {
@@ -98,12 +107,14 @@
     width: 600px;
     height: 600px;
   }
+
   .event_mid_mid {
     grid-template-columns: 1fr;
     /* Single column layout */
     width: 100%;
   }
 }
+
 @media screen and (max-width: 610px) {
   .event_mid .event_mid_mid .container {
     margin-top: 20px;
@@ -112,6 +123,7 @@
     height: 400px;
   }
 }
+
 @media (max-width: 425px) {
   .event_mid .event_mid_mid .container {
     margin-top: 20px;
@@ -130,6 +142,7 @@
   font-family: "Arial", sans-serif;
   margin-top: 20px;
 }
+
 @media screen and (max-width: 400px) {
   .brutalist-card {
     width: 320px;
@@ -247,11 +260,9 @@ button:active {
 }
 
 .btn-class-name .front {
-  background: linear-gradient(
-    0deg,
-    rgba(var(--primary), 0.6) 20%,
-    rgba(var(--primary)) 50%
-  );
+  background: linear-gradient(0deg,
+      rgba(var(--primary), 0.6) 20%,
+      rgba(var(--primary)) 50%);
   box-shadow: 0 0.5em 1em -0.2em rgba(var(--secondary), 0.5);
   border-radius: 100%;
   position: absolute;
@@ -276,12 +287,14 @@ button:active {
   transform: translateY(0%);
   box-shadow: 0 0;
 }
+
 .brutalist-card__actions {
   display: flex;
   /* justify-content: space-between; */
   flex-direction: column;
   gap: 20px;
 }
+
 .brutalist-card_butt {
   display: flex;
   justify-content: space-between;

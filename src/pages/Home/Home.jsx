@@ -6,7 +6,6 @@ import SpinLoader from "../../components/Loader/SpinLoader.js";
 // import Gallery from "../../components/ArcadeGallery.jsx";
 import MegaEvents from "../../components/MegaEvents.jsx";
 import VideoIntro from "../../components/VideoIntro/VideoIntro.jsx";
-import AboutUs from "../AboutUs/about.jsx";
 import Sponsers from "../../components/Sponsers.jsx";
 
 import "./Home.css";
@@ -29,7 +28,7 @@ const Home = () => {
           <Navbar />
           <div>
             <Hero />
-            <AboutUs />
+            {/* <AboutUs /> */}
             <VideoIntro />
             <MegaEvents />
           </div>
