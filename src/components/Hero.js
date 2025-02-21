@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="hero-section">
       <Parallax pages={2} style={{ top: "0", left: "0" }} className="animation">
-        <ParallaxLayer offset={0} speed={0.25}>
+        <ParallaxLayer offset={0} speed={0.3}>
           <div className="animation_layer parallax" id="artback"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.3}>
