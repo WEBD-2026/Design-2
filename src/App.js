@@ -8,7 +8,7 @@ import Accommodation from "./pages/Accomodation/accomodation.jsx";
 import Schedule from "./pages/Schedule/Schedule.jsx";
 import Footer from "./components/Footer/Footer.js";
 import EventDetails from "./pages/EventDetails.jsx";
-
+import Developers from "./pages/Developers/Developers.jsx"
 function App() {
   return (
     <Routes>
@@ -18,6 +18,7 @@ function App() {
       <Route path={"/Accomodation"} element={<Accommodation />} />
       <Route path={"/schedule"} element={<Schedule />} />
       <Route path={"/Footer"} element={<Footer />} />
+      <Route path={"/Developers"} element={<Developers />} />
     </Routes>
   );
 }
