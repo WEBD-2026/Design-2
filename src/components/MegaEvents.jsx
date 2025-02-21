@@ -36,7 +36,7 @@ export default function MegaEvents() {
         backgroundSize: "cover"
       }}>
       </div>
-      <div className="overlay absolute top-0 left-0 w-full h-full inset-10" style={{ backdropFilter: "blur(2px)", background: "#0000007f" }}></div>
+      <div className="overlay absolute top-0 left-0 w-full h-full inset-10" style={{ backdropFilter: "blur(2px)", background:  "linear-gradient(8deg,  rgba(20,20,4,1) 0%,rgba(36, 30, 0, 0.203) 100%)"}}></div>
       <div className="w-full h-full relative">
         <div className="absolute bottom-0 left-40 h-5/6">
           <motion.img
@@ -50,7 +50,7 @@ export default function MegaEvents() {
           />
         </div>
       </div>
-
+    
     </div>
   );
 }

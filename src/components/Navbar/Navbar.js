@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import image1 from "../../images/background.png";
 import { useEffect } from "react";
 
-const Button = () => {
+const Navbar = () => {
   const [clicked, setClicked] = useState(false);
   return (
     <>
@@ -138,4 +138,4 @@ const Button = () => {
 //   );
 // };
 
-export default Button;
+export default Navbar;

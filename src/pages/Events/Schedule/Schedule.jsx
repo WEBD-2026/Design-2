@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Navbar from "../../components/Navbar/Navbar";
-import eventsData from "../../data/EventData"; // Importing event data
+import Navbar from "../../../components/Navbar/Navbar";
+import eventsData from "../../../data/EventData"; // Importing event data
 
-const EventPage = () => {
+const Schedule = () => {
   const [selectedDay, setSelectedDay] = useState("24th December");
   const [selectedCategory, setSelectedCategory] = useState("");
 
@@ -110,4 +110,4 @@ const EventPage = () => {
   );
 };
 
-export default EventPage;
+export default Schedule;
