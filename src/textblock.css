@@ -29,7 +29,6 @@
   font-size: 5.5rem;
   font-weight: bold;
   color: #ffaf1b;
-  margin-bottom: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -48,4 +47,41 @@
 
 #textblock-container {
   width: 100%;
+}
+
+#headings
+{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+#head-container
+{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+#logo
+{
+  background-color: azure;
+  border-radius: 70px;
+  width: 120px;
+  height: 120px;
+}
+
+#textblock-subtitle
+{
+  margin-top: -25px;
+  margin-left: -200px;
+  font-size: medium;
+  font-weight: 600;
+}
+
+#title-container
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: -15px;
 }

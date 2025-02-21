@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar.js";
-import Footer from "../../components/Footer/Footer.js";
+import Footer from "../../components/Footer/Footer.jsx";
 import "../Events/Event.css";
 import "../Events/button_event.css";
 
