@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar.js";
-import Footer from "../../components/Footer/Footer.jsx";
+// import Footer from "../../components/Footer/Footer.jsx";
 import "../Events/Event.css";
 import "../Events/button_event.css";
 
 const sections = [
-  { pack: "One Day Pack", cost: "₹300" },
-  { pack: "Two Day Pack", cost: "₹500" },
-  { pack: "Three Day Pack", cost: "₹700" },
-  { pack: "Three Day Pack", cost: "₹700" },
+  { pack: "Two Day Pack", cost: "₹2000" },
+  { pack: "Four Day Pack", cost: "₹3000" },
+  { pack: "Two Day (Early Bird)", cost: "₹1500" },
+  { pack: "Four Day (Early Bird)", cost: "₹2000" }
 ];
 function Accomodation() {
   return (
@@ -37,7 +37,7 @@ function Accomodation() {
                     <span className="text-sm">/Person</span>
                   </p>
                   <p className="text-2xl">
-                    Combined Rooms
+                    Meal Included
                   </p>
                 </div>
 
@@ -51,7 +51,6 @@ function Accomodation() {
           ))}
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
