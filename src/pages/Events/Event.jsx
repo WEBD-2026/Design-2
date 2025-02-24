@@ -46,6 +46,7 @@ const Event = () => {
           </div>
         </div>
         <div className="event_mid">
+
           <div className="event_mid_top">
             <Dropdown onSelectCategory={setSelectedCategory} />
             <Searchbar onSearchChange={(e) => setSearch(e.target.value)} />

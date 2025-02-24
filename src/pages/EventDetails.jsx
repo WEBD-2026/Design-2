@@ -22,7 +22,11 @@ const EventDetails = () => {
     <div>
       {eventsData ? (
         <div>
-          <h2>{eventsData.name}</h2>
+          <h1>{eventsData.name}</h1>
+          <h3>{eventsData.description}</h3>
+          <p>{eventsData.prize}</p>
+          <p>{eventsData.Date}</p>
+          <p>{eventsData.entry}</p>
           <p>{eventsData.rules}</p>
         </div>
       ) : (

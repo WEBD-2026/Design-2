@@ -10,6 +10,18 @@
   z-index: 1000;
 }
 
+.logo img {
+  position: absolute;
+  left: 0;
+  padding-left: 1rem;
+  width: 30px;
+  /* Reduced size */
+  height: 30px;
+  /* Reduced size */
+  background: none;
+  /* Removed background */
+}
+
 .navbar_item {
   display: none;
 }
