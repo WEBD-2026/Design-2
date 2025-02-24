@@ -1,8 +1,9 @@
 #textblock {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   min-height: 100vh;
+  /* background-color: black; */
   background-image: url("./pages/Events/background_image/background_event.png");
   /* Add your image path here */
   background-attachment: fixed;
@@ -15,7 +16,7 @@
 }
 
 #textblock-container {
-  max-width: 80vw;
+  max-width: 90vw;
   text-align: center;
   background: rgb(0, 0, 0);
   padding: 5%;
@@ -24,6 +25,8 @@
   background: rgba(0, 0, 0, 0.7);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -43,53 +46,63 @@
 }
 
 #textblock-content strong {
+  display: inline-block;
   font-size: 1.3rem;
   color: #d38900;
 }
 
 #textblock-container {
+  align-items: center;
+  text-align: center;
   width: 100%;
 }
 
-#headings
-{
+#headings {
   display: flex;
   flex-direction: column;
   gap: 0;
 }
 
-#head-container
-{
+#head-container {
   display: flex;
   gap: 50px;
   justify-content: center;
   width: 50%;
 }
 
-#logo
-{
-  background-color: azure;
-  border-radius: 70px;
-  width: 120px;
-  height: 120px;
+#logo {
+  width: 200%;
+  height: 100%;
 }
 
-#textblock-subtitle
-{
+@media (max-width: 768px) {
+  #logo {
+    width: 30%;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  #logo {
+    width: 40%;
+    height: 80px;
+  }
+}
+
+#textblock-subtitle {
+  text-align: center;
   margin-top: -25px;
   margin-left: -200px;
-  font-size: medium;
+  font-size: large;
   font-weight: 600;
 }
 
-#title-container
-{
+#title-container {
   display: flex;
   flex-direction: column;
-  margin-top: -15px;
+  /* margin-top: -15px; */
 }
 
-#text
-{
+#text {
   width: 50%;
 }
