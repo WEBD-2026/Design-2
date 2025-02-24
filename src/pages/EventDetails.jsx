@@ -43,17 +43,18 @@ const EventDetails = () => {
             {/* Event Details */}
             <div className="space-y-4 sm:space-y-6 text-base sm:text-lg">
               <p className="font-bold flex items-center">
-                📅 <span className="ml-2 text-white">{eventsData.date}</span>
+                📅 Date: <span className="ml-2 text-white">{eventsData.date}</span>
               </p>
-
-              <p className="font-bold">📖 Description:</p>
+              <p className="font-bold">
+                📖 Description:
+              </p>
               <p className="text-gray-300">{eventsData.description}</p>
-
-              <p className="font-bold">🎟️ Entry:</p>
-              <p className="text-gray-300">{eventsData.entry}</p>
-
-              <p className="font-bold">🏆 Prize:</p>
-              <p className="text-gray-300">{eventsData.prize}</p>
+              <p className="font-bold">
+                🎟️ Entry: <span className="text-gray-300">{eventsData.entry}</span>
+              </p>
+              <p className="font-bold">
+                🏆 Prize: <span className="text-gray-300">{eventsData.prize}</span>
+              </p>
 
               <p className="font-bold">📜 Rules:</p>
               <p className="text-gray-300 whitespace-pre-line">{eventsData.rules}</p>
