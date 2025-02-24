@@ -9,6 +9,10 @@ const Navbar = () => {
   const [clicked, setClicked] = useState(false);
   return (
     <>
+      {/* <div className="Logo">
+        <img src={require('./LOGO BGFREE.svg').default} alt="Logo" />
+      </div> */}
+
       <div className="navbar">
         <Link to={"/"}>
           <button className="button">

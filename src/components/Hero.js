@@ -5,7 +5,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero-section">
+    <div className="hero-section sticky top-0">
       <Parallax pages={2} style={{ top: "0", left: "0" }} className="animation">
         <ParallaxLayer offset={0} speed={0.3}>
           <div className="animation_layer parallax" id="artback"></div>
