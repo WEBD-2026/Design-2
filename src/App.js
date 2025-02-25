@@ -9,6 +9,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import EventDetails from "./pages/EventDetails.jsx";
 import Developers from "./pages/Developers/Developers.jsx"
 import Schedule from "./pages/Events/Schedule/Schedule.jsx";
+import ContactUs from "./components/ContactUs.jsx";
 function App() {
   return (
     <Routes>
@@ -18,6 +19,7 @@ function App() {
       <Route path={"/Accomodation"} element={<Accommodation />} />
       <Route path={"/Schedule"} element={<Schedule />} />
       <Route path={"/Footer"} element={<Footer />} />
+      <Route path={"/ContactUs"} element={<ContactUs />} />
       <Route path={"/Developers"} element={<Developers />} />
     </Routes>
   );

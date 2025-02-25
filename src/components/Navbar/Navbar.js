@@ -44,11 +44,13 @@ const Navbar = () => {
             </div>
           </button>
         </Link>
-        <button className="button">
-          <div>
-            <span>CONTACT </span>
-          </div>
-        </button>
+        <Link to={"/ContactUs"}>
+          <button className="button">
+            <div>
+              <span>CONTACT </span>
+            </div>
+          </button>
+        </Link>
         <button className="button">
           <div>
             <span>REGISTER</span>
