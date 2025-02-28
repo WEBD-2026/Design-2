@@ -5,14 +5,22 @@ import Navbar from "../components/Navbar/Navbar.js";
 
 const EventDetails = () => {
   const { eventId } = useParams();
-  const { events } = useContext(Context);
+  const { events, technical_events } = useContext(Context);
   const [eventsData, setEventsData] = useState(null);
 
   useEffect(() => {
-    if (!events || events.length === 0) return;
-    const foundEvent = events.find((item) => item.id === Number(eventId));
+    if (!events || !technical_events) return;
+
+    // Convert `eventId` to number
+    const id = Number(eventId);
+
+    // Search in both cultural and technical events
+    const foundEvent =
+      events.find((item) => item.id === id) ||
+      technical_events.find((item) => item.id === id);
+
     setEventsData(foundEvent || null);
-  }, [eventId, events]);
+  }, [eventId, events, technical_events]);
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-black via-gray-900 to-black text-yellow-400">
@@ -23,12 +31,10 @@ const EventDetails = () => {
             className="bg-gray-900 text-yellow-400 p-6 sm:p-8 rounded-xl shadow-2xl border border-yellow-500/50 
             animate-fade-in transition-all duration-500"
           >
-            {/* Title with Glow Effect */}
             <h2 className="text-center text-3xl sm:text-4xl font-extrabold mb-6 animate-fade-up drop-shadow-lg">
               {eventsData.name}
             </h2>
 
-            {/* Category and Head Tags */}
             <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-6">
               <span className="bg-yellow-500 text-black px-4 sm:px-5 py-2 text-sm sm:text-lg font-semibold rounded-full shadow-md">
                 {eventsData.category}
@@ -40,29 +46,30 @@ const EventDetails = () => {
 
             <hr className="my-6 border-yellow-400/60" />
 
-            {/* Event Details */}
             <div className="space-y-4 sm:space-y-6 text-base sm:text-lg">
               <p className="font-bold flex items-center">
-                📅 Date: <span className="ml-2 text-white">{eventsData.date}</span>
+                📅 Date:{" "}
+                <span className="ml-2 text-white">{eventsData.date}</span>
               </p>
-              <p className="font-bold">
-                📖 Description:
-              </p>
+              <p className="font-bold">📖 Description:</p>
               <p className="text-gray-300">{eventsData.description}</p>
               <p className="font-bold">
-                🎟️ Entry: <span className="text-gray-300">{eventsData.entry}</span>
+                🎟️ Entry:{" "}
+                <span className="text-gray-300">{eventsData.entry}</span>
               </p>
               <p className="font-bold">
-                🏆 Prize: <span className="text-gray-300">{eventsData.prize}</span>
+                🏆 Prize:{" "}
+                <span className="text-gray-300">{eventsData.prize}</span>
               </p>
 
               <p className="font-bold">📜 Rules:</p>
-              <p className="text-gray-300 whitespace-pre-line">{eventsData.rules}</p>
+              <p className="text-gray-300 whitespace-pre-line">
+                {eventsData.rules}
+              </p>
             </div>
 
             <hr className="my-6 border-yellow-400/60" />
 
-            {/* Register Button with Pulse Animation */}
             <div className="flex justify-center">
               <button
                 className="bg-gradient-to-r from-yellow-400 to-yellow-500 text-black font-bold px-6 sm:px-8 py-2 sm:py-3 text-base sm:text-lg 

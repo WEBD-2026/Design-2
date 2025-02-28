@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import image1 from "../../images/background.png";
+import image1 from "../../assets/mainLogo.png";
 import { useEffect } from "react";
 
 const Navbar = () => {
@@ -63,13 +63,22 @@ const Navbar = () => {
         </div>
         <div>
           <ul id="navbar_id" className={clicked ? "active" : ""}>
+            <Link to={"/"}>
+              <li>Home</li>
+            </Link>
             <Link to={"/event"}>
               <li>Event</li>
             </Link>
-            <li>Competations</li>
-            <li>Accomodation</li>
-            <li>Schedule</li>
-            <li>Contact</li>
+            <Link to={"/Accomodation"}>
+              <li>Accomodation</li>
+            </Link>
+            <Link to={"/schedule"}>
+              <li>Schedule</li>
+            </Link>
+            <Link to={"/ContactUs"}>
+              <li>Contact</li>
+            </Link>
+            {/* <li>Contact</li> */}
             <li>Register</li>
           </ul>
         </div>

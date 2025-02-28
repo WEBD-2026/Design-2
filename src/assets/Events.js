@@ -546,12 +546,12 @@ export const events = [
 
 export const technical_events = [
   {
-    id: 1,
+    id: 70,
     name: "Rangmanch123(Bawre)",
     head: "Showcase Your Theatrical Talent",
     entry: "1999",
     prize: "41000",
-    description: "A theatrical competition showcasing dramatic storytelling.",
+    description: "XYZ",
     rules:
       "1. Team size: 6-20 members\n2. Performance time: 30-45 minutes\n3. Use of offensive language is prohibited\n4. Props should be self-arranged",
     date: "2025-03-10",
@@ -559,12 +559,12 @@ export const technical_events = [
     category: "Drama",
   },
   {
-    id: 2,
+    id: 72,
     name: "Halla Bol123(Kalakaar)",
     head: "Raise Your Voice for Change",
     entry: "1999",
     prize: "41000",
-    description: "Street play competition addressing social issues.",
+    description: "ehheheh",
     rules:
       "1. Team size: 8-15 members\n2. Performance time: 15-20 minutes\n3. No use of microphones or recorded music\n4. Street play format only",
     date: "2025-03-11",
@@ -572,12 +572,12 @@ export const technical_events = [
     category: "Drama",
   },
   {
-    id: 3,
+    id: 73,
     name: "Eklavya123(Kalakaar)",
     head: "Unleash Your Solo Acting Prowess",
     entry: "200 pp",
     prize: "21000",
-    description: "Solo acting competition displaying talent and expression.",
+    description: "ulululu",
     rules:
       "1. Solo performance only\n2. Performance time: 5-10 minutes\n3. Props are allowed but must be managed by the participant\n4. No offensive or inappropriate content",
     date: "2025-03-12",
@@ -585,7 +585,7 @@ export const technical_events = [
     category: "Drama",
   },
   {
-    id: 4,
+    id: 74,
     name: "Asmita(Bawre)",
     head: "Express Your Emotions on Stage",
     entry: "149",
@@ -598,7 +598,7 @@ export const technical_events = [
     category: "Drama",
   },
   {
-    id: 5,
+    id: 75,
     name: "808 Hustle",
     head: "The Ultimate Hip-Hop Battle",
     entry: "150 pp",
@@ -611,7 +611,7 @@ export const technical_events = [
     category: "Dance",
   },
   {
-    id: 6,
+    id: 76,
     name: "Beat The Street",
     head: "Electrify the Streets with Your Moves",
     entry: "200pp",
@@ -624,7 +624,7 @@ export const technical_events = [
     category: "Dance",
   },
   {
-    id: 7,
+    id: 77,
     name: "Duet Dance",
     head: "Move in Sync with Your Partner",
     entry: "200",
@@ -637,7 +637,7 @@ export const technical_events = [
     category: "Dance",
   },
   {
-    id: 8,
+    id: 78,
     name: "Bhangra Fiesta",
     head: "Celebrate Punjabi Spirit with Bhangra",
     entry: "3500",
@@ -650,7 +650,7 @@ export const technical_events = [
     category: "Dance",
   },
   {
-    id: 9,
+    id: 79,
     name: "The Voice",
     head: "Sing Your Heart Out",
     entry: "200 pp/FFC",
@@ -663,7 +663,7 @@ export const technical_events = [
     category: "Music",
   },
   {
-    id: 10,
+    id: 80,
     name: "Megasonic: The Battle of Bands",
     head: " Let the Best Band Win!",
     entry: "1500",
