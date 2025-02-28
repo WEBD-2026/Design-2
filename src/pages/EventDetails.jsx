@@ -57,7 +57,7 @@ const EventDetails = () => {
               </p>
 
               <p className="font-bold">📜 Rules:</p>
-              <p className="text-gray-300 whitespace-pre-line">{eventsData.rules}</p>
+              <p className="text-gray-300" dangerouslySetInnerHTML={{ __html: eventsData.rules }}></p>
             </div>
 
             <hr className="my-6 border-yellow-400/60" />
