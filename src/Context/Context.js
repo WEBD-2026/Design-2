@@ -1,5 +1,7 @@
 import { createContext, useState } from "react";
-import { events, technical_events } from "../assets/Events";
+import {technical_events } from "../assets/Web-D/Technical_Events";
+import {events } from "../assets/Web-D/Cultural_Events";
+
 
 export const Context = createContext();
 

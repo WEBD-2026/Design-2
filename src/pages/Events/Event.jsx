@@ -7,6 +7,8 @@ import Dropdown from "../../components/dropdown";
 import "./button_event.css";
 import { Link, Links } from "react-router-dom";
 
+
+
 const Event = () => {
   const { search, setSearch, events, technical_events } = useContext(Context);
   const [filteredEvents, setFilteredEvents] = useState([]);
@@ -33,6 +35,7 @@ const Event = () => {
     setFilteredEvents(updatedEvents.slice(0, 41));
   }, [search, events, technical_events, selectedCategory]);
 
+
   return (
     <>
       <Navbar />
@@ -53,11 +56,12 @@ const Event = () => {
           </div>
           <div className="event_mid_mid">
             {filteredEvents.map((item, index) => (
+
               <div key={index} className="brutalist-card">
                 <div className="brutalist-card__header">
+                  
                   <img
-                    src={require("./background_image/background_event.png")}
-                    alt="Event"
+                    src={item.image}
                   />
                 </div>
                 <div className="brutalist-card__actions">
