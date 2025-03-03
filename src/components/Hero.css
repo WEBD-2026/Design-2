@@ -1,16 +1,23 @@
+@font-face {
+  font-family: Rockybilly;
+  src: url(../../public/Rockybilly.ttf);
+}
+
+
 .hero1 {
   position: absolute;
   z-index: 10;
   /* Lower than Navbar */
-  top: 17%;
+  top: 30%;
   left: 18%;
   /* transform: translate(-20%, -50%); */
   width: 80vw;
   /* Covers 70% of the viewport width */
-  font-size: 14vw;
+  font-size: 8vw;
   /* Responsive font size based on viewport width */
-  font-family: fantasy;
-  color: #4b0000;
+  font-family: Rockybilly;
+  font-weight: 700;
+  color: #373737;
   text-align: center;
   white-space: nowrap;
   /* Ensures the text remains in a single line */

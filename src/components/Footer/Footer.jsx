@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center border-b border-yellow-500 pb-6">
         <img src="/mainLogo.png" alt="logo" width={300} height={300} className="mb-4 md:mb-0" />
         <div className="flex flex-col items-center text-center md:text-left space-y-4">
-          <nav className="flex flex-row gap-6 text-lg font-medium justify-center">
+          <nav className="flex flex-row gap-3 text-lg font-medium justify-center">
             <a href="/event" className="hover:text-yellow-300 transition duration-300">Event</a>
             <a href="/accomodation" className="hover:text-yellow-300 transition duration-300">Accomodation</a>
             <a href="/schedule" className="hover:text-yellow-300 transition duration-300">Schedule</a>

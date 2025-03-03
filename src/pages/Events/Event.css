@@ -145,7 +145,11 @@
 
 @media screen and (max-width: 400px) {
   .brutalist-card {
-    width: 320px;
+    width: 340px;
+  }
+
+  .brutalist-card_butt .btn-class-name {
+    width: 120px;
   }
 }
 

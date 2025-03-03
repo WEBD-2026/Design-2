@@ -3,6 +3,8 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import TextBlock from "../textBlock";
 import "./Hero.css";
 
+
+
 const Hero = () => {
   return (
     <div className="hero-section sticky top-0">
@@ -14,7 +16,7 @@ const Hero = () => {
           <div className="animation_layer parallax" id="mountain"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={-0.1}>
-          <h1 className="hero1">UTKANSH</h1>
+          <h1 className="hero1">Utkansh'25</h1>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.3}>
           <div className="animation_layer parallax" id="jungle1"></div>

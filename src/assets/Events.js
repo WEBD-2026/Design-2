@@ -20,7 +20,7 @@ export const events = [
     prize: "41000",
     description: "Street play competition addressing social issues.",
     rules:
-      "1. Team size: 8-15 members\n2. Performance time: 15-20 minutes\n3. No use of microphones or recorded music\n4. Street play format only",
+      "1. Team size: 8-15 members 2. Performance time: 15-20 minutes 3. No use of microphones or recorded music 4. Street play format only",
     date: "2025-03-11",
     image: "halla_bol.jpg",
     category: "Drama",
