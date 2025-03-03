@@ -58,7 +58,7 @@ const EventDetails = () => {
                 <span className="text-gray-300">{eventsData.entry}</span>
               </p>
               <p className="font-bold">
-                🏆 Prize:{" "}
+                🏆 Prize Pool Worth:{" "}
                 <span className="text-gray-300">{eventsData.prize}</span>
               </p>
 
