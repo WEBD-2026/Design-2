@@ -7,7 +7,10 @@ import "../Events/button_event.css";
 
 const sections = [
   { pack: "Two Day Pack", cost: "₹2000" },
-  { pack: "Four Day Pack", cost: "₹3000" },
+  { pack: "Four Day Pack", cost: "₹3000" }
+];
+
+const earlysections = [
   { pack: "Two Day (Early Bird)", cost: "₹1500" },
   { pack: "Four Day (Early Bird)", cost: "₹2000" }
 ];
@@ -32,7 +35,7 @@ function Accomodation() {
 
         {/* Responsive Cards */}
         <div className="w-full h-full p-6 flex flex-wrap justify-center gap-6">
-          {sections.map((details) => (
+          {earlysections.map((details) => (
             <div className="brutalist-card mx-auto w-full sm:w-1/2 md:w-1/3 lg:w-1/4 max-w-xs" key={details.pack}>
               <div className="brutalist-card__actions">
                 <div className="brutalist-card_mess flex flex-col gap-5 text-black">
@@ -53,7 +56,44 @@ function Accomodation() {
               </div>
             </div>
           ))}
+          {sections.map((details) => (
+            <div 
+              className="relative mx-auto w-full sm:w-1/2 md:w-1/3 lg:w-1/4 max-w-xs text-white p-6 rounded-xl"
+              key={details.pack}
+            >
+              {/* Large Cross Overlay */}
+              <div className="absolute inset-0 flex items-center justify-center ml-12">
+                <div className="w-full h-0.5 border-8 border-yellow-600 absolute transform rotate-45"></div>
+                <div className="w-full h-0.5 border-8 border-yellow-600 absolute transform -rotate-45"></div>
+              </div>
+
+              <div className="brutalist-card mx-auto w-full sm:w-1/2 md:w-1/3 lg:w-1/4 max-w-xs" key={details.pack}>
+                      <div className="brutalist-card__actions">
+                        <div className="brutalist-card_mess flex flex-col gap-5 text-black">
+                          <p className="text-2xl md:text-3xl">{details.pack}</p>
+                          <hr />
+                          <p className="text-xl md:text-2xl">
+                            {details.cost}
+                            <span className="text-sm"> /Person</span>
+                          </p>
+                          <p className="text-lg md:text-xl">Meal Included</p>
+                        </div>
+
+                        <div className="brutalist-card_butt">
+                          <button className="btn-class-name mx-auto inactive">
+                            <button>Not Now</button>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+          ))}
         </div>
+
+        <div className="w-full h-full p-6 flex flex-wrap justify-center gap-6">
+          
+        </div>
+
 
       </div>
       {/* <Footer /> */}
