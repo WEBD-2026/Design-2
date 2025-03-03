@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import Navbar from "../../../components/Navbar/Navbar";
-import eventsData from "../../../data/EventData"; // Importing event data
+import eventsData from "../../../data/EventData"; // Import event data
+import "./Schedule.css";
 
 const Schedule = () => {
   const [selectedDay, setSelectedDay] = useState("24th December");
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [eventType, setEventType] = useState("Technical"); // Default to Technical
 
   return (
     <>
@@ -20,7 +22,7 @@ const Schedule = () => {
           color: "white",
         }}
       >
-        {/* Top Navigation for Days */}
+        {/* Day Selection */}
         <div
           style={{
             display: "flex",
@@ -41,6 +43,7 @@ const Schedule = () => {
                 backgroundColor: selectedDay === day ? "yellow" : "white",
                 border: "1px solid black",
                 cursor: "pointer",
+                color: "black",
               }}
             >
               {day}
@@ -48,8 +51,45 @@ const Schedule = () => {
           ))}
         </div>
 
+        {/* Slicer Buttons for Technical & Cultural */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            padding: "10px",
+            gap: "10px",
+          }}
+        >
+          <button
+            onClick={() => setEventType("Technical")}
+            style={{
+              padding: "10px",
+              backgroundColor:
+                eventType === "Technical" ? "lightblue" : "white",
+              border: "2px solid blue",
+              cursor: "pointer",
+              color: "black",
+            }}
+          >
+            Technical
+          </button>
+          <button
+            onClick={() => setEventType("Cultural")}
+            style={{
+              padding: "10px",
+              backgroundColor:
+                eventType === "Cultural" ? "lightcoral" : "white",
+              border: "2px solid red",
+              cursor: "pointer",
+              color: "black",
+            }}
+          >
+            Cultural
+          </button>
+        </div>
+
         <div style={{ display: "flex", flex: 1 }}>
-          {/* Left Column for Event Categories */}
+          {/* Left Sidebar - Event Categories */}
           <div
             style={{
               display: "flex",
@@ -59,25 +99,29 @@ const Schedule = () => {
               backgroundColor: "black",
             }}
           >
-            {Object.keys(eventsData[selectedDay]).map((category) => (
-              <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                style={{
-                  padding: "10px",
-                  marginBottom: "5px",
-                  backgroundColor:
-                    selectedCategory === category ? "pink" : "white",
-                  border: "2px solid magenta",
-                  cursor: "pointer",
-                }}
-              >
-                {category}
-              </button>
-            ))}
+            {eventsData[selectedDay] &&
+              Object.keys(eventsData[selectedDay][eventType]).map(
+                (category) => (
+                  <button
+                    key={category}
+                    onClick={() => setSelectedCategory(category)}
+                    style={{
+                      padding: "10px",
+                      marginBottom: "5px",
+                      backgroundColor:
+                        selectedCategory === category ? "pink" : "white",
+                      border: "2px solid magenta",
+                      cursor: "pointer",
+                      color: "black",
+                    }}
+                  >
+                    {category}
+                  </button>
+                )
+              )}
           </div>
 
-          {/* Right Section for Displaying Events in Selected Category */}
+          {/* Right Section - Event Details */}
           <div
             style={{
               flex: 1,
@@ -90,10 +134,10 @@ const Schedule = () => {
             {selectedCategory ? (
               <div>
                 <h2>
-                  {selectedCategory} - {selectedDay}
+                  {selectedCategory} - {selectedDay} ({eventType})
                 </h2>
                 <ul>
-                  {eventsData[selectedDay][selectedCategory].map(
+                  {eventsData[selectedDay][eventType][selectedCategory].map(
                     (event, index) => (
                       <li key={index}>{event}</li>
                     )
