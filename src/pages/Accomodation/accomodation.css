@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Rockybilly;
+    src: url(../../../public/Rockybilly.ttf);
+}
+
+
 .accomodation {
     /* background-color: #f8f8f8; */
     display: flex;

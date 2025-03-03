@@ -37,7 +37,7 @@ export default function MegaEvents() {
       <div
         className="bgAbout w-full h-full absolute top-0"
         style={{
-          background: "url('/crowd.jpg')",
+          background: "url('/FINAL MARKETING BROUCHUER.png')",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
@@ -51,13 +51,13 @@ export default function MegaEvents() {
             "linear-gradient(8deg, black 10%, rgba(36, 30, 0, 0.203) 100%)",
         }}
       >
-        <h1 className="mt-5 text-white z-10 text-6xl font-semibold py-4 w-full text-center">
-          Pro Nite
+        <h1 className="mt-5 text-white z-10 text-8xl font-semibold py-4 w-full text-center">
+          Announcing Soon...
         </h1>
       </div>
-      <div className="w-full h-full relative">
+      <div className="w-full h-full relative flex justify-center items-center">
         <div className="absolute bottom-0 left-40 h-5/6">
-          <motion.img
+          {/* <motion.img
             key={sections[activeIndex].img}
             src={sections[activeIndex].img}
             alt="About Us"
@@ -65,7 +65,9 @@ export default function MegaEvents() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 2 }}
-          />
+          /> */}
+
+          {/* <p className="mt-5 text-white z-10 text-6xl font-semibold py-4 w-full text-center ">Announcing Soon...</p> */}
         </div>
       </div>
       <div

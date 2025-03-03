@@ -3,23 +3,23 @@ import styled from "styled-components";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import image1 from "../../assets/mainLogo.png";
+import img from "../../assets/mainLogo.png";
 import { useEffect } from "react";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
   return (
     <>
-      {/* <div className="Logo">
-        <img src={require('./LOGO BGFREE.svg').default} alt="Logo" />
-      </div> */}
+      <div className="Logo_navbar123">
+        {/* <img src={require('./LOGO BGFREE.svg').default} alt="Logo" /> */}
+        {/* <img src={img} /> */}
+      </div>
 
       <div className="navbar">
         <Link to={"/"}>
-          <button className="button">
-            <div>
-              <span>HOME</span>
-            </div>
-          </button>
+          {/* <button className="button">
+            <div><span>HOME</span></div>
+          </button> */}
         </Link>
 
         <Link to={"/event"}>

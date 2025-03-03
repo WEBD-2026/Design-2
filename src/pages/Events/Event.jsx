@@ -42,7 +42,7 @@ const Event = () => {
       <div className="events">
         <div className="event_top">
           <div className="event_top_top">
-            <h1>Welcome to Utkansh</h1>
+            {/* <h1>Welcome to Utkansh</h1> */}
           </div>
           <div className="event_top_mid">
             <h1>Events</h1>
@@ -59,7 +59,7 @@ const Event = () => {
 
               <div key={index} className="brutalist-card">
                 <div className="brutalist-card__header">
-                  
+
                   <img
                     src={item.image}
                   />
