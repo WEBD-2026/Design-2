@@ -9,6 +9,11 @@
   gap: 1rem;
   z-index: 1000;
 }
+.Logo_navbar123 {
+  width: 100px;
+  margin-left: 20px;
+  background: transparent;
+}
 
 .logo img {
   position: absolute;
@@ -121,6 +126,12 @@
 
 @media (max-width: 900px) {
   .navbar {
+    display: none;
+  }
+  .Logo_navbar123 {
+    display: none;
+  }
+  .Logo_navbar123 img {
     display: none;
   }
 
