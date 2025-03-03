@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100..900&family=Prata&display=swap");
 
+@font-face {
+  font-family: Rockybilly;
+  src: url(../../../public/Rockybilly.ttf);
+}
+
 .events {
   /* background-color: #f8f8f8; */
   display: flex;
@@ -29,16 +34,24 @@
   text-align: center;
 }
 
-.event_top_top h1,
-.event_top_mid h1 {
-  font-family: Salsa;
+/* .event_top_top h1 {
+  font-family: Rockybilly;
   color: #ffffff;
   -webkit-text-stroke: 0px #ffffff;
-  font-size: 10vw;
-  margin: 0;
+  font-size: 1vw;
+  margin: 3;
+} */
+
+.event_top_mid h1 {
+  font-family: Rockybilly;
+  color: #ffffff;
+  -webkit-text-stroke: 0px #ffffff;
+  font-size: 6vw;
+  margin: 3;
+
 }
 
-/* .event_top_bot button {
+.event_top_bot button {
   padding: 10px 20px;
   border-radius: 10px;
   outline: none;
@@ -47,7 +60,8 @@
   color: #ffaf1b;
   font-size: 1.5vw;
   cursor: pointer;
-} */
+}
+
 .event_mid {
   display: flex;
   flex-direction: column;

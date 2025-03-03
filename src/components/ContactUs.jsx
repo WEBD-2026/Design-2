@@ -7,13 +7,18 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import Navbar from "./Navbar/Navbar";
-import "./ContactUs.css"
+import "./ContactUs.css";
+
 export default function ContactUs() {
   return (
     <>
-      <div className="text-yellow-500 flex flex-col gap-16 mt-24 justify-center items-center p-10">
-        <Navbar />
-        <h1 className="font-bold text-6xl ">Contact Us</h1>
+      <Navbar />
+      <div
+        className="text-yellow-500 flex flex-col gap-16 mt-24 justify-center items-center p-10 min-h-screen"
+        style={{ backgroundImage: "url('/contact-us-back.webp')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
+      >
+
+        {/* <h1 className="text-6xl text-black" style={{ fontFamily: "Rockybilly", WebkitTextStroke: "px #ffffff", fontSize: "4vw", margin: "1vw" }}>Contact Us</h1> */}
         <div className="flex md:flex-row flex-col justify-center items-center bg-black p-6 rounded-xl">
           <div className="flex md:flex-row flex-col gap-6 text-center md:border-r-2 md:border-b-0 border-b-2 border-yellow-500 md:pr-16 md:pb-0 pb-16">
             <a
@@ -52,7 +57,6 @@ export default function ContactUs() {
           <img src="mainLogo.png" alt="" className="w-80 h-80" />
         </div>
       </div>
-      
     </>
   );
 }

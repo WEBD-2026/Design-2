@@ -51,8 +51,8 @@ export default function MegaEvents() {
             "linear-gradient(8deg, black 10%, rgba(36, 30, 0, 0.203) 100%)",
         }}
       >
-        <h1 className="mt-5 text-white z-10 text-6xl font-semibold py-4 w-full text-center">
-          Pro Nite
+        <h1 className="mt-5 text-white z-10 text-8xl font-semibold py-4 w-full text-center">
+          Announcing Soon...
         </h1>
       </div>
       <div className="w-full h-full relative flex justify-center items-center">
@@ -67,7 +67,7 @@ export default function MegaEvents() {
             transition={{ duration: 2 }}
           /> */}
 
-          <p className="w-full text-5xl text-white font-semibold ">Announcing Soon...</p>
+          {/* <p className="mt-5 text-white z-10 text-6xl font-semibold py-4 w-full text-center ">Announcing Soon...</p> */}
         </div>
       </div>
       <div

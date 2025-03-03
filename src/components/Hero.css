@@ -13,11 +13,11 @@
   /* transform: translate(-20%, -50%); */
   width: 80vw;
   /* Covers 70% of the viewport width */
-  font-size: 8vw;
+  font-size: 7vw;
   /* Responsive font size based on viewport width */
   font-family: Rockybilly;
   font-weight: 700;
-  color: #373737;
+  color: #280003;
   text-align: center;
   white-space: nowrap;
   /* Ensures the text remains in a single line */
