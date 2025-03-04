@@ -141,7 +141,7 @@ const Schedule = () => {
                     (event, index) => (
                       <li key={index}>
                         <strong>{event.name}</strong> <br />
-                        📅 Date: {event.date} <br />
+                        📅 Time: {event.Time} <br />
                         📍 Venue: {event.venue}
                       </li>
                     )
