@@ -10,13 +10,13 @@ const Navbar = () => {
   const [clicked, setClicked] = useState(false);
   return (
     <>
-      <div className="Logo_navbar123">
-        {/* <img src={require('./LOGO BGFREE.svg').default} alt="Logo" /> */}
-        {/* <img src={img} /> */}
-      </div>
-
       <div className="navbar">
         <Link to={"/"}>
+          <div className="Logo_navbar123">
+            <img src={require("./LOGO BGFREE.svg").default} alt="Logo" />
+            {/* <img src={img} /> */}
+          </div>
+
           {/* <button className="button">
             <div><span>HOME</span></div>
           </button> */}

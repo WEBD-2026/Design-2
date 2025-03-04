@@ -12,8 +12,8 @@ import "./Home.css";
 const Home = () => {
   const [loading, setLoading] = useState(true);
   const [hasScrolled, setHasScrolled] = useState(false);
-  const [lastScrollY, setLastScrollY] = useState(0); 
-  const [opacity, setOpacity] = useState(false)
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [opacity, setOpacity] = useState(false);
   useEffect(() => {
     setTimeout(() => setLoading(false), 3000);
   }, []);
@@ -27,18 +27,18 @@ const Home = () => {
       const scrollingUp = scrollY < lastScrollY;
 
       if (scrollingDown && scrollY > 5 && !hasScrolled) {
-        window.scrollTo({ top: screenHeight+5, behavior: "smooth" });
-        setOpacity(true)
+        window.scrollTo({ top: screenHeight + 5, behavior: "smooth" });
+        setOpacity(true);
         setHasScrolled(true);
       }
 
       if (scrollingUp && scrollY < screenHeight - 5 && hasScrolled) {
         window.scrollTo({ top: 0, behavior: "smooth" });
-        setOpacity(false)
+        setOpacity(false);
         setHasScrolled(false);
       }
 
-      setLastScrollY(scrollY); 
+      setLastScrollY(scrollY);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -54,7 +54,11 @@ const Home = () => {
             <Hero />
           </div>
 
-          <div className={`${opacity ? "opacity-100":"opacity-0"} transition-all duration-1000`}>
+          <div
+            className={`${
+              opacity ? "opacity-100" : "opacity-0"
+            } transition-all duration-1000`}
+          >
             <VideoIntro />
             <MegaEvents />
             <Sponsers />
