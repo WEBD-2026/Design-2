@@ -12,10 +12,10 @@ const Navbar = () => {
     <>
       <div className="Logo_navbar123">
         {/* <img src={require('./LOGO BGFREE.svg').default} alt="Logo" /> */}
-        {/* <img src={img} /> */}
       </div>
 
       <div className="navbar">
+        {/* <img src={img} /> */}
         <Link to={"/"}>
           {/* <button className="button">
             <div><span>HOME</span></div>

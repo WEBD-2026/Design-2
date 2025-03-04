@@ -8,7 +8,7 @@ import Accommodation from "./pages/Accomodation/accomodation.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import EventDetails from "./pages/EventDetails.jsx";
 import Developers from "./pages/Developers/Developers.jsx"
-import Schedule from "./pages/Events/Schedule/Schedule.jsx";
+import Schedule from "./pages/Events/Schedule/Schedule.js";
 import ContactUs from "./components/ContactUs.jsx";
 function App() {
   return (
