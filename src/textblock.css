@@ -11,7 +11,7 @@
 }
 
 #textblock-container {
-  max-width: 90vw;
+  width: 90vw;
   text-align: center;
   background: rgba(0, 0, 0, 0.7);
   padding: 5%;
@@ -73,7 +73,7 @@
   #textblock-title {
     font-size: 3.5rem;
   }
-  
+
   #textblock-content {
     font-size: 1.1rem;
   }
@@ -107,7 +107,6 @@
 }
 
 @media (max-width: 480px) {
-
   #textblock-container {
     display: flex;
     flex-direction: column;
@@ -115,7 +114,6 @@
     padding-left: 50%;
     padding-right: 50%;
   }
-
 
   #textblock-title {
     font-size: 2.5rem;
