@@ -139,7 +139,11 @@ const Schedule = () => {
                 <ul>
                   {eventsData[selectedDay][eventType][selectedCategory].map(
                     (event, index) => (
-                      <li key={index}>{event}</li>
+                      <li key={index}>
+                        <strong>{event.name}</strong> <br />
+                        📅 Date: {event.date} <br />
+                        📍 Venue: {event.venue}
+                      </li>
                     )
                   )}
                 </ul>
