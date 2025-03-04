@@ -17,9 +17,14 @@ const Hero = () => {
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={-0.1}>
           <h1 className="hero1">Utkansh25</h1>
+          {/* <p className="hero2">APRAIL 10 </p> */}
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.3}>
-          <div className="animation_layer parallax" id="jungle1"></div>
+          <div className="animation_layer parallax" id="jungle1">
+            <p className="hero2">
+              10 APRIL-13 APRIL
+            </p>
+          </div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.35}>
           <div className="animation_layer parallax" id="jungle2"></div>

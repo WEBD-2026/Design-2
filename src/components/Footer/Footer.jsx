@@ -15,9 +15,6 @@ const Footer = () => {
           </nav>
           <nav className="mt-4 justify-center pt-4">
             <div className="flex gap-6">
-              <a href="https://twitter.com" className="hover:scale-110 transition-transform duration-300">
-                <FaTwitter size={24} />
-              </a>
               <a href="https://youtube.com" className="hover:scale-110 transition-transform duration-300">
                 <FaYoutube size={24} />
               </a>

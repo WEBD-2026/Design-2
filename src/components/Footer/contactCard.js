@@ -11,11 +11,13 @@ export default function ContactCard() {
         <div className="space-y-4 text-center">
           <div className="flex items-center justify-center space-x-3 text-lg">
             <FaEnvelope className="text-yellow-300" />
-            <a href="mailto:contact@example.com" className="hover:underline hover:text-yellow-300 transition duration-300">contact@example.com</a>
+            <a href="mailto:utkansh@nitj.ac.in" className="hover:underline hover:text-yellow-300 transition duration-300">nitj.utk.accounts@nitj.ac.in</a>
           </div>
-          <div className="flex items-center justify-center space-x-3 text-lg">
+          <div className="flex flex-colitems-center justify-center space-x-3 text-lg">
             <FaPhone className="text-yellow-300" />
-            <span className="hover:text-yellow-300 transition duration-300">+1 234 567 890</span>
+            <span className="hover:text-yellow-300 transition duration-300">7508617568</span>
+            <FaPhone className="text-yellow-300" />
+            <span className="hover:text-yellow-300 transition duration-300">8809190913</span>
           </div>
         </div>
       </div>

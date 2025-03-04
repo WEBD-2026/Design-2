@@ -9,13 +9,13 @@ function TextBlock() {
         </div>
         <div className="text">
           <div id="title-container">
-            <h1 id="textblock-title">UTKANSH-25</h1>
-            <span id="textblock-subtitle">Techno Cultural Fest of NITJ</span>
+            <h1 id="textblock-title">UTKANSH 25</h1>
+            <span id="textblock-subtitle">From Circuits To Symphonies</span>
             <br />
             <br />
           </div>
           <p id="textblock-content">
-            Utkansh is where culture and technology unite at NIT Jalandhar. Experience electrifying performances, innovative hackathons, and thrilling competitions. From fashion parades to drone shows, every moment is a celebration of creativity and technology. Join us for a festival where brilliance knows no boundaries.
+            Utkansh-25 at NIT Jalandhar blends culture and technology in perfect harmony. Experience electrifying performances like Panache, Megasonic, BDM Night, and Star Night, alongside innovative events like Hackathons, RC Racing, NIT-yaan, Startup Mela, and Avishkar Exhibitions. Enjoy ISRO sessions, E-Gaming, and more, culminating in a breathtaking Drone Show. This is Utkansh-where brilliance knows no boundaries, and the future takes center stage. Join us for an unforgettable celebration of talent, innovation, and creativity that promises to inspire and entertain.
             <br />
             <br />
           </p>

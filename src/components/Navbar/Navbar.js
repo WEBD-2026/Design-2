@@ -3,7 +3,6 @@ import styled from "styled-components";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import image1 from "../../assets/mainLogo.png";
-import img from "../../assets/mainLogo.png";
 import { useEffect } from "react";
 
 const Navbar = () => {
@@ -11,16 +10,19 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <Link to={"/"}>
+        {/* <Link to={"/"}>
           <div className="Logo_navbar123">
             <img src={require("./LOGO BGFREE.svg").default} alt="Logo" />
-            {/* <img src={img} /> */}
           </div>
-
-          {/* <button className="button">
-            <div><span>HOME</span></div>
-          </button> */}
+        </Link> */}
+        <Link to={"/"}>
+          <button className="button">
+            <div>
+              <span>HOME</span>
+            </div>
+          </button>
         </Link>
+
 
         <Link to={"/event"}>
           <button className="button">
@@ -44,6 +46,7 @@ const Navbar = () => {
             </div>
           </button>
         </Link>
+
         <Link to={"/ContactUs"}>
           <button className="button">
             <div>

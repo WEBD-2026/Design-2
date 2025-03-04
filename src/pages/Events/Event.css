@@ -34,13 +34,20 @@
   text-align: center;
 }
 
-/* .event_top_top h1 {
-  font-family: Rockybilly;
+.event_top_top {
+  font-size: x-large;
+  margin-top: 10%;
+  width: 100%;
+
+}
+
+.event_top_top h1 {
+  /* font-family: Rockybilly; */
   color: #ffffff;
   -webkit-text-stroke: 0px #ffffff;
-  font-size: 1vw;
+  font-size: 2vw;
   margin: 3;
-} */
+}
 
 .event_top_mid h1 {
   font-family: Rockybilly;
@@ -96,7 +103,7 @@
   column-gap: 10px;
   width: 100vw;
   margin-top: 20px;
-  justify-content: center;
+  justify-content: space-evenly;
   /* margin: 0 auto; */
 }
 
@@ -150,7 +157,7 @@
 .brutalist-card {
   width: 380px;
   border: 4px solid #000;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 1.5rem;
   box-shadow: 10px 10px 0 #000;
   font-family: "Arial", sans-serif;

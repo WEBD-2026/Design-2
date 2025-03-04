@@ -6,6 +6,7 @@ import { Context } from "../../Context/Context";
 import Dropdown from "../../components/dropdown";
 import "./button_event.css";
 import { Link, Links } from "react-router-dom";
+import Marquee from "react-fast-marquee";
 
 
 
@@ -41,11 +42,21 @@ const Event = () => {
       <Navbar />
       <div className="events">
         <div className="event_top">
-          <div className="event_top_top">
-            {/* <h1>Welcome to Utkansh</h1> */}
-          </div>
+
           <div className="event_top_mid">
             <h1>Events</h1>
+          </div>
+          <div className="event_top_top">
+            <Marquee
+              speed={80}
+              pauseOnHover={true}
+              className="bg-black-200 w-70% overflow-hidden pt-3 bg-black-900 backdrop-blur-lg rounded-lg shadow-lg"
+            >
+              <div className="flex gap-10 py-2 t-2xl ">
+                <h1>Registration will be starting soon </h1>
+
+              </div>
+            </Marquee>
           </div>
         </div>
         <div className="event_mid">

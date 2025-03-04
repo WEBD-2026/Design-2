@@ -1,24 +1,32 @@
 @keyframes bobble {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    25% {
-      transform: translateY(-5px);
-    }
-    50% {
-      transform: translateY(3px);
-    }
-    75% {
-      transform: translateY(-2px);
-    }
-  }
-  
-  .hover\:animate-bobble:hover {
-    animation: bobble 0.6s ease-in-out infinite;
+
+  0%,
+  100% {
+    transform: translateY(0);
   }
 
-  
-  .contact-item {
+  25% {
+    transform: translateY(-5px);
+  }
+
+  50% {
+    transform: translateY(3px);
+  }
+
+  75% {
+    transform: translateY(-2px);
+  }
+}
+
+.hover\:animate-bobble:hover {
+  animation: bobble 0.6s ease-in-out infinite;
+}
+
+.container-contact {
+  margin: 0;
+}
+
+.contact-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,5 +50,6 @@
 }
 
 .contact-item:last-child::after {
-  display: none; /* Hide line after last item */
+  display: none;
+  /* Hide line after last item */
 }
