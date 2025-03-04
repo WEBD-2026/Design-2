@@ -15,16 +15,16 @@ const Footer = () => {
           </nav>
           <nav className="mt-4 justify-center pt-4">
             <div className="flex gap-6">
-              <a href="https://youtube.com" className="hover:scale-110 transition-transform duration-300">
+              <a href="http://www.youtube.com/@UtkanshNITJalandhar" className="hover:scale-110 transition-transform duration-300">
                 <FaYoutube size={24} />
               </a>
-              <a href="https://facebook.com" className="hover:scale-110 transition-transform duration-300">
+              <a href="https://www.facebook.com/utkansh" className="hover:scale-110 transition-transform duration-300">
                 <FaFacebook size={24} />
               </a>
-              <a href="https://instagram.com" className="hover:scale-110 transition-transform duration-300">
+              <a href="https://www.instagram.com/utkansh.nitj/" className="hover:scale-110 transition-transform duration-300">
                 <FaInstagram size={24} />
               </a>
-              <a href="https://maps.google.com" className="hover:scale-110 transition-transform duration-300">
+              <a href="https://maps.app.goo.gl/ethKcFEhLFqBfcD78" className="hover:scale-110 transition-transform duration-300">
                 <FaMapMarker size={24} />
               </a>
             </div>

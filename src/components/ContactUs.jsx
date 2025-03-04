@@ -28,7 +28,7 @@ export default function ContactUs() {
                 <p>Team Utkansh</p>
               </a>
               <a
-                href="https://shorturl.at/hoAjy"
+                href="https://maps.app.goo.gl/ethKcFEhLFqBfcD78"
                 target="_blank"
                 className="flex flex-col items-center justify-center gap-2 h-fit group hover:animate-bobble"
               >
@@ -36,12 +36,12 @@ export default function ContactUs() {
                 <p>Dr. B R Ambedkar NIT, Jalandhar</p>
               </a>
               <a
-                href="mailto:xyz@gmail.com"
+                href="mailto:nitj.utk.accounts@nitj.ac.in"
                 target="_blank"
                 className="flex flex-col items-center justify-center gap-2 md:mt-32 h-fit group hover:animate-bobble"
               >
                 <FontAwesomeIcon icon={faEnvelope} className="text-5xl" />
-                <p>xyz@gmail.com</p>
+                <p>nitj.utk.accounts@nitj.ac.in</p>
               </a>
               <a
                 href="tel:7895285866"
@@ -52,7 +52,9 @@ export default function ContactUs() {
                 <p>+91 7895285866</p>
               </a>
             </div>
-            <img src="mainLogo.png" alt="" className="w-80 h-80" />
+            <a href="/" target="_blank">
+              <img src="mainLogo.png" alt="" className="w-80 h-80" />
+            </a>
           </div>
         </div>
       </div>
