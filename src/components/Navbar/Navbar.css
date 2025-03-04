@@ -10,9 +10,12 @@
   z-index: 1000;
 }
 .Logo_navbar123 {
-  width: 100px;
+  width: 120px;
   margin-left: 20px;
-  background: transparent;
+  /* background: transparent; */
+  position: absolute;
+  top: 1%;
+  left: 0;
 }
 
 .logo img {
