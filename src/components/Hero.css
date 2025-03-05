@@ -1,77 +1,100 @@
-@font-face {
-  font-family: 'Rockybilly';
-  src: url(../../public/Rockybilly.ttf), ;
-  font-family: 'Dharma Punk';
-  src: url(../../public/Dharma-Punk.ttf);
-}
+  @font-face {
+    font-family: 'Rockybilly';
+    src: url(../../public/Rockybilly.ttf), ;
+    font-family: 'Dharma Punk';
+    src: url(../../public/Dharma-Punk.ttf);
+  }
 
 
-.hero1 {
-  position: absolute;
-  z-index: 10;
-  /* Lower than Navbar */
-  top: 30%;
-  left: 18%;
-  /* transform: translate(-20%, -50%); */
-  width: 80vw;
-  /* Covers 70% of the viewport width */
-  font-size: 7vw;
-  /* Responsive font size based on viewport width */
-  font-family: Rockybilly;
-  font-weight: 700;
-  color: #280003;
-  text-align: center;
-  white-space: nowrap;
-  /* Ensures the text remains in a single line */
-}
-
-.hero2 {
-  position: relative;
-  z-index: 10;
-  /* Lower than Navbar */
-  top: 40%;
-  left: 50%;
-  /* transform: translate(-20%, -50%); */
-  width: 20vw;
-  /* Covers 70% of the viewport width */
-  font-size: 4vw;
-  /* Responsive font size based on viewport width */
-  font-family: Dharma Punk;
-  font-weight: 200;
-  color: #280003;
-  text-align: center;
-  white-space: nowrap;
-  /* Ensures the text remains in a single line */
-}
-
-.hero-section {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  /* Full screen height */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.animation {
-  position: static;
-  z-index: 1;
-  /* Lower than navbar */
-}
-
-@media (max-width: 900px) {
   .hero1 {
+    position: absolute;
+    z-index: 10;
+    /* Lower than Navbar */
+    top: 30%;
+    left: 18%;
+    /* transform: translate(-20%, -50%); */
+    width: 80vw;
+    /* Covers 70% of the viewport width */
+    font-size: 7vw;
+    /* Responsive font size based on viewport width */
+    font-family: Rockybilly;
+    font-weight: 700;
+    color: #280003;
+    text-align: center;
+    white-space: nowrap;
+    /* Ensures the text remains in a single line */
+  }
+
+  .hero2 {
+    position: relative;
+    z-index: 10;
+    /* Lower than Navbar */
     top: 40%;
-    transform: translate(-15%, -50%);
+    left: 44%;
+    /* transform: translate(-20%, -50%); */
+    width: 20vw;
+    /* Covers 70% of the viewport width */
+    font-size: 4vw;
+    /* Responsive font size based on viewport width */
+    font-family: Dharma Punk;
+    font-weight: 200;
+    color: #280003;
+    text-align: center;
+    white-space: nowrap;
+    /* Ensures the text remains in a single line */
   }
-}
 
-@media (max-width: 600px) {
-  .hero1 {
-    font-size: 11vw;
+  @media screen and (max-width:900px) {
+    .hero1 {
+      font-size: 8vw;
+    }
+
+    .hero2 {
+      top: 45%;
+      font-size: 6vw;
+      left: 35%;
+    }
   }
-}
+
+  @media screen and (max-width:500px) {
+    .hero1 {
+      top: 70%;
+    }
+
+    .hero2 {
+      font-size: 9vw;
+      left: 30%;
+    }
+  }
+
+  .hero-section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .animation {
+    position: static;
+    z-index: 1;
+    /* Lower than navbar */
+  }
+
+  @media (max-width: 900px) {
+    .hero1 {
+      top: 40%;
+      transform: translate(-15%, -50%);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .hero1 {
+      font-size: 11vw;
+    }
+  }
