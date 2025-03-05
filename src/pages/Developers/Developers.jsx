@@ -47,55 +47,67 @@ export default function DevelopersPage() {
       <Navbar />
       <div className="container mx-auto my-16">
         <h1 className="text-5xl font-extrabold text-center mb-8 text-yellow-400">Meet Our Team</h1>
-        
+        <div
+          className="overlay absolute top-0 left-0 w-full h-full inset-10"
+          style={{
+            backdropFilter: "blur(2px)",
+            background:
+              "linear-gradient(8deg, black 10%, rgba(36, 30, 0, 0.203) 100%)",
+          }}
+        >
+          <h1 className="mt-60 text-white z-10 md:text-8xl sm:text-6xl text-4xl font-semibold py-4 w-full text-center">
+            Announcing Soon...
+          </h1>
+        </div>
+
         {/* Filter Buttons */}
-        <div className="flex justify-center gap-6 mb-8">
+        {/* <div className="flex justify-center gap-6 mb-8">
             <button onClick={() => setSelectedCategory("developers")} className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "developers" ? "bg-yellow-500 text-black shadow-lg" : "bg-gray-700 text-white hover:bg-gray-600"}`}>Developers</button>
             <button onClick={() => setSelectedCategory("team")} className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "team" ? "bg-yellow-500 text-black shadow-lg" : "bg-gray-700 text-white hover:bg-gray-600"}`}>Team</button>
             <button onClick={() => setSelectedCategory("faculty")} className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "faculty" ? "bg-yellow-500 text-black shadow-lg" : "bg-gray-700 text-white hover:bg-gray-600"}`}>Faculty</button>
-        </div>
+        </div> */}
 
         {/* Cards Section */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {selectedCategory === "developers" && developers.map(dev => (
-            <Card 
-                key={dev.id}
-                image="/avatar.jpeg"
-                title={dev.name}
-                description={dev.role}
-                button1="GitHub"
-                button2="LinkedIn"
-                icon1={<FaGithub />}
-                icon2={<FaLinkedin />}
+        {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {selectedCategory === "developers" && developers.map(dev => (
+            <Card
+              key={dev.id}
+              image="/avatar.jpeg"
+              title={dev.name}
+              description={dev.role}
+              button1="GitHub"
+              button2="LinkedIn"
+              icon1={<FaGithub />}
+              icon2={<FaLinkedin />}
             />
-            ))}
+          ))}
 
-            {selectedCategory === "team" && team.map(dev => (
-            <Card 
-                key={dev.id}
-                image="/avatar.jpeg"
-                title={dev.name}
-                description={dev.role}
-                button1="GitHub"
-                button2="LinkedIn"
-                icon1={<FaGithub />}
-                icon2={<FaLinkedin />}
+          {selectedCategory === "team" && team.map(dev => (
+            <Card
+              key={dev.id}
+              image="/avatar.jpeg"
+              title={dev.name}
+              description={dev.role}
+              button1="GitHub"
+              button2="LinkedIn"
+              icon1={<FaGithub />}
+              icon2={<FaLinkedin />}
             />
-            ))}
+          ))}
 
-            {selectedCategory === "faculty" && faculty.map(fac => (
-            <Card 
-                key={fac.id}
-                image="/avatar.jpeg"
-                title={fac.name}
-                description={fac.department}
-                button1="Email"
-                button2="Profile"
-                icon1={<FaEnvelope />}
-                icon2={<FaUser />}
+          {selectedCategory === "faculty" && faculty.map(fac => (
+            <Card
+              key={fac.id}
+              image="/avatar.jpeg"
+              title={fac.name}
+              description={fac.department}
+              button1="Email"
+              button2="Profile"
+              icon1={<FaEnvelope />}
+              icon2={<FaUser />}
             />
-            ))}
-        </div>
+          ))}
+        </div> */}
       </div>
     </div>
   );
