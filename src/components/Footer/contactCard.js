@@ -15,7 +15,7 @@ export default function ContactCard() {
           </div>
           <div className="flex flex-colitems-center justify-center space-x-3 text-lg">
             <FaPhone className="text-yellow-300" />
-            <span className="hover:text-yellow-300 transition duration-300">7508617568</span>
+            <span className="hover:text-yellow-300 transition duration-300">7508619568</span>
             <FaPhone className="text-yellow-300" />
             <span className="hover:text-yellow-300 transition duration-300">8809190913</span>
           </div>
