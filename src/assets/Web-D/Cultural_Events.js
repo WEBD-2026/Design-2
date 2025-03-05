@@ -41,7 +41,7 @@ export const events =
 ,
 {
   id: 4,
-  name: "Asmita(Bawre)",
+  name: "Asmita",
   head: "Express Your Emotions on Stage",
   entry: "149 INR per person",
   prize: "8000 INR",
