@@ -33,7 +33,7 @@ const Event = () => {
       );
     }
 
-    setFilteredEvents(updatedEvents.slice(0, 41));
+    setFilteredEvents(updatedEvents.slice(0, 70));
   }, [search, events, technical_events, selectedCategory]);
 
 
