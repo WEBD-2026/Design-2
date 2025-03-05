@@ -198,9 +198,6 @@ const eventsData = {
         { name: "Art from Waste", Time: "11:00 am", venue: "DRAWING HALL" },
         { name: "Clay art", Time: "3:00 pm", venue: "DRAWING HALL" },
       ],
-      RLC: [
-        { name: "Iktara", Time: "2:00 pm", venue: "CSH" },
-      ],
     }
   },
 };

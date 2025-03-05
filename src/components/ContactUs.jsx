@@ -49,7 +49,8 @@ export default function ContactUs() {
                 className="flex flex-col items-center justify-center gap-2 h-fit group hover:animate-bobble"
               >
                 <FontAwesomeIcon icon={faPhone} className="text-5xl" />
-                <p>+91 7895285866</p>
+                <p>+91 7508619568</p>
+                <p>+91 8809190913</p>
               </a>
             </div>
             <a href="/" target="_blank">
