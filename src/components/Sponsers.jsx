@@ -13,7 +13,7 @@ export default function Sponsers() {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center">
       <h1 className="text-white bg-black z-10 text-6xl font-semibold py-4 w-full text-center">
-        <p className="mt-32 mb-10">Our Sponsers</p>
+        <p className="mt-32 mb-10">Our Sponsors</p>
       </h1>
 
       <Marquee

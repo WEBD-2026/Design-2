@@ -34,7 +34,7 @@ const Navbar = () => {
         <Link to={"/Accomodation"}>
           <button className="button">
             <div>
-              <span>ACCOMODATION</span>
+              <span>ACCOMMODATION</span>
             </div>
           </button>
         </Link>
