@@ -1,6 +1,6 @@
 import React from "react";
 import "./VideoIntro.css"; // Import CSS for styling
-// import video from "../../../public/concert.mp4";
+import video from '../../assets/concert.mp4'
 
 const VideoBackground = () => {
   return (
@@ -9,8 +9,11 @@ const VideoBackground = () => {
       <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black via-transparent to-transparent"></div>
       <div className="absolute top-0 left-0 h-full w-32 bg-gradient-to-r from-black via-transparent to-transparent"></div>
       <div className="absolute top-0 right-0 h-full w-32 bg-gradient-to-l from-black via-transparent to-transparent"></div>
-      <video autoPlay muted loop playsInline className="background-video">
-        <source src="/concert.mp4" type="video/mp4" />
+      <video autoPlay muted loop inline className="background-video"
+      >
+        <source src={video} type="video/mp4" />
+
+
         Your browser does not support the video tag.
       </video>
       {/* <div className="content">
