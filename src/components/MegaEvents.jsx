@@ -51,7 +51,7 @@ export default function MegaEvents() {
             "linear-gradient(8deg, black 10%, rgba(36, 30, 0, 0.203) 100%)",
         }}
       >
-        <h1 className="mt-5 text-white z-10 text-8xl font-semibold py-4 w-full text-center">
+        <h1 className="mt-5 text-white z-10 md:text-8xl sm:text-6xl text-4xl font-semibold py-4 w-full text-center">
           Announcing Soon...
         </h1>
       </div>
