@@ -66,12 +66,12 @@
 @media (max-width: 900px) {
   .hero1 {
     top: 40%;
-    transform: translate(0%, -50%);
+    transform: translate(-15%, -50%);
   }
 }
 
 @media (max-width: 600px) {
   .hero1 {
-    font-size: 14vw;
+    font-size: 11vw;
   }
 }
