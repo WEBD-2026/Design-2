@@ -52,7 +52,7 @@ const EventDetails = () => {
                 <span className="ml-2 text-white">{eventsData.date}</span>
               </p>
               <p className="font-bold">📖 Description:</p>
-              <p className="text-gray-300">{eventsData.description}</p>
+              <p className="text-gray-300  text-[0.95rem] text-justify">{eventsData.description}</p>
               <p className="font-bold">
                 🎟️ Entry:{" "}
                 <span className="text-gray-300">{eventsData.entry}</span>
@@ -64,8 +64,8 @@ const EventDetails = () => {
 
               <p className="font-bold">📜 Rules:</p>
 
-              <p className="text-gray-300 whitespace-pre-line">
-                {eventsData.rules}
+              <p className="text-gray-300 whitespace-pre-line text-justify text-[0.85rem]">
+                 {eventsData.rules}
               </p>
             </div>
 

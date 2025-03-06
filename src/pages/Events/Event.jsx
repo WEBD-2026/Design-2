@@ -69,12 +69,25 @@ const Event = () => {
             {filteredEvents.map((item, index) => (
 
               <div key={index} className="brutalist-card">
-                <div className="brutalist-card__header">
+                <div className="brutalist-card__heade relative group overflow-hidden">
+                    {/* Image */}
+                    <img src={item.image} className="object-cover transition duration-300 group-hover:opacity-75" />
 
-                  <img
-                    src={item.image}
-                  />
-                </div>
+                    {/* Content (Hidden by Default, Appears on Hover) */}
+                    <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-black via-black/80 to-black/50 text-white p-4 flex flex-col justify-center items-start transition-transform duration-500 translate-y-full group-hover:translate-y-0 rounded-b-lg">
+    
+                        {/* 🔹 Main Heading */}
+                        <p className="text-xl font-extrabold text-yellow-400 mb-2">{item.head}</p>
+
+                        {/* 🔸 Sub Info */}
+                        <p className="text-sm font-medium">
+                          <span className="text-yellow-300">Registration Fee:</span> {item.entry}
+                        </p>
+                        <p className="text-sm font-medium">
+                          <span className="text-yellow-300">Prize Pool Worth:</span> {item.prize}
+                        </p>
+                      </div>
+                  </div>
                 <div className="brutalist-card__actions">
                   <div className="brutalist-card_mess">
                     <a className="brutalist-card__button brutalist-card__button--read">

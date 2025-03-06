@@ -31,27 +31,27 @@ const StyledWrapper = styled.div`
   }
 
   .pl__ring1 {
-    animation: ring1_ 4s 0s ease-in-out infinite;
+    animation: ring1_ 7s 0s ease-in-out infinite;
   }
 
   .pl__ring2 {
-    animation: ring2_ 4s 0.04s ease-in-out infinite;
+    animation: ring2_ 7s 0.04s ease-in-out infinite;
   }
 
   .pl__ring3 {
-    animation: ring3_ 4s 0.08s ease-in-out infinite;
+    animation: ring3_ 7s 0.08s ease-in-out infinite;
   }
 
   .pl__ring4 {
-    animation: ring4_ 4s 0.12s ease-in-out infinite;
+    animation: ring4_ 7s 0.12s ease-in-out infinite;
   }
 
   .pl__ring5 {
-    animation: ring5_ 4s 0.16s ease-in-out infinite;
+    animation: ring5_ 7 0.16s ease-in-out infinite;
   }
 
   .pl__ring6 {
-    animation: ring6_ 4s 0.2s ease-in-out infinite;
+    animation: ring6_ 7s 0.2s ease-in-out infinite;
   }
 
   /* Animations */
