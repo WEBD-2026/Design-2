@@ -41,7 +41,7 @@ export const technical_events =  [
       id: 45,
       name: "Q-Trivia",
       head: "The Ultimate Science and Sci-Fi Quiz",
-      entry: "100 INR per person",
+      entry: "50 INR per person",
       prize: "6,000 INR",
       description: "Enter a realm where science meets fiction! Battle through thrilling rounds of trivia on superheroes, sci-fi, legendary scientists, and quantum physics. Form a team of 2-3 and challenge the limits of reality. Think you can outsmart the multiverse? Prove it!",
       rules: "",
@@ -53,8 +53,8 @@ export const technical_events =  [
       id: 46,
       name: "Skyline Symphony",
       head: "Engineering the Future",
-      entry: "100 INR",
-      prize: "10,000 INR",
+      entry: "200 INR",
+      prize: "12,000 INR",
       description: "Attention aspiring engineers and architects! Join Skyline Symphony to design and build a high-rise model, test it with earthquake simulations, and compete to showcase your engineering skills!",
       rules: "Event Phases:\n1. Model Construction\n2. Simulated Earthquake Testing\n3. Load Test\n\nSize & Dimensions:\n• Max. Base Area: 30cm × 30cm\n• Min. Height: 50cm\n• Max. Height: 80cm\n\nTesting Criteria:\n1. Earthquake Simulation Test:\n   • The model will be placed on a shake table with increasing intensity levels.\n   • The structure should remain intact for at least 20 seconds at maximum intensity to score full points.\n\n2. Load Bearing Test:\n   • A gradual increase of load (weights) will be applied.\n   • The maximum load before failure will be recorded.\n\nJudging Criteria:\n• Judges will evaluate the load/cost ratio of the models.\n\nRules & Regulations:\n1. All models must be built strictly following the size and material guidelines.\n2. Materials will be provided on the event site itself; any improperly constructed model may be disqualified.\n3. Use of restricted materials will lead to immediate disqualification.\n4. Judges' decisions will be final and binding.",
       date: "10 April 2025",
@@ -118,7 +118,7 @@ export const technical_events =  [
       name: "Escape Room",
       head: "Crack the Code and Escape!",
       entry: "100 INR",
-      prize: "8,000 INR",
+      prize: "12,000 INR",
       description: "This 60-minute escape room may cause excessive brainstorming, spontaneous teamwork, and irreversible attraction to entrepreneurship... Prolonged exposure may lead to startup success (and a crush on your teammates). Form a team of 4 and solve 5 critical business challenges to escape before time runs out. Can you handle the heat?",
       rules: "",
       date: "11 April 2025",
@@ -143,7 +143,7 @@ export const technical_events =  [
     id: 53,
     name: "Machine Wars",
     head: "Robotics Showdown of Strength and Speed",
-    entry: "150 INR",
+    entry: "250 INR",
     prize: "18,000 INR",
     description: "Machine Wars is a captivating multi-round robotics competition that intertwines the thrilling elements of Tug of War, Drag Race, and Robo-Sumo. Contestants will wield the same bot through each round, fostering a blend of strategic design and unwavering durability.",
     rules: "1. Event Format\n• Three Rounds:\n  ○ Round 1: Tug of War - Teams will design and build robots to compete in a tug-of-war match. The robot that successfully pulls the opponent's robot across a designated line within a time limit wins.\n  ○ Round 2: Drag Race - Teams will design and build robots to compete in a speed race. The robot that covers a specified distance in the shortest time wins.\n  ○ Round 3: Robo Sumo - Teams will design and build robots to compete in a sumo wrestling match. The robot that successfully pushes the opponent's robot out of the designated arena wins.\n\n2. Eligibility\n• Open to all undergraduate and postgraduate students of NIT Jalandhar.\n• Teams can consist of 2-3 members.\n\n3. Rules and Regulations\n• Detailed rules and regulations for each round will be provided to all participating teams.\n• Robots must adhere to specific size and weight restrictions.\n• Use of prohibited components will result in disqualification.\n• Decisions of the judges will be final and binding.\n\n4. Judging Criteria\n• Round 1 (Tug of War): Strength, stability, and strategy.\n• Round 2 (Drag Race): Speed, efficiency, and maneuverability.\n• Round 3 (Robo Sumo): Aggression, agility, and durability.\n• Overall performance across all three rounds will also be considered.\n\n5. Timeline\n• [Date]: Registration deadline.\n• [Date - Date]: Workshop (optional): A workshop can be conducted to provide guidance and support to participants.\n• [Date]: Competition day:\n  ○ Round 1: Tug of War\n  ○ Round 2: Drag Race\n  ○ Round 3: Robo Sumo\n• [Date]: Award ceremony: Winners will be announced and prizes will be distributed.\n\n6. Venue and Logistics\n• Venue: A spacious area with adequate space for the competition setup.\n• Equipment:\n  ○ Tables and chairs for teams.\n  ○ Arena for each round.\n  ○ Timer, measuring tape, and other necessary equipment.\n• Safety:\n  ○ Ensure safety measures are in place throughout the competition.\n\n7. Prizes\n• Attractive prizes will be awarded to the winning teams in each round and for overall performance.\n\n8. Marketing and Promotion\n• Utilize college and club social media platforms to promote the event.\n• Design and distribute posters and flyers around campus.\n• Make announcements during class hours and during campus events.\n• Word-of-mouth: Encourage team members to spread the word among their peers.\n\n9. Team Roles and Responsibilities\n• Team Leader: Coordinate team activities, manage project timelines, and communicate with organizers.\n• Designer: Design and develop the robot's mechanical structure.\n• Programmer: Develop the robot's control software.\n• Tester: Test and debug the robot, ensuring optimal performance.",
@@ -180,7 +180,7 @@ export const technical_events =  [
 ,
   {
     id: 56,
-    name: "UAV Drone",
+    name: "Drone Obstacle",
     head: "Mastering the Skies",
     entry: "300 INR",
     prize: "30,000 INR",
@@ -329,7 +329,49 @@ export const technical_events =  [
   date: "12 April 2025",
   image: require("./Pics/Chemistry_Project_Exhibition.png"),
   category: "Science & Innovation"
+},
+
+{
+  "id": 68,
+  "name": "BioExpo",
+  "head": "Exploring Biotechnology Through Innovation",
+  "entry": "50 INR",
+  "prize": "4,500 INR",
+  "description": "BioExpo is an exciting biotechnology fair where students will design and present real 3D models of biotechnology-based projects. Participants will not only build these models but also explain and demonstrate their working principles, applications, and significance in the field of biotechnology.",
+  "rules": "Judges will evaluate the projects based on:\nUniqueness and Innovation – How original and creative the idea is.\nPractical Application – The real-world relevance and usefulness of the project.\nPresentation and Explanation – How well participants communicate their project ideas.\nResponse to Judges' Questions – Depth of understanding and clarity in answering queries.\n\nThe best projects will be awarded based on their creativity, feasibility, and impact. This is a great opportunity for students to showcase their skills and contribute innovative ideas to the field of biotechnology!",
+  "date": "12 April 2025",
+  "image": require("./Pics/Revamping_Bio.png"),
+  "category": "Biotechnology & Applied Sciences"
 }
+,
+{
+  "id": 69,
+  "name": "Physics Treasure Hunt",
+  "head": "Unlocking the Mysteries of Physic",
+  "entry": "20 INR",
+  "prize": "4,000 INR",
+  "description": "The Physics Treasure Hunt is an exciting, intellectually stimulating event designed to challenge participants with physics-based puzzles, experiments, and clues leading to the final treasure. The event is open to students with a passion for physics and problem-solving.",
+  "rules": "1. Team Coordination: Teams must stay together throughout the event.\n2. Clue Sequence: Clues must be solved in order; skipping any clue leads to disqualification.\n3. Time Limit: The hunt must be completed within the allotted time. The team solving all clues in the shortest time wins.\n4. Fair Play: Teams must not interfere with other participants' clues or progress.\n5. Use of External Aids: Mobile phones, books, and online resources are not allowed unless explicitly permitted.\n6. Safety Compliance: Participants must adhere to safety guidelines, especially for physics experiments.\n\n4. Structure of the Treasure Hunt\nThe hunt consists of multiple levels, with each level containing physics-based challenges:\n- Theoretical Clues: Solve conceptual physics questions to get the next location.\n- Experimental Tasks: Perform simple physics experiments to unlock clues.\n- Observation Challenges: Identify physics phenomena in the environment.\n- Calculation-Based Hurdles: Solve numerical problems to determine coordinates or next locations.\n\n5. Scoring and Winning Criteria\n- Each correctly solved clue earns points.\n- Bonus points may be awarded for exceptional problem-solving speed.\n- The team reaching the final treasure first, while following all rules, is declared the winner.\n- In case of a tie, a rapid-fire physics quiz will determine the winner.\n\n6. Disqualification Criteria\n- Tampering with or hiding clues.\n- Seeking unauthorized assistance.\n- Not adhering to safety or fair play guidelines.\n- Engaging in any form of misconduct.",
+  "date": "13 April 2025",
+  "image": require("./Pics/Physics.png"),
+  "category": "Physics & Problem-Solving"
+}
+
+,
+{
+  "id": 70,
+  "name": "Physics Escape Room Challenge",
+  "head": "Escape the Lab: A Physics Puzzle Adventure",
+  "entry": "20 INR",
+  "prize": "NIL",
+  "description": "The Physics Escape Room Challenge is an interactive and engaging event where participants use physics concepts to solve puzzles and unlock clues to 'escape' within a given time frame. Teams must work together to decode scientific mysteries and reach the final exit point.",
+  "rules": "1. Each team must enter the escape room together and follow the instructions provided.\n2. Participants are required to solve physics-based puzzles to unlock locks, find keys, or progress through different stages.\n3. No use of mobile phones, calculators, or external help is allowed.\n4. Clues must be solved logically without damaging any props or setup.\n5. Hints will be provided upon request, but each hint will result in a time penalty.\n6. Teams must complete the challenge within the allotted time to qualify.\n7. The team that escapes in the shortest time (with minimal hints) wins.\n\n4. Scoring System\n• Completion Time: Faster escapes score higher.\n• Hint Penalty: Each hint adds 2 minutes to the total escape time.\n• Rule Violations: Any rule-breaking will result in disqualification.",
+  "date": "13 April 2025",
+  "image": require("./Pics/Physics.png"),
+  "category": "Physics & Analytical Thinking"
+}
+
+
 
 
 ]

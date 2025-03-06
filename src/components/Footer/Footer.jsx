@@ -28,9 +28,13 @@ const Footer = () => {
                 <FaMapMarker size={24} />
               </a>
             </div>
+            <div className="text-center mt-6 text-sm opacity-90"> <a href='https://drive.google.com/file/d/1xSc9VRJLYRtEWupJ6b6TFEZnYEMUOtFv/view?usp=drive_link'>Marketing Brochure</a></div>
+
           </nav>
         </div>
+
         <ContactCard />
+
       </div>
       <div className="text-center mt-6 text-sm opacity-80">Made with ❤️ by <a href='/Developers'>Developers</a></div>
     </footer>

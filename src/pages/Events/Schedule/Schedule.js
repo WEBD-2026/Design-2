@@ -14,6 +14,7 @@ const Schedule = () => {
   };
 
   return (
+    
     <>
       <Navbar />
 

@@ -29,7 +29,7 @@ const Event = () => {
 
     if (search) {
       updatedEvents = updatedEvents.filter((event) =>
-        event.name.toLowerCase().includes(search.toLowerCase())
+        event.name.toLowerCase().includes(search.toLowerCase()) ||  event.category.toLowerCase().includes(search.toLowerCase())
       );
     }
 

@@ -11,7 +11,7 @@ const Footer = () => {
             <a href="/event" className="hover:text-yellow-300 transition duration-300">Event</a>
             <a href="/accomodation" className="hover:text-yellow-300 transition duration-300">Accomodation</a>
             <a href="/schedule" className="hover:text-yellow-300 transition duration-300">Schedule</a>
-            <a href="/register" className="hover:text-yellow-300 transition duration-300">Register</a>
+            <a className="hover:text-yellow-300 transition duration-300">Register</a>
             <a href="/Developers" className="hover:text-yellow-300 transition duration-300">Team</a>
           </nav>
           <nav className="mt-4 justify-center pt-4">
@@ -34,8 +34,9 @@ const Footer = () => {
             </div>
           </nav>
         </div>
-        <ContactCard />
+        {/* <ContactCard /> */}
       </div>
+      
       <div className="text-center mt-6 text-sm opacity-80">Made with ❤️ by <a href='/Developers'>Developers</a></div>
     </footer>
   );

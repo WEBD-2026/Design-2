@@ -23,12 +23,21 @@
 }
 
 .container-contact {
-  height: 100vh;
+  /* height: 100vh; */
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   overflow: hidden;
+}
+.contact-1{
+  margin-top: 8%;
+  width: auto;
+  color: black;
+  font-size: xx-large;
+  /* background-color: bisque; */
+  gap: 1rem;
+
 }
 
 .contact-item {
