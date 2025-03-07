@@ -2,7 +2,7 @@ export const technical_events =  [
 
     {
       id: 42,
-      name: "ChemiTech",
+      name: "ChemTech",
       head: "Unleash Your Chemical Creativity",
       entry: "150 INR",
       prize: "16,000 INR",

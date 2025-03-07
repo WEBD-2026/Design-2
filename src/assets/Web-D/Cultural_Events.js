@@ -84,7 +84,7 @@ export const events =
   head: "Move in Sync with Your Partner",
   entry: "200 INR",
   prize: "8,000 INR",
-  description: "A duet dance competition is a showcase of choreographed routines performed by two dancers featuring a variety of dance styles such as Bollywood, contemporary, etc.",
+  description: "A In Sync competition is a showcase of choreographed routines performed by two dancers featuring a variety of dance styles such as Bollywood, contemporary, etc.",
   rules: "Time Limit:\n1. Performance duration: Up to 3 minutes.\n\nTeam Size:\n1. 2 members per team.\n\nCompetition Format:\n1. There will only be ONE round of the competition.\n2. All forms of dance are allowed.\n3. Teams need to bring their own soundtrack.\n4. Teams may use multiple songs.\n5. Pre-recorded music should be brought in a CD/DVD or a pen drive in .cda or .mp3 format only (Other formats may not be supported on the computer. Use them at your own risk).\n6. Teams must follow the time limits. The teams that fail to do so will be penalized by the judges.\n7. The usage of props is allowed. However, these have to be brought by the teams themselves, and the organizers hold the discretion of allowing them on stage.\n8. Teams using party poppers, colors, or any such materials are responsible for cleaning the stage afterward; failure to do so will result in point deduction.\n9. Any kind of fluid, flame, or heavy object is prohibited on stage.\n\nRules:\n1. Obscenity of any kind is not allowed and will lead to immediate disqualification.\n2. The decision of the judges and the organizing team is final and binding.\n\nJudging Criteria:\n● Synchronization\n● Stage Utilization\n● Creativity\n● Coordination\n● Choreography\n● Energy Level\n● Expression\n● Costumes and Props\n● Innovation and Presentation\n● The overall impact on the Crowd",
   date: "12 April 2025",
   image: require("./Pics/Duet_Dance.png"),
@@ -263,7 +263,7 @@ export const events =
 },
 
   {
-    id: 68,
+    id: 31,
     name: "Alfaaz",
     head: "Express Your Thoughts Through Words",
     entry: "50 INR",
@@ -298,7 +298,7 @@ export const events =
     rules: "",
     date: "All Day",
     image: require("./Pics/Art_Exhibition.png"),
-    category: "Art"
+    category: "Art Exhibition"
   },
   {
     id: 24,
@@ -404,7 +404,7 @@ export const events =
 }
 ,
 {
-  id: 31,
+  id: 33,
   name: "Monochrome Palette",
   head: "Shades of a Single Hue",
   entry: "50 INR",
@@ -489,7 +489,7 @@ export const events =
   "head": "Capture the Essence of Life–Drishya",
   "entry": "NIL",
   "prize": "NIL",
-  "description": "Showcase your perspective through the lens! 'Drishya' is a platform for photography enthusiasts to capture moments that speak louder than words. Whether you wield a DSLR or a smartphone, let your creativity shine in this visual storytelling exhibition.",
+  "description": "An exquisite photography exhibition showcasing beautiful images from across the nation will highlight feelings, emotions, and passion. It offers enthusiastic photographers a chance to display their talent to a discerning audience, with awards for the best photographs.",
   "rules": "1. All the entries must have the subject as “DRISHYA_NAME.”\n2. All the entries in the Google form should be filled properly.\n3. Each entry should consist of a maximum of 3 photographs.\n4. Picture size should be greater than 5MP.\n5. Mobile clicks are also allowed (picture resolution should be greater than or equal to 5MP).\n6. Submit before 6 April 2025, 11:59 PM.\n7. The decision taken by the judges shall be final and binding. In case of any disputes, NIT Jalandhar reserves the rights in its sole discretion.",
   "date": "All Day",
   "image": require("./Pics/Photography_Exhibition.png"),
@@ -502,7 +502,7 @@ export const events =
   head: "An Exciting Hunt for the Perfect Click",
   entry: "50 per team",
   prize: "6,000",
-  description: "An adventurous photography-based treasure hunt where teams solve clues, navigate campus locations, and capture creative shots to progress through multiple rounds. Think fast, click smart, and compete to be the ultimate photo treasure hunter!",
+  description: "A treasure hunt centered around photography! Figure out the locations of the photos given to you across the campus . Along with your team , click photos of each with that you hunt down. Get a chance to win prizes worth 2K and exciting goodies.",
   rules: "1. Teams must assemble at IT Building at 10 AM (11 April 2025). Each team must consist of 3-5 members only.\n2. The event will consist of 3 rounds, where each round is further split into levels.\n3. Photos of different locations inside the campus will be uploaded as Insta stories on the official page of NETRA as hints.\n4. Teams have to guess and reach the locations and click pictures as specified for each round.\n5. Round 1 is a qualifying round where only the first 10 teams to complete the given tasks will be selected for Round 2.\n6. The 10 teams will compete in Round 2 and only 5 teams with the best pictures will be selected for Round 3.\n7. Teams will be judged on their creativity and quality of photos in Round 2 & 3, which will decide the final result. The result will not be based on Round 1.\n8. Teams must reach the venue on time as rules will be disclosed in further detail at the venue.",
   date: "11 April 2025",
   image: require("./Pics/Photo_Treasure_Hunt.png"),
