@@ -164,6 +164,8 @@
   margin-top: 20px;
 }
 
+
+
 @media screen and (max-width: 400px) {
   .brutalist-card {
     width: 340px;
@@ -323,4 +325,20 @@ button:active {
 .brutalist-card_butt {
   display: flex;
   justify-content: space-between;
+}
+
+.no-results {
+  font-family: Rockybilly;
+  color: #ffffff;
+  -webkit-text-stroke: 0px #ffffff;
+  /* border: 2px solid #000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin-left: 20rem;
+  width: 100%;
+  justify-content: center;
+  font-size: 2rem;
+  text-align: center;
 }

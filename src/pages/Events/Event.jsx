@@ -66,7 +66,10 @@ const Event = () => {
             <Searchbar onSearchChange={(e) => setSearch(e.target.value)} />
           </div>
           <div className="event_mid_mid">
-            {filteredEvents.map((item, index) => (
+          {filteredEvents.length === 0 ? (
+                <div className="no-results">No Results Found</div>
+            ) : (
+                filteredEvents.map((item, index) => (
 
               <div key={index} className="brutalist-card">
                 <div className="brutalist-card__heade relative group overflow-hidden">
@@ -106,7 +109,7 @@ const Event = () => {
                   </div>
                 </div>
               </div>
-            ))}
+            )))}
           </div>
         </div>
       </div>
