@@ -11,12 +11,12 @@
     /* gap: 15px; */
     width: 100vw;
     height: 100vh;
-    background-color: #fcefc8;
+    /* background-color: #fcefc8; */
     color: white;
     background-image: url('/public/schedule-back.png');
     background-size: cover;
     background-position: center;
-    opacity: 0.6;
+    /* opacity: 0.6; */
 }
 
 .event_top_mid_schdeule h1 {
@@ -24,7 +24,7 @@
     margin-top: 5%;
     margin-left: 5%;
     font-family: Rockybilly;
-    color: #000000;
+    color: white;
     -webkit-text-stroke: 0px #111010;
     font-size: 2vw;
     /* margin: 3; */
@@ -64,20 +64,51 @@
         text-align: center;
     }
 }
+.selected-day {
+    background-color: rgb(0, 0, 0);
+    color: rgb(3, 3, 3);
+    width: 20%;
+    border: 4px solid #000;
+    background-color: #ffaf1b;
+    padding: 1.5rem;
+    box-shadow: 10px 10px 0 #000;
+    font-family: "Arial", sans-serif;
+    /* margin-top: 20px; */
+}
+
+.selected-category {
+    /* background-color: pink; */
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #ffaf1b;
+    border: 2px solid black;
+    cursor: pointer;
+    color: black;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 5px 5px 0px black;
+}
 
 @media screen and (max-width:768px) {
     .event_top_mid_schdeule h1 {
-        margin-top: 10%;
+        margin-top: 15%;
         font-size: 25 px;
         text-align: center;
     }
 
-    .day-button {
-        /* padding: 20px 20px; */
+    .day-selection {
+        gap: 0px;
+        overflow: hidden;
     }
 
-    .day-selection {
-        padding: 20px 20px;
+    .day-button
+    {
+        padding: 0.55rem;
+    }
+
+    .selected-day
+    {
+        padding: 0.55rem;
     }
 }
 
@@ -90,17 +121,6 @@
 }
 
 
-.selected-day {
-    background-color: rgb(0, 0, 0);
-    color: rgb(3, 3, 3);
-    width: 20%;
-    border: 4px solid #000;
-    background-color: #ffaf1b;
-    padding: 1.5rem;
-    box-shadow: 10px 10px 0 #000;
-    font-family: "Arial", sans-serif;
-    /* margin-top: 20px; */
-}
 
 .event-type-selection {
     display: flex;
@@ -179,24 +199,13 @@
     box-shadow: 5px 5px 0px black;
 }
 
-.selected-category {
-    /* background-color: pink; */
-    padding: 10px;
-    margin-bottom: 5px;
-    background-color: #ffaf1b;
-    border: 2px solid black;
-    cursor: pointer;
-    color: black;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    box-shadow: 5px 5px 0px black;
-}
+
 
 .event-details {
     padding: 20px;
     background-color: white;
     border-radius: 5px;
-     color: black;
+    color: black;
     overflow: scroll;
     background-color: rgb(0, 0, 0);
     color: rgb(3, 3, 3);
