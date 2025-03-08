@@ -13,8 +13,21 @@ import Marquee from "react-fast-marquee";
 const Event = () => {
   const { search, setSearch, events, technical_events } = useContext(Context);
   const [filteredEvents, setFilteredEvents] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState("");
-  console.log(events);
+  const [selectedCategory, setSelectedCategory] = useState(() => {
+    return sessionStorage.getItem("selectedCategory") || ""; // Load saved value or default to empty
+  });
+  // const [selectedCategory, setSelectedCategory] = useState(sessionStorage.getItem(""));
+  // console.log(events);
+
+  // useEffect(() => {
+  //   const savedSearch = sessionStorage.getItem("searchQuery") || "";
+  //   setSearch(savedSearch);
+  // }, []);
+  
+  // useEffect(() => {
+  //   sessionStorage.setItem("searchQuery", search);
+  // }, [search]);
+  
 
   useEffect(() => {
     let updatedEvents = [];
@@ -35,6 +48,28 @@ const Event = () => {
 
     setFilteredEvents(updatedEvents.slice(0, 70));
   }, [search, events, technical_events, selectedCategory]);
+
+  useEffect(() => {
+    sessionStorage.setItem("searchQuery", search);
+  }, [search]);
+
+
+  useEffect(() => {
+    sessionStorage.setItem("selectedCategory", selectedCategory);
+  }, [selectedCategory]);
+
+  useEffect(() => {
+    const handlePageRefresh = () => {
+      sessionStorage.removeItem("selectedCategory"); // Clear dropdown selection on refresh
+      sessionStorage.removeItem("searchQuery"); // Clear search query on refresh (if needed)
+    };
+  
+    window.addEventListener("beforeunload", handlePageRefresh);
+  
+    return () => {
+      window.removeEventListener("beforeunload", handlePageRefresh);
+    };
+  }, []);
 
 
   return (
@@ -62,8 +97,8 @@ const Event = () => {
         <div className="event_mid">
 
           <div className="event_mid_top">
-            <Dropdown onSelectCategory={setSelectedCategory} />
-            <Searchbar onSearchChange={(e) => setSearch(e.target.value)} />
+            <Dropdown selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory}  />
+            <Searchbar search={search} setSearch={setSearch}  />
           </div>
           <div className="event_mid_mid">
           {filteredEvents.length === 0 ? (

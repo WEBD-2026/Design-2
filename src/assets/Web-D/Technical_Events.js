@@ -10,7 +10,7 @@ export const technical_events =  [
       rules: "",
       date: "10-11 April 2025",
       image: require("./Pics/ChemTech.png"),
-      category: "Chemistry"
+      category: "Chemistry chemical"
     },
     {
       id: 43,
@@ -47,7 +47,7 @@ export const technical_events =  [
       rules: "",
       date: "12 April 2025",
       image: require("./Pics/Q_trivia.png"),
-      category: "Quiz"
+      category: "Quiz Quantum"
     },
     {
       id: 46,
@@ -59,7 +59,7 @@ export const technical_events =  [
       rules: "Event Phases:\n1. Model Construction\n2. Simulated Earthquake Testing\n3. Load Test\n\nSize & Dimensions:\n• Max. Base Area: 30cm × 30cm\n• Min. Height: 50cm\n• Max. Height: 80cm\n\nTesting Criteria:\n1. Earthquake Simulation Test:\n   • The model will be placed on a shake table with increasing intensity levels.\n   • The structure should remain intact for at least 20 seconds at maximum intensity to score full points.\n\n2. Load Bearing Test:\n   • A gradual increase of load (weights) will be applied.\n   • The maximum load before failure will be recorded.\n\nJudging Criteria:\n• Judges will evaluate the load/cost ratio of the models.\n\nRules & Regulations:\n1. All models must be built strictly following the size and material guidelines.\n2. Materials will be provided on the event site itself; any improperly constructed model may be disqualified.\n3. Use of restricted materials will lead to immediate disqualification.\n4. Judges' decisions will be final and binding.",
       date: "10 April 2025",
       image: require("./Pics/Skyline_Symphony.png"),
-      category: "Engineering"
+      category: "Engineering Civil Design"
   }
   ,
   {
@@ -72,7 +72,7 @@ export const technical_events =  [
     rules: "1. Each group will be provided with plain T-shirts.\n2. Various colors of printing paste will be made available to all participants.\n3. Participants must engrave their designs on the printing block using the provided tools.\n4. The engraved block will then be used to print the design onto the T-shirt.\n5. The top three designs will be selected and awarded.\n6. Time Limit: 2 hours.",
     date: "11 April 2025",
     image: require("./Pics/TexPrint.png"),
-    category: "Design"
+    category: "Design Textile"
 }
 ,
     {
@@ -123,7 +123,7 @@ export const technical_events =  [
       rules: "",
       date: "11 April 2025",
       image: require("./Pics/Escape_Room.png"),
-      category: "Problem Solving"
+      category: "Problem Solving ecell e-cell"
     },
   
     {
@@ -136,7 +136,7 @@ export const technical_events =  [
       rules: "Introduction:\n1. Robo War is a thrilling competition where participants design and build combat robots to engage in battles.\n2. The event aims to test the durability, strategy, and control of the robots in an arena.\n\nEligibility:\n1. Participation can be individual or in teams (maximum members: 5).\n2. All participants must be registered students or professionals.\n3. Robots must comply with size and weight constraints as specified below.\n\nGeneral Rules:\n1. The competition consists of one-on-one battles.\n2. Each round lasts for a maximum of 5 minutes.\n3. Robots must start the battle from their designated positions.\n4. Participants must follow the referee’s commands at all times.\n5. A team is allowed 30 minutes to prepare for the next match.\n6. Any intentional damage to the arena will result in disqualification.\n7. The robot must be controlled only by the designated operator.\n\nRobot Specifications:\n1. Dimensions: The robot must not exceed 75 cm x 75 cm x 100 cm.\n2. Weight Limit: Two weight categories: 8kg and 15kg. The total weight should not exceed respective weight categories.\n3. Power Source: Robots must be powered by batteries within the voltage limit of 36V.\n4. Allowed Weapons: Spinning discs, hammers, and lifters.\n5. Prohibited Weapons:\n   - Fire-based weapons\n   - Liquids or corrosive substances\n   - Jamming devices\n   - Projectiles\n\nMatch Rules:\n1. A match begins at the referee’s signal.\n2. A robot wins by immobilizing its opponent for 30 seconds.\n3. Points are awarded based on aggression, control, and damage.\n4. If both robots are still operational at the end of the time limit, the winner is decided by judges based on points.\n5. If a robot is unable to move for more than 30 seconds, it will be counted as knocked out.\n\nJudging Criteria:\n1. Damage: Effectiveness of attacks on the opponent’s robot.\n2. Control: Ability to maneuver the robot strategically.\n3. Aggression: Frequency and effectiveness of attacks.\n4. Defense: Ability to withstand attacks and remain operational.\n\nSafety Regulations:\n1. All robots must pass a safety inspection before competing.\n2. Operators must wear safety gear while handling robots.\n3. The arena must be clear of non-participants before starting a match.\n4. Any violation of safety rules will result in immediate disqualification.",
       date: "12 April 2025",
       image: require("./Pics/Robo_War.png"),
-      category: "Robotics"
+      category: "Robotics some agastya"
   }
   ,
   {
@@ -149,7 +149,7 @@ export const technical_events =  [
     rules: "1. Event Format\n• Three Rounds:\n  ○ Round 1: Tug of War - Teams will design and build robots to compete in a tug-of-war match. The robot that successfully pulls the opponent's robot across a designated line within a time limit wins.\n  ○ Round 2: Drag Race - Teams will design and build robots to compete in a speed race. The robot that covers a specified distance in the shortest time wins.\n  ○ Round 3: Robo Sumo - Teams will design and build robots to compete in a sumo wrestling match. The robot that successfully pushes the opponent's robot out of the designated arena wins.\n\n2. Eligibility\n• Open to all undergraduate and postgraduate students of NIT Jalandhar.\n• Teams can consist of 2-3 members.\n\n3. Rules and Regulations\n• Detailed rules and regulations for each round will be provided to all participating teams.\n• Robots must adhere to specific size and weight restrictions.\n• Use of prohibited components will result in disqualification.\n• Decisions of the judges will be final and binding.\n\n4. Judging Criteria\n• Round 1 (Tug of War): Strength, stability, and strategy.\n• Round 2 (Drag Race): Speed, efficiency, and maneuverability.\n• Round 3 (Robo Sumo): Aggression, agility, and durability.\n• Overall performance across all three rounds will also be considered.\n\n5. Timeline\n• [Date]: Registration deadline.\n• [Date - Date]: Workshop (optional): A workshop can be conducted to provide guidance and support to participants.\n• [Date]: Competition day:\n  ○ Round 1: Tug of War\n  ○ Round 2: Drag Race\n  ○ Round 3: Robo Sumo\n• [Date]: Award ceremony: Winners will be announced and prizes will be distributed.\n\n6. Venue and Logistics\n• Venue: A spacious area with adequate space for the competition setup.\n• Equipment:\n  ○ Tables and chairs for teams.\n  ○ Arena for each round.\n  ○ Timer, measuring tape, and other necessary equipment.\n• Safety:\n  ○ Ensure safety measures are in place throughout the competition.\n\n7. Prizes\n• Attractive prizes will be awarded to the winning teams in each round and for overall performance.\n\n8. Marketing and Promotion\n• Utilize college and club social media platforms to promote the event.\n• Design and distribute posters and flyers around campus.\n• Make announcements during class hours and during campus events.\n• Word-of-mouth: Encourage team members to spread the word among their peers.\n\n9. Team Roles and Responsibilities\n• Team Leader: Coordinate team activities, manage project timelines, and communicate with organizers.\n• Designer: Design and develop the robot's mechanical structure.\n• Programmer: Develop the robot's control software.\n• Tester: Test and debug the robot, ensuring optimal performance.",
     date: "11 April 2025",
     image: require("./Pics/Machine_Wars.png"),
-    category: "Robotics"
+    category: "Robotics r-tist"
 }
 ,
   {
@@ -162,8 +162,8 @@ export const technical_events =  [
     rules: "General Rules:\n1. This event is open to both college students and teams from other colleges.\n2. All participants must register before the event deadline. Late entries will not be entertained.\n3. Each team must consist of 1-5 members. A participant cannot be part of more than one team.\n4. RC cars must be self-assembled or modified. Ready-to-run (RTR) models are not permitted unless heavily modified.\n5. The event organizers reserve the right to inspect, test, or disqualify any RC car that does not meet the competition’s safety and technical standards.\n\nCar Specifications:\n1. Dimensions:\n   - Maximum length: 50 cm\n   - Maximum width: 30 cm\n   - Maximum height: 30 cm\n2. Weight:\n   - Should not exceed 3 kg.\n3. Power Source:\n   - Only battery-powered RC cars are allowed.\n   - IC engines are strictly prohibited.\n4. Frequency & Control:\n   - Cars must use 2.4 GHz frequency controllers to avoid signal interference.\n5. Wheels & Suspension:\n   - The car must have a minimum of 4 wheels and a functional suspension system.\n\nEvent Categories:\n1. Drag Race:\n   - Cars will compete in a straight-line acceleration race.\n   - The fastest car to reach the finish line wins.\n   - Track length: 20 meters.\n\n2. Obstacle Challenge:\n   - The track will have various obstacles like ramps, bumps, and tight turns.\n   - The car completing the course in the shortest time wins.\n   - Time penalties will be applied for hitting obstacles.",
     date: "11 April 2025",
     image: require("./Pics/Gear_Blitz.png"),
-    category: "Automobile & RC Racing"
-}
+    category: "Automobile & RC Racing daksh"
+} 
 ,
 {
   id: 55,
@@ -175,7 +175,7 @@ export const technical_events =  [
   rules: "1. Event Overview:\n● The SPICE Society Autonomous Bot Challenge is a robotics competition where teams design and build autonomous bots capable of navigating a predefined path without a guiding line.\n● The bots must overcome obstacles such as small inclines and blockages to complete the track in the shortest time possible.\n\n2. Team Composition:\n● Each team may consist of 1-5 members.\n● Members can be students, hobbyists, or professionals.\n● A participant cannot be part of more than one team.\n\n3. Competition Rules:\n● The bot must start autonomously after an initial button press or command.\n● The bot must follow the track and navigate obstacles without external intervention.\n● If a bot remains stuck for more than 10 seconds, the team will get one manual reset (with a penalty).\n● Maximum of 4 resets allowed per round.\n● If the bot skips a checkpoint, it must return and pass through it to continue.\n● The competition consists of time trials, and the fastest bot to complete the track wins.\n\n4. Scoring & Penalties:\n● Base Score: Completion time is the primary scoring factor.\n● Penalties:\n   ○ Manual reset: +10 seconds per reset.\n   ○ Missing a checkpoint: +15 seconds.\n   ○ Touching side boundaries: +5 seconds per occurrence.\n● If no team completes the track, the farthest checkpoint reached will determine the ranking.",
   date: "13 April 2025",
   image: require("./Pics/Blind_Robo.png"),
-  category: "Robotics & AI"
+  category: "Robotics & AI spice"
 }
 ,
   {
@@ -214,7 +214,7 @@ export const technical_events =  [
     rules: "1. Team Composition:\n   ● Each team must consist of 2 to 5 members.\n   ● The composition of the team is crucial for effective collaboration and fair competition.\n   ● Teams can have members from different institutions.\n   ● Participants from different technical domains are encouraged to collaborate and showcase their tech skills.\n\n2. Tracks & Eligibility:\n   ● The hackathon has two tracks:\n      ○ Fresher Track: Open exclusively to 1st-year students.\n      ○ Main Track: Open to participants from any academic year.\n\n3. Submission Guidelines:\n   ● After registration, teams must submit their project idea in a PPT format before 10th March 2025.\n   ● The PPT should include:\n      ○ Problem statement\n      ○ Proposed solution\n      ○ Tech stack details\n      ○ Impacts and Benefits\n      ○ Feasibility and Validity\n      ○ Team composition and roles\n\n4. Judging Criteria:\n   ● Innovation – Uniqueness and originality of the idea.\n   ● Technical Feasibility – Practical implementation and scalability.\n   ● Impact – Usefulness and relevance of the solution.\n   ● Presentation – Clarity, organization, and effectiveness in conveying the idea.\n\n5. General Rules:\n   ● All participants must adhere to ethical standards and avoid plagiarism.\n   ● Use of AI tools is allowed.\n   ● Use of pre-built code is not allowed.\n   ● Any team found engaging in unfair practices will be disqualified immediately.\n   ● Decisions made by the jury will be final and binding.",
     date: "10-11 April 2025",
     image: require("./Pics/Hackmol.png"),
-    category: "Hackathon & Coding"
+    category: "Hackathon & Coding gdsc"
 }
 ,
   {
@@ -266,7 +266,7 @@ export const technical_events =  [
     rules: "1. Participants from within the college and outside the college from any other educational institutes are allowed.\n\n2. It will be a 2-day event comprising 2 rounds.\n\n3. Round 1 (Day 1):\n   ● Team size: 2-4 participants.\n   ● Clues will be distributed all around the campus before the start of the event.\n   ● A senior mentor shall be allotted to 3-4 teams based on participation.\n   ● A clue shall be sent to each team leader’s WhatsApp. The clue may comprise of any basic question related to electronics or a fun game.\n   ● The team leader will have to message the right answer to the clue to the respective mentor.\n   ● The team giving the correct answer will be given another clue that will lead to a specific location in the campus, where another question shall be awaiting them.\n\n4. A fixed number of teams shall be selected for round 2.\n\n5. Round 2 (Day 2):\n   ● All the selected students will be divided into pairs of 2 randomly.\n   ● 3-4 pairs will be allotted one senior.\n   ● Each pair will be given a question to solve individually. The candidate who solves the question earliest will be selected, and the other will be eliminated.\n   ● Selected ones will compete among themselves, and 3 winners will be selected.",
     date: "12-13 April 2025",
     image: require("./Pics/Circuit_Saga.png"),
-    category: "Electronics & Problem Solving"
+    category: "Electronics & Problem Solving soece"
 }
 ,
 {
@@ -279,7 +279,7 @@ export const technical_events =  [
     rules: "",
     date: "12 April 2025",
     image: require("./Pics/Lost_Circuit.png"),
-    category: "Electronics"
+    category: "Electronics seed"
 },
 {
     id: 64,
@@ -291,7 +291,7 @@ export const technical_events =  [
     rules: "",
     date: "12-13 April 2025",
     image: require("./Pics/ArenaX.png"),
-    category: "Esports & Gaming"
+    category: "Esports & Gaming vortex"
 },
 {
     id: 65,
