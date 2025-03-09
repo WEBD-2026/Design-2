@@ -24,13 +24,14 @@
 
 .container-contact {
   /* height: 100vh; */
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   right: 0;
   left: 0;
-  overflow: hidden;
+  overflow: auto;
 }
-.contact-1{
+
+.contact-1 {
   margin-top: 8%;
   width: auto;
   color: black;
