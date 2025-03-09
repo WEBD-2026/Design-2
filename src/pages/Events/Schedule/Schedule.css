@@ -4,17 +4,15 @@
 }
 
 .schedule-container {
-
     display: flex;
     flex-direction: column;
-    /* gap: 15px; */
     width: 100vw;
     height: 100vh;
     background-color: #757575;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../../public/schedule-back.png);
     color: white;
     background-size: cover;
     background-position: center;
-    /* opacity: 0.6; */
 }
 
 .event_top_mid_schdeule h1 {
