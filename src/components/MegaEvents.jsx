@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
 import React from "react";
 
 const sections = [
@@ -33,43 +32,19 @@ export default function MegaEvents() {
   }, []);
 
   return (
-    <div className="containerAbout w-full h-screen relative overflow-hidden">
+    <div className="containerAbout w-full h-screen relative overflow-hidden flex items-center justify-center">
+      {/* Background Image */}
       <div
-        className="bgAbout w-full h-full absolute top-0"
+        className="bgAbout w-full h-full absolute top-0 bottom-0"
         style={{
-          background: "url('/FINAL MARKETING BROUCHUER.png')",
+          background: "url('/jubin-Nautyail.png')",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}
       ></div>
-      <div
-        className="overlay absolute top-0 left-0 w-full h-full inset-10"
-        style={{
-          backdropFilter: "blur(2px)",
-          background:
-            "linear-gradient(8deg, black 10%, rgba(36, 30, 0, 0.203) 100%)",
-        }}
-      >
-        <h1 className="mt-5 text-white z-10 md:text-8xl sm:text-6xl text-4xl font-semibold py-4 w-full text-center">
-          Announcing Soon...
-        </h1>
-      </div>
-      <div className="w-full h-full relative flex justify-center items-center">
-        <div className="absolute bottom-0 left-40 h-5/6">
-          {/* <motion.img
-            key={sections[activeIndex].img}
-            src={sections[activeIndex].img}
-            alt="About Us"
-            className="h-full object-cover shadow-lg"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 2 }}
-          /> */}
 
-          {/* <p className="mt-5 text-white z-10 text-6xl font-semibold py-4 w-full text-center ">Announcing Soon...</p> */}
-        </div>
-      </div>
+      {/* Top Black Gradient */}
       <div
         className="absolute top-0 left-0 w-full h-1/6"
         style={{
@@ -77,6 +52,19 @@ export default function MegaEvents() {
             "linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent)",
         }}
       ></div>
+
+      {/* Centered Star of the Night Text */}
+      <h1
+        className="absolute text-white sm:text-5xl md:text-7xl lg:text-8xl text-center "
+        style={{
+          fontFamily: "Rockybilly",
+          textShadow: "2px 2px 8px rgba(0, 0, 0, 0.8)",
+        }}
+      >
+        Jubin Nautiyal
+      </h1>
+
+      {/* Bottom Black Gradient */}
       <div
         className="absolute bottom-0 left-0 w-full h-1/6"
         style={{
