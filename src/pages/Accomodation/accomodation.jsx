@@ -6,8 +6,9 @@ import "../Events/Event.css";
 import "../Events/button_event.css";
 
 const sections = [
-  { pack: "Two Day", type: "Early Bird", cost: "₹1500" },
-  { pack: "Four Day", type: "Early Bird", cost: "₹2000" }
+  { pack: "Two Day", type: "Meal Included", cost: "₹1499" },
+  { pack: "Four Day", type: "Meal Excluded", cost: "₹1399" },
+  { pack: "Four Day", type: "Meal Included", cost: "₹1999" }
 ];
 
 function Accomodation() {
@@ -42,8 +43,9 @@ function Accomodation() {
                     {details.cost}
                     <span className="text-sm"> /Person</span>
                   </p>
-                  <p className="text-lg md:text-xl">Meal Included</p>
-                  <p className="text-sm md:text-xltext-grey-200">Valid upto 20th march</p>
+                  <p className="text-lg md:text-sm"> Non-participating participants will not be eligible for accommodation.
+
+                  </p>
                 </div>
 
                 <div className="brutalist-card_butt">

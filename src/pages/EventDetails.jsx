@@ -37,8 +37,15 @@ const EventDetails = () => {
 
             <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-6">
               <span className="bg-yellow-500 text-black px-4 sm:px-5 py-2 text-sm sm:text-lg font-semibold rounded-full shadow-md">
-                {eventsData.category}
+                <a
+                  href={eventsData.registrationLink}
+                >
+                  Register
+                </a>
               </span>
+              {/* <span className="bg-yellow-500 text-black px-4 sm:px-5 py-2 text-sm sm:text-lg font-semibold rounded-full shadow-md">
+                {eventsData.category}
+              </span> */}
               <span className="bg-gray-800 px-4 sm:px-5 py-2 text-sm sm:text-lg font-semibold rounded-full shadow-md text-yellow-400">
                 {eventsData.head}
               </span>
@@ -65,20 +72,21 @@ const EventDetails = () => {
               <p className="font-bold">📜 Rules:</p>
 
               <p className="text-gray-300 whitespace-pre-line text-justify text-[0.85rem]">
-                 {eventsData.rules}
+                {eventsData.rules}
               </p>
             </div>
 
             <hr className="my-6 border-yellow-400/60" />
 
             <div className="flex justify-center">
-              <button
+              <a
+                href={eventsData.registrationLink}
                 className="bg-gradient-to-r from-yellow-400 to-yellow-500 text-black font-bold px-6 sm:px-8 py-2 sm:py-3 text-base sm:text-lg 
                 rounded-lg shadow-md hover:shadow-yellow-400/80 transition-all duration-300 transform hover:scale-105 
                 animate-pulse"
               >
                 Register
-              </button>
+              </a>
             </div>
           </div>
         ) : (
