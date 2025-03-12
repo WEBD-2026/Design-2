@@ -55,12 +55,11 @@ const Home = () => {
           </div>
 
           <div
-            className={`${
-              opacity ? "opacity-100" : "opacity-0"
-            } transition-all duration-1000`}
+            className={`${opacity ? "opacity-100" : "opacity-0"
+              } transition-all duration-1000`}
           >
             <VideoIntro />
-            <MegaEvents />
+            {/* <MegaEvents /> */}
             <Sponsers />
             <Footer />
           </div>
