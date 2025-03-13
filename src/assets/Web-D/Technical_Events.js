@@ -295,7 +295,8 @@ export const technical_events =  [
     rules: "",
     date: "12-13 April 2025",
     image: require("./Pics/ArenaX.png"),
-    category: "Esports & Gaming vortex"
+    category: "Esports & Gaming vortex",
+    register:"https://forms.gle/Cd7tLpcfgvtzkgSo6"
 },
 {
     id: 65,
