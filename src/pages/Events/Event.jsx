@@ -133,9 +133,14 @@ const Event = () => {
                     </a>
                   </div>
                   <div className="brutalist-card_butt">
+                  <a href={item.register}>
                     <button className="btn-class-name">
+                      
                       <button>Register</button>
+                      
+                      
                     </button>
+                    </a>
                     <Link to={`/event/${item.id}`}>
                       <button className="btn-class-name">
                         <button>More Info</button>

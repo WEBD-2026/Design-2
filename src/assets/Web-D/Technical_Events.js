@@ -1,3 +1,5 @@
+import { register } from "react-scroll/modules/mixins/scroller";
+
 export const technical_events =  [
 
     {
@@ -136,7 +138,8 @@ export const technical_events =  [
       rules: "Introduction:\n1. Robo War is a thrilling competition where participants design and build combat robots to engage in battles.\n2. The event aims to test the durability, strategy, and control of the robots in an arena.\n\nEligibility:\n1. Participation can be individual or in teams (maximum members: 5).\n2. All participants must be registered students or professionals.\n3. Robots must comply with size and weight constraints as specified below.\n\nGeneral Rules:\n1. The competition consists of one-on-one battles.\n2. Each round lasts for a maximum of 5 minutes.\n3. Robots must start the battle from their designated positions.\n4. Participants must follow the referee’s commands at all times.\n5. A team is allowed 30 minutes to prepare for the next match.\n6. Any intentional damage to the arena will result in disqualification.\n7. The robot must be controlled only by the designated operator.\n\nRobot Specifications:\n1. Dimensions: The robot must not exceed 75 cm x 75 cm x 100 cm.\n2. Weight Limit: Two weight categories: 8kg and 15kg. The total weight should not exceed respective weight categories.\n3. Power Source: Robots must be powered by batteries within the voltage limit of 36V.\n4. Allowed Weapons: Spinning discs, hammers, and lifters.\n5. Prohibited Weapons:\n   - Fire-based weapons\n   - Liquids or corrosive substances\n   - Jamming devices\n   - Projectiles\n\nMatch Rules:\n1. A match begins at the referee’s signal.\n2. A robot wins by immobilizing its opponent for 30 seconds.\n3. Points are awarded based on aggression, control, and damage.\n4. If both robots are still operational at the end of the time limit, the winner is decided by judges based on points.\n5. If a robot is unable to move for more than 30 seconds, it will be counted as knocked out.\n\nJudging Criteria:\n1. Damage: Effectiveness of attacks on the opponent’s robot.\n2. Control: Ability to maneuver the robot strategically.\n3. Aggression: Frequency and effectiveness of attacks.\n4. Defense: Ability to withstand attacks and remain operational.\n\nSafety Regulations:\n1. All robots must pass a safety inspection before competing.\n2. Operators must wear safety gear while handling robots.\n3. The arena must be clear of non-participants before starting a match.\n4. Any violation of safety rules will result in immediate disqualification.",
       date: "12 April 2025",
       image: require("./Pics/Robo_War.png"),
-      category: "Robotics some agastya"
+      category: "Robotics some agastya",
+      register:"https://forms.gle/Mx3mZrsE2zWsNRTX6"
   }
   ,
   {
@@ -214,7 +217,8 @@ export const technical_events =  [
     rules: "1. Team Composition:\n   ● Each team must consist of 2 to 5 members.\n   ● The composition of the team is crucial for effective collaboration and fair competition.\n   ● Teams can have members from different institutions.\n   ● Participants from different technical domains are encouraged to collaborate and showcase their tech skills.\n\n2. Tracks & Eligibility:\n   ● The hackathon has two tracks:\n      ○ Fresher Track: Open exclusively to 1st-year students.\n      ○ Main Track: Open to participants from any academic year.\n\n3. Submission Guidelines:\n   ● After registration, teams must submit their project idea in a PPT format before 10th March 2025.\n   ● The PPT should include:\n      ○ Problem statement\n      ○ Proposed solution\n      ○ Tech stack details\n      ○ Impacts and Benefits\n      ○ Feasibility and Validity\n      ○ Team composition and roles\n\n4. Judging Criteria:\n   ● Innovation – Uniqueness and originality of the idea.\n   ● Technical Feasibility – Practical implementation and scalability.\n   ● Impact – Usefulness and relevance of the solution.\n   ● Presentation – Clarity, organization, and effectiveness in conveying the idea.\n\n5. General Rules:\n   ● All participants must adhere to ethical standards and avoid plagiarism.\n   ● Use of AI tools is allowed.\n   ● Use of pre-built code is not allowed.\n   ● Any team found engaging in unfair practices will be disqualified immediately.\n   ● Decisions made by the jury will be final and binding.",
     date: "10-11 April 2025",
     image: require("./Pics/Hackmol.png"),
-    category: "Hackathon & Coding gdsc"
+    category: "Hackathon & Coding gdsc",
+    register: "https://forms.gle/p46kGWdw17Jhn49K8"
 }
 ,
   {

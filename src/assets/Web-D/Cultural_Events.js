@@ -1,3 +1,5 @@
+import { register } from "react-scroll/modules/mixins/scroller";
+
 export const events = 
   
 [{
@@ -10,7 +12,8 @@ export const events =
   rules: "1. Participants will have to submit a PDF file containing the following details in advance: Name of college, list of participants, and script.\n2. The time limit for the play is 55 minutes, with a 2% penalty for every extra minute. The minimum time duration for the play is 20 minutes. The time duration includes performance time and stage setting time, from an empty stage to an empty stage.\n3. The play can be in English, Hindi, bilingual, or a musical drama. Subtle use of other languages is also permitted.\n4. Use of flammable substances such as candles, matches, cigarettes, or any alcoholic product during performance on stage is not allowed and will result in disqualification.\n5. One team can have a maximum of 25 actors and a minimum of 4 actors.\n6. A team can have four backstage/props managers, one light in charge, one sound in-charge, and a round-up artist (if any, they have to be registered).\n7. The team must also provide the name of the director (who may or may not be an actor in the play itself), since there is an award for the 'Best Director'.\n8. The performance should be an original creation/script. Adaptations, inappropriate content, religious blasphemy, and vulgarity/obscenity will NOT be tolerated.\n9. The play should be restricted to the stage area only. If not, a penalty can be imposed.\n10. Microphones and backstage mikes for narration, lights, and management will be provided.\n11. Recorded vocals or music are not allowed. Only live vocals and instrumental music are permitted.\n12. No team is allowed to spoil the stage (penalty ranging from 10% to 40%, as decided by the judges).\n13. All clothes and props are to be arranged by the team. The organizing committee is responsible only for infrastructural facilities and shall not be responsible for the security of items left behind in green rooms or on stage.\n14. The participating teams are requested to ensure that their presentation is in keeping with the dignity of the fest.\n15. In any case, the judge's decision will be final.\n\nJudging Criteria:\n• Content - 40%\n• Acting/Expression - 30%\n• Direction - 20%\n• Miscellaneous Effects - 10%",
   date: "13 April 2025",
   image: require("./Pics/RangManch.png"),
-  category: "Drama"
+  category: "Drama",
+  register:"https://forms.gle/FdUF5KzZRyypZyL67"
 }
 ,
   {
@@ -23,7 +26,8 @@ export const events =
     rules: "1. The participants will have to submit a PDF file containing the following details in advance: Name of college, list of participants, and script.\n2. The time limit for the play will be 30 minutes, with a 2% penalty for every extra minute. The time duration includes performance time and stage setting time, from an empty stage to an empty stage after performance.\n3. The play can be in English, Hindi, or bilingual, however, subtle use of other languages is also permitted.\n4. Use of flammable substances such as candles, matches, cigarettes, or any alcoholic product during performance on stage is not allowed and will result in disqualification.\n5. One team can have a maximum of 30 members and a minimum of 5 members.\n6. Single performance per team is only allowed.\n7. Inappropriate content, religious blasphemy, and vulgarity/obscenity will NOT be tolerated.\n8. No team is allowed to spoil the stage (penalty ranging from 10% to 40% to be decided by the judges).\n9. Plucking of grass is not allowed. It may lead to a penalty.\n10. All clothes and props are to be arranged by the team. The organizing committee is responsible for infrastructural facilities only and shall not be responsible for the security of items left behind in green rooms or on the stage.\n11. The participating teams are requested to ensure that their presentation is in keeping with the dignity of the fest.\n12. In any case, the judge's decision will be final.\n\nJudging Criteria:\n• Content, Theme, and Message - 30%\n• Voice (Modulation and Pitch) and Energy - 25%\n• Originality of Script – 20%\n• Interaction or Audience Engagement - 20%\n• Minimum Use of Props – 5%",
     date: "10 April 2025",
     image: require("./Pics/Halla_Bol.png"),
-    category: "Drama"
+    category: "Drama",
+    register:"https://forms.gle/qWzAK94SU9JwF7P79"
 }
 ,
 {
@@ -62,7 +66,8 @@ export const events =
   rules: "Time Limit:\n1. Performance duration: 6.5-10 minutes.\n\nTeam Size:\n1. 7-25 members per team.\n\nCompetition Rules:\n1. More than one team per college is allowed.\n2. A minimum of 7 members should be present on the stage at any point during the performance.\n3. All forms of dance are allowed except folk.\n4. Teams must follow the time limits to avoid penalties.\n5. The usage of props is allowed. However, these have to be brought by the teams themselves, and the organizers hold the discretion of allowing them on stage.\n6. Any kind of fluid, flame, or heavy object is prohibited on stage.\n7. Teams using party poppers are responsible for cleaning the stage afterward; failure to do so will result in a point deduction.\n8. Performers will have an additional 15 seconds for pre-performance setup and post-performance breakdown.\n9. Obscenity of any kind is not allowed and will lead to immediate disqualification.\n10. The decision of the judges and the organizing team shall be final and binding.\n\nJudging Criteria:\n● Synchronization\n● Creativity\n● Choreography\n● Coordination\n● Energy Level\n● Expression\n● Costumes and Props\n● The overall impact on the Crowd",
   date: "11 April 2025",
   image: require("./Pics/808_husle.png"),
-  category: "Dance "
+  category: "Dance ",
+  register: "https://forms.gle/2AfoT1e5JYMpD5p4A"
 }
 ,
   {
@@ -75,7 +80,8 @@ export const events =
     rules: "Time Limit:\n1. Performance duration for the first round: 1-1.5 minutes.\n\nTeam Size:\n1. Solo performance only.\n\nCompetition Format:\n1. The competition will follow an elimination format, where each round results in the elimination of participants.\n2. In the first round, participants must bring their own song to dance to, with a performance duration of 1 to 1.5 minutes. Those who qualify will move to the next round, while others will be eliminated.\n3. All subsequent rounds will be face-off rounds, where two participants face each other, and a song will be played on the spot. Judges will declare the winner immediately.\n4. The winner of each face-off will move to the next round, while the loser will be eliminated.\n5. This process continues until only two participants remain, who will compete in the final round. The winner of this round will be declared the Winner, and the other will be the Runner-Up.\n\nPerformance Guidelines:\n1. All dance forms are allowed except folk.\n2. Participants need to bring their soundtrack.\n3. Pre-recorded music should be brought on a CD/DVD or pen drive in .cad or .mp3 format only (Other formats may not be supported on the computer. Use them at your own risk).\n\nRules:\n1. Participants must follow the time limits. Participants that fail to do so will be penalized by the judges.\n2. Props can be used but must be brought by the participants. The organizing team has the discretion to not allow props on stage.\n3. Any kind of fluids, heavy objects, or flames are prohibited on stage.\n4. Obscenity of any kind is not allowed and will lead to immediate disqualification.\n5. The decision of the judges and the organizing team is final and binding.\n\nJudging Criteria:\n● Stage Utilization\n● Creativity\n● Choreography\n● Energy Level\n● Expression\n● Costumes and Props\n● Innovation and Presentation\n● The overall impact on the Crowd",
     date: "11 April 2025",
     image: require("./Pics/Solo.png"),
-    category: "Dance Solo"
+    category: "Dance Solo",
+    register: "https://forms.gle/64Z7MFKaaDNXHFHT8"
 }
 ,
 {
@@ -101,7 +107,8 @@ export const events =
   rules: "Competition Rules:\n1. Only group performances are allowed.\n2. The performance must be completely folk, and all teams must strictly adhere to the rules of Folk Bhangra.\n3. Props and dresses must be brought by the performers themselves. Use of props like kirpaan, which can harm the stage, are not allowed.\n4. Any kind of vulgarity shall not be tolerated.\n5. Team Size: 8 participants.\n6. Accompanists: Maximum of 4.\n7. Performance Time: 9-12 minutes.\n8. Additional 5 minutes for stage setup.\n9. Time will start when the first dagga on dhol is hit.\n10. Recorded dhol is NOT allowed.\n11. Teams will be disqualified if they don't show up on stage after 3 calls.\n12. The decision of the judges will be final.",
   date: "12 April 2025",
   image: require("./Pics/Bhangra.png"),
-  category: "Dance"
+  category: "Dance",
+  register: "https://forms.gle/xtX5rDoeEV6UmTuVA"
 }
 ,
   {
@@ -127,7 +134,8 @@ export const events =
   rules: "Registration:\n1. Bands must submit a 3–5-minute video.\n2. Shortlisted bands will be invited to perform live at NITJ during UTKANSH.\n\nPerformance Time:\n1. Each band gets 10 minutes (including setup and sound check) for their performance.\n\nLanguage & Genre:\n1. Only English and Hindi Rock Music is allowed.\n\nDisqualification:\n1. Bands will be disqualified for misconduct, obscenity, or foul language and banned from future editions of the event.\n\nEquipment & Instruments:\n1. Bands must bring their own instruments.\n2. Programmed music is not allowed.\n3. Equipment provided:\n   ● 3 Guitar Cables\n   ● Keyboard Stand (Only)\n   ● 7 Microphones (4 Cordless, 3 with Cord)\n   ● Drum Set (Participants must bring their own cymbals, chokes, and hi-hats)\n   ● Bass (1)\n   ● Keyboard Cable (1)\n\nInstrument Failure:\n1. Utkansh Fest is not responsible for any instrument failures.",
   date: "13 April 2025",
   image: require("./Pics/Megasonic.png"),
-  category: "Music"
+  category: "Music",
+  register: "https://forms.gle/mwce85KoTTc5AKUD6"
 }
 ,
 {
@@ -466,7 +474,8 @@ export const events =
     rules: "Team Size:\n1. Only one team is allowed per college.\n2. Team size must be between 14-25 members, including designers and choreographers.\n\nTime Limit:\n1. Pre-performance setup: 1.5 minutes.\n2. Performance duration: 12 minutes.\n3. Post-performance wrap-up: 1.5 minutes.\n\nGeneral Rules:\n1. External assistance is strictly forbidden. Any team found violating this rule will be disqualified.\n2. The organizing team reserves the right to modify the rules if necessary.\n3. The event consists of only one round.\n4. The use of animals, cigarettes, alcohol, or any prohibited substances on stage is strictly banned.\n\nLogistics & Support:\n1. Venue: MBH Ground.\n2. Green rooms and changing areas will be provided.\n3. Music or background score must be submitted at least 24 hours before the competition.\n\nJudging Criteria:\n1. Innovation and Creativity: 20%.\n2. Walk and Formation: 30%.\n3. Styling and Makeup: 20%.\n4. Costume and Accessories: 20%.\n\nMr. & Miss Utkansh (Showstopper Title):\n1. 10 contestants (5 boys, 5 girls) will be selected based on their performance in Nirvana.\n2. Selection is based on 70% walk and 30% expressions.\n3. The winner will be crowned Mr. or Miss Utkansh and will be the face of the fest.\n\nTerms & Conditions:\n1. The decision of the judges is final and binding.\n2. By participating, contestants consent to event photography and media coverage.",
     date: "12 April 2025",
     image: require("./Pics/Nirvana.png"),
-    category: "Fashion Panache"
+    category: "Fashion Panache",
+    register: "https://forms.gle/NQQCspXhN9R6B1xs9"
 }
 
 ,
