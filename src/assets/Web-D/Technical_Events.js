@@ -2,18 +2,19 @@ import { register } from "react-scroll/modules/mixins/scroller";
 
 export const technical_events =  [
 
-    {
-      id: 42,
-      name: "ChemTech",
-      head: "Unleash Your Chemical Creativity",
-      entry: "150 INR",
-      prize: "16,000 INR",
-      description: "Live the thrill of chemistry with ChemTech, a challenge that pushes your analytical skills and creativity to the limit. From identifying unknown compounds to crafting handmade soaps and transforming waste into valuable resources, this competition demands innovative thinking. Participate in teams, showcase your expertise, and claim exciting rewards in an electrifying scientific showdown!",
-      rules: "",
-      date: "10-11 April 2025",
-      image: require("./Pics/ChemTech.png"),
-      category: "Chemistry chemical"
-    },
+  {
+    "id": 42,
+    "name": "ChemTech",
+    "head": "Unleash Your Chemical Creativity",
+    "entry": "150 INR",
+    "prize": "16,000 INR",
+    "description": "Live the thrill of chemistry with ChemTech, a challenge that pushes your analytical skills and creativity to the limit. From identifying unknown compounds to crafting handmade soaps and transforming waste into valuable resources, this competition demands innovative thinking. Participate in teams, showcase your expertise, and claim exciting rewards in an electrifying scientific showdown!",
+    "rules": "Each team must have Minimum 2 and Maximum 3 members.\n➢ The first two events will be based on the basic analytical chemistry knowledge of the participants and their skills in doing experiments on 10th April,2025 in Chemical Engineering Department.\n➢ The shortlisted participants will propose feasible ideas to turn waste materials into useful materials or sources of energy (basically themes based on Sustainable Future) on 11th April,2025.\n➢ The event’s planners have the right to modify any or all rules. In case of any changes, the registered teams will be notified by Email.\n➢ In case of any disagreement, the decision of judges would be the final.\n\nEVENT-1: What’s there in your beaker?\n➢ Teams will be given a sample of some unknown chemical compound in their respective beakers, and they will have to use lab tests for detecting which compound it is.\n➢ Teams would be judged on behalf of their speed and accuracy in performing the tests.\n➢ The apparatus and chemicals would be provided, and the team members need to be cautious while performing. \n\nEVENT-2: Soapy Soaps\n➢ Participants would make soaps using the basic steps for soap formation. Any kind of soap, be it antibacterial, glycerin, moisturising etc. is acceptable.\n➢ Teams would be judged on behalf of how good soaps they make.\n➢ Required chemicals and apparatus would be provided.\n\nEVENT-3: ChemCycle: Turning wastes into wealth (basically themes based on Sustainable Future).\n➢ Teams would pitch ideas to turn waste materials (either organic or inorganic), into some useful things or energy.\n➢ Teams would be judged by judges on grounds of how sustainable their ideas are.\n➢ No limit to the number of ideas, but the exceptional ones would be taken into consideration",
+    "date": "10-11 April 2025",
+    "image": require("./Pics/ChemTech.png"),
+    "category": "Chemistry chemical"
+}
+,
     {
       id: 43,
       name: "Revamping Biotechnology from Data to Discovery",
@@ -21,24 +22,25 @@ export const technical_events =  [
       entry: "NIL",
       prize: "1500 INR",
       description: "Use of AI and machine learning play a crucial role in developing innovative healthcare solutions by analyzing vast amounts of medical data to improve diagnostics, treatment plans, and patient outcomes.",
-      rules: "Competition Rules:\n1. Number of participants per team: 3 members per team.\n2. Pre-requisite: Participants should have an idea of AI/Machine Learning.\n3. The project should be completed prior to the presentation in the event.\n4. Presentation of the work and interaction will only be carried out during the event.\n5. Few rules and regulations will be discussed at the beginning of the event.\n\nAwards & Certification:\n1. Prize money, certificate, and trophy will be awarded to the winner.\n2. Certificate and trophy will be awarded to the 2nd and 3rd runner-up teams.\n3. E-Certificates will be provided to all participants.",
+      rules: "1. Number of participants per team: 3 members per team.\n2. Pre-requisite: Participants should have an idea of AI/Machine Learning.\n3. The project should be completed prior to the presentation in the event.\n4. Presentation of the work and interaction will only be carried out during the event.\n5. Few rules and regulations will be discussed at the beginning of the event.",
       date: "10-11 April 2025",
       image: require("./Pics/Revamping_Bio.png"),
       category: "Biotechnology"
   }
   ,
-    {
-      id: 44,
-      name: "Integration Bee",
-      head: "Battle of the Mathematicians",
-      entry: "100 INR",
-      prize: "4,500 INR",
-      description: "A thrilling mathematics competition where two teams compete head-to-head to solve challenging integration problems. This event aims to test students' calculus skills, speed, and accuracy while fostering a spirit of teamwork and competition.",
-      rules: "",
-      date: "12 April 2025",
-      image: require("./Pics/Integration.png"),
-      category: "Mathematics"
-    },
+  {
+    "id": 44,
+    "name": "Integration Bee",
+    "head": "Battle of the Mathematicians",
+    "entry": "100 INR",
+    "prize": "4,500 INR",
+    "description": "A thrilling mathematics competition where two teams compete head-to-head to solve challenging integration problems. This event aims to test students' calculus skills, speed, and accuracy while fostering a spirit of teamwork and competition.",
+    "rules": "1. Only a writing implement will be allowed. No calculators, formula sheets, or extra paper are permitted. Scrap paper will be provided.\n2. There will be three rounds.\n3. All integrals will be indefinite.\n4. Students do not have to write the arbitrary constant (+C) to get a correct solution. They must, however, undo all substitutions and thus present a solution in terms of the original variable.\n5. The integrals will increase in difficulty from round to round, and within each round as the round progresses.\n6. An answer is acceptable as long as it is a solution for the original problem on an open interval (any open interval). So for example, ln(x) is an acceptable solution to \u222b dx because it is a solution on (0, \u221e).\n7. Check Rule: A Team during the competition can ask the judge for a\n\u201ccheck\u201d at any time ONLY ONCE (relinquishing the ticket provided when you do so). The judge will offer one of the following non-verbal responses:\n(a) If the answer is correct: a check mark C. Congratulations!\n(b) If there is a mistake that changes the nature of the integral or the technique is entirely off and requires replacing significant portions of your work: an X. This means you have major errors. Try to fix them!\n(c) If there is a mistake that does not change the nature of the integral and could be fixed by changing your work in one or just a few spots: a circle mark. This means you have minor error(s).Try to fix them!\n(d) If the judge is unable to ascertain (for whatever reason) if the error is major or minor: a ?. This response is unlikely. Try to assess your own work and keep going!\nYOU MUST HAVE A CIRCLED ANSWER FOR THE JUDGE TO EXAMINE. Since time is of the essence you should ask for your check by raising your hand well before time runs out. Once you raise your hand you cannot change your mind. You may do this only once.\n8. Round 1: 2 Teams will come on board and will have 2:00 minutes each question to compute the integrals. Each team must get 3 integrals to solve at the same time, the team which will solve the question first and correct will get a point and the team which will have more points in the end will win. (In case of tie breaker teams will be given one integral to solve first to solve will win).\n\n10 teams will go to round 2.\n\n9. Round 2: 2 Teams will come on board and will have 3:00 minutes each question to compute the integrals which is a level higher than the previous round. Each team must get 4 integrals to solve at the same time, the team which will solve the question first and correct will get a point and the team which will have more points in the end will win. (In case of tie breaker teams will be given one integral to solve first to solve will win).\n\n6 teams will go to the final round which is round 3\n\n10. Round 3: 2 Teams will come on board and will have 5:00 minutes each question to compute the integrals which is a level higher than the previous round. Each team must get 5 integrals to solve at the same time, the team which will solve the question first and correct will get a point and the team which will have more points in the end will win. (In case of tie breaker teams will be given one integral to solve first to solve will win).",
+    "date": "12 April 2025",
+    "image": require("./Pics/Integration.png"),
+    "category": "Mathematics"
+}
+,
     {
       id: 45,
       name: "Q-Trivia",
@@ -46,7 +48,7 @@ export const technical_events =  [
       entry: "50 INR per person",
       prize: "6,000 INR",
       description: "Enter a realm where science meets fiction! Battle through thrilling rounds of trivia on superheroes, sci-fi, legendary scientists, and quantum physics. Form a team of 2-3 and challenge the limits of reality. Think you can outsmart the multiverse? Prove it!",
-      rules: "",
+      rules: "1.Participants can compete only in teams of 2-3 members.\n2. No use of elctronic devices(phones , smartwatches,etc.) during the quiz.\n3. No use of assistance (googling, asking for help) is allowed.\n4. Team members must collaborate quietly without disrupting others.\n5. In case of a tie, a sudden-death question round will be held\n6. The quiz,aster's decision is final in case of disputes.",
       date: "12 April 2025",
       image: require("./Pics/Q_trivia.png"),
       category: "Quiz Quantum"
@@ -135,7 +137,7 @@ export const technical_events =  [
       entry: "500 INR",
       prize: "1,30,000 INR",
       description: "This exciting competition invites participants to design, build, and operate combat robots, showcasing their engineering skills and creativity. Teams will face off in intense, head-to-head matches, where their robots must outwit and overpower their opponents in the arena. With a focus on innovation, strategy, and sheer mechanical prowess, RoboWar is a thrilling test of endurance, precision, and teamwork.",
-      rules: "Introduction:\n1. Robo War is a thrilling competition where participants design and build combat robots to engage in battles.\n2. The event aims to test the durability, strategy, and control of the robots in an arena.\n\nEligibility:\n1. Participation can be individual or in teams (maximum members: 5).\n2. All participants must be registered students or professionals.\n3. Robots must comply with size and weight constraints as specified below.\n\nGeneral Rules:\n1. The competition consists of one-on-one battles.\n2. Each round lasts for a maximum of 5 minutes.\n3. Robots must start the battle from their designated positions.\n4. Participants must follow the referee’s commands at all times.\n5. A team is allowed 30 minutes to prepare for the next match.\n6. Any intentional damage to the arena will result in disqualification.\n7. The robot must be controlled only by the designated operator.\n\nRobot Specifications:\n1. Dimensions: The robot must not exceed 75 cm x 75 cm x 100 cm.\n2. Weight Limit: Two weight categories: 8kg and 15kg. The total weight should not exceed respective weight categories.\n3. Power Source: Robots must be powered by batteries within the voltage limit of 36V.\n4. Allowed Weapons: Spinning discs, hammers, and lifters.\n5. Prohibited Weapons:\n   - Fire-based weapons\n   - Liquids or corrosive substances\n   - Jamming devices\n   - Projectiles\n\nMatch Rules:\n1. A match begins at the referee’s signal.\n2. A robot wins by immobilizing its opponent for 30 seconds.\n3. Points are awarded based on aggression, control, and damage.\n4. If both robots are still operational at the end of the time limit, the winner is decided by judges based on points.\n5. If a robot is unable to move for more than 30 seconds, it will be counted as knocked out.\n\nJudging Criteria:\n1. Damage: Effectiveness of attacks on the opponent’s robot.\n2. Control: Ability to maneuver the robot strategically.\n3. Aggression: Frequency and effectiveness of attacks.\n4. Defense: Ability to withstand attacks and remain operational.\n\nSafety Regulations:\n1. All robots must pass a safety inspection before competing.\n2. Operators must wear safety gear while handling robots.\n3. The arena must be clear of non-participants before starting a match.\n4. Any violation of safety rules will result in immediate disqualification.",
+      rules: "Eligibility:\n1. Participation can be individual or in teams (maximum members: 5).\n2. All participants must be registered students or professionals.\n3. Robots must comply with size and weight constraints as specified below.\n\nGeneral Rules:\n1. The competition consists of one-on-one battles.\n2. Each round lasts for a maximum of 5 minutes.\n3. Robots must start the battle from their designated positions.\n4. Participants must follow the referee’s commands at all times.\n5. A team is allowed 30 minutes to prepare for the next match.\n6. Any intentional damage to the arena will result in disqualification.\n7. The robot must be controlled only by the designated operator.\n\nRobot Specifications:\n1. Dimensions: The robot must not exceed 75 cm x 75 cm x 100 cm.\n2. Weight Limit: Two weight categories: 8kg and 15kg. The total weight should not exceed respective weight categories.\n3. Power Source: Robots must be powered by batteries within the voltage limit of 36V.\n4. Allowed Weapons: Spinning discs, hammers, and lifters.\n5. Prohibited Weapons:\n   - Fire-based weapons\n   - Liquids or corrosive substances\n   - Jamming devices\n   - Projectiles\n\nMatch Rules:\n1. A match begins at the referee’s signal.\n2. A robot wins by immobilizing its opponent for 30 seconds.\n3. Points are awarded based on aggression, control, and damage.\n4. If both robots are still operational at the end of the time limit, the winner is decided by judges based on points.\n5. If a robot is unable to move for more than 30 seconds, it will be counted as knocked out.\n\nJudging Criteria:\n1. Damage: Effectiveness of attacks on the opponent’s robot.\n2. Control: Ability to maneuver the robot strategically.\n3. Aggression: Frequency and effectiveness of attacks.\n4. Defense: Ability to withstand attacks and remain operational.\n\nSafety Regulations:\n1. All robots must pass a safety inspection before competing.\n2. Operators must wear safety gear while handling robots.\n3. The arena must be clear of non-participants before starting a match.\n4. Any violation of safety rules will result in immediate disqualification.",
       date: "12 April 2025",
       image: require("./Pics/Robo_War.png"),
       category: "Robotics some agastya",
@@ -149,7 +151,7 @@ export const technical_events =  [
     entry: "250 INR",
     prize: "18,000 INR",
     description: "Machine Wars is a captivating multi-round robotics competition that intertwines the thrilling elements of Tug of War, Drag Race, and Robo-Sumo. Contestants will wield the same bot through each round, fostering a blend of strategic design and unwavering durability.",
-    rules: "1. Event Format\n• Three Rounds:\n  ○ Round 1: Tug of War - Teams will design and build robots to compete in a tug-of-war match. The robot that successfully pulls the opponent's robot across a designated line within a time limit wins.\n  ○ Round 2: Drag Race - Teams will design and build robots to compete in a speed race. The robot that covers a specified distance in the shortest time wins.\n  ○ Round 3: Robo Sumo - Teams will design and build robots to compete in a sumo wrestling match. The robot that successfully pushes the opponent's robot out of the designated arena wins.\n\n2. Eligibility\n• Open to all undergraduate and postgraduate students of NIT Jalandhar.\n• Teams can consist of 2-3 members.\n\n3. Rules and Regulations\n• Detailed rules and regulations for each round will be provided to all participating teams.\n• Robots must adhere to specific size and weight restrictions.\n• Use of prohibited components will result in disqualification.\n• Decisions of the judges will be final and binding.\n\n4. Judging Criteria\n• Round 1 (Tug of War): Strength, stability, and strategy.\n• Round 2 (Drag Race): Speed, efficiency, and maneuverability.\n• Round 3 (Robo Sumo): Aggression, agility, and durability.\n• Overall performance across all three rounds will also be considered.\n\n5. Timeline\n• [Date]: Registration deadline.\n• [Date - Date]: Workshop (optional): A workshop can be conducted to provide guidance and support to participants.\n• [Date]: Competition day:\n  ○ Round 1: Tug of War\n  ○ Round 2: Drag Race\n  ○ Round 3: Robo Sumo\n• [Date]: Award ceremony: Winners will be announced and prizes will be distributed.\n\n6. Venue and Logistics\n• Venue: A spacious area with adequate space for the competition setup.\n• Equipment:\n  ○ Tables and chairs for teams.\n  ○ Arena for each round.\n  ○ Timer, measuring tape, and other necessary equipment.\n• Safety:\n  ○ Ensure safety measures are in place throughout the competition.\n\n7. Prizes\n• Attractive prizes will be awarded to the winning teams in each round and for overall performance.\n\n8. Marketing and Promotion\n• Utilize college and club social media platforms to promote the event.\n• Design and distribute posters and flyers around campus.\n• Make announcements during class hours and during campus events.\n• Word-of-mouth: Encourage team members to spread the word among their peers.\n\n9. Team Roles and Responsibilities\n• Team Leader: Coordinate team activities, manage project timelines, and communicate with organizers.\n• Designer: Design and develop the robot's mechanical structure.\n• Programmer: Develop the robot's control software.\n• Tester: Test and debug the robot, ensuring optimal performance.",
+    rules: "Machine wars will include 3 major stages \n● TUG OF WAR - Two robots pull against each other in opposite directions. The first robot to pull the other bot past a central mark win.\n●	DRAG RACE - Robots must race straight down a track, with the fastest bot winning.\n●	ROBO-KABADDI - Robots must push their opponents out of the arena while the intruder needs to gather the cubes one by one.\n\nEligibility criteria\n Participants may compete individually or in teams (team size limit: 2–5 members). Each team can register only one robot. Teams must designate a Team Captain responsible for communication with organizers. The registration form must be completed before the deadline to be eligible. Each team must provide accurate and complete information; incorrect details may lead to disqualification.\n\n ●	Team Composition: Each team may consist of up to five participants. Only one robot per team is allowed. Teams may consist of members from multiple colleges, with no restriction on the number of teams per institution.\n ●	Compliance: Teams must adhere to the event rules at all times. Any violation may result in disqualification. The organizers retain the right to modify event rules as necessary. Judges’ decisions are final and binding\n\n● ROBOT SPECIFICATIONS\n1. Dimensions:The robot must fit within a 350mm x 350mm x 350mm box (L x B x H, 5% TOLERANCE). Controllers are excluded from the dimension limits.\n2.	Weight Limit: Wireless robots must not exceed 4 kg (10% TOLERANCE). This includes the weight of motors, batteries, and all components.\n3. Material & Design: Participants are free to use any material as long as they meet the required specifications. Modular designs for adaptability are encouraged.\n4. Control System: The robot must be wirelessly controlled, with frequency-switching capabilities to avoid interference. Custom-built control systems must be pre-approved.\n5. Power Requirements: Robots must be powered electrically (no internal combustion engines). Onboard batteries must be sealed, non-leak proof, and immobilized (e.g., gel cells, lithium). The maximum voltage between any two points is 24 volts.\n\n● Prohibited Elements:\n1. Weapons & Destructive Tools – No blades, saws, spikes, hammers, projectiles, or spinning weapons.\n2.	Hazardous Materials – No fire, explosives, corrosive chemicals, or high-pressure gas systems.\n3. Interference Devices – No EMPs, jammers, or high-voltage discharge systems.\n4.	Arena-Tampering Substances – No adhesives, powders, liquids, or grease.\n5.	Non-Autonomous Control (For Robo Kabbadi Only) – No full remote control; robots must be autonomous after the match starts.\n\n● ASSESSMENT CRITERIA: The winning criteria is based on “Survival of the Fittest” (The one with the most marks based on the marking criteria revealed before the event wins)",
     date: "11 April 2025",
     image: require("./Pics/Machine_Wars.png"),
     category: "Robotics r-tist"
@@ -181,18 +183,19 @@ export const technical_events =  [
   category: "Robotics & AI spice"
 }
 ,
-  {
-    id: 56,
-    name: "Drone Obstacle",
-    head: "Mastering the Skies",
-    entry: "300 INR",
-    prize: "30,000 INR",
-    description: "UAV Drone challenge, A multi-level competition that involves various challenges and obstacles in increasing order of difficulty which would screen out the most agile drone.",
-    rules: "Drone Specifications:\n● Maximum frame size of 500mm x 500mm, maximum weight of 2kg (including battery), and battery specifications of 3S-6S.\n● Metallic props are prohibited. Turtle mode is permitted.\n● Pilots must bring at least two batteries and their own chargers; charging points will be provided.\n● Soldering equipment and other necessary materials are the responsibility of each pilot.\n\nDescription:\nThis document outlines the rules and regulations for the Techniti '25 UAV Drone Competition. It covers drone specifications, safety requirements, pilot guidelines, race format, and general conduct. Please review thoroughly before participating.\n\nSafety Guidelines:\n● Participants must possess adequate experience or be assisted by experienced participants.\n● Never walk onto the course while drones are in flight.\n● The flight line is clearly marked and must not be crossed.\n● Immediately cut off power when retrieving a drone after a race.\n● A first aid kit location will be announced on-site.\n\nPilot Guidelines:\n● Pilots must follow all instructions from event officials.\n● They must arrive one hour before the race and be ready 15 minutes prior.\n● No practice time will be allowed 30 minutes before the race.\n● Pilots must not assume any change of race time unless officially announced.\n● Soldering, welding, or sparking are prohibited in the pit area; designated workbenches will be provided.\n● Batteries must be stored in LiPo safe bags or approved containers.\n\nSpectator Etiquette:\n● Spectators are encouraged to watch and discuss, but should avoid the pilot area during flights unless assisting as a spotter.\n● Clear communication with pilots is essential for accurate scoring and safety warnings.\n\nModel Regulations:\n● Each competitor may use a maximum of two drones, each with the same specifications, after verification.\n● A drone can be used by only one competitor. Violation results in disqualification.\n● Drone changes are allowed before the race starts or between rounds.\n\nArena:\n● The Techniti '25 UAV Drone Competition will be held at the Mega Boys Hostel Ground (MBH Ground).\n\nRace Format:\nThe competition consists of two rounds:\n1. **Round 1: Qualifying Round**\n   - Based on completion time.\n   - Drones must land successively on nine circles of decreasing diameter (130cm to 50cm), placed 2 meters apart.\n   - The drone's center must be inside the circle for successful landing.\n   - Teams with the best times advance to Round 2.\n2. **Round 2: Obstacle Course**\n   - Involves navigating an obstacle course.\n   - Includes a tunnel with three differently-scored exits, zigzag rectangular frames, an upper passage, a standard rectangular frame, and a rotating frame.\n   - Two laps must be completed, ending with landing in a designated area.\n   - Points awarded based on successful completion of obstacles.\n\nRace Rules and Procedures:\n● Drones must remain at the takeoff point until the start signal.\n● One retry is allowed for false starts, failure to take off, or crashes.\n● After each lap, pilots must land and disarm in the specified zone.\n● Pilots must agree to any suggested rule modifications.\n● Flying out of bounds results in disqualification.\n● A thumbs-down signal indicates a DNF (Did Not Finish). No additional retries will be given.\n\nUnsafe Flying:\n● Pilots must maintain control at all times and fly within their skill level.\n● Unsafe procedures result in immediate disqualification.\n● The Race Director will specify safety boundaries; flying outside those boundaries results in disqualification.\n\nFinishing the Race:\n● The drone must clear the finish line to complete a lap/round.\n● Timings and points are evaluated based on race completion.\n\nPractice Rounds:\n● A practice session will be held one day before the event for local participants (with prior approval).\n● Outside teams must arrive two hours before the event.\n● Practice is only allowed for registered participants, with allocated time and number of flights determined by organizers.",
-    date: "11 April 2025",
-    image: require("./Pics/UAV_Drone.png"),
-    category: "Drone & Aeromodelling"
+{
+  "id": 56,
+  "name": "Sky Rush",
+  "head": "Mastering the Skies",
+  "entry": "300 INR",
+  "prize": "30,000 INR",
+  "description": "UAV Drone challenge, A multi-level competition that involves various challenges and obstacles in increasing order of difficulty which would screen out the most agile drone.",
+  "rules": "Drone Specifications:\n● Maximum frame size: 750mm (Wheelbase)\n● Maximum Battery: 3S-6S\n● Maximum weight: 2kg (including battery)\n● Metallic props are prohibited. Turtle mode is permitted.\n● Pilots must bring at least two batteries and their own chargers; charging points will be provided.\n\nSafety Guidelines:\n● Participants must follow all safety protocols and instructions given by the event organizers.\n● Do not enter the racing area without permission from the event staff.\n● Participants must ensure their drones are in good working condition before the event.\n● Immediately cut off power when retrieving a drone after a race.\n\nRace Format:\n1. Round 1: Drag Race   - Pilots must start from a designated line and maintain a straight course to the finish line.\n2. Round 2: Obstacle Course  - Pilots must navigate an obstacle course, avoiding various obstacles.\n3. Round 3: Moving & Complex Obstacles  - Pilots must maneuver through a dynamic course with moving obstacles and complete a precision landing challenge.\n\nRace Rules and Procedures:\n● Drones must remain at the takeoff point until the start signal is given.\n● One retry is permitted per round in case of failure.\n● Pilots must cut off power when retrieving their drone after a race.\n● The flight line is clearly marked and must not be crossed.\n● Pilots must agree to any rule modifications as suggested by the organizers.\n● Flying out of bounds results in disqualification.\n● A practice session will be held one day before the event.\n● A practice session will be conducted one day prior to the event.\n\nScoring and Final Result:\nThe final score is calculated based on:\n● Total time taken to complete the course\n● Penalties for infractions, including crossing boundaries or hitting obstacles\n● The highest final score determines the winner\n\nSpectator Etiquette:\n● Spectators must not interfere with the competition or pilots.\n● Standing too close to the course or obstructing views is prohibited.\n\nGeneral Guidelines:\n● Pilots must arrive one hour before the race and be ready 15 minutes before their run.\n● No practice time is allowed 30 minutes before the race.\n● Pilots must bring at least two batteries and their own chargers; charging points will be available.\n● Batteries must be stored in LiPo safe bags or approved containers.\n● Pilots must agree to any suggested rule modifications.\n● Flying out of bounds results in immediate disqualification.\n\nOverall Scoring- The final score is determined based on:\n● Total time taken to complete the course\n● Penalties for hitting obstacles or crossing boundaries\n● The highest final score wins the SkyRush competition.",
+  "date": "11 April 2025",
+  "image": require("./Pics/UAV_Drone.png"),
+  "category": "Drone & Aeromodelling"
 }
+
 ,
 {
   id: 57,
@@ -285,19 +288,20 @@ export const technical_events =  [
     image: require("./Pics/Lost_Circuit.png"),
     category: "Electronics seed"
 },
-{
-    id: 64,
-    name: "ArenaX",
-    head: "The Ultimate Esports Battle",
-    entry: "20 INR",
-    prize: "1,00,000 INR",
-    description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
-    rules: "",
-    date: "12-13 April 2025",
-    image: require("./Pics/ArenaX.png"),
-    category: "Esports & Gaming vortex",
-    register:"https://forms.gle/Cd7tLpcfgvtzkgSo6"
-},
+// {
+//     id: 64,
+//     name: "ArenaX",
+//     head: "The Ultimate Esports Battle",
+//     entry: "20 INR",
+//     prize: "1,00,000 INR",
+//     description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
+//     rules: "",
+//     date: "12-13 April 2025",
+//     image: require("./Pics/ArenaX.png"),
+//     category: "Esports & Gaming vortex",
+//     register: "https://forms.gle/Cd7tLpcfgvtzkgSo6"
+// }
+
 {
     id: 65,
     name: "CAD Modeling",
@@ -374,7 +378,77 @@ export const technical_events =  [
   "date": "13 April 2025",
   "image": require("./Pics/Physics.png"),
   "category": "Physics & Analytical Thinking"
+},
+{
+  id: 71,
+  name: "ArenaX (BGMI)",
+  head: "The Ultimate Esports Battle",
+  entry: "20 INR per person",
+  prize: "30,000 INR",
+  description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
+  rules: "● MATCH STRUCTURE\n1. Round 1: Online Qualifiers\n- Teams compete in multiple matches across designated maps.\n- Top 6 teams from each group move on to the next round.\n- Duration: 3 days.\n- Remark: Matches will be streamed online.\n2. Round 2: Online Playoffs\n- Teams that qualify from Round 1 compete across various maps.\n- Top 4 teams from each group advance to the next stage.\n- Duration: 3 days.\n3. Round 3: Online Stage\n- Teams compete in multiple rounds to narrow down the competitors.\n- Top 32 teams will qualify for the Semi-Finals.\n- Duration: 2 days.\n- Remarks: Matches will be streamed online, with teams divided into groups.\n- Note: The number of Online Rounds may vary according to the number of teams registered.\n4. Semi-Finals:\n- Top 32 teams play in a double round-robin format to determine who qualifies for the LAN Finals.\n- Duration: 1 Day.\n5. Grand Finals: LAN Event\n- Top 16 teams compete in an offline LAN event at Utkansh Fest.\n- Duration: At Utkansh Fest (LAN event at venue).\n- Remarks: Matches will be played live, with/without an audience present.\n\n● POINTS SYSTEM\n1. Placement Points:\n- 1st Place: 10 points\n- 2nd Place: 8 points\n- 3rd Place: 6 points\n- 4th Place: 4 points\n- 5th Place: 3 points\n- 6th Place: 2 points\n- 7th Place: 1 point\n- 8th Place & Below: 0 points\n2. Kill Points:\n- Each kill grants 1 point.\n\n● GAME RULES\n1. Team Composition: Only registered players are allowed to compete. Using unauthorized players will lead to disqualification.\n2. Cheating & Hacking: The use of cheats, hacks, or third-party software is strictly prohibited. This includes any form of automation, wallhacks, or aim hacks.\n3. Glitch Exploits: Exploiting in-game glitches for unfair advantage is forbidden.\n4. Bug Abuse: If a critical bug is encountered, the match may be restarted at the discretion of tournament officials.\n5. Teaming: Collaborating with other teams is prohibited.\n6. In-Game Behavior: Match-fixing, feeding opponents, or intentionally disconnecting is not allowed.\n7. Recordings: Players will need to submit gameplay recordings when we ask to check any appeals.\n\n● TIE BREAKERS\nIn case of a tie, the following rules will apply in order:\n1. Total kill points across all matches.\n2. Highest placement in individual matches.\n3. Head-to-head performance between tied teams.\n\n● TECHNICAL ISSUES\n1. Disconnections: If a player disconnects before the plane takes off, the match may be restarted based on the organizer’s discretion.\n2. Server Problems: Matches may be paused, canceled, or replayed if widespread server issues occur.\n\n● CODE OF CONDUCT\n1.  Players must display fair play and respect towards opponents, teammates, and officials.\n2. Offensive language, verbal abuse, or toxic behavior will not be tolerated.\n3. Teams engaging in unsportsmanlike conduct may face disqualification.\n\n● REPORTING ISSUES\n1. Teams must report rule violations within 30 minutes after the match ends.\n2. Proof (screenshots, video clips) must be provided to support the claims.\n\n● BROADCASTING RULES\n1. Streaming Rights: Only Utkansh Fest or approved broadcasters may stream the matches.\n2. Player Streams: Players are generally not allowed to stream their matches unless explicitly approved by officials.\n\n● APPEALS PROCESS\n1. Teams may submit appeals through official channels if they believe a decision was unfair.\n2. Appeals must be submitted within the designated time frame after the match.\n\n● GENERAL RULES\n1. Vortex reserves the right to disqualify any team promoting obscenity through their act.\n2. Vortex reserves the right to cancel the prelims stage in case of unforeseen circumstances.\n3. Vortex reserves the right to change the prize money before the commencement of the prelims.\n4. In the case of any dispute, the decision of the organizers will be final and binding.\n5. The organizers are not responsible for non-completion / non-occurrence of the event.\n6. The organizers have all the right to cancel, reschedule, postpone, and amend the show. In the event of any dispute, the organizers' decisions are final and binding on the applicant.\n7. Deadlines are determined by the number of entries. The decisions of the Jury/Judges are final.\n8. The organizers reserve the right to amend the rules and format anytime.",
+  date: "12-13 April 2025",
+  image: require("./Pics/BGMI.png"),
+  category: "Esports & Gaming vortex",
+  register: "https://forms.gle/Cd7tLpcfgvtzkgSo6"
 }
+,
+{
+  id: 72,
+  name: "ArenaX (VALORANT)",
+  head: "The Ultimate Esports Battle",
+  entry: "20 INR per person",
+  prize: "30,000 INR",
+  description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
+  rules: "● ELIGIBILITY:\n1. All players must have an active Riot Games account.\n2. Players must be at least 16 years old to participate.\n\n● TEAM COMPOSITION:\n1. Each team must consist of five (5) main players and can have up to one (1) substitute.\n2. Rosters must be submitted before the tournament begins and cannot be changed once the event starts.\n\n● MATCH FORMAT:\n1. The tournament format will be Single Elimination / Double Elimination / Round Robin as decided by the organizers.\n2. Matches will be played in Best of 1 (Bo1), Best of 3 (Bo3), or Best of 5 (Bo5) formats based on the tournament stage.\n\n● MATCH RULES:\n1. Map Selection:\n  - Maps will be selected using a veto system.\n  - Available maps: Ascent, Bind, Haven, Split, Lotus, Pearl, Sunset.\n2. Match Settings \n  - Mode: Standard (Competitive)\n  - Server: Specified by the organizers\n  - Overtime Rules: As per in-game settings (first to 13 rounds, overtime sudden death if necessary)\n3. Agent Selection:\n  - All available agents are allowed.\n  - Players must select agents within the allocated pick time.\n4. Technical Issues & Pauses:\n  - Each team is allowed one (1) 5-minute technical pause per match for hardware/software issues.\n  - Tactical pauses are limited to one (1) 60-second pause per team per half.\n  - If a player disconnects, the match will be paused for a maximum of 10 minutes before resuming.\n\n● PLAYER COMDUCT\n1. Code of Comduct\n-Players must exhibit professionalism and sportsmanship at all times.\n- Toxic behavior, harassment, or hate speech will lead to penalties.\n- Exploiting bugs, cheating, or hacking is strictly prohibited.\n2. Communication & Streaming:\n- Players must use appropriate in-game names.\n- Streaming is allowed only with prior permission from the organizers to avoid streamsnipe\n- Teams may use external voice communication tools but must comply with fair play policies\n 3. Match Reporting\n- Teams must report match results within 10 minutes of completion.\n- Any disputes must be reported immediately to the tournament admins.\n\n● PENALTIES AND DISQUALIFICATIONS:\n1. Warnings & Infractions:\n    - Minor Violations: Late check-in, excessive pause usage - Verbal warning.\n    - Major Violations: Match-fixing, cheating, toxic behavior - Match loss or disqualification.\n2. Disqualification Criteria:\n    - Use of unregistered or ineligible players without prior notice. Repeated misconduct or cheating.\n    - Failure to attend a scheduled match without prior notice.\n\n● AMIN DECISION AND FINAL RULES\n1. Tournament admins have the final say in disputes and rule clarifications.\n2. Rules may be modified based on unforeseen circumstances.\n3. By participating, all teams and players accept and adhere to these rule",
+  date: "12-13 April 2025",
+  image: require("./Pics/Valorant.png"),
+  category: "Esports & Gaming vortex",
+  register: "https://forms.gle/Cd7tLpcfgvtzkgSo6"
+}
+,
+{
+  id: 73,
+  name: "ArenaX (STUMBLE GUYZ)",
+  head: "The Ultimate Esports Battle",
+  entry: "20 INR per person",
+  prize: "4,500 INR",
+  description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
+  rules: "● General Rules\n1. The event will be conducted in a knockout format.\n2. All participants must register before the deadline. No late entries will be entertained.\n3. Players should use their own devices with the latest version of Stumble Guys installed.\n4. Any form of cheating, hacking, or unfair advantage will result in immediate disqualification.\n5. Participants must join the game lobby within the given time. Failure to do so may lead to elimination.\n6. Organizers hold the final say in any disputes or rule interpretations.\n\n● MATCH STRUCTURE:\n1. Players will compete in lobbies of up to 32 players per round.\n2. The top finishers of each round will advance to the next stage.\n3. The number of qualifiers per round depends on the number of participants.\n4. Loser's Bracket: An additional round will be conducted for eliminated players, giving a second chance to skilled players. The top finishers from this bracket will re-enter the competition.\n\n● ELIMINATION AND PROGRESSION:\n1. The event will continue until a final set of players competes for the championship.\n2. The last player standing in the final round will be declared the winner.\n\n● DEVICE AND CONNECTION:\n1. Players are responsible for ensuring their device has a stable internet connection.\n2. Organizers will not be responsible for disconnections, lag, or any technical issues on the player's side.\n3. Using external devices, controllers, or macros to gain an advantage is prohibited.\n\n● CODE OF CONDUCT:\n1. Players must maintain sportsmanship and respect fellow participants.\n2. Toxic behavior, offensive language, or harassment will lead to disqualification.\n3. Players should follow the instructions of event moderators at all times.\n\n● REGISTRATION AND PARTICIPATION:\n1. Registration will be conducted online.\n2. A nominal entry fee (if applicable) must be paid before participation.\n3. Players must provide their in-game username at registration.\n\n● DISQUALIFICATION AND PENALTIES:\n1. Players caught teaming, exploiting glitches, or using unfair means will be immediately disqualified.\n2. Any attempt to manipulate the game results in an unfair manner will lead to a permanent ban from the event.",
+  date: "12-13 April 2025",
+  image: require("./Pics/Stumble.png"),
+  category: "Esports & Gaming vortex",
+  register: "https://forms.gle/Cd7tLpcfgvtzkgSo6"
+}
+,
+{
+  id: 74,
+  name: "ArenaX (FREE FIRE)",
+  head: "The Ultimate Esports Battle",
+  entry: "20 INR per person",
+  prize: "30,000 INR",
+  description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
+  rules: "MATCH STRUCTURE\n● Qualifier Matches - Each registered team will play three qualifier matches. Based on performance, the top 12 teams will move to the next stage.\n● Eliminator Matches - The 12 qualified teams will compete in three eliminator matches. The top 4 teams from this stage will advance to the semifinals.\n● Semifinals (Clash Squad Mode):\n- Semifinal 1: Rank 1 team vs Rank 4 team.\n- Semifinal 2: Rank 2 team vs Rank 3 team.\nThe winners of these matches will move to the final.\n● Final Match - The two semifinal winners will face off in a Clash Squad final match to determine the champion.\n\n● GENERAL RULES\n1. PC players are not allowed.\n2. If any participant gets caught using game bugs or hacks, the whole team will be disqualified.\n3. Gun properties and attributes will remain off.\n4. Team-up is not allowed in full map.\n5. Each team should join the lobby with their registered players only. If caught, the whole team will be disqualified.\n6. Character skill will be on.\n7. All teams should be there within 10 minutes after getting the custom ID and password. No team will be considered if they are late, and the match will be started after 10 minutes.",
+  date: "12-13 April 2025",
+  image: require("./Pics/Freefire.png"),
+  category: "Esports & Gaming vortex",
+  register: "https://forms.gle/Cd7tLpcfgvtzkgSo6"
+}
+,
+{
+  id: 75,
+  name: "ArenaX (TEKKEN 7)",
+  head: "The Ultimate Esports Battle",
+  entry: "20 INR per person",
+  prize: "4,500 INR",
+  description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
+  rules: "● ELIGIBILITY - All participants must have attained the age of 16 or above to participate in the tournament.\n\n● MATCH FORMAT\nGame Mode : Participants will engage in 1v1 matches throughout the tournament.\nNote:\n1. All matches, unless otherwise specified, will be conducted in a 1v1 format.\n2. Participants are expected to adhere to the rules and regulations outlined in the official tournament rule book.\n3. Violations may result in penalties.\n\n● COLLUSION - A player may not collude. Collusion is defined as any agreement among two (2) or more players, and/or confederates to disadvantage opposing players. Collusion includes, but is not limited to, acts such as:\n1. Soft play, which is defined as any agreement among two (2) or more players to not damage, impede, or otherwise play to a reasonable standard of competition in a game.\n2. Sending or receiving signals, electronic or otherwise, from a confederate to/from a player.\n3. Pre-arranging to split the prize money and/or any other form of compensation. Deliberately losing a game for compensation, or any other reason, or attempting to induce another player to do so.\n\n● CHEATING - Cheating is prohibited. Any modification of the game client by any player, Team, or other Team Member is prohibited.\n\n● HACKING - A player may not hack during tournament games. Hacking is defined as any modification of the game client by any player, or person acting on behalf of a player.\n\n● ADMIN DECISION AND FINAL RULES\n1. Tournament admins have the final say in disputes and rule clarifications.\n2. Rules may be modified based on unforeseen circumstances.\n3. By participating, all teams and players accept and adhere to these rules.",
+  date: "12-13 April 2025",
+  image: require("./Pics/Tekken.png"),
+  category: "Esports & Gaming vortex",
+  register: "https://forms.gle/Cd7tLpcfgvtzkgSo6"
+}
+
 
 
 
