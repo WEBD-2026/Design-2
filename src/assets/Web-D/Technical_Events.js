@@ -221,7 +221,7 @@ export const technical_events =  [
     date: "10-11 April 2025",
     image: require("./Pics/Hackmol.png"),
     category: "Hackathon & Coding gdsc",
-    register: "https://forms.gle/p46kGWdw17Jhn49K8"
+    register: "https://hackmol-6.devfolio.co/"
 }
 ,
   {
@@ -237,17 +237,18 @@ export const technical_events =  [
       category: "Cybersecurity & Cryptography"
   },
   {
-    id: 60,
-    name: "Code Relay",
-    head: "The Ultimate Coding Marathon",
-    entry: "50 INR",
-    prize: "15,000 INR",
-    description: "Code Relay is an electrifying tech-a-thon where teams of 4 coders battle across 4 dynamic domains under intense time constraints. Adapt, strategize, and code your way to victory—only the team with the highest points will be crowned Code Relay Champions!",
-    rules: "2. Team Formation\n• Each team consists of three members.\n• Teams can be pre-formed or assigned randomly based on participant preferences.\n\n3. Challenge Format\n• The organizers will announce a series of programming challenges at the start of the event.\n• Challenges may involve different domains, including web development, algorithmic problem-solving, and AI-based coding tasks.\n• The use of AI tools is permitted but must align with the competition’s ethical guidelines.\n\n4. Event Structure\n4.1 Individual Coding Rounds\n• The event is divided into three individual rounds.\n• Each round has a designated time slot of 10-15 minutes, during which only one team member is allowed to work on the problem.\n• Round 1: The first team member starts coding.\n• Round 2: After the allotted time, the first member hands over the code to the second member.\n• Round 3: The second member passes the work to the third member.\n\n4.2 Handover Period\n• Between each round, there is a handover period of 2-5 minutes.\n• During this period, the previous coder must explain their thought process and progress to the next coder.\n\n4.3 Collaborative Final Round\n• After the individual rounds, all three team members will work together in a final coding session.\n• This session allows for integration, debugging, and refining of the solution.\n• The duration of this round is longer than individual rounds to facilitate teamwork and finalization.\n\n5. Rules and Regulations\n5.1 General Rules\n• All participants must adhere to the allocated time slots.\n• Communication between team members is only permitted during the handover periods and final round.\n• The use of external resources and AI tools is allowed, but plagiarism or unauthorized code copying is strictly prohibited.\n• Any attempt to manipulate or exploit loopholes in the competition structure will result in immediate disqualification.\n\n5.2 Scoring Criteria\nTeams will be evaluated based on:\n1. Code Accuracy: Correctness of the final output (40%)\n2. Efficiency: Optimization and runtime of the solution (20%)\n3. Code Readability & Documentation: Clean and well-commented code (15%)\n4. Team Coordination: Effective handover and integration (15%)\n5. Innovation: Unique problem-solving approach (10%)\n\n5.3 Penalties\n• Exceeding time limits will result in point deductions.\n• Unauthorized communication outside designated timeframes will lead to warnings and possible disqualification.\n• Any instance of code plagiarism will result in immediate elimination from the competition.",
-    date: "10 April 2025",
-    image: require("./Pics/Code_Relay.png"),
-    category: "Competitive Programming"
+    "id": 60,
+    "name": "Code Relay",
+    "head": "The Ultimate Coding Marathon",
+    "entry": "50 INR",
+    "prize": "15,000 INR",
+    "description": "Code Relay is an electrifying tech-a-thon where teams of 3 coders battle across 4 dynamic domains under intense time constraints. Adapt, strategize, and code your way to victory—only the team with the highest points will be crowned Code Relay Champions!",
+    "rules": "1. Team Composition\n• Each team consists of three members.\n• Teams can be pre-formed or assigned randomly based on participant preferences.\n\n2. Challenge Format\n• The organizers will announce a series of programming challenges at the start of the event.\n• Challenges may involve different domains, including web development, algorithmic problem-solving, and AI-based coding tasks.\n• The use of AI tools is permitted but must align with the competition’s ethical guidelines.\n\n3. Event Structure\n• The event consists of three individual rounds followed by a collaborative final round.\n• Each individual round has a time limit of 10-15 minutes, with only one team member coding at a time.\n• Handover Period: Between rounds, there is a 2-5 minute transition, where the previous coder must explain their thought process to the next coder.\n• In the final round, all three members work together to integrate, debug, and refine their solution.\n\n4. Communication & Conduct\n• Team members can only communicate during handover periods and the final round.\n• External resources and AI tools are allowed, but plagiarism or unauthorized code copying is strictly prohibited.\n• Any attempt to manipulate or exploit competition rules will result in immediate disqualification.\n\n5. Scoring Criteria\n• Code Accuracy (40%) – Correctness of the final output.\n• Efficiency (20%) – Optimization and runtime of the solution.\n• Code Readability & Documentation (15%) – Clean and well-commented code.\n• Team Coordination (15%) – Effective handover and integration.\n• Innovation (10%) – Unique problem-solving approach.\n\n6. Penalties\n• Exceeding time limits results in point deductions.\n• Unauthorized communication outside designated timeframes leads to warnings or disqualification.\n• Any instance of code plagiarism results in immediate elimination from the competition.\n\n7. Progression & Winner Selection\n7.1 Advancing Rounds\n• Teams must complete each round to progress to the next.\n• The final round is crucial for debugging and finalizing the solution.\n7.2 Winner Selection\n• The team with the highest total points will be declared the Code Relay Champions.\n• In case of a tie, submission time will be used as a tiebreaker.",
+    "date": "10 April 2025",
+    "image": require("./Pics/Code_Relay.png"),
+    "category": "Competitive Programming"
 }
+
 ,
   {
     id: 61,
