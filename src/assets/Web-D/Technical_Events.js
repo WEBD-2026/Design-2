@@ -438,7 +438,7 @@ export const technical_events =  [
 ,
 {
   id: 75,
-  name: "ArenaX (TEKKEN 7)",
+  name: "ArenaX (TEKKEN 8)",
   head: "The Ultimate Esports Battle",
   entry: "20 INR per person",
   prize: "4,500 INR",
