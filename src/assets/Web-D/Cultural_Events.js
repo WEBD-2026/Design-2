@@ -40,7 +40,8 @@ export const events =
   rules: "1. This is an individual event. The script should be original/self-written. If found indulging in plagiarism, it would result in disqualification.\n2. Participants will have to submit a PDF file containing the following details in advance: Name of college, participant name, and script.\n3. The language of the act can be English or Hindi.\n4. The total time allotted for every performance is 7 minutes (empty stage to empty stage).\n5. Use of flammable substances such as candles, matches, cigarettes, or any alcoholic product during the performance on stage is not allowed and will result in disqualification.\n6. If a participant exceeds the stipulated time, 15% of the total marks obtained will be deducted. If they exceed 9 minutes, they will be debarred from the event.\n7. The play should be restricted to the stage area only. If not, a penalty can be imposed.\n8. Participants can bring their own music for the act in a pen drive, but recorded vocals are not allowed.\n9. Instrumental music is allowed, but the participants must bring their own instruments.\n10. All clothes and accessories are to be arranged by the participants. The organizing committee is responsible only for infrastructural facilities and shall not be responsible for the security of items left behind in green rooms or on stage.\n11. The participating teams are requested to ensure that their presentation is in keeping with the dignity of the fest.\n12. More than one participant from the same college is allowed, but there should not be any similarities in the script.\n13. In the stage area, only the performer and their props are to be seen. Only one other person can assist with music, lights, etc. Any help from another person in the stage area during the act would lead to disqualification.\n\nJudging Criteria:\n● Acting/Expressions - 30%\n● Script and Content - 30%\n● Dialogue Delivery - 20%\n● Voice Modulation - 20%",
   date: "11 April 2025",
   image: require("./Pics/Eklavya.png"),
-  category: "Drama Monoact"
+  category: "Drama Monoact",
+  register: "https://forms.gle/MXsMUoSy1fsdzrLX7"
 }
 ,
 {
@@ -53,7 +54,8 @@ export const events =
   rules: "1. The time limit for the performance would be 8 minutes, with a 2% penalty for every extra minute.\n2. The time duration includes performance time and stage setting time.\n3. The play could be in English, Hindi, or bilingual (Hinglish). However, subtle use of other languages is also permitted.\n4. No vulgar language is allowed during the performances.\n5. Direct names of politicians and celebrities cannot be used in the improv.\n6. Avoid making community, religious, caste, or racist remarks.\n7. Each team must consist of 2 to 5 members.\n8. The play should be restricted to the stage area only. If not, a penalty can be imposed.\n9. The organizing committee is responsible for infrastructural facilities only and shall not be responsible for the security of participants' items.\n10. The participating teams are requested to ensure that their presentation is in keeping with the dignity of the fest.\n11. Only a single performance per team is allowed.\n12. In any case, the judge's decision will be final.\n\nJudging Criteria:\n● Acting/Expressions - 30%\n● Script and Content - 30%\n● Dialogue Delivery - 20%\n● Voice Modulation - 20%",
   date: "12 April 2025",
   image: require("./Pics/Asmita.png"),
-  category: "Drama"
+  category: "Drama",
+  register: "https://forms.gle/qV56W5WgkyLEh6jr6"
 }
 ,
 {
@@ -94,7 +96,8 @@ export const events =
   rules: "Time Limit:\n1. Performance duration: Up to 3 minutes.\n\nTeam Size:\n1. 2 members per team.\n\nCompetition Format:\n1. There will only be ONE round of the competition.\n2. All forms of dance are allowed.\n3. Teams need to bring their own soundtrack.\n4. Teams may use multiple songs.\n5. Pre-recorded music should be brought in a CD/DVD or a pen drive in .cda or .mp3 format only (Other formats may not be supported on the computer. Use them at your own risk).\n6. Teams must follow the time limits. The teams that fail to do so will be penalized by the judges.\n7. The usage of props is allowed. However, these have to be brought by the teams themselves, and the organizers hold the discretion of allowing them on stage.\n8. Teams using party poppers, colors, or any such materials are responsible for cleaning the stage afterward; failure to do so will result in point deduction.\n9. Any kind of fluid, flame, or heavy object is prohibited on stage.\n\nRules:\n1. Obscenity of any kind is not allowed and will lead to immediate disqualification.\n2. The decision of the judges and the organizing team is final and binding.\n\nJudging Criteria:\n● Synchronization\n● Stage Utilization\n● Creativity\n● Coordination\n● Choreography\n● Energy Level\n● Expression\n● Costumes and Props\n● Innovation and Presentation\n● The overall impact on the Crowd",
   date: "12 April 2025",
   image: require("./Pics/Duet_Dance.png"),
-  category: "Dance Duet"
+  category: "Dance Duet",
+  register: "https://forms.gle/JeVkcu3fNjjFztrN7"
 }
 ,
 {
@@ -121,7 +124,8 @@ export const events =
     rules: "Registration:\n1. Participants must submit a 2-3 minute video during registration.\n2. Shortlisted participants will perform live at NITJ during UTKANSH.\n\nPerformance Time:\n1. Maximum time limit is 3 minutes.\n2. Exceeding the limit by 10 seconds results in a 20% deduction in marks, and after 20 seconds, disqualification may occur.\n\nLanguage & Accompaniment:\n1. Songs can be in Hindi, English, Punjabi, or a mashup.\n2. Participants can perform with instrumental accompaniment or a backing track, but judging will be based solely on vocal performance.\n\nDisqualification:\n1. Any misconduct, obscenity, or use of foul language will lead to on-the-spot disqualification.\n\nJudging Criteria:\n● Quality of voice\n● Sense of scale and beat\n● Improvisation\n● Pronunciation of lyrics\n● Mood and expression\n● Overall impact",
     date: "10 April 2025",
     image: require("./Pics/The_Voice.png"),
-    category: "Music"
+    category: "Music",
+    register: "https://forms.gle/avss3R1hXuJQSFjN6"
 }
 ,
 {
@@ -175,7 +179,8 @@ export const events =
     rules: "Event Format:\n1. Each participant will be given 2 minutes to present their oratory skill in the form of a story, poem, speech, etc.\n2. The speaker may choose to speak in any language they desire.\n3. They need to entertain the audience with their content.\n\nJudging Criteria:\n1. Evaluation will be based on creativity, oratory skills, matter, manner, and method.",
     date: "12 April 2025",
     image: require("./Pics/Open_Mic.png"),
-    category: "Literary"
+    category: "Literary",
+    register: "https://forms.gle/RLhoV9nweev2uRtt8"
 }
 ,
 {
@@ -202,7 +207,8 @@ export const events =
     rules: "Event Structure:\n1. The event consists of three sessions (1.5 hours each), each focused on forming a major governance policy.\n2. Topics for discussion will be released two days prior to allow research. While laptops and mobile phones are permitted, internet access, magazines, or any external sources are strictly prohibited during the competition.\n\nCompulsory Speeches:\n1. Sessions 1 & 2: Each delegate must deliver a 45-second speech (First buzzer at 35 secs, second at 45 secs). A 2% penalty will be applied for every extra 5 seconds.\n2. Session 3: Each delegate must deliver a 35-second speech (First buzzer at 25 secs, second at 35 secs). A 2% penalty applies for every extra 5 seconds.\n\nModerated Discussions:\n1. One unmoderated discussion (7 minutes) is allowed per session.\n2. Speeches are not compulsory but add to the score. Each delegate can deliver a maximum of three speeches.\n3. Each speech must be 35 seconds (First buzzer at 25 secs, second at 35 secs). A 2% penalty applies for every extra 5 seconds.\n\nDebate & Questioning:\n1. No questions/disagreements are allowed during compulsory speeches.\n2. In moderated discussions, a maximum of 2 questions can be asked per speech; additional queries must be submitted via chits.\n3. Replies to questions can be given immediately or later via chit.\n\nFinal Session & Charter Formation:\n1. Each delegate must deliver a 20-second conclusion speech, summarizing their stance across all three sessions.\n2. A collective charter listing three key policies must be presented before the panel.\n3. A 20-minute unmoderated discussion will be provided for charter preparation.\n\nGeneral Rules:\n1. The judges’ decision will be final in case of any disputes.\n2. The language of the event is English, and participants must maintain parliamentary decorum.",
     date: "10 April 2025",
     image: require("./Pics/Charter_and_Change.png"),
-    category: "Debate"
+    category: "Debate",
+    register: "https://forms.gle/jJypy4uCKdWtyT7EA"
 }
 ,
   {
@@ -229,7 +235,8 @@ export const events =
   rules: "Team Size:\n1. The team size can vary from a minimum of 1 to a maximum of 3 members.\n2. The team members must be from the same institute and should have their valid college ID cards with them during the event.\n\nCompetition Format:\n1. Each quiz will have two stages: The Prelims Round and The Final Stage Round.\n2. The top 5 teams from the Prelims round will reach the Stage Round in each quiz.\n3. A team can register and participate in any or both quizzes.\n4. The detailed rules for the Prelims Sub-Rounds and the Sub-Rounds of the Final Stage will be explained by the Quizmaster(s) during the respective events.\n5. Some examples of the sub-rounds that will be conducted are: Pounce and Bounce Quizzing, Rapid Fire Round, Buzzer Round, etc.\n\nRules & Conduct:\n1. The team members are instructed not to follow any unfair means during the event. If found doing so, the team will be disqualified immediately.\n2. Any type of misbehavior or disruption to the decorum of the event will not be tolerated and will lead to the disqualification of the team from the event(s).\n3. The decision of the Quizmaster(s) will be final in case of any ambiguity.\n\nRegistration Fee:\n1. Tentative registration fees per team will be Rs 50/-.",
   date: "12 April 2025",
   image: require("./Pics/Pop_Culture_Quiz.png"),
-  category: "Quiz"
+  category: "Quiz",
+  register:"https://forms.gle/prPws7GS6p47urJb6"
 }
 ,
   {
@@ -242,7 +249,8 @@ export const events =
     rules: "Team Size:\n1. The team size can vary from a minimum of 1 to a maximum of 3 members.\n2. The team members must be from the same institute and should have their valid college ID cards with them during the event.\n\nCompetition Format:\n1. Each quiz will have two stages: The Prelims Round and The Final Stage Round.\n2. The top 5 teams from the Prelims round will reach the Stage Round in each quiz.\n3. A team can register and participate in any or both quizzes.\n4. The detailed rules for the Prelims Sub-Rounds and the Sub-Rounds of the Final Stage will be explained by the Quizmaster(s) during the respective events.\n5. Some examples of the sub-rounds that will be conducted are: Pounce and Bounce Quizzing, Rapid Fire Round, Buzzer Round, etc.\n\nRules & Conduct:\n1. The team members are instructed not to follow any unfair means during the event. If found doing so, the team will be disqualified immediately.\n2. Any type of misbehavior or disruption to the decorum of the event will not be tolerated and will lead to the disqualification of the team from the event(s).\n3. The decision of the Quizmaster(s) will be final in case of any ambiguity.\n\nRegistration Fee:\n1. Tentative registration fees per team will be Rs 50/-.",
     date: "11 April 2025",
     image: require("./Pics/general_Quiz.png"),
-    category: "Quiz"
+    category: "Quiz",
+    register:"https://forms.gle/prPws7GS6p47urJb6"
   },
   
   {
@@ -268,7 +276,8 @@ export const events =
   rules: "राउंड 1: सामान्य प्रश्न (खेल, फिल्में, सामान्य ज्ञान)\n\n1. राउंड 1 में 20 प्रश्न होंगे जो फ़िल्मों पर आधारित होंगे।\n2. प्रत्येक प्रश्न का उत्तर प्रतिभागियों को कागज़ पर लिखना होगा।\n3. प्रत्येक प्रश्न के लिए 30 सेकंड का समय दिया जाएगा।\n4. प्रश्न स्क्रीन पर दिखाए जाएंगे और 30 सेकंड के बाद नया प्रश्न स्क्रीन पर दिखाया जाएगा।\n5. इस राउंड में कोई नकारात्मक अंकन नहीं होगा और गलत उत्तर देने पर अंक नहीं काटे जाएंगे।\n6. इस राउंड के बाद लिखे उत्तर के अंक अनुसार 10 टीम अगले राउंड में जाएंगी।\n7. एक प्रश्न का एक से अधिक उत्तर देने पर उस प्रश्न का मूल्यांकन नहीं किया जाएगा।\n8. यदि दो टीमें समान अंक प्राप्त करती हैं तो ये नियम लागू होंगे -\n   • व्याकरण शुद्धि एवं मात्रा\n   • हिंदी भाषा में उत्तर\n\nराउंड 2: क्रॉसवर्ड\n\n1. राउंड 2 में 10 प्रश्न होंगे जो मुद्रित हिंदी क्रॉसवर्ड पर आधारित होंगे।\n2. प्रतिभागियों को प्रिंटेड पेपर दिया जाएगा जिसमें प्रश्न एवं क्रॉसवर्ड होंगे।\n3. इस राउंड में भी नकारात्मक अंकन नहीं होगा।\n4. प्रतिभागियों को उत्तर लिखने के लिए केवल 10 मिनट का समय दिया जाएगा।\n5. समय समाप्त होने पर उत्तर पत्र ले लिया जाएगा।\n6. उत्तर पत्र के कुल अंक के अनुसार 5 टीम अगले राउंड में जाएगी।\n\nराउंड 3 : डम्ब शराज\n\n1. राउंड 3 में 2 प्रश्न डम्ब शराज प्रारूप में पूछे जाएंगे।\n2. प्रत्येक प्रश्न का उत्तर प्रतिभागियों को देना होगा।\n3. प्रत्येक टीम से एक व्यक्ति को बुलाकर फिल्म का नाम दिखाया जाएगा और उसे अपनी कला से अपने साथियों को फिल्म का नाम बताना है बिना कुछ बोले और इसकी समय सीमा 2 मिनट रहेगी।\n\nअन्य नियम\n\n1. प्रतिभागी व्यक्तिगत रूप से या अधिकतम 3 सदस्यों की टीम बनाकर भाग ले सकते हैं।\n2. पहले राउंड से 10 प्रतिभागी या टीमों को दूसरे राउंड के लिए चुना जाएगा।\n3. दूसरे राउंड से 5 प्रतिभागी या टीमों को तीसरे राउंड के लिए चुना जाएगा।\n4. तीसरे राउंड के बाद तीन विजेताओं का चयन किया जाएगा - प्रथम, द्वितीय और तृतीय स्थान।\n5. प्रतियोगिता में निष्पक्षता होनी चाहिए, किसी भी प्रकार का फोन या इलेक्ट्रॉनिक उपकरण उपयोग नहीं किया जा सकता।\n6. अगर कोई अनुचित गतिविधि पाई जाती है, तो प्रतिभागी या टीम को प्रतियोगिता से बाहर कर दिया जाएगा।",
   date: "12 April 2025",
   image: require("./Pics/Dangal_Quiz.png"),
-  category: "Quiz  Rajbhasha"
+  category: "Quiz  Rajbhasha",
+  register:"https://forms.gle/D4tDtjs3m6CvPgQEA"
 },
 
   {
@@ -453,7 +462,7 @@ export const events =
 ,
   {
     id: 36,
-    name: "Iktara",
+    name: "Iktaara",
     head: "A Symphony of Melodies",
     entry: "800 INR",
     prize: "30,000 INR",
@@ -461,7 +470,8 @@ export const events =
     rules: "1. A team can have a maximum of 4 members. In which they can have only one folk singer.\n2. Maximum time of performance will be of 6 minutes and the warning bell ring after 5 minutes.\n3. Folk song will not be sung on the recorded music of instruments.\n4. In Folk song performance western instruments are not allowed, the allowed instruments are like tumbi, sarngi, algoze, vanjli, dhad, dhol, dholki, gharha, chimta, bugdu or bugchu, garhwa, hamel, khartal, been, sankh, ngara etc.\n5. Use of Harmonium is allowed.",
     date: "12 April 2025",
     image: require("./Pics/Iktara.png"),
-    category: "Music RLC"
+    category: "Music RLC",
+    register: "https://forms.gle/rD1arHC3QyNFoBTr7"
 }
 
 ,

@@ -3,16 +3,17 @@ import { register } from "react-scroll/modules/mixins/scroller";
 export const technical_events =  [
 
   {
-    "id": 42,
-    "name": "ChemTech",
-    "head": "Unleash Your Chemical Creativity",
-    "entry": "150 INR",
-    "prize": "16,000 INR",
-    "description": "Live the thrill of chemistry with ChemTech, a challenge that pushes your analytical skills and creativity to the limit. From identifying unknown compounds to crafting handmade soaps and transforming waste into valuable resources, this competition demands innovative thinking. Participate in teams, showcase your expertise, and claim exciting rewards in an electrifying scientific showdown!",
-    "rules": "Each team must have Minimum 2 and Maximum 3 members.\n➢ The first two events will be based on the basic analytical chemistry knowledge of the participants and their skills in doing experiments on 10th April,2025 in Chemical Engineering Department.\n➢ The shortlisted participants will propose feasible ideas to turn waste materials into useful materials or sources of energy (basically themes based on Sustainable Future) on 11th April,2025.\n➢ The event’s planners have the right to modify any or all rules. In case of any changes, the registered teams will be notified by Email.\n➢ In case of any disagreement, the decision of judges would be the final.\n\nEVENT-1: What’s there in your beaker?\n➢ Teams will be given a sample of some unknown chemical compound in their respective beakers, and they will have to use lab tests for detecting which compound it is.\n➢ Teams would be judged on behalf of their speed and accuracy in performing the tests.\n➢ The apparatus and chemicals would be provided, and the team members need to be cautious while performing. \n\nEVENT-2: Soapy Soaps\n➢ Participants would make soaps using the basic steps for soap formation. Any kind of soap, be it antibacterial, glycerin, moisturising etc. is acceptable.\n➢ Teams would be judged on behalf of how good soaps they make.\n➢ Required chemicals and apparatus would be provided.\n\nEVENT-3: ChemCycle: Turning wastes into wealth (basically themes based on Sustainable Future).\n➢ Teams would pitch ideas to turn waste materials (either organic or inorganic), into some useful things or energy.\n➢ Teams would be judged by judges on grounds of how sustainable their ideas are.\n➢ No limit to the number of ideas, but the exceptional ones would be taken into consideration",
-    "date": "10-11 April 2025",
-    "image": require("./Pics/ChemTech.png"),
-    "category": "Chemistry chemical"
+    id: 42,
+    name: "ChemTech",
+    head: "Unleash Your Chemical Creativity",
+    entry: "150 INR",
+    prize: "16,000 INR",
+    description: "Live the thrill of chemistry with ChemTech, a challenge that pushes your analytical skills and creativity to the limit. From identifying unknown compounds to crafting handmade soaps and transforming waste into valuable resources, this competition demands innovative thinking. Participate in teams, showcase your expertise, and claim exciting rewards in an electrifying scientific showdown!",
+    rules: "Each team must have Minimum 2 and Maximum 3 members.\n➢ The first two events will be based on the basic analytical chemistry knowledge of the participants and their skills in doing experiments on 10th April,2025 in Chemical Engineering Department.\n➢ The shortlisted participants will propose feasible ideas to turn waste materials into useful materials or sources of energy (basically themes based on Sustainable Future) on 11th April,2025.\n➢ The event’s planners have the right to modify any or all rules. In case of any changes, the registered teams will be notified by Email.\n➢ In case of any disagreement, the decision of judges would be the final.\n\nEVENT-1: What’s there in your beaker?\n➢ Teams will be given a sample of some unknown chemical compound in their respective beakers, and they will have to use lab tests for detecting which compound it is.\n➢ Teams would be judged on behalf of their speed and accuracy in performing the tests.\n➢ The apparatus and chemicals would be provided, and the team members need to be cautious while performing. \n\nEVENT-2: Soapy Soaps\n➢ Participants would make soaps using the basic steps for soap formation. Any kind of soap, be it antibacterial, glycerin, moisturising etc. is acceptable.\n➢ Teams would be judged on behalf of how good soaps they make.\n➢ Required chemicals and apparatus would be provided.\n\nEVENT-3: ChemCycle: Turning wastes into wealth (basically themes based on Sustainable Future).\n➢ Teams would pitch ideas to turn waste materials (either organic or inorganic), into some useful things or energy.\n➢ Teams would be judged by judges on grounds of how sustainable their ideas are.\n➢ No limit to the number of ideas, but the exceptional ones would be taken into consideration",
+    date: "10-11 April 2025",
+    image: require("./Pics/ChemTech.png"),
+    category: "Chemistry chemical",
+    register:"https://forms.gle/X5iWJVRtuy31EDVL9"
 }
 ,
     {
@@ -63,7 +64,8 @@ export const technical_events =  [
       rules: "Event Phases:\n1. Model Construction\n2. Simulated Earthquake Testing\n3. Load Test\n\nSize & Dimensions:\n• Max. Base Area: 30cm × 30cm\n• Min. Height: 50cm\n• Max. Height: 80cm\n\nTesting Criteria:\n1. Earthquake Simulation Test:\n   • The model will be placed on a shake table with increasing intensity levels.\n   • The structure should remain intact for at least 20 seconds at maximum intensity to score full points.\n\n2. Load Bearing Test:\n   • A gradual increase of load (weights) will be applied.\n   • The maximum load before failure will be recorded.\n\nJudging Criteria:\n• Judges will evaluate the load/cost ratio of the models.\n\nRules & Regulations:\n1. All models must be built strictly following the size and material guidelines.\n2. Materials will be provided on the event site itself; any improperly constructed model may be disqualified.\n3. Use of restricted materials will lead to immediate disqualification.\n4. Judges' decisions will be final and binding.",
       date: "10 April 2025",
       image: require("./Pics/Skyline_Symphony.png"),
-      category: "Engineering Civil Design"
+      category: "Engineering Civil Design",
+      register: "https://forms.gle/2Jz1jSGZCpLCUn9w6"
   }
   ,
   {
