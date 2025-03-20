@@ -39,7 +39,8 @@ export const technical_events =  [
     "rules": "1. Only a writing implement will be allowed. No calculators, formula sheets, or extra paper are permitted. Scrap paper will be provided.\n2. There will be three rounds.\n3. All integrals will be indefinite.\n4. Students do not have to write the arbitrary constant (+C) to get a correct solution. They must, however, undo all substitutions and thus present a solution in terms of the original variable.\n5. The integrals will increase in difficulty from round to round, and within each round as the round progresses.\n6. An answer is acceptable as long as it is a solution for the original problem on an open interval (any open interval). So for example, ln(x) is an acceptable solution to \u222b dx because it is a solution on (0, \u221e).\n7. Check Rule: A Team during the competition can ask the judge for a\n\u201ccheck\u201d at any time ONLY ONCE (relinquishing the ticket provided when you do so). The judge will offer one of the following non-verbal responses:\n(a) If the answer is correct: a check mark C. Congratulations!\n(b) If there is a mistake that changes the nature of the integral or the technique is entirely off and requires replacing significant portions of your work: an X. This means you have major errors. Try to fix them!\n(c) If there is a mistake that does not change the nature of the integral and could be fixed by changing your work in one or just a few spots: a circle mark. This means you have minor error(s).Try to fix them!\n(d) If the judge is unable to ascertain (for whatever reason) if the error is major or minor: a ?. This response is unlikely. Try to assess your own work and keep going!\nYOU MUST HAVE A CIRCLED ANSWER FOR THE JUDGE TO EXAMINE. Since time is of the essence you should ask for your check by raising your hand well before time runs out. Once you raise your hand you cannot change your mind. You may do this only once.\n8. Round 1: 2 Teams will come on board and will have 2:00 minutes each question to compute the integrals. Each team must get 3 integrals to solve at the same time, the team which will solve the question first and correct will get a point and the team which will have more points in the end will win. (In case of tie breaker teams will be given one integral to solve first to solve will win).\n\n10 teams will go to round 2.\n\n9. Round 2: 2 Teams will come on board and will have 3:00 minutes each question to compute the integrals which is a level higher than the previous round. Each team must get 4 integrals to solve at the same time, the team which will solve the question first and correct will get a point and the team which will have more points in the end will win. (In case of tie breaker teams will be given one integral to solve first to solve will win).\n\n6 teams will go to the final round which is round 3\n\n10. Round 3: 2 Teams will come on board and will have 5:00 minutes each question to compute the integrals which is a level higher than the previous round. Each team must get 5 integrals to solve at the same time, the team which will solve the question first and correct will get a point and the team which will have more points in the end will win. (In case of tie breaker teams will be given one integral to solve first to solve will win).",
     "date": "12 April 2025",
     "image": require("./Pics/Integration.png"),
-    "category": "Mathematics"
+    "category": "Mathematics",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSdD1ipTAEwGM8Q7tM6rYT__4qS0kZECzH-4k1u5YckOioP9Lw/viewform?usp=header"
 }
 ,
     {
@@ -52,7 +53,8 @@ export const technical_events =  [
       rules: "1.Participants can compete only in teams of 2-3 members.\n2. No use of elctronic devices(phones , smartwatches,etc.) during the quiz.\n3. No use of assistance (googling, asking for help) is allowed.\n4. Team members must collaborate quietly without disrupting others.\n5. In case of a tie, a sudden-death question round will be held\n6. The quiz,aster's decision is final in case of disputes.",
       date: "12 April 2025",
       image: require("./Pics/Q_trivia.png"),
-      category: "Quiz Quantum"
+      category: "Quiz Quantum",
+      register:"https://docs.google.com/forms/d/e/1FAIpQLSdgs_Z9qTLjdrTMZJKZlzFWk3yQEuECCdP3iGmWCNwzCQ1JLw/viewform?usp=header"
     },
     {
       id: 46,
@@ -78,7 +80,8 @@ export const technical_events =  [
     rules: "1. Each group will be provided with plain T-shirts.\n2. Various colors of printing paste will be made available to all participants.\n3. Participants must engrave their designs on the printing block using the provided tools.\n4. The engraved block will then be used to print the design onto the T-shirt.\n5. The top three designs will be selected and awarded.\n6. Time Limit: 2 hours.",
     date: "11 April 2025",
     image: require("./Pics/TexPrint.png"),
-    category: "Design Textile"
+    category: "Design Textile",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSdo5S6q8U26DSNmA66jqv2mrcsnkr3gfEYNhEWEt3sJLV2-Qg/viewform?usp=header"
 }
 ,
     {
@@ -91,7 +94,8 @@ export const technical_events =  [
       rules: "1. Teams of two only\n2. Performance time: 3-5 minutes\n3. Music track to be submitted in advance\n4. No vulgar or inappropriate content",
       date: "13 April 2025",
       image: require("./Pics/TexhBiz_Quest.png"),
-      category: "Business & Technology"
+      category: "Business & Technology",
+      register:"https://docs.google.com/forms/d/e/1FAIpQLSecfKVFW30XphOxKofd_bYnCf0avsNgIFV34E9XGgB9N9W24w/viewform?usp=header"
     },
     {
       id: 49,
@@ -103,7 +107,8 @@ export const technical_events =  [
       rules: "1. Teams of 2 to 3 members will participate.\n2. Open to 100 participants on a first-come basis.\n3. Each team gets a virtual demat account and initial capital.\n4. Multiple trading rounds with changing market scenarios.\n5. Throughout the competition, 10 news events and major market updates will be displayed on the screen.\n6. After each update, teams will have 10 minutes to strategize and 5 minutes to execute their trades.\n7. Buy/sell orders are placed via order slips.\n8. Short selling is allowed.\n9. Transactions must be validated by event facilitators.\n10. Portfolio value = Cash + Stock Value.\n11. The highest portfolio value wins.\n12. In case of a tie, the participant with more successful trades wins.\n13. Fair trading is required; manipulation leads to disqualification.\n14. Mobile phones and external help are prohibited.",
       date: "13 April 2025",
       image: require("./Pics/Wall_Street_Paper.png"),
-      category: "Finance"
+      category: "Finance",
+      register:"https://docs.google.com/forms/d/e/1FAIpQLSeXbWxP0rV1Dn3vQmNEITrFq-hTq2MvSsFapmRva2_ZJmM3Sg/viewform?usp=header"
   }
   ,
     {
@@ -116,7 +121,8 @@ export const technical_events =  [
       rules: "Competition Rules:\n1. Teams of 2 to 3 members will participate.\n2. Open to 100 participants on a first-come basis.\n3. Each team will receive an initial virtual capital to build their portfolio.\n4. A curated list of stocks will be provided for investment.\n5. Teams will have access to our platform/APIs to analyze technical and fundamental data.\n6. Each team must construct a portfolio of 5 to 10 stocks within 1.5 hours.\n7. Once finalized, portfolios will be locked in and cannot be altered.\n8. Portfolio value = Cash + Stock Holdings Value at the end of the competition.\n9. In case of a tie, the team with higher initial capital utilization wins.\n10. Fair play is mandatory—any attempt at manipulation leads to disqualification.\n11. Mobile phones and external assistance are prohibited during the event.\n\nJudging Criteria:\n1. Portfolio Value – The final market value of the selected stocks.\n2. Rationale & Justification – The clarity, depth, and strategic reasoning behind stock selections.\n3. The team with the highest combined score across both parameters will be declared the winner.",
       date: "10 April 2025",
       image: require("./Pics/Analyst_edge.png"),
-      category: "Finance"
+      category: "Finance",
+      register:"https://docs.google.com/forms/d/e/1FAIpQLSeNCBbkFh_uYULF9QIcfNpb48PKI3AIBvgV1os3ZlEBhe7yGg/viewform?usp=header"
   }
   ,
     {
@@ -129,7 +135,8 @@ export const technical_events =  [
       rules: "",
       date: "11 April 2025",
       image: require("./Pics/Escape_Room.png"),
-      category: "Problem Solving ecell e-cell"
+      category: "Problem Solving ecell e-cell",
+      register:"https://docs.google.com/forms/d/e/1FAIpQLSfIAQIIqzx3gCIDpolYUwDf7XQih0PaPJB0MOmHEDeDvd5o0g/viewform?usp=header"
     },
   
     {
@@ -184,7 +191,8 @@ export const technical_events =  [
   rules: "1. Event Overview:\n● The SPICE Society Autonomous Bot Challenge is a robotics competition where teams design and build autonomous bots capable of navigating a predefined path without a guiding line.\n● The bots must overcome obstacles such as small inclines and blockages to complete the track in the shortest time possible.\n\n2. Team Composition:\n● Each team may consist of 1-5 members.\n● Members can be students, hobbyists, or professionals.\n● A participant cannot be part of more than one team.\n\n3. Competition Rules:\n● The bot must start autonomously after an initial button press or command.\n● The bot must follow the track and navigate obstacles without external intervention.\n● If a bot remains stuck for more than 10 seconds, the team will get one manual reset (with a penalty).\n● Maximum of 4 resets allowed per round.\n● If the bot skips a checkpoint, it must return and pass through it to continue.\n● The competition consists of time trials, and the fastest bot to complete the track wins.\n\n4. Scoring & Penalties:\n● Base Score: Completion time is the primary scoring factor.\n● Penalties:\n   ○ Manual reset: +10 seconds per reset.\n   ○ Missing a checkpoint: +15 seconds.\n   ○ Touching side boundaries: +5 seconds per occurrence.\n● If no team completes the track, the farthest checkpoint reached will determine the ranking.",
   date: "13 April 2025",
   image: require("./Pics/Blind_Robo.png"),
-  category: "Robotics & AI spice"
+  category: "Robotics & AI spice",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLSdeJB83t_LuQbQGugMH9h42-N2NnXnL6pBAwSnVMx3FdTX2rg/viewform?usp=header"
 }
 ,
 {
@@ -212,7 +220,8 @@ export const technical_events =  [
   rules: "1. General Rules\n• Team Composition: Teams must consist of 2-3 students.\n• Registration: All teams must register within the specified deadline.\n• Case Studies: Teams will be provided with 2-3 case studies/problem statements.\n• Presentation:\n  ○ Presentations must be within the allotted time limit (10-15 minutes).\n  ○ Use of visual aids (slides) is encouraged.\n  ○ Physical models or demonstrations are highly encouraged during the presentation.\n\n2. Presentation Content\n• Problem Identification & Analysis: Clear and concise identification and analysis of the given problem.\n• Proposed Solution:\n  ○ Detailed explanation of the proposed solution, including technical feasibility and rationale.\n  ○ Consideration of potential challenges and mitigation strategies.\n  ○ Innovative and creative approach to the problem.\n• Impact & Future Considerations:\n  ○ Discussion of the potential impact of the proposed solution on space exploration and society.\n  ○ Consideration of future developments and potential improvements.\n\n3. Judging Criteria\n• Creativity & Innovation: Originality and uniqueness of the proposed solution.\n• Technical Feasibility: Soundness of the proposed solution from a technical perspective.\n• Presentation & Communication: Clarity, persuasiveness, and effectiveness of the presentation.\n• Depth of Research & Analysis: Thoroughness of research and analysis of the problem and proposed solution.\n• Teamwork & Coordination: Effective teamwork and collaboration among team members.\n\n4. Disciplinary Rules\n• Plagiarism: Plagiarism in any form is strictly prohibited. Teams found to have plagiarized content will be disqualified.\n• Disruptive Behavior: Any disruptive behavior during the presentation or the event will result in points deduction or disqualification.\n• Violation of Rules: Any violation of the competition rules will result in penalties as determined by the judges.\n\n5. Final Evaluation\n• Judging Panel: A panel of judges consisting of faculty members, industry experts, and space enthusiasts will evaluate the presentations.\n• Scoring: Judges will independently score each team based on the judging criteria.\n• Decision: The final decision of the judges will be final and binding.\n\n6. Important Notes\n• This rulebook is subject to change at the discretion of the organizers.\n• Any updates or modifications to the rules will be communicated to all participating teams in advance.",
   date: "13 April 2025",
   image: require("./Pics/Ad_Astra.png"),
-  category: "Space & Astronomy"
+  category: "Space & Astronomy",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLScHt5Rsv6JTzZ-zQCpqGUdKxUKCk8MSskVTCBJ6biodkyJusg/viewform?usp=header"
 }
 ,
   {
@@ -239,7 +248,8 @@ export const technical_events =  [
       rules: "",
       date: "11 April 2025",
       image: require("./Pics/CTF.png"),
-      category: "Cybersecurity & Cryptography"
+      category: "Cybersecurity & Cryptography",
+      register:"https://docs.google.com/forms/d/e/1FAIpQLScDNBG5rby_djKem8Uk2vz_e5jTNJktMfNVUkX3ykLpQpBTyg/viewform?usp=header"
   },
   {
     "id": 60,
@@ -265,7 +275,8 @@ export const technical_events =  [
     rules: "1. Introduction:\nSpeed Quant is a high-intensity challenge designed to test participants' mathematical and competitive programming skills under extreme time constraints. As part of Techno-Cultural Fest 2025, this event will push contestants to solve complex problems swiftly, making quick and strategic decisions.\n\n2. Eligibility:\n● The competition is open to all students currently enrolled in a recognized educational institution.\n● Participants must register as a team.\n● Each participant must provide a valid student ID during registration.\n\n3. Event Format:\nSpeed Quant consists of two rounds, each designed to assess problem-solving speed and accuracy.\n\nRound 1: The Speed Challenge (Qualifier Round)\n● A time-limited online/offline test with quantitative aptitude, logical reasoning, and basic competitive programming questions.\n● Covers topics like number theory, probability, algebra, data interpretation, and basic coding logic.\n● Questions will be multiple-choice and short-answer based.\n● Participants will be ranked based on accuracy and speed. Top performers will advance to Round 2.\n\nRound 2: The Ultimate Challenge (Final Round)\n● This round consists of complex problem-solving questions involving both mathematical puzzles and algorithmic coding challenges.\n● Topics include advanced number theory, dynamic programming, combinatorics, and pattern recognition.\n● Contestants must optimize their solutions within a strict time frame.\n● The final ranking will be determined based on correctness, efficiency, and time taken.\n\n4. Scoring & Evaluation:\n● Round 1: Points are awarded for correct answers. Negative marking may apply for incorrect answers.\n● Round 2: Scoring will be based on accuracy, execution speed, and optimized code performance.\n● In case of a tie, time taken per question will be considered.\n\n5. General Rules & Conduct:\n● Participants must adhere to ethical behavior and avoid any form of cheating.\n● Use of unauthorized tools or external assistance is strictly prohibited.\n● Plagiarism or code-sharing will lead to immediate disqualification.\n● All decisions made by the jury and event coordinators are final.\n\n6. Technical Requirements:\n● The contest will be conducted on an online coding platform (details to be provided before the event).\n● Allowed programming languages include C, C++, Java, Python, and JavaScript.\n● Participants must have a stable internet connection if competing remotely.\n\n7. Disqualification Criteria:\nA participant will be disqualified if they:\n● Are found guilty of using unfair means (plagiarism, external help, or cheating).\n● Do not adhere to the specified time limits.\n● Engage in any form of misconduct or misbehavior during the event.",
     date: "10-11 April 2025",
     image: require("./Pics/Speed_Quant.png"),
-    category: "Competitive Programming"
+    category: "Competitive Programming",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSczFwncWTMSMl1rjqpNKcUJy4e-WYL-iluhqZ4MYPJYxhQVsQ/viewform?usp=header"
 }
 
   ,
@@ -279,7 +290,8 @@ export const technical_events =  [
     rules: "1. Participants from within the college and outside the college from any other educational institutes are allowed.\n\n2. It will be a 2-day event comprising 2 rounds.\n\n3. Round 1 (Day 1):\n   ● Team size: 2-4 participants.\n   ● Clues will be distributed all around the campus before the start of the event.\n   ● A senior mentor shall be allotted to 3-4 teams based on participation.\n   ● A clue shall be sent to each team leader’s WhatsApp. The clue may comprise of any basic question related to electronics or a fun game.\n   ● The team leader will have to message the right answer to the clue to the respective mentor.\n   ● The team giving the correct answer will be given another clue that will lead to a specific location in the campus, where another question shall be awaiting them.\n\n4. A fixed number of teams shall be selected for round 2.\n\n5. Round 2 (Day 2):\n   ● All the selected students will be divided into pairs of 2 randomly.\n   ● 3-4 pairs will be allotted one senior.\n   ● Each pair will be given a question to solve individually. The candidate who solves the question earliest will be selected, and the other will be eliminated.\n   ● Selected ones will compete among themselves, and 3 winners will be selected.",
     date: "12-13 April 2025",
     image: require("./Pics/Circuit_Saga.png"),
-    category: "Electronics & Problem Solving soece"
+    category: "Electronics & Problem Solving soece",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSdx3TmpAlCFXx1UkYIjzzZCRLrYzWCKmyxBPiTrN-k8UviF_g/viewform?usp=header"
 }
 ,
 {
@@ -292,7 +304,8 @@ export const technical_events =  [
     rules: "",
     date: "12 April 2025",
     image: require("./Pics/Lost_Circuit.png"),
-    category: "Electronics seed"
+    category: "Electronics seed",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSfAfJWPvX3DboXilS8uAYnVkW8DNAWIjXAdAFYuCX9JxcMeLA/viewform?usp=header"
 },
 // {
 //     id: 64,
@@ -318,7 +331,8 @@ export const technical_events =  [
     rules: "",
     date: "11 April 2025",
     image: require("./Pics/CAD_Modeling.png"),
-    category: "Design & Engineering"
+    category: "Design & Engineering",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSdQZ72ZaKh8kqdVkzr1rZ7zQSjsEBQts-UdRpyhhMKOFk0bWA/viewform?usp=header"
 },
 {
   id: 66,
@@ -330,7 +344,8 @@ export const technical_events =  [
   rules: "● Participation in a team with a maximum of 4 members.\n● One participant from the team will select a chit from the bowl containing the names of different products (e.g., mobile cover).\n● The team will receive the product and must frame a presentation in the form of an effective skit or advertisement.\n● The participants will be given 30 minutes to frame and arrange their presentation.\n● After 30 minutes, the team will showcase their persuading and marketing skills.\n● Maximum time: 4 minutes.\n● 1st bell after 3:30 minutes and 2nd bell after 4 minutes.\n● Exceeding the time limit will lead to negative marking.\n\nJudging Criteria:\n● Creativity and originality.\n● Effectiveness in conveying the message or product.\n● Presentation skills and audience engagement.\n● Adherence to time limits.\n● Judges may also consider factors like humor, impact, relevance, and overall entertainment value.",
   date: "10,13 April 2025",
   image: require("./Pics/Ad_Mad_Show.png"),
-  category: "Marketing & Advertising"
+  category: "Marketing & Advertising",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLSd_WSd5XgqIrvWxFT2Y3JJmi-XzOKVu4DYP--Qj9jB_lpXFLA/viewform?usp=header"
 }
 ,
 {
@@ -348,16 +363,17 @@ export const technical_events =  [
 },
 
 {
-  "id": 68,
-  "name": "BioExpo",
-  "head": "Exploring Biotechnology Through Innovation",
-  "entry": "50 INR",
-  "prize": "4,500 INR",
-  "description": "BioExpo is an exciting biotechnology fair where students will design and present real 3D models of biotechnology-based projects. Participants will not only build these models but also explain and demonstrate their working principles, applications, and significance in the field of biotechnology.",
-  "rules": "Judges will evaluate the projects based on:\nUniqueness and Innovation – How original and creative the idea is.\nPractical Application – The real-world relevance and usefulness of the project.\nPresentation and Explanation – How well participants communicate their project ideas.\nResponse to Judges' Questions – Depth of understanding and clarity in answering queries.\n\nThe best projects will be awarded based on their creativity, feasibility, and impact. This is a great opportunity for students to showcase their skills and contribute innovative ideas to the field of biotechnology!",
-  "date": "12 April 2025",
-  "image": require("./Pics/Revamping_Bio.png"),
-  "category": "Biotechnology & Applied Sciences"
+  id: 68,
+  name:"BioExpo",
+  head: "Exploring Biotechnology Through Innovation",
+  entry: "50 INR",
+  prize: "4,500 INR",
+  description: "BioExpo is an exciting biotechnology fair where students will design and present real 3D models of biotechnology-based projects. Participants will not only build these models but also explain and demonstrate their working principles, applications, and significance in the field of biotechnology.",
+  rules: "Judges will evaluate the projects based on:\nUniqueness and Innovation – How original and creative the idea is.\nPractical Application – The real-world relevance and usefulness of the project.\nPresentation and Explanation – How well participants communicate their project ideas.\nResponse to Judges' Questions – Depth of understanding and clarity in answering queries.\n\nThe best projects will be awarded based on their creativity, feasibility, and impact. This is a great opportunity for students to showcase their skills and contribute innovative ideas to the field of biotechnology!",
+  date: "12 April 2025",
+  image: require("./Pics/Revamping_Bio.png"),
+  category: "Biotechnology & Applied Sciences",
+  register: "https://docs.google.com/forms/d/e/1FAIpQLSc_HSj-6TRfxNKKPotXKWGpPA4t3wl6Di7UWD0NIaiY-Mvq9g/viewform?usp=header"
 }
 ,
 {
@@ -370,25 +386,27 @@ export const technical_events =  [
   "rules": "1. Team Coordination: Teams must stay together throughout the event.\n2. Clue Sequence: Clues must be solved in order; skipping any clue leads to disqualification.\n3. Time Limit: The hunt must be completed within the allotted time. The team solving all clues in the shortest time wins.\n4. Fair Play: Teams must not interfere with other participants' clues or progress.\n5. Use of External Aids: Mobile phones, books, and online resources are not allowed unless explicitly permitted.\n6. Safety Compliance: Participants must adhere to safety guidelines, especially for physics experiments.\n\n4. Structure of the Treasure Hunt\nThe hunt consists of multiple levels, with each level containing physics-based challenges:\n- Theoretical Clues: Solve conceptual physics questions to get the next location.\n- Experimental Tasks: Perform simple physics experiments to unlock clues.\n- Observation Challenges: Identify physics phenomena in the environment.\n- Calculation-Based Hurdles: Solve numerical problems to determine coordinates or next locations.\n\n5. Scoring and Winning Criteria\n- Each correctly solved clue earns points.\n- Bonus points may be awarded for exceptional problem-solving speed.\n- The team reaching the final treasure first, while following all rules, is declared the winner.\n- In case of a tie, a rapid-fire physics quiz will determine the winner.\n\n6. Disqualification Criteria\n- Tampering with or hiding clues.\n- Seeking unauthorized assistance.\n- Not adhering to safety or fair play guidelines.\n- Engaging in any form of misconduct.",
   "date": "13 April 2025",
   "image": require("./Pics/Physics.png"),
-  "category": "Physics & Problem-Solving"
+  "category": "Physics & Problem-Solving",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLSfH2gUjCDNKEnQzxG2UfDGN7PyUanXhJZjSnnWRX5Bi7RZWpQ/viewform?usp=header"
 }
 
 ,
 {
-  "id": 70,
-  "name": "Physics Escape Room Challenge",
-  "head": "Escape the Lab: A Physics Puzzle Adventure",
-  "entry": "20 INR",
-  "prize": "NIL",
-  "description": "The Physics Escape Room Challenge is an interactive and engaging event where participants use physics concepts to solve puzzles and unlock clues to 'escape' within a given time frame. Teams must work together to decode scientific mysteries and reach the final exit point.",
-  "rules": "1. Each team must enter the escape room together and follow the instructions provided.\n2. Participants are required to solve physics-based puzzles to unlock locks, find keys, or progress through different stages.\n3. No use of mobile phones, calculators, or external help is allowed.\n4. Clues must be solved logically without damaging any props or setup.\n5. Hints will be provided upon request, but each hint will result in a time penalty.\n6. Teams must complete the challenge within the allotted time to qualify.\n7. The team that escapes in the shortest time (with minimal hints) wins.\n\n4. Scoring System\n• Completion Time: Faster escapes score higher.\n• Hint Penalty: Each hint adds 2 minutes to the total escape time.\n• Rule Violations: Any rule-breaking will result in disqualification.",
-  "date": "13 April 2025",
-  "image": require("./Pics/Physics.png"),
-  "category": "Physics & Analytical Thinking"
+  id: 70,
+  name: "Physics Escape Room Challenge",
+  head: "Escape the Lab: A Physics Puzzle Adventure",
+  entry: "20 INR",
+  prize: "NIL",
+  description: "The Physics Escape Room Challenge is an interactive and engaging event where participants use physics concepts to solve puzzles and unlock clues to 'escape' within a given time frame. Teams must work together to decode scientific mysteries and reach the final exit point.",
+  rules: "1. Each team must enter the escape room together and follow the instructions provided.\n2. Participants are required to solve physics-based puzzles to unlock locks, find keys, or progress through different stages.\n3. No use of mobile phones, calculators, or external help is allowed.\n4. Clues must be solved logically without damaging any props or setup.\n5. Hints will be provided upon request, but each hint will result in a time penalty.\n6. Teams must complete the challenge within the allotted time to qualify.\n7. The team that escapes in the shortest time (with minimal hints) wins.\n\n4. Scoring System\n• Completion Time: Faster escapes score higher.\n• Hint Penalty: Each hint adds 2 minutes to the total escape time.\n• Rule Violations: Any rule-breaking will result in disqualification.",
+  date: "13 April 2025",
+  image: require("./Pics/Physics.png"),
+  category: "Physics & Analytical Thinking",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLScw40Ot2zFrg60-goDJOk7HOMi7tu_rz-ZqzVVXqZOUCapTXg/viewform?usp=header"
 },
 {
   id: 71,
-  name: "ArenaX (BGMI)",
+  name: "ArenaX (BGMI) (4v4)",
   head: "The Ultimate Esports Battle",
   entry: "20 INR per person",
   prize: "30,000 INR",
@@ -402,7 +420,7 @@ export const technical_events =  [
 ,
 {
   id: 72,
-  name: "ArenaX (VALORANT)",
+  name: "ArenaX (VALORANT) (5v5)",
   head: "The Ultimate Esports Battle",
   entry: "20 INR per person",
   prize: "30,000 INR",
@@ -430,7 +448,7 @@ export const technical_events =  [
 ,
 {
   id: 74,
-  name: "ArenaX (FREE FIRE)",
+  name: "ArenaX (FREE FIRE) (4v4)",
   head: "The Ultimate Esports Battle",
   entry: "20 INR per person",
   prize: "30,000 INR",
@@ -444,7 +462,7 @@ export const technical_events =  [
 ,
 {
   id: 75,
-  name: "ArenaX (TEKKEN 8)",
+  name: "ArenaX (TEKKEN 8) (1v1)",
   head: "The Ultimate Esports Battle",
   entry: "20 INR per person",
   prize: "4,500 INR",

@@ -54,11 +54,11 @@ const Navbar = () => {
             </div>
           </button>
         </Link>
-        <button className="button">
+        {/* <button className="button">
           <div>
             <span>REGISTER</span>
           </div>
-        </button>
+        </button> */}
       </div>
       <div className="navbar_item">
         <div className="logo">

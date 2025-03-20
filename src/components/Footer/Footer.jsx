@@ -11,7 +11,7 @@ const Footer = () => {
             <a href="/event" className="hover:text-yellow-300 transition duration-300">Event</a>
             <a href="/accomodation" className="hover:text-yellow-300 transition duration-300">Accomodation</a>
             <a href="/schedule" className="hover:text-yellow-300 transition duration-300">Schedule</a>
-            <a href="/register" className="hover:text-yellow-300 transition duration-300">Register</a>
+            <a href="/event" className="hover:text-yellow-300 transition duration-300">Register</a>
           </nav>
           <nav className="mt-4 justify-center pt-4">
             <div className="flex gap-6">
