@@ -88,7 +88,7 @@ const Event = () => {
               className="bg-black-200 w-70% overflow-hidden pt-3 bg-black-900 backdrop-blur-lg rounded-lg shadow-lg"
             >
               <div className="flex gap-10 py-2 t-2xl ">
-                <h1>Registration will be starting soon </h1>
+                <h1>The Stage is set — Press 'Register' to step up! </h1>
 
               </div>
             </Marquee>

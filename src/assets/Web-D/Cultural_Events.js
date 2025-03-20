@@ -166,7 +166,8 @@ export const events =
   "rules": "Teams will be required to come up with innovative ads. Based on the creativity and how innovative the ad is, teams will be shortlisted by the jury.\nTeams have to make a new product name, punch line and advertise the product/brand given to them.\nThe teams must bring with them the camera, pen drive, and all the other equipment required by them for presenting their advertisement.\nIt is a team event. Each team should have 3-5 members only.\nJudging is done on the basis of the team's creativity, customer appeal, stage presence, spontaneity, content, adherence to the topic, on-stage presentation, coordination, and overall appeal of the advertisement.\nDisobedience of rules may lead to disqualification.\nThe decision of the judge is final and abiding.\nParticipants should bring the institute's ID card along with them at the time of registration and must report on the scheduled time.\nTopics would be provided on the spot.\nTime limit for performing the advertisement is 1-2 minutes.\nA total of 3 hours will be given to make the advertisement.",
   "date": "10 April 2025",
   "image": require("./Pics/Mad_Ads.png"),
-  "category": "Marketing & Advertising VideoGraphy"
+  "category": "Marketing & Advertising VideoGraphy",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLScxf5utYhAOf4zHll2N5cuzJUp0d0TM19J5SbiOfJlGuqBD9w/viewform?usp=header"
 },
 
   {
@@ -193,7 +194,8 @@ export const events =
   rules: "Event Format:\n1. Three knockout rounds will be conducted, and the top five will be chosen for the finals.\n2. A round consists of a topic being presented to the speaker, on which he/she will have to speak for 2 minutes.\n3. The three knockout rounds will have various themes like cultural, geopolitical, abstract, and literary topics.\n\nJudging Criteria:\n1. Evaluation will be based on the matter, manner, and method of the content.",
   date: "11 April 2025",
   image: require("./Pics/Instant_Ink.png"),
-  category: "Literary"
+  category: "Literary",
+  register: "https://docs.google.com/forms/d/e/1FAIpQLSfnbjHaIUJZvvHZ3AKn7sCUpdyJWuy4ZCkVCVRp3bo3Y86mxQ/viewform?usp=header"
 }
 
 ,
@@ -221,7 +223,8 @@ export const events =
     rules: "1. Each participant will get one minute to speak on a topic.\n2. They have to speak 30 secs in favor and 30 secs in oppose of the same topic.\n3. As rounds progress and participants get eliminated, the ultimate challengers will emerge victorious.\n4. Judges’ decision will be final and binding.\n5. Language used should be socially acceptable and respectful.",
     date: "12 April 2025",
     image: require("./Pics/Turn_the_cap.png"),
-    category: "Quiz"
+    category: "Quiz",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSdbZiGXCPS8EdgOwnxk3RioghK8RYw4tBdOdgR7MRpRdbE6Zw/viewform?usp=header"
 }
 
 ,
@@ -263,7 +266,8 @@ export const events =
     rules: "टीम का आकार:\n● एकल (Solo)\n\nमूल्यांकन मानदंड:\nप्रतिभागियों का मूल्यांकन निम्नलिखित मानदंडों के आधार पर किया जाएगा:\n1. दर्शकों की प्रतिक्रिया और सहभागिता\n2. विषय की गहराई\n3. आवाज़ और स्पष्टता (स्वर, लय, उच्चारण)\n4. यूएसपी (विशेषता या अनोखापन)\n5. बॉडी लैंग्वेज और समग्र प्रभाव\n\nप्रतियोगिता के नियम:\n1. प्रत्येक प्रतिभागी को 5 मिनट का प्रदर्शन समय मिलेगा।\n2. प्रॉप्स और संगीत के उपयोग की अनुमति नहीं होगी।\n3. प्रतिभागी शायरी, ग़ज़ल, नज़्म आदि किसी भी रूप में कविता प्रस्तुत कर सकते हैं।\n4. प्रस्तुत की जाने वाली कविताएँ मौलिक (Original) रचनाएँ होनी चाहिए।\n5. प्रतिभागियों को अपनी कविता की हार्ड कॉपी जमा करनी होगी।\n6. प्रस्तुति की भाषा हिंदी होनी चाहिए, लेकिन उर्दू का प्रयोग मान्य होगा।",
     date: "11 April 2025",
     image: require("./Pics/Mehfil.png"),
-    category: "Cultural Rajbhasha Mehfil"
+    category: "Cultural Rajbhasha Mehfil",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSdDF4umOeZy7qHa9rS_EG-QlVfVqnPDuiAKSdPJVOaaMYAtNw/viewform?usp=header"
 }
 ,
 {
@@ -290,7 +294,8 @@ export const events =
     rules: "१. प्रत्येक रील की समय सीमा अधिकतम 2 मिनट तक की ही होनी चाहिए।\n२. रील में किसी भी प्रकार की अभद्र व आपत्तिजनक बातें दिखाना पूर्णतः वर्जित है।\n३. आप रील के माध्यम से अपनी कोई रचना जैसे कि कविता, शायरी, गज़ल या लेख प्रस्तुत कर सकते हैं। ध्यान रहे कि रचना स्वलिखित होनी चाहिए।\n४. भेजी गई रील में से तीन विजेता घोषित किए जाएंगे।\n५. आपकी creativity के लिए अलग से अंक मिलेंगे।\n६. अंतिम निर्णय Instagram पोस्ट के लाइक्स के माध्यम से (40%) तथा निर्णायकों का (60%) रहेगा।\n७. Fake likes होने की स्थिति में रील को अमान्य घोषित कर दिया जाएगा।\n८. कोई भी प्रतियोगी 1 से अधिक बार रील नहीं भेज सकता है। इसका उल्लंघन करने पर आपकी रचना अमान्य कर दी जाएगी।",
     date: "online",
     image: require("./Pics/Alfaaz.png"),
-    category: "Literary  Rajbhasha"
+    category: "Literary  Rajbhasha",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSc1fkrSjKpCAHqONxQsKo0KKSdgYuQj_S6BnKqRv2yaNo5Cag/viewform?usp=header"
 }
 ,
 {
@@ -303,7 +308,8 @@ export const events =
   rules: "टीम संरचना-\n1. प्रत्येक टीम में 3 सदस्य अनिवार्य होंगे।\n2. सभी सदस्यों को प्रतियोगिता में सक्रिय रूप से भाग लेना होगा।\n\nराउंड 1 – चित्र आधारित कहानी लेख\n\nप्रक्रिया:\n1. सभी टीमों को प्रोजेक्टर पर एक चित्र दिखाया जाएगा।\n2. प्रत्येक टीम को उस चित्र के आधार पर एक कहानी लिखनी होगी।\n3. कहानी टीम चर्चा के बाद सामूहिक रूप से लिखी जाएगी।\n4. कहानी लिखने के लिए 10-15 मिनट का समय दिया जाएगा।\n5. 5 सर्वश्रेष्ठ टीमों का चयन किया जाएगा जो अगले राउंड में जाएंगी।\n\nनिर्णय के मापदंड:\n• विचारशीलता – कहानी की नवीनता और कल्पनाशीलता।\n• रोमांच – कहानी में जिज्ञासा और रोचकता बनाए रखना।\n• हास्य – कहानी में हास्य तत्व का समावेश और प्रभावशीलता।\n• हिंदी लेखन अनिवार्य – शुद्ध और स्पष्ट हिंदी लेखन।\n• भाषा की मर्यादा – किसी भी प्रकार की अभद्र या अनुचित भाषा वर्जित होगी।\n\nराउंड 2 – कहानी विस्तार (Story Extension)\n\nप्रक्रिया:\n1. 5 चयनित टीमों को एक प्रारंभिक कहानी दी जाएगी।\n2. प्रत्येक टीम के हर सदस्य को क्रमशः कहानी को आगे बढ़ाना होगा।\n3. प्रक्रिया इस प्रकार होगी:\n   • पहला सदस्य –\n     ○ उसे प्रारंभिक कहानी दी जाएगी।\n     ○ 1 मिनट का समय कहानी पढ़ने के लिए मिलेगा।\n     ○ इसके बाद उसे एक नया पृष्ठ दिया जाएगा, जिसमें वह कहानी को आगे बढ़ाएगा (5 मिनट का समय मिलेगा)।\n   • दूसरा सदस्य –\n     ○ उसे प्रारंभिक कहानी और पहले सदस्य द्वारा लिखी गई कहानी दोनों दी जाएंगी।\n     ○ 1 मिनट का समय पढ़ने के लिए मिलेगा।\n     ○ इसके बाद उसे एक नया पृष्ठ दिया जाएगा, जिसमें वह कहानी को आगे बढ़ाएगा (5 मिनट का समय मिलेगा)।\n   • तीसरा सदस्य –\n     ○ उसे अब तक लिखी गई पूरी कहानी (प्रारंभिक कहानी + पहले व दूसरे सदस्य द्वारा लिखा गया भाग) दी जाएगी।\n     ○ 1 मिनट का समय पढ़ने के लिए मिलेगा।\n     ○ इसके बाद उसे एक नया पृष्ठ दिया जाएगा, जिसमें वह कहानी को आगे बढ़ाएगा और कहानी का अंत लिखेगा (5 मिनट का समय मिलेगा)।\n4. अंत में कहानी को निर्णायक मंडल के समक्ष प्रस्तुत किया जाएगा।\n\nनिर्णय के मापदंड:\n• कहानी की प्रवाहता – चारों सदस्यों द्वारा लिखी गई कहानी का एकसाथ जुड़ाव और तारतम्यता।\n• कथानक की संगति – कहानी का मूल विषय और भावनात्मक जुड़ाव।\n• रचनात्मकता – कहानी का अनूठापन और प्रस्तुतिकरण।\n• हिंदी भाषा और व्याकरण – सही वाक्य संरचना, वर्तनी और व्याकरण की शुद्धता।\n• कुल प्रभाव – कहानी की रोचकता, पठनीयता और प्रभाव।\n\nअंतिम निर्णय और विजेता चयन\n1. निर्णायक समिति सभी मूल्यांकन मानदंडों के आधार पर शीर्ष 3 विजेता टीमों का चयन करेगी।\n2. विजेता टीमों को प्रथम, द्वितीय और तृतीय स्थान से सम्मानित किया जाएगा।\n3. निष्पक्षता सुनिश्चित करने के लिए निर्णय अंतिम और बाध्यकारी होगा।\n\nअन्य नियम एवं शर्तें\n1. सभी कहानियाँ हिंदी भाषा में ही लिखी जाएँगी।\n2. गाली-गलौच या अनुचित भाषा का प्रयोग पूर्णतः वर्जित रहेगा।\n3. टीम को प्रतियोगिता के दौरान मोबाइल फोन या अन्य इलेक्ट्रॉनिक उपकरणों का प्रयोग करने की अनुमति नहीं होगी।\n4. यदि किसी टीम को नियमों का उल्लंघन करते पाया गया, तो उसे अयोग्य घोषित कर दिया जाएगा।",
   date: "13 April 2025",
   image: require("./Pics/Debate.png"),
-  category: "Debate Rajbhasha"
+  category: "Debate Rajbhasha",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLSc4zG2jAqm3iYdP1VZP-5jxvudl5GkrYWdwVAMyKTkHqKo6Mg/viewform?usp=header"
 }
 ,
   {
@@ -328,7 +334,8 @@ export const events =
     rules: "Competition Rules:\n1. Only black pens will be allowed.\n2. No pre-drawing, tracing from phone, or multiple strokes is allowed.\n3. No other art materials are allowed.\n4. The theme will be announced at the start of the competition.\n\nTime Duration:\n1. 60 minutes.\n\nMaximum Participants:\n1. 50 participants.\n\nMaterials Provided:\n1. Participants will be provided with a black pen and a drawing sheet.\n\nJudging Criteria:\n● Judging will be based on creativity, technique, and elegance.",
     date: "10 April 2025",
     image: require("./Pics/One_Stroke_Art.png"),
-    category: "Art"
+    category: "Art",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSfeAAPS1QxmRkYEALVzkyXXGJvVnPeKzfu4OQuwm2rzSA-atA/viewform?usp=header"
 }
 ,{
   id: 25,
@@ -340,7 +347,8 @@ export const events =
   rules: "Competition Rules:\n1. A team-based competition where participants work in pairs to create art from waste.\n2. Only recyclable and waste materials are allowed (e.g., paper, plastic, metal, fabric, etc.).\n3. No pre-made structures, store-bought decorative items, or fresh materials are allowed.\n4. The theme will be announced at the start of the competition.\n\nTime Duration:\n1. 2 hours.\n\nMaximum Participants:\n1. 50 participants.\n\nMaterials Provided:\n1. Teams will be provided with glue, scissors, tape, and basic stationery.\n2. Teams must bring their own waste materials for the artwork.\n\nJudging Criteria:\n● Judging will be based on creativity, innovation, and sustainability.",
   date: "13 April 2025",
   image: require("./Pics/Art_From_Waste.png"),
-  category: "Art"
+  category: "Art",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLSf3-r1vbmMcTiH9iO6UbQ_dYUBEg3PJ17dAWzAsq0U6NNrW5g/viewform?usp=header"
 }
 ,
 {
@@ -353,7 +361,8 @@ export const events =
   rules: "Competition Rules:\n1. Sketch pens and markers will be given to make artwork.\n2. No pre-drawn outlines, tracing, or digital tools are permitted.\n3. The campus spots will be announced at the start of the competition.\n4. No other art materials are allowed.\n\nTime Duration:\n1. 1.5 hours (90 minutes).\n\nMaximum Participants:\n1. 50 participants.\n\nMaterials Provided:\n1. Participants will be provided with drawing sheets.\n2. All the necessary stationery and colors will be provided.\n\nJudging Criteria:\n● Judging will be based on creativity, detailing, and theme representation.",
   date: "11 April 2025",
   image: require("./Pics/Doodle_Art.png"),
-  category: "Art"
+  category: "Art",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLSfXA73gT-iJLJiHmUAzKsbR5osAcDVTFo75ZInImYCLgchYGA/viewform?usp=header"
 }
 ,
 {
@@ -366,7 +375,8 @@ export const events =
   rules: "Competition Rules:\n1. Only acrylic paints are allowed.\n2. No pre-drawing, tracing from a phone, or multiple strokes is permitted.\n3. No other art materials are allowed.\n4. The song will be played live and announced at the start of the competition.\n\nTime Duration:\n1. 90 minutes.\n\nMaximum Participants:\n1. 50 participants.\n\nMaterials Provided:\n1. Participants will be provided with acrylic colors, brushes, a lyrics sheet, and a drawing sheet.\n\nJudging Criteria:\n● Judging will be based on creativity, technique, and emotional interpretation of the music.",
   date: "12 April 2025",
   image: require("./Pics/Music_Inpired_Art.png"),
-  category: "Art"
+  category: "Art",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLSfs5Mit720zKH2zZvpz1DBdblh5kO4f4ATgdfX0CZVco-UsBw/viewform?usp=header"
 }
 ,
 {
@@ -379,7 +389,8 @@ export const events =
   rules: "Competition Rules:\n1. Only acrylic paints are allowed.\n2. No pre-drawing, tracing from a phone, or multiple strokes is permitted.\n3. Participants must creatively merge cultural elements in their artwork.\n\nTime Duration:\n1. 90 minutes.\n\nMaximum Participants:\n1. 50 participants.\n\nMaterials Provided:\n1. Participants will be provided with acrylic colors, brushes, and a drawing sheet.\n\nJudging Criteria:\n● Judging will be based on creativity, technique, and cultural representation.",
   date: "11 April 2025",
   image: require("./Pics/Cultural_Fusion_Art.png"),
-  category: "Art"
+  category: "Art",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLSfjjXklGt_VEL_FNbp9q9AW9GOt6fRFFMh7_hzpT39Ls-ranQ/viewform?usp=header"
 }
 ,
 {
@@ -392,7 +403,8 @@ export const events =
   rules: "Competition Rules:\n1. Only glass colors are allowed for the artwork.\n2. No pre-drawing, tracing from any source, or multiple strokes is permitted.\n\nTime Duration:\n1. 60 minutes.\n\nMaximum Participants:\n1. 50 participants.\n\nMaterials Provided:\n1. Participants will be provided with a transparent sheet.\n2. Glass colors and brushes will also be supplied.\n\nJudging Criteria:\n● Judging will be based on creativity, technique, and overall visual impact.",
   date: "12 April 2025",
   image: require("./Pics/Glass_Painting.png"),
-  category: "Art"
+  category: "Art",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLSccFa7170cpz1Qv66666BgZSW5kolfnoYzSxqFrfndV9SbQSg/viewform?usp=header"
 }
 ,
 {
@@ -405,7 +417,8 @@ export const events =
   rules: "Competition Rules:\n1. Only the provided keychain and customization materials are allowed.\n2. No pre-made designs or external decorations beyond the provided materials may be used.\n3. Participants must adhere to the game theme, which will be announced at the start of the competition.\n\nTime Duration:\n1. 60 minutes.\n\nMaximum Participants:\n1. 50 participants.\n\nMaterials Provided:\n1. Participants will be provided with a plain keychain.\n2. Customization materials such as paints, markers, stickers, and embellishments will also be supplied.\n\nJudging Criteria:\n● Judging will be based on creativity, theme representation, craftsmanship, and overall appeal.",
   date: "10 April 2025",
   image: require("./Pics/Key_Chain_Customization.png"),
-  category: "Craft"
+  category: "Craft",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLSeQVGCVlH3GEF6E21mnXIbGSN_P7l_7ZA7-1eCa7Sf_lYZQVQ/viewform?usp=header"
 }
 ,
 {
@@ -418,7 +431,8 @@ export const events =
   rules: "Competition Rules:\n1. Only clay and basic sculpting tools are allowed.\n2. No pre-made structures or external decorations may be used.\n3. The theme will be announced at the start of the competition.\n\nTime Duration:\n1. 60 minutes.\n\nMaximum Participants:\n1. 50 participants.\n\nMaterials Provided:\n1. Participants will be provided with clay in various colors.\n2. Basic sculpting tools such as rollers, cutters, and shaping tools will also be supplied.\n\nJudging Criteria:\n● Judging will be based on creativity, teamwork, detailing, and structural stability.",
   date: "13 April 2025",
   image: require("./Pics/Clay_Art.png"),
-  category: "Craft"
+  category: "Craft",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLSfX6ARSPSNic_OnZuY5XcfgF_x9KHxHA3pmx4A4pjTbUbnKRQ/viewform?usp=header"
 }
 ,
 {
@@ -431,7 +445,8 @@ export const events =
   rules: "Competition Rules:\n1. Only shades of the given color are allowed—no additional colors may be introduced.\n2. Participants must adhere strictly to the monochrome theme provided by the color chit.\n3. The artwork must be created live within the 60-minute time limit.\n\nTime Duration:\n1. 60 minutes.\n\nMaximum Participants:\n1. 50 participants.\n\nMaterials Provided:\n1. Participants will be provided with the specified color chit.\n2. Essential materials such as paints (in various shades of the given color), brushes, and a drawing sheet or canvas will be supplied.\n\nJudging Criteria:\n● Judging will be based on creativity, adherence to the monochrome theme, technique, and overall visual impact.",
   date: "10 April 2025",
   image: require("./Pics/Monochrome_Pallete.png"),
-  category: "Art"
+  category: "Art",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLSc0IBnj0duzR4QBjfigcymE9X785aD5ouq9s6_oDK4A7vJMXw/viewform?usp=header"
 }
 ,
 {
@@ -444,7 +459,8 @@ export const events =
   rules: "Competition Rules:\n1. The film must be 2 to 15 minutes long.\n2. Each team will have to make a new short film scripted on or after January 2025.\n3. Opening and/or closing credits are not required, but (if added) may add up to an additional 10 seconds in total.\n4. Films may be in any language or have no dialogue at all. Non-English audio (and important on-screen text) must have English subtitles.\n5. Ensure that all content in your film (including footage, music, images, props, etc.) is your own. If you include any copyrighted or trademarked content, you must credit it to the rightful owner.\n6. Entries containing any unauthorized content will be disqualified.\n7. The theme for the competition will be announced on the club’s Instagram page: www.instagram.com/nitj.movie_club.\n\nSubmission Guidelines:\n1. Completed movies (in .mp4 format) and the name of the college and details of team members along with their role in the making of the movie (compiled in a PDF) must be uploaded to Google Drive with access set to 'Open to All'.\n2. The form for submission of this drive link will be attached to the Instagram post announcing the topic.\n3. The drive folder should also contain a scanned copy of the college ID cards of all the people in the core team of the movie.\n4. The deadline for submission is 9th April 2025.\n\nParticipation:\n1. The event is also open to people outside NIT Jalandhar.\n\nJudging Criteria:\n● Editing\n● Cinematography\n● Script (originality and clarity of story)\n● Acting\n● Sound effects\n● Overall impact",
   date: "13 April 2025",
   image: require("./Pics/Short_Film_Making.png"),
-  category: "Film"
+  category: "Film",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLSf85aHn36A58zo1IhmHELAjFzk2eiLYB2kB70r_O685Mg_5sA/viewform?usp=header"
 }
 ,
 {
@@ -457,7 +473,8 @@ export const events =
   rules: "Competition Rules:\n1. The event is a team-based competition, with each team comprising 3 to 5 members.\n2. Teams must bring their own equipment, including pen drives and any additional tools required for their presentation.\n3. Teams will be challenged to craft a compelling story on the spot, exploring any genre and theme of their choice.\n4. Each team will have 24 hours to produce a short film, which must have a duration of 1 to 10 minutes.\n5. Teams are required to submit a document detailing their creative thought process, including the core idea and the message they intend to convey through their film.\n6. The final films will be screened before a panel of judges.\n\nJudging Criteria:\n● Creativity and originality of the film\n● Storytelling and narrative innovation\n● Alignment between the submitted concept and the final film\n● Overall moral and impact of the story\n\nRules & Regulations:\n1. Failure to comply with the rules may result in disqualification.\n2. Teams must register by the specified deadline.\n3. Participants must present their institution's ID card during registration and report on time.\n4. The judges’ decision is final and binding.",
   date: "11 April 2025",
   image: require("./Pics/Vision_vs_Reality.png"),
-  category: "Film"
+  category: "Film",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLScGW0bZcv2Ydx0BcsD9yimIB4hiBCo71hO8mY9wZnuI7zXofA/viewform?usp=header"
 }
 ,
   {
@@ -500,7 +517,8 @@ export const events =
     "rules": "Elimination Round:\n1. Each team can have a maximum of 5 members, with at least one girl mandatory.\n2. One participant from each team will pick a chit from a bowl, which will have the name of the dish they have to prepare (e.g., Salads, Sandwiches, Wraps).\n3. This round does not involve any fire-based cooking.\n4. The team will be provided with sufficient ingredients for the dish mentioned in their chit.\n5. Participants will be given a fixed amount of time to prepare and arrange their dishes.\n6. Exceeding the time limit will result in negative marking.\n7. Based on the judging criteria, teams will qualify for the next round.\n\nFinal Round:\n1. Only the qualified teams from the elimination round will proceed to this round.\n2. Each team must prepare two dishes of their own choice.\n3. This round involves fire-based cooking, and each team will be provided with an induction cooktop.\n4. The team will be given ingredients, but if they require additional ingredients, they may bring them along.\n5. Participants will be given a fixed amount of time to prepare and arrange their dishes.\n6. Exceeding the time limit will lead to negative marking.\n7. Based on the team’s performance, they will be ranked.\n\nJudging Criteria:\n1. The teams will be judged based on the following aspects:\n   - Taste and Flavour\n   - Presentation and Plating\n   - Texture and Consistency\n   - Creativity and Innovation\n   - Adherence to Time Limits and Rules\n   - Hygiene and Cleanliness\n2. Judges may also consider additional factors such as humour, impact, relevance, and overall entertainment value.",
     "date": "11,12 April 2025",
     "image": require("./Pics/Spice_Wars.png"),
-    "category": "Cooking"
+    "category": "Cooking",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSfkPAttosQEQggq8gPiO86YCZ9dtAxCj1EZ1Oisjmhaax8cFA/viewform?usp=header"
 },
 
 {
@@ -526,7 +544,8 @@ export const events =
   rules: "1. Teams must assemble at IT Building at 10 AM (11 April 2025). Each team must consist of 3-5 members only.\n2. The event will consist of 3 rounds, where each round is further split into levels.\n3. Photos of different locations inside the campus will be uploaded as Insta stories on the official page of NETRA as hints.\n4. Teams have to guess and reach the locations and click pictures as specified for each round.\n5. Round 1 is a qualifying round where only the first 10 teams to complete the given tasks will be selected for Round 2.\n6. The 10 teams will compete in Round 2 and only 5 teams with the best pictures will be selected for Round 3.\n7. Teams will be judged on their creativity and quality of photos in Round 2 & 3, which will decide the final result. The result will not be based on Round 1.\n8. Teams must reach the venue on time as rules will be disclosed in further detail at the venue.",
   date: "11 April 2025",
   image: require("./Pics/Photo_Treasure_Hunt.png"),
-  category: "Photography"
+  category: "Photography",
+  register:"https://docs.google.com/forms/d/e/1FAIpQLScDdVtQI_24Y0DgSmGnwgSBXFPmr-e4uq3AHEf0TVe_JS-gRQ/viewform?usp=header"
 }
 ,
   {
@@ -539,7 +558,8 @@ export const events =
     rules: "1. This is an individual event.\n2. All the entries must have FILE NAME as ‘NAZARIYA_NAME’.\n3. All the entries in the Google form should be filled properly.\n4. Maximum 2 submissions are allowed per participant.\n5. Picture size should be greater than 5 MP, and mobile clicks are also allowed.\n6. Submit before 11 April, 11:59 PM.\n7. Image EXIF data should be present and should be shown if demanded.\n8. Only submissions that adhere to the theme will be eligible.\n9. The decision taken by the judges shall be final and binding. In case of any disputes, NIT Jalandhar reserves the rights in its sole discretion.",
     date: "Online",
     image: require("./Pics/Nazariya.png"),
-    category: "Photography"
+    category: "Photography",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSeuPSUGZ1-RvyMYrzZqjTx7a0SQqFbBW8JC9orY_rWqF_JQiw/viewform?usp=header"
 }
 
 
