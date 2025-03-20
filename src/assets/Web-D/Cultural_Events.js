@@ -148,7 +148,8 @@ export const events =
   rules: "Registration:\n1. Participants must submit a 1-2 minute rap video during registration.\n2. Shortlisted participants will battle live on stage at NITJ during UTKANSH.\n\nPerformance Time:\n1. Each battle round will have a 3-minute rap session per participant.\n2. Exceeding the time limit will result in a 20% deduction in marks after 10 seconds and disqualification after 20 seconds.\n\nLanguage & Content:\n1. Raps can be performed in Hindi or English.\n2. Any form of hate speech, derogatory remarks, or explicit content will lead to immediate disqualification.\n\nAccompaniment:\n1. Participants may perform a cappella or with a provided beat.\n2. Judging will be based on lyrical content, flow, and delivery.\n\nDisqualification:\n1. Any misconduct, obscenity, or use of foul language beyond artistic expression will lead to on-the-spot disqualification.\n\nJudging Criteria:\n● Lyrical Creativity\n● Flow & Rhythm\n● Stage Presence & Delivery\n● Crowd Engagement\n● Improvisation & Freestyle Ability",
   date: "11 April 2025",
   image: require("./Pics/Rap.png"),
-  category: "Music Rap"
+  category: "Music Rap",
+  register: "https://forms.gle/VBJodgrVkaisGH5n9"
 }
 ,
 {
