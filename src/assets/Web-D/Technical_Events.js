@@ -416,7 +416,7 @@ export const technical_events =  [
   date: "12-13 April 2025",
   image: require("./Pics/BGMI.png"),
   category: "Esports & Gaming vortex",
-  register: "https://forms.gle/Cd7tLpcfgvtzkgSo6"
+  register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
 }
 ,
 {
@@ -430,7 +430,7 @@ export const technical_events =  [
   date: "12-13 April 2025",
   image: require("./Pics/Valorant.png"),
   category: "Esports & Gaming vortex",
-  register: "https://forms.gle/Cd7tLpcfgvtzkgSo6"
+  register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
 }
 ,
 {
@@ -444,7 +444,7 @@ export const technical_events =  [
   date: "12-13 April 2025",
   image: require("./Pics/Stumble.png"),
   category: "Esports & Gaming vortex",
-  register: "https://forms.gle/Cd7tLpcfgvtzkgSo6"
+  register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
 }
 ,
 {
@@ -458,7 +458,7 @@ export const technical_events =  [
   date: "12-13 April 2025",
   image: require("./Pics/Freefire.png"),
   category: "Esports & Gaming vortex",
-  register: "https://forms.gle/Cd7tLpcfgvtzkgSo6"
+  register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
 }
 ,
 {
@@ -472,7 +472,7 @@ export const technical_events =  [
   date: "12-13 April 2025",
   image: require("./Pics/Tekken.png"),
   category: "Esports & Gaming vortex",
-  register: "https://forms.gle/Cd7tLpcfgvtzkgSo6"
+  register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
 }
 
 
