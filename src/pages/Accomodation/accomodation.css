@@ -16,7 +16,7 @@
     position: relative;
     padding-top: 25vh;
     /* Added space from top */
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Background/Accomodation_background.webp");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/diiyq5fwx/image/upload/v1742742312/Accomodation_background_idrewg.webp");
 
     /* background-attachment: fixed; */
 

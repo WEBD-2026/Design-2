@@ -14,7 +14,7 @@ export default function ContactUs() {
   return (
     <>
 
-      <div className="container-contact" style={{ backgroundImage: "url('/aboutus-back.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+      <div className="container-contact" style={{ backgroundImage: "url('https://res.cloudinary.com/diiyq5fwx/image/upload/v1742742525/aboutus-back_crcxcg.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
         <Navbar />
         <div
           className="text-yellow-500 flex flex-col gap-16 mt-0 justify-center items-center p-10 min-h-screen"
