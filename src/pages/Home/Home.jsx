@@ -59,7 +59,7 @@ const Home = () => {
               } transition-all duration-1000`}
           >
             <VideoIntro />
-            {/* <MegaEvents /> */}
+            <MegaEvents />
             <Sponsers />
             <Footer />
           </div>
