@@ -74,9 +74,9 @@ const EventDetails = () => {
             </div>
 
             <hr className="my-6 border-yellow-400/60" />
-            <div className="bg-gray-800 text-gray-100 m-4 p-4 rounded-lg shadow-md text-center text-sm sm:text-base">
-              <p className="font-semibold text-yellow-400">Disclaimer:</p>
-              <ul className="list-disc list-inside">
+            <div className="bg-gray-800 text-gray-100 m-4 p-4 rounded-lg shadow-md text-sm sm:text-base">
+              <p className="font-semibold text-yellow-400 text-center">DISCLAIMER:</p>
+              <ul className="list-disc">
                 <li>The prize pool is subject to the number of registrations.</li>
                 <li>If your event fees are less than 200, a separate entry fee will be required for that day.</li>
                 <li>Registered amount is not refundable under any circumstances.</li>
