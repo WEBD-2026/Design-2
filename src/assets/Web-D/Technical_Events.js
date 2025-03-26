@@ -101,7 +101,7 @@ export const technical_events =  [
       id: 49,
       name: "Wall Street-Paper Trading",
       head: "Master the Stock Market",
-      entry: "300 INR",
+      entry: "100 INR",
       prize: "10,000 INR",
       description: "Teams will be given virtual demat accounts to execute buy and sell orders based on dynamic market scenarios. In a room full of traders, they can engage in transactions with each other, simulating the real-time environment of a stock exchange. The winners will be determined based on the highest portfolio value at the end of the event.",
       rules: "1. Teams of 2 to 3 members will participate.\n2. Open to 100 participants on a first-come basis.\n3. Each team gets a virtual demat account and initial capital.\n4. Multiple trading rounds with changing market scenarios.\n5. Throughout the competition, 10 news events and major market updates will be displayed on the screen.\n6. After each update, teams will have 10 minutes to strategize and 5 minutes to execute their trades.\n7. Buy/sell orders are placed via order slips.\n8. Short selling is allowed.\n9. Transactions must be validated by event facilitators.\n10. Portfolio value = Cash + Stock Value.\n11. The highest portfolio value wins.\n12. In case of a tie, the participant with more successful trades wins.\n13. Fair trading is required; manipulation leads to disqualification.\n14. Mobile phones and external help are prohibited.",
