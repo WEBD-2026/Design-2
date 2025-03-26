@@ -20,13 +20,14 @@ export const technical_events =  [
       id: 43,
       name: "Revamping Biotechnology from Data to Discovery",
       head: "The Future of AI in Healthcare",
-      entry: "NIL",
+      entry: "50 INR",
       prize: "1500 INR",
       description: "Use of AI and machine learning play a crucial role in developing innovative healthcare solutions by analyzing vast amounts of medical data to improve diagnostics, treatment plans, and patient outcomes.",
       rules: "1. Number of participants per team: 3 members per team.\n2. Pre-requisite: Participants should have an idea of AI/Machine Learning.\n3. The project should be completed prior to the presentation in the event.\n4. Presentation of the work and interaction will only be carried out during the event.\n5. Few rules and regulations will be discussed at the beginning of the event.",
       date: "10-11 April 2025",
       image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737653/Revamping_Bio_kglsiw.png",
-      category: "Biotechnology"
+      category: "Biotechnology",
+      register:"https://forms.gle/YvkerHk8sSotpEqT6"
   }
   ,
   {
