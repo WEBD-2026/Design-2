@@ -18,22 +18,24 @@ const eventsData = {
     },
     Cultural: {
       Dramatics: [
-        { name: "Halla Bol", Time: "11:00 am", venue: "IT Park" , },
+        { name: "Halla Bol", Time: "11:00 am", venue: "IT Park", },
+        { name: "Improv", Time: "03:00 pm", venue: "central lawn", },
       ],
       Music: [
         { name: "The Voice", Time: "11:00 am", venue: "OAT" },
       ],
       Literature: [
-        { name: "Charter and Change", Time: "11:00 am", venue: "IT Building (VCH)" },
+        { name: "BLACK OUT POETRY (LADC) ", Time: "11:00 am", venue: "SB-1" },
+        { name: "Charter and change ", Time: "11:00 am", venue: "VCH IT building" },
       ],
       FineArts: [
         { name: "Art Exhibition", Time: "11:00 am", venue: "IT Building" },
-        { name: "One-Stroke Art", Time: "11:00 am", venue: "DRAWING HALL" },
+        // { name: "One-Stroke Art", Time: "11:00 am", venue: "DRAWING HALL" },
         { name: "Key Chain Customization", Time: "1:30 pm", venue: "DRAWING HALL" },
         { name: "Monochrome pallete", Time: "4:30 pm", venue: "DRAWING HALL" },
       ],
       Movies: [
-        { name: "MAD-Ads", Time: "11:00 am", venue: "LT 102" },
+        { name: "VISION VS REALITY ", Time: "11:00 am", venue: "LT 102" },
       ],
       Photography: [
         { name: "Photography Exhibition (Drishya)", Time: "10:00 am", venue: "IT Building" },
@@ -56,7 +58,7 @@ const eventsData = {
       ],
       Robotics: [
         { name: "Machine WARS", Time: "10:00 am", venue: "Night Canteen" },
-        { name: "BlitzGear", Time: "10:00 am", venue: "Kabadi Ground" }, 
+        { name: "BlitzGear", Time: "10:00 am", venue: "Kabadi Ground" },
       ],
       Aeronautics: [
         { name: "Drone Obstacle Race", Time: "3:00 pm", venue: "MBH Ground" },
@@ -70,11 +72,11 @@ const eventsData = {
     },
     Cultural: {
       Dramatics: [
-        { name: "Eklavya", Time: "11:00 am", venue: "LT 101" , },
+        { name: "Eklavya", Time: "11:00 am", venue: "LT 101", },
       ],
       Dance: [
-        { name: "Beat The Street", Time: "10:00 am", venue: "Night Canteen" , },
-        { name: "808 Hustle", Time: "2:00 pm", venue: "CSH" , },
+        { name: "Beat The Street", Time: "10:00 am", venue: "Night Canteen", },
+        { name: "808 Hustle", Time: "2:00 pm", venue: "CSH", },
       ],
       Music: [
         { name: "Rap Battle", Time: "11:00 am", venue: "OAT" },
@@ -98,14 +100,14 @@ const eventsData = {
       ],
       Photography: [
         { name: "Photography Exhibition (Drishya)", Time: "10:00 am", venue: "IT Building" },
-        { name: "Snap Treasure",Time: "11:00 am", venue: "IT Building" },
+        { name: "Snap Treasure", Time: "11:00 am", venue: "IT Building" },
       ],
       "Food & Flavour Club": [
-        { name: "Spice Wars", Time: "11:00 am", venue: "LT 201" },
+        { name: "Spice Wars", Time: "11:00 am", venue: "SAC-Ground floor" },
       ],
     }
   },
-  
+
   "12th April": {
     Technical: {
       STEM: [
@@ -130,14 +132,14 @@ const eventsData = {
     },
     Cultural: {
       Dramatics: [
-        { name: "Asmita", Time: "2:00 pm", venue: "IT Park" , },
+        { name: "Asmita", Time: "2:00 pm", venue: "IT Park", },
       ],
       Dance: [
-        { name: "Duet Dance", Time: "11:00 am", venue: "LT Front" , },
-        { name: "Bhangra Fiesta", Time: "11:00 am", venue: "CSH" , },
+        { name: "In Sync", Time: "11:00 am", venue: "LT Front", },
+        { name: "Bhangra Fiesta", Time: "11:00 am", venue: "CSH", },
       ],
       Literature: [
-        { name: "Turn the cap", Time: "2:30 pm", venue: "SB 1" },
+        { name: "Turn the cap", Time: "11:00 pm", venue: "SB 1" },
       ],
       Quiz: [
         { name: "Pop Culture Quiz", Time: "11:00 am", venue: "LT 101" },
@@ -183,7 +185,7 @@ const eventsData = {
     },
     Cultural: {
       Dramatics: [
-        { name: "RangManch", Time: "10:00 am", venue: "CSH" , },
+        { name: "RangManch", Time: "10:00 am", venue: "CSH", },
       ],
 
       Music: [
@@ -192,6 +194,9 @@ const eventsData = {
 
       Rajbhasha: [
         { name: "Sutradhar", Time: "11:00 am", venue: "SB2" },
+      ],
+      Movies: [
+        { name: "SFM", Time: "11:00 am", venue: "online" },
       ],
       FineArts: [
         { name: "Art Exhibition", Time: "11:00 am", venue: "IT Building" },
