@@ -53,9 +53,8 @@ export default function MegaEvents() {
         }}
       ></div>
 
-      {/* Centered Star of the Night Text */}
       <h1
-        className="absolute text-white sm:text-5xl md:text-7xl lg:text-8xl text-center "
+        className="w-100% text-white text-2xl sm:text-4xl md:text-5xl lg:text-8xl text-center"
         style={{
           fontFamily: "Rockybilly",
           textShadow: "2px 2px 8px rgba(0, 0, 0, 0.8)",

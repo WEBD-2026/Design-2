@@ -3,21 +3,23 @@ import Navbar from "../../components/Navbar/Navbar.js";
 import { FaGithub, FaLinkedin, FaEnvelope, FaUser } from "react-icons/fa";
 
 const developers = [
-  { id: 1, name: "Jayant Joshi", role: "Full Stack Developer", github: "#", linkedin: "#" },
-  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
-  { id: 3, name: "Neha Sharma", role: "Backend Developer", github: "#", linkedin: "#" }
+  { id: 2, name: "Devansh Sharma", role: "Full Stack Developer", github: "#", linkedin: "#", image: "https://via.placeholder.com/150" },
+  { id: 1, name: "Nikhil Singh", role: "Full Stack Developer", github: "#", linkedin: "#", image: "https://via.placeholder.com/150" },
+  { id: 3, name: "Kushagra Saxena", role: "Full Stack Developer", github: "#", linkedin: "#", image: "https://via.placeholder.com/150" },
+  { id: 4, name: "Jayant Joshi", role: "Full Stack Developer", github: "#", linkedin: "#", image: "https://via.placeholder.com/150" }
 ];
 
 const team = [
-  { id: 1, name: "Jayant Joshi", role: "Full Stack Developer", github: "#", linkedin: "#" },
-  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
-  { id: 3, name: "Neha Sharma", role: "Backend Developer", github: "#", linkedin: "#" }
+  { id: 1, name: "Jayant Joshi", role: "Full Stack Developer", github: "#", linkedin: "#", image: "https://via.placeholder.com/150" },
+  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#", image: "https://via.placeholder.com/150" },
+  { id: 3, name: "Neha Sharma", role: "Backend Developer", github: "#", linkedin: "#", image: "https://via.placeholder.com/150" }
 ];
 
 const faculty = [
-  { id: 1, name: "Dr. Ramesh Kumar", department: "Computer Science", email: "ramesh@univ.edu" },
-  { id: 2, name: "Prof. Anjali Mehta", department: "Data Science", email: "anjali@univ.edu" }
+  { id: 1, name: "Dr. Ramesh Kumar", department: "Computer Science", email: "ramesh@univ.edu", image: "https://via.placeholder.com/150" },
+  { id: 2, name: "Prof. Anjali Mehta", department: "Data Science", email: "anjali@univ.edu", image: "https://via.placeholder.com/150" }
 ];
+
 
 function Card({ image, title, description, button1, button2, icon1, icon2 }) {
   return (
@@ -55,20 +57,17 @@ export default function DevelopersPage() {
               "linear-gradient(8deg, black 10%, rgba(36, 30, 0, 0.203) 100%)",
           }}
         >
-          <h1 className="mt-60 text-white z-10 md:text-8xl sm:text-6xl text-4xl font-semibold py-4 w-full text-center">
-            Announcing Soon...
-          </h1>
         </div>
 
         {/* Filter Buttons */}
-        {/* <div className="flex justify-center gap-6 mb-8">
-            <button onClick={() => setSelectedCategory("developers")} className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "developers" ? "bg-yellow-500 text-black shadow-lg" : "bg-gray-700 text-white hover:bg-gray-600"}`}>Developers</button>
-            <button onClick={() => setSelectedCategory("team")} className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "team" ? "bg-yellow-500 text-black shadow-lg" : "bg-gray-700 text-white hover:bg-gray-600"}`}>Team</button>
-            <button onClick={() => setSelectedCategory("faculty")} className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "faculty" ? "bg-yellow-500 text-black shadow-lg" : "bg-gray-700 text-white hover:bg-gray-600"}`}>Faculty</button>
-        </div> */}
+        <div className="flex justify-center gap-6 mb-8">
+          <button onClick={() => setSelectedCategory("developers")} className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "developers" ? "bg-yellow-500 text-black shadow-lg" : "bg-gray-700 text-white hover:bg-gray-600"}`}>Developers</button>
+          <button onClick={() => setSelectedCategory("team")} className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "team" ? "bg-yellow-500 text-black shadow-lg" : "bg-gray-700 text-white hover:bg-gray-600"}`}>Team</button>
+          <button onClick={() => setSelectedCategory("faculty")} className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "faculty" ? "bg-yellow-500 text-black shadow-lg" : "bg-gray-700 text-white hover:bg-gray-600"}`}>Faculty</button>
+        </div>
 
         {/* Cards Section */}
-        {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {selectedCategory === "developers" && developers.map(dev => (
             <Card
               key={dev.id}
@@ -107,7 +106,7 @@ export default function DevelopersPage() {
               icon2={<FaUser />}
             />
           ))}
-        </div> */}
+        </div>
       </div>
     </div>
   );
