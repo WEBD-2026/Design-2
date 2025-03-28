@@ -3,16 +3,39 @@ import Navbar from "../../components/Navbar/Navbar.js";
 import { FaPhone, FaGithub, FaLinkedin, FaEnvelope, FaUser } from "react-icons/fa";
 
 const developers = [
-  { id: 1, name: "Jayant Joshi", role: "Full Stack Developer", github: "#", linkedin: "#" },
-  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
-  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
-  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
-  { id: 3, name: "Neha Sharma", role: "Backend Developer", github: "#", linkedin: "#" }
+  { id: 1, name: "Shubham K Garg", role: "Web-Dev Lead", github: "https://github.com/skgarg18", linkedin: "https://www.linkedin.com/in/shubham-k-g-6aa4b4281/"  , image:"https://utkansh25.sirv.com/Untitled%20design%20(3).png"},
+  { id: 2, name: "Devansh Sharma", role: "Web-Dev Lead", github: "https://github.com/Devansh-react", linkedin: "https://www.linkedin.com/in/devansh-davy16/" , image:"https://utkansh25.sirv.com/Untitled%20design%20(4).png" },
+];
+
+const team1 = [
+  { id: 1, name: "Shubham Grover", image: "https://utkansh25.sirv.com/1.png",  phone: "78766-00077", linkedin: "https://www.linkedin.com/in/shubhamgrover01/" },
+  { id: 2, name: "Shubham K Garg", image: "https://utkansh25.sirv.com/Untitled%20design%20(3).png", phone: "75086-19568", linkedin: "https://www.linkedin.com/in/shubham-k-g-6aa4b4281/" },
+  { id: 3, name: "Shivam Prashar", image: "https://utkansh25.sirv.com/Untitled%20design.png", phone: "88091-90913", linkedin: "https://www.linkedin.com/in/shivam-prashar-78368b227/" }
+
 ];
 
 const team2 = [
-  { id: 4, name: "John Doe", role: "UX Designer", github: "#", linkedin: "#" },
-  { id: 5, name: "Jane Smith", role: "Project Manager", github: "#", linkedin: "#" }
+  { id: 1, name: "Aryan Panigrahy", image: "https://utkansh25.sirv.com/4.png",  role: "CULTURAL HEAD", linkedin: "#" },
+  { id: 2, name: "Geetika Chopra", image: "https://utkansh25.sirv.com/3.png", role: "CULTURAL HEAD", linkedin: "https://www.linkedin.com/in/geetika8/" },
+  { id: 3, name: "Apurva", image: "https://utkansh25.sirv.com/4.png",  role: "TECHNICAL HEAD", linkedin: "#" },
+  { id: 4, name: "Pooja Gurjar", image: "https://utkansh25.sirv.com/3.png", role: "TECHNICAL HEAD", linkedin: "#" },
+  { id: 5, name: "Vipul Jain", image: "https://utkansh25.sirv.com/Untitled%20design%20(1).png", role: "FINANCE HEAD", linkedin: "https://www.linkedin.com/in/vipul-jain-b35ba725a/" },
+  { id: 6, name: "Isha Khoda", image: "https://utkansh25.sirv.com/Untitled%20design%20(2).png", role: "FINANCE HEAD", linkedin: "#" },
+  { id: 7, name: "Sameer Chaurasia", image: "https://utkansh25.sirv.com/4.png",  role: "MARKETING HEAD", linkedin: "#" },
+  { id: 8, name: "Akash Sharma", image: "https://utkansh25.sirv.com/Untitled%20design/9.png", role: "PR HEAD", linkedin: "#" },
+  { id: 9, name: "Bhakti Chopra", image: "https://utkansh25.sirv.com/4.png",  role: "PR HEAD", linkedin: "#" },
+  { id: 10, name: "Jashanpreet Kaur", image: "https://utkansh25.sirv.com/3.png", role: "DIGITAL HEAD", linkedin: "#" },
+  { id: 11, name: "Sailesh", image: "https://utkansh25.sirv.com/4.png",  role: "SOCIAM MEDIA HEAD", linkedin: "#" },
+  { id: 12, name: "Shashank Paliwal", image: "https://utkansh25.sirv.com/Untitled%20design/16.png", role: "WEB-DEV HEAD", linkedin: "#" },
+  { id: 13, name: "Inder", image: "https://utkansh25.sirv.com/Untitled%20design/15.png",  role: "REFRESHMENT HEAD", linkedin: "#" },
+  { id: 14, name: "Partik", image: "https://utkansh25.sirv.com/Untitled%20design/10.png", role: "VENUE MANAGEMENT HEAD", linkedin: "#" },
+  { id:15, name: "Mukul", image: "https://utkansh25.sirv.com/Untitled%20design/11.png",  role: "DISCIPLINE HEAD", linkedin: "#" },
+  { id: 16, name: "Manish Nanda", image: "https://utkansh25.sirv.com/Untitled%20design/14.png", role: "DISCIPLINE HEAD", linkedin: "#" },
+  { id: 17, name: "Nitesh", image: "https://utkansh25.sirv.com/Untitled%20design/13.png",  role: "REGISTRATION HEAD", linkedin: "#" },
+  { id: 19, name: "Sanket", image: "https://utkansh25.sirv.com/Untitled%20design/12.png",  role: "HOSPITALITY HEAD", linkedin: "#" },
+  { id: 20, name: "Suman Meena", image: "https://utkansh25.sirv.com/Untitled%20design/17.png", role: "HOSPITALITY HEAD", linkedin: "#" },
+  { id: 21, name: "Rishi ", image: "https://utkansh25.sirv.com/Untitled%20design/18.png",  role: "DECORATION HEAD", linkedin: "#" },
+  { id: 22, name: "Diksha", image: "https://utkansh25.sirv.com/3.png", role: "DECORATION HEAD", linkedin: "#" }
 ];
 
 const team = [
@@ -62,9 +85,9 @@ const faculty5 = [
 ];
 
 
-function Card({ image, title, description, button1, button2, icon1, icon2, link }) {
+function Card({ image, title, description, button1, button2, icon1, icon2, link , link2 }) {
   return (
-    <div className="bg-white w-[18rem] shadow-xl rounded-2xl overflow-hidden border border-gray-300 transform transition duration-300 hover:scale-105 hover:shadow-2xl flex flex-col items-center text-center p-6">
+    <div className="bg-white w-[18.5rem] shadow-xl rounded-2xl overflow-hidden border border-gray-300 transform transition duration-300 hover:scale-105 hover:shadow-2xl flex flex-col items-center text-center p-6">
     {/* Image Section */}
     <div className="w-40 h-40 flex justify-center items-center overflow-hidden rounded-full border border-gray-300 shadow-lg">
       <img src={image} alt={title} className="w-full h-full object-cover object-center" />
@@ -78,7 +101,7 @@ function Card({ image, title, description, button1, button2, icon1, icon2, link 
   
     {/* Buttons Section */}
     <div className="mt-5 flex flex-col gap-4 w-full max-w-xs">
-      <button className="w-full flex items-center justify-center gap-2 bg-yellow-500 text-black font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-yellow-600 hover:shadow-xl transition-all duration-300">
+      <button onClick={() => window.open(link2)} className="w-full flex items-center justify-center gap-2 bg-yellow-500 text-black font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-yellow-600 hover:shadow-xl transition-all duration-300">
         {icon1} {button1}
       </button>
       <button onClick={() => window.open(link)} className="w-full flex items-center justify-center gap-2 bg-yellow-500 text-black font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-yellow-600 hover:shadow-xl transition-all duration-300">
@@ -94,7 +117,7 @@ function Card({ image, title, description, button1, button2, icon1, icon2, link 
 
 function Card2({ image, title, description, button1, button2, icon1, icon2, link }) {
   return (
-    <div className="bg-white w-[0.1 rem] shadow-xl rounded-2xl overflow-hidden border border-gray-300 transform transition duration-300 hover:scale-105 hover:shadow-2xl flex flex-col items-center text-center p-6">
+    <div className="bg-white w-[18rem] shadow-xl rounded-2xl overflow-hidden border border-gray-300 transform transition duration-300 hover:scale-105 hover:shadow-2xl flex flex-col items-center text-center p-6">
     {/* Image Section */}
     <div className="w-40 h-40 flex justify-center items-center overflow-hidden rounded-full border border-gray-300 shadow-lg">
       <img src={image} alt={title} className="w-full h-full object-cover object-center" />
@@ -134,37 +157,83 @@ export default function DevelopersPage() {
         </div>
 
         {/* Cards Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {selectedCategory === "developers" && developers.map(dev => (
-            <Card
-              key={dev.id}
-              image={dev.image}
-              title={dev.name}
-              description={dev.role}
-              button1="github"
-              button2="linkedin"
-              icon1={<FaGithub />}
-              icon2={<FaLinkedin />}
-            />
-          ))}
+        <div className="flex flex-col gap-16 justify-center">
+          
+          {selectedCategory === "developers" &&
+          <>
+            {/* Faculty */}
+            <div className="flex flex-wrap gap-8 justify-center">
+              {developers.map(fac => (
+                <Card
+                  key={fac.id}
+                  image={fac.image}
+                  title={fac.name}
+                  description={fac.role}
+                  button1="Github"
+                  button2="Linkedin"
+                  icon1={<FaGithub />}
+                  icon2={<FaLinkedin />}
+                  link={fac.linkedin}
+                  link2={fac.github}
+                />
+              ))}
+            </div>
+
+            {/* Faculty 2 */}
+            {/* <div className="flex flex-wrap gap-8 justify-center">
+              {faculty2.map(fac => (
+                <Card
+                  key={fac.id}
+                  image={fac.image}
+                  title={fac.name}
+                  description={fac.department}
+                  button1="CHAIRPERSON"
+                  button2="Profile"
+                  icon2={<FaUser />}
+                  link={fac.profile}
+                />
+              ))}
+            </div> */}    
+          </>
+          }
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        
+        <div className="flex flex-col gap-16 justify-center">
+          
           {selectedCategory === "team" &&
           <>
-            {team.map(dev => (
-              <Card
-                key={dev.id}
-                image={dev.image}
-                title={dev.name}
-                description={dev.role}
-                button1={dev.mobile}
-                button2="LinkedIn"
-                icon1={<FaPhone />}
-                icon2={<FaLinkedin />}
-                link={dev.linkedin}
-              />
-            ))}
+            {/* Faculty */}
+            <div className="flex flex-wrap gap-8 justify-center">
+              {team1.map(fac => (
+                <Card
+                  key={fac.id}
+                  image={fac.image}
+                  title={fac.name}
+                  description="CONVENOR"
+                  button1={fac.phone}
+                  button2="Linkedin"
+                  icon1={<FaPhone />}
+                  icon2={<FaLinkedin />}
+                  link={fac.linkedin}
+                />
+              ))}
+            </div>
+
+            {/* Faculty 2 */}
+            {/* <div className="flex flex-wrap gap-8">
+              {team2.map(fac => (
+                <Card2
+                  key={fac.id}
+                  image={fac.image}
+                  title={fac.name}
+                  description={fac.role}
+                  button2="Linkedin"
+                  icon2={<FaLinkedin />}
+                  link={fac.profile}
+                />
+              ))}
+            </div>  */}
           </>
           }
         </div>
@@ -184,7 +253,7 @@ export default function DevelopersPage() {
                   button1="PATRON"
                   button2="Profile"
                   icon2={<FaUser />}
-                  link={fac.profile}
+                  link={fac.linkedin}
                 />
               ))}
             </div>
