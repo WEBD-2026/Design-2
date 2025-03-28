@@ -84,8 +84,8 @@ export default function DevelopersPage() {
     <div className="min-h-screen bg-gray-900 text-white p-8">
       <Navbar />
       <div className="container mx-auto my-16">
-        <h1 className="text-5xl font-extrabold text-center mb-8 text-yellow-400">Meet Our Team</h1>
-        {/* <div
+        {/* <h1 className="text-5xl font-extrabold text-center mb-8 text-yellow-400">Meet Our Team</h1>
+        <div
           className="overlay absolute top-0 left-0 w-full h-full inset-10"
           style={{
             backdropFilter: "blur(2px)",
@@ -96,17 +96,17 @@ export default function DevelopersPage() {
           <h1 className="mt-60 text-white z-10 md:text-8xl sm:text-6xl text-4xl font-semibold py-4 w-full text-center">
             Announcing Soon...
           </h1>
-        </div>
+        </div> */}
 
         {/* Filter Buttons */}
-        {/* <div className="flex justify-center gap-6 mb-8">
+        <div className="flex justify-center gap-6 mb-8">
             <button onClick={() => setSelectedCategory("developers")} className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "developers" ? "bg-yellow-500 text-black shadow-lg" : "bg-gray-700 text-white hover:bg-gray-600"}`}>Developers</button>
             <button onClick={() => setSelectedCategory("team")} className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "team" ? "bg-yellow-500 text-black shadow-lg" : "bg-gray-700 text-white hover:bg-gray-600"}`}>Team</button>
             <button onClick={() => setSelectedCategory("faculty")} className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "faculty" ? "bg-yellow-500 text-black shadow-lg" : "bg-gray-700 text-white hover:bg-gray-600"}`}>Faculty</button>
-        </div> */}
+        </div>
 
-        {/* Cards Section */}
-        {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+         {/* Cards Section */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {selectedCategory === "developers" && developers.map(dev => (
             
                 <Card
@@ -115,7 +115,7 @@ export default function DevelopersPage() {
                   title={dev.name}
                   description={dev.role}
                   button1="github"
-                  button2={dev.linkedin}
+                  button2="inkedin"
                   icon1={<FaGithub />}
                   icon2={<FaLinkedin />}
                 />
@@ -147,7 +147,7 @@ export default function DevelopersPage() {
 
           <div className="h-10"></div>
 
-          {team2.map(dev => ( 
+          {/* {team2.map(dev => ( 
             <Card2
               key={dev.id}
               image={dev.image}
@@ -157,7 +157,10 @@ export default function DevelopersPage() {
               icon1={<FaPhone />}
               icon2={<FaLinkedin />}
             />
-          ))}
+          ))} */}
+          
+          </>
+          }
 
           {selectedCategory === "faculty" && faculty.map(fac => (
             <Card
@@ -171,7 +174,7 @@ export default function DevelopersPage() {
               icon2={<FaUser />}
             />
           ))}
-        </div> */}
+        </div>
       </div>
     </div>
   );

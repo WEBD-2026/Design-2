@@ -54,11 +54,13 @@ const Navbar = () => {
             </div>
           </button>
         </Link>
-        {/* <button className="button">
+        <Link to = {"/Developers"}>
+        { <button className="button">
           <div>
-            <span>REGISTER</span>
+            <span>TEAMS</span>
           </div>
-        </button> */}
+        </button> }
+        </Link>
       </div>
       <div className="navbar_item">
         <div className="logo">
