@@ -88,7 +88,7 @@ const Event = () => {
               className="bg-black-200 w-60% overflow-hidden pt-3 bg-black-900 backdrop-blur-lg rounded-lg shadow-lg"
             >
               <div className="flex gap-10 py-2 t-2xl ">
-                <h1>Registration Closed   ❤️   Thank you</h1>
+                <h1>Registration extended upto 3rd April</h1>
 
               </div>
             </Marquee>
@@ -133,7 +133,7 @@ const Event = () => {
                       </a>
                     </div>
                     <div className="brutalist-card_butt">
-                      <a href={"#"}>
+                      <a href={item.register}>
                         <button className="btn-class-name">
 
                           <button>Register</button>
