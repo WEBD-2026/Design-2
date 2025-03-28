@@ -54,13 +54,13 @@ const Navbar = () => {
             </div>
           </button>
         </Link>
-        <Link to = {"/Developers"}>
+        {/* <Link to = {"/Developers"}>
         { <button className="button">
           <div>
             <span>TEAMS</span>
           </div>
         </button> }
-        </Link>
+        </Link> */}
       </div>
       <div className="navbar_item">
         <div className="logo">
