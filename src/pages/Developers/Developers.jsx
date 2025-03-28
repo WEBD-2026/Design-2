@@ -1,15 +1,28 @@
 import { useState } from "react";
 import Navbar from "../../components/Navbar/Navbar.js";
-import { FaPhone , FaGithub, FaLinkedin, FaEnvelope, FaUser } from "react-icons/fa";
+import { FaPhone, FaGithub, FaLinkedin, FaEnvelope, FaUser } from "react-icons/fa";
 
 const developers = [
   { id: 1, name: "Jayant Joshi", role: "Full Stack Developer", github: "#", linkedin: "#" },
   { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
+  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
+  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
   { id: 3, name: "Neha Sharma", role: "Backend Developer", github: "#", linkedin: "#" }
+];
+
+const team2 = [
+  { id: 4, name: "John Doe", role: "UX Designer", github: "#", linkedin: "#" },
+  { id: 5, name: "Jane Smith", role: "Project Manager", github: "#", linkedin: "#" }
 ];
 
 const team = [
   { id: 1, name: "Jayant Joshi", role: "Full Stack Developer", github: "#", linkedin: "#" },
+  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
+  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
+  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
+  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
+  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
+  { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
   { id: 2, name: "Aman Verma", role: "Frontend Developer", github: "#", linkedin: "#" },
   { id: 3, name: "Neha Sharma", role: "Backend Developer", github: "#", linkedin: "#" }
 ];
@@ -49,7 +62,7 @@ const faculty5 = [
 ];
 
 
-function Card({ image, title, description, button1, button2, icon1, icon2 , link }) {
+function Card({ image, title, description, button1, button2, icon1, icon2, link }) {
   return (
     <div className="bg-white w-[18rem] shadow-xl rounded-2xl overflow-hidden border border-gray-300 transform transition duration-300 hover:scale-105 hover:shadow-2xl flex flex-col items-center text-center p-6">
     {/* Image Section */}
@@ -79,7 +92,7 @@ function Card({ image, title, description, button1, button2, icon1, icon2 , link
   );
 }
 
-function Card2({ image, title, description, button1, button2, icon1, icon2 , link }) {
+function Card2({ image, title, description, button1, button2, icon1, icon2, link }) {
   return (
     <div className="bg-white w-[0.1 rem] shadow-xl rounded-2xl overflow-hidden border border-gray-300 transform transition duration-300 hover:scale-105 hover:shadow-2xl flex flex-col items-center text-center p-6">
     {/* Image Section */}
