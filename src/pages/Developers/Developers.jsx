@@ -22,7 +22,7 @@ const faculty = [
 
 function Card({ image, title, description, button1, button2, icon1, icon2 , link }) {
   return (
-    <div className="bg-white shadow-xl rounded-2xl overflow-hidden border border-gray-300 transform transition duration-300 hover:scale-105 hover:shadow-2xl flex flex-col items-center text-center p-6">
+    <div className="bg-white w shadow-xl rounded-2xl overflow-hidden border border-gray-300 transform transition duration-300 hover:scale-105 hover:shadow-2xl flex flex-col items-center text-center p-6">
     {/* Image Section */}
     <div className="w-40 h-40 flex justify-center items-center overflow-hidden rounded-full border border-gray-300 shadow-lg">
       <img src={image} alt={title} className="w-full h-full object-cover object-center" />
@@ -106,7 +106,7 @@ export default function DevelopersPage() {
         </div>
 
          {/* Cards Section */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="align-center grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {selectedCategory === "developers" && developers.map(dev => (
             
                 <Card
