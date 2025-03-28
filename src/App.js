@@ -10,6 +10,7 @@ import EventDetails from "./pages/EventDetails.jsx";
 import Developers from "./pages/Developers/Developers.jsx"
 import Schedule from "./pages/Events/Schedule/Schedule.js";
 import ContactUs from "./components/ContactUs.jsx";
+import Merch from "./pages/Merch/Merch.jsx";
 function App() {
   return (
     <Routes>
@@ -21,6 +22,7 @@ function App() {
       <Route path={"/Footer"} element={<Footer />} />
       <Route path={"/ContactUs"} element={<ContactUs />} />
       <Route path={"/Developers"} element={<Developers />} />
+      <Route path={"/Merch"} element={<Merch />} />
     </Routes>
   );
 }

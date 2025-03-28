@@ -54,6 +54,13 @@ const Navbar = () => {
             </div>
           </button>
         </Link>
+        <Link to={"/Merch"}>
+          <button className="button">
+            <div>
+              <span>MERCH </span>
+            </div>
+          </button>
+        </Link>
         {/* <Link to = {"/Developers"}>
         { <button className="button">
           <div>
