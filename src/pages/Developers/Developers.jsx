@@ -216,6 +216,7 @@ export default function DevelopersPage() {
                   icon1={<FaPhone />}
                   icon2={<FaLinkedin />}
                   link={fac.linkedin}
+                  link2={`tel:${fac.phone}`}
                 />
               ))}
             </div>
