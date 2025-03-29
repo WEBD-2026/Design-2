@@ -133,7 +133,7 @@ const Event = () => {
                       </a>
                     </div>
                     <div className="brutalist-card_butt">
-                      <a href={"https://www.nitj.ac.in/events_registration/utkansh_2025/login"}>
+                      <a href={item.register}>
                         <button className="btn-class-name">
 
                           <button>Register</button>

@@ -13,7 +13,7 @@ export const events =
   date: "13 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737655/RangManch_lwhpen.png",
   category: "Drama",
-  register:"https://forms.gle/FdUF5KzZRyypZyL67"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
   {
@@ -27,7 +27,7 @@ export const events =
     date: "10 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737602/Halla_Bol_xf15wu.png",
     category: "Drama",
-    register:"https://forms.gle/qWzAK94SU9JwF7P79"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -41,7 +41,7 @@ export const events =
   date: "11 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737590/Eklavya_f62v0u.png",
   category: "Drama Monoact",
-  register: "https://forms.gle/MXsMUoSy1fsdzrLX7"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -55,7 +55,7 @@ export const events =
   date: "12 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737556/Asmita_seawet.png",
   category: "Drama",
-  register: "https://forms.gle/qV56W5WgkyLEh6jr6"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -69,7 +69,7 @@ export const events =
   date: "11 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737557/808_husle_fuimxg.png",
   category: "Dance ",
-  register: "https://forms.gle/2AfoT1e5JYMpD5p4A"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
   {
@@ -83,7 +83,7 @@ export const events =
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737663/Solo_utydsy.png",
     category: "Dance Solo",
-    register: "https://forms.gle/64Z7MFKaaDNXHFHT8"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -97,7 +97,7 @@ export const events =
   date: "12 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737589/Duet_Dance_oi6m2g.png",
   category: "Dance Duet",
-  register: "https://forms.gle/JeVkcu3fNjjFztrN7"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -111,7 +111,7 @@ export const events =
   date: "12 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737551/Bhangra_feyhee.png",
   category: "Dance",
-  register: "https://forms.gle/xtX5rDoeEV6UmTuVA"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
   {
@@ -125,7 +125,7 @@ export const events =
     date: "10 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737668/The_Voice_iihyh0.png",
     category: "Music",
-    register: "https://forms.gle/avss3R1hXuJQSFjN6"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -139,7 +139,7 @@ export const events =
   date: "13 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737630/Megasonic_mucqa2.png",
   category: "Music",
-  register: "https://forms.gle/mwce85KoTTc5AKUD6"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -153,7 +153,7 @@ export const events =
   date: "11 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737649/Rap_ea3rqp.png",
   category: "Music Rap",
-  register: "https://forms.gle/VBJodgrVkaisGH5n9"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -167,7 +167,7 @@ export const events =
   "date": "10 April 2025",
   "image": "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737614/Mad_Ads_bignrp.png",
   "category": "Marketing & Advertising VideoGraphy",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLScxf5utYhAOf4zHll2N5cuzJUp0d0TM19J5SbiOfJlGuqBD9w/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 },
 
   {
@@ -181,7 +181,7 @@ export const events =
     date: "12 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737642/Open_Mic_u6ke6r.png",
     category: "Literary",
-    register: "https://forms.gle/RLhoV9nweev2uRtt8"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -195,7 +195,7 @@ export const events =
   date: "11 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737630/Instant_Ink_mx8nke.png",
   category: "Literary",
-  register: "https://docs.google.com/forms/d/e/1FAIpQLSfnbjHaIUJZvvHZ3AKn7sCUpdyJWuy4ZCkVCVRp3bo3Y86mxQ/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 
 ,
@@ -210,7 +210,7 @@ export const events =
     date: "10 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737561/Charter_and_Change_jployv.png",
     category: "Debate",
-    register: "https://forms.gle/jJypy4uCKdWtyT7EA"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
   {
@@ -224,7 +224,7 @@ export const events =
     date: "12 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737670/Turn_the_cap_zxxzs2.png",
     category: "Quiz",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSdbZiGXCPS8EdgOwnxk3RioghK8RYw4tBdOdgR7MRpRdbE6Zw/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 
 ,
@@ -239,7 +239,7 @@ export const events =
   date: "12 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737661/Pop_Culture_Quiz_qddahv.png",
   category: "Quiz",
-  register:"https://forms.gle/prPws7GS6p47urJb6"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
   {
@@ -253,7 +253,7 @@ export const events =
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737610/general_Quiz_rfymql.png",
     category: "Quiz",
-    register:"https://forms.gle/prPws7GS6p47urJb6"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   },
   
   {
@@ -266,7 +266,7 @@ export const events =
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737618/Mehfil_xqrgcx.png",
     category: "Cultural Rajbhasha Mehfil",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSdDF4umOeZy7qHa9rS_EG-QlVfVqnPDuiAKSdPJVOaaMYAtNw/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -280,7 +280,7 @@ export const events =
   date: "12 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737585/Dangal_Quiz_wlawva.png",
   category: "Quiz  Rajbhasha",
-  register:"https://forms.gle/D4tDtjs3m6CvPgQEA"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 },
 
   {
@@ -294,7 +294,7 @@ export const events =
     date: "online",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737551/Alfaaz_y5tghl.png",
     category: "Literary  Rajbhasha",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSc1fkrSjKpCAHqONxQsKo0KKSdgYuQj_S6BnKqRv2yaNo5Cag/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -308,7 +308,7 @@ export const events =
   date: "13 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737591/Debate_sunxns.png",
   category: "Debate Rajbhasha",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLSc4zG2jAqm3iYdP1VZP-5jxvudl5GkrYWdwVAMyKTkHqKo6Mg/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
   {
@@ -334,7 +334,7 @@ export const events =
     date: "10 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737642/One_Stroke_Art_d8dbnn.png",
     category: "Art",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSfeAAPS1QxmRkYEALVzkyXXGJvVnPeKzfu4OQuwm2rzSA-atA/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,{
   id: 25,
@@ -347,7 +347,7 @@ export const events =
   date: "13 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737556/Art_From_Waste_gxemtw.png",
   category: "Art",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLSf3-r1vbmMcTiH9iO6UbQ_dYUBEg3PJ17dAWzAsq0U6NNrW5g/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -361,7 +361,7 @@ export const events =
   date: "11 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737586/Doodle_Art_mjygch.png",
   category: "Art",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLSfXA73gT-iJLJiHmUAzKsbR5osAcDVTFo75ZInImYCLgchYGA/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -375,7 +375,7 @@ export const events =
   date: "12 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737624/Music_Inpired_Art_yqu5og.png",
   category: "Art",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLSfs5Mit720zKH2zZvpz1DBdblh5kO4f4ATgdfX0CZVco-UsBw/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -389,7 +389,7 @@ export const events =
   date: "11 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737579/Cultural_Fusion_Art_hda8md.png",
   category: "Art",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLSfjjXklGt_VEL_FNbp9q9AW9GOt6fRFFMh7_hzpT39Ls-ranQ/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -403,7 +403,7 @@ export const events =
   date: "12 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737591/Glass_Painting_qd0yxm.png",
   category: "Art",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLSccFa7170cpz1Qv66666BgZSW5kolfnoYzSxqFrfndV9SbQSg/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -417,7 +417,7 @@ export const events =
   date: "10 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737615/Key_Chain_Customization_ek27n5.png",
   category: "Craft",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLSeQVGCVlH3GEF6E21mnXIbGSN_P7l_7ZA7-1eCa7Sf_lYZQVQ/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -431,7 +431,7 @@ export const events =
   date: "13 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737585/Clay_Art_anbfu1.png",
   category: "Craft",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLSfX6ARSPSNic_OnZuY5XcfgF_x9KHxHA3pmx4A4pjTbUbnKRQ/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -445,7 +445,7 @@ export const events =
   date: "10 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737637/Monochrome_Pallete_ugssn0.png",
   category: "Art",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLSc0IBnj0duzR4QBjfigcymE9X785aD5ouq9s6_oDK4A7vJMXw/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -459,7 +459,7 @@ export const events =
   date: "13 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737658/Short_Film_Making_s8d97x.png",
   category: "Film",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLSf85aHn36A58zo1IhmHELAjFzk2eiLYB2kB70r_O685Mg_5sA/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
 {
@@ -473,7 +473,7 @@ export const events =
   date: "11 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737672/Vision_vs_Reality_hxkill.png",
   category: "Film",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLScGW0bZcv2Ydx0BcsD9yimIB4hiBCo71hO8mY9wZnuI7zXofA/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
   {
@@ -487,7 +487,7 @@ export const events =
     date: "12 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737603/Iktara_gwrg5o.png",
     category: "Music RLC",
-    register: "https://forms.gle/rD1arHC3QyNFoBTr7"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 
 ,
@@ -502,7 +502,7 @@ export const events =
     date: "12 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737638/Nirvana_xffyrj.png",
     category: "Fashion Panache",
-    register: "https://forms.gle/NQQCspXhN9R6B1xs9"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 
 ,
@@ -517,7 +517,7 @@ export const events =
     "date": "11,12 April 2025",
     "image": "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737663/Spice_Wars_eqx1bg.png",
     "category": "Cooking",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSfkPAttosQEQggq8gPiO86YCZ9dtAxCj1EZ1Oisjmhaax8cFA/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 },
 
 {
@@ -544,7 +544,7 @@ export const events =
   date: "11 April 2025",
   image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737657/Photo_Treasure_Hunt_mqrcmy.png",
   category: "Photography",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLScDdVtQI_24Y0DgSmGnwgSBXFPmr-e4uq3AHEf0TVe_JS-gRQ/viewform?usp=header"
+  register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 ,
   {
@@ -558,7 +558,7 @@ export const events =
     date: "Online",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737636/Nazariya_nx7p56.png",
     category: "Photography",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSeuPSUGZ1-RvyMYrzZqjTx7a0SQqFbBW8JC9orY_rWqF_JQiw/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
 }
 
 

@@ -12,7 +12,7 @@ export const technical_events = [
     date: "12-13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737561/BGMI_aa2qbj.png",
     category: "Esports & Gaming vortex",
-    register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -26,7 +26,7 @@ export const technical_events = [
     date: "12-13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737670/Valorant_hzoldq.png",
     category: "Esports & Gaming vortex",
-    register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -40,7 +40,7 @@ export const technical_events = [
     date: "12-13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737666/Stumble_r4fevw.png",
     category: "Esports & Gaming vortex",
-    register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -54,7 +54,7 @@ export const technical_events = [
     date: "12-13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737589/Freefire_ihbf9t.png",
     category: "Esports & Gaming vortex",
-    register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -68,7 +68,7 @@ export const technical_events = [
     date: "12-13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737672/Tekken_es9mux.png",
     category: "Esports & Gaming vortex",
-    register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   },
 
 
@@ -83,7 +83,7 @@ export const technical_events = [
     date: "10-11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737567/ChemTech_de6w4v.png",
     category: "Chemistry chemical",
-    register: "https://forms.gle/X5iWJVRtuy31EDVL9"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -97,7 +97,7 @@ export const technical_events = [
     date: "10-11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737653/Revamping_Bio_kglsiw.png",
     category: "Biotechnology",
-    register: "https://forms.gle/YvkerHk8sSotpEqT6"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -111,7 +111,7 @@ export const technical_events = [
     "date": "12 April 2025",
     "image": "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737640/Integration_tlbxfl.png",
     "category": "Mathematics",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSdD1ipTAEwGM8Q7tM6rYT__4qS0kZECzH-4k1u5YckOioP9Lw/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -125,7 +125,7 @@ export const technical_events = [
     date: "12 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737643/Q_trivia_wj0q6r.png",
     category: "Quiz Quantum",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSdgs_Z9qTLjdrTMZJKZlzFWk3yQEuECCdP3iGmWCNwzCQ1JLw/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   },
   {
     id: 46,
@@ -138,7 +138,7 @@ export const technical_events = [
     date: "10 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737666/Skyline_Symphony_wqrilc.png",
     category: "Engineering Civil Design",
-    register: "https://forms.gle/2Jz1jSGZCpLCUn9w6"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -152,7 +152,7 @@ export const technical_events = [
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737666/TexPrint_jsoyed.png",
     category: "Design Textile",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSdo5S6q8U26DSNmA66jqv2mrcsnkr3gfEYNhEWEt3sJLV2-Qg/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -165,7 +165,7 @@ export const technical_events = [
     date: "13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737667/TexhBiz_Quest_o3edc1.png",
     category: "Business & Technology",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSecfKVFW30XphOxKofd_bYnCf0avsNgIFV34E9XGgB9N9W24w/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   },
   {
     id: 49,
@@ -192,7 +192,7 @@ export const technical_events = [
     date: "10 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737553/Analyst_edge_bgibx6.png",
     category: "Finance",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSeNCBbkFh_uYULF9QIcfNpb48PKI3AIBvgV1os3ZlEBhe7yGg/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -206,7 +206,7 @@ export const technical_events = [
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737587/Escape_Room_pnishr.png",
     category: "Problem Solving ecell e-cell",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSfIAQIIqzx3gCIDpolYUwDf7XQih0PaPJB0MOmHEDeDvd5o0g/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   },
 
   {
@@ -220,7 +220,7 @@ export const technical_events = [
     date: "12 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737660/Robo_War_hp56bl.png",
     category: "Robotics some agastya",
-    register: "https://forms.gle/Mx3mZrsE2zWsNRTX6"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -234,7 +234,7 @@ export const technical_events = [
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737636/Machine_Wars_n7fygf.png",
     category: "Robotics r-tist",
-    register: "https://forms.gle/tqEZin6eSrcgtnUA7"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -248,7 +248,7 @@ export const technical_events = [
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737598/Gear_Blitz_lo254b.png",
     category: "Automobile & RC Racing daksh",
-    register: "https://forms.gle/qNWAXiJXNo4VSPLS8"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -262,7 +262,7 @@ export const technical_events = [
     date: "13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737554/Blind_Robo_rwal0o.png",
     category: "Robotics & AI spice",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSdeJB83t_LuQbQGugMH9h42-N2NnXnL6pBAwSnVMx3FdTX2rg/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -276,7 +276,7 @@ export const technical_events = [
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737672/UAV_Drone_hftdzz.png",
     category: "Drone & Aeromodelling",
-    register: "https://forms.gle/rFkSEBvjoyLkVx8t8"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
 
   ,
@@ -291,7 +291,7 @@ export const technical_events = [
     date: "13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737562/Ad_Astra_lwtori.png",
     category: "Space & Astronomy",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLScHt5Rsv6JTzZ-zQCpqGUdKxUKCk8MSskVTCBJ6biodkyJusg/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -305,7 +305,7 @@ export const technical_events = [
     date: "10-11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737599/Hackmol_gwczwf.png",
     category: "Hackathon & Coding gdsc",
-    register: "https://hackmol-6.devfolio.co/"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -319,7 +319,7 @@ export const technical_events = [
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737571/CTF_tlys56.png",
     category: "Cybersecurity & Cryptography",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLScDNBG5rby_djKem8Uk2vz_e5jTNJktMfNVUkX3ykLpQpBTyg/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   },
   {
     id: 60,
@@ -332,7 +332,7 @@ export const technical_events = [
     date: "10 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737588/Code_Relay_hncohj.png",
     category: "Competitive Programming",
-    register: "https://forms.gle/c3v72bfJbBbJC5f97"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
 
   ,
@@ -362,7 +362,7 @@ export const technical_events = [
     date: "12-13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737566/Circuit_Saga_wzyuyk.png",
     category: "Electronics & Problem Solving soece",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSdx3TmpAlCFXx1UkYIjzzZCRLrYzWCKmyxBPiTrN-k8UviF_g/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -376,7 +376,7 @@ export const technical_events = [
     date: "12 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737610/Lost_Circuit_ktdv8e.png",
     category: "Electronics seed",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSfAfJWPvX3DboXilS8uAYnVkW8DNAWIjXAdAFYuCX9JxcMeLA/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   },
   // {
   //     id: 64,
@@ -403,7 +403,7 @@ export const technical_events = [
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737584/CAD_Modeling_aanqf0.png",
     category: "Design & Engineering",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSdQZ72ZaKh8kqdVkzr1rZ7zQSjsEBQts-UdRpyhhMKOFk0bWA/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   },
   {
     id: 66,
@@ -416,7 +416,7 @@ export const technical_events = [
     date: "10,13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737551/Ad_Mad_Show_lfroko.png",
     category: "Marketing & Advertising",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSd_WSd5XgqIrvWxFT2Y3JJmi-XzOKVu4DYP--Qj9jB_lpXFLA/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -430,7 +430,7 @@ export const technical_events = [
     date: "12 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737599/Chemistry_Project_Exhibition_sbpy5g.png",
     category: "Science & Innovation",
-    register: "https://forms.gle/6YD2FjiUmq6JNavy9"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   },
 
   {
@@ -444,7 +444,7 @@ export const technical_events = [
     date: "12 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737653/Revamping_Bio_kglsiw.png",
     category: "Biotechnology & Applied Sciences",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSc_HSj-6TRfxNKKPotXKWGpPA4t3wl6Di7UWD0NIaiY-Mvq9g/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
@@ -458,7 +458,7 @@ export const technical_events = [
     "date": "13 April 2025",
     "image": "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737642/Physics_nyoxrw.png",
     "category": "Physics & Problem-Solving",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSfH2gUjCDNKEnQzxG2UfDGN7PyUanXhJZjSnnWRX5Bi7RZWpQ/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
 
   ,
@@ -473,7 +473,7 @@ export const technical_events = [
     date: "13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737642/Physics_nyoxrw.png",
     category: "Physics & Analytical Thinking",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLScw40Ot2zFrg60-goDJOk7HOMi7tu_rz-ZqzVVXqZOUCapTXg/viewform?usp=header"
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   },
 
 
