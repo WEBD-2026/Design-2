@@ -27,7 +27,7 @@ const Navbar = () => {
         <Link to={"/event"}>
           <button className="button">
             <div>
-              <span>EVENT</span>
+              <span>EVENTS</span>
             </div>
           </button>
         </Link>
@@ -57,17 +57,17 @@ const Navbar = () => {
         <Link to={"/Merch"}>
           <button className="button">
             <div>
-              <span>MERCH </span>
+              <span>MERCH</span>
             </div>
           </button>
         </Link>
-        {/* <Link to = {"/Developers"}>
-        { <button className="button">
-          <div>
-            <span>TEAMS</span>
-          </div>
-        </button> }
-        </Link> */}
+        <Link to={"/Developers"}>
+          {<button className="button">
+            <div>
+              <span>TEAMS</span>
+            </div>
+          </button>}
+        </Link>
       </div>
       <div className="navbar_item">
         <div className="logo">

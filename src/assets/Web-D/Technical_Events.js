@@ -1,6 +1,76 @@
 import { register } from "react-scroll/modules/mixins/scroller";
 
-export const technical_events =  [
+export const technical_events = [
+  {
+    id: 71,
+    name: "ArenaX (BGMI) (4v4)",
+    head: "The Ultimate Esports Battle",
+    entry: "20 INR per person",
+    prize: "30,000 INR",
+    description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
+    rules: "● MATCH STRUCTURE\n1. Round 1: Online Qualifiers\n- Teams compete in multiple matches across designated maps.\n- Top 6 teams from each group move on to the next round.\n- Duration: 3 days.\n- Remark: Matches will be streamed online.\n2. Round 2: Online Playoffs\n- Teams that qualify from Round 1 compete across various maps.\n- Top 4 teams from each group advance to the next stage.\n- Duration: 3 days.\n3. Round 3: Online Stage\n- Teams compete in multiple rounds to narrow down the competitors.\n- Top 32 teams will qualify for the Semi-Finals.\n- Duration: 2 days.\n- Remarks: Matches will be streamed online, with teams divided into groups.\n- Note: The number of Online Rounds may vary according to the number of teams registered.\n4. Semi-Finals:\n- Top 32 teams play in a double round-robin format to determine who qualifies for the LAN Finals.\n- Duration: 1 Day.\n5. Grand Finals: LAN Event\n- Top 16 teams compete in an offline LAN event at Utkansh Fest.\n- Duration: At Utkansh Fest (LAN event at venue).\n- Remarks: Matches will be played live, with/without an audience present.\n\n● POINTS SYSTEM\n1. Placement Points:\n- 1st Place: 10 points\n- 2nd Place: 8 points\n- 3rd Place: 6 points\n- 4th Place: 4 points\n- 5th Place: 3 points\n- 6th Place: 2 points\n- 7th Place: 1 point\n- 8th Place & Below: 0 points\n2. Kill Points:\n- Each kill grants 1 point.\n\n● GAME RULES\n1. Team Composition: Only registered players are allowed to compete. Using unauthorized players will lead to disqualification.\n2. Cheating & Hacking: The use of cheats, hacks, or third-party software is strictly prohibited. This includes any form of automation, wallhacks, or aim hacks.\n3. Glitch Exploits: Exploiting in-game glitches for unfair advantage is forbidden.\n4. Bug Abuse: If a critical bug is encountered, the match may be restarted at the discretion of tournament officials.\n5. Teaming: Collaborating with other teams is prohibited.\n6. In-Game Behavior: Match-fixing, feeding opponents, or intentionally disconnecting is not allowed.\n7. Recordings: Players will need to submit gameplay recordings when we ask to check any appeals.\n\n● TIE BREAKERS\nIn case of a tie, the following rules will apply in order:\n1. Total kill points across all matches.\n2. Highest placement in individual matches.\n3. Head-to-head performance between tied teams.\n\n● TECHNICAL ISSUES\n1. Disconnections: If a player disconnects before the plane takes off, the match may be restarted based on the organizer’s discretion.\n2. Server Problems: Matches may be paused, canceled, or replayed if widespread server issues occur.\n\n● CODE OF CONDUCT\n1.  Players must display fair play and respect towards opponents, teammates, and officials.\n2. Offensive language, verbal abuse, or toxic behavior will not be tolerated.\n3. Teams engaging in unsportsmanlike conduct may face disqualification.\n\n● REPORTING ISSUES\n1. Teams must report rule violations within 30 minutes after the match ends.\n2. Proof (screenshots, video clips) must be provided to support the claims.\n\n● BROADCASTING RULES\n1. Streaming Rights: Only Utkansh Fest or approved broadcasters may stream the matches.\n2. Player Streams: Players are generally not allowed to stream their matches unless explicitly approved by officials.\n\n● APPEALS PROCESS\n1. Teams may submit appeals through official channels if they believe a decision was unfair.\n2. Appeals must be submitted within the designated time frame after the match.\n\n● GENERAL RULES\n1. Vortex reserves the right to disqualify any team promoting obscenity through their act.\n2. Vortex reserves the right to cancel the prelims stage in case of unforeseen circumstances.\n3. Vortex reserves the right to change the prize money before the commencement of the prelims.\n4. In the case of any dispute, the decision of the organizers will be final and binding.\n5. The organizers are not responsible for non-completion / non-occurrence of the event.\n6. The organizers have all the right to cancel, reschedule, postpone, and amend the show. In the event of any dispute, the organizers' decisions are final and binding on the applicant.\n7. Deadlines are determined by the number of entries. The decisions of the Jury/Judges are final.\n8. The organizers reserve the right to amend the rules and format anytime.",
+    date: "12-13 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737561/BGMI_aa2qbj.png",
+    category: "Esports & Gaming vortex",
+    register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
+  }
+  ,
+  {
+    id: 72,
+    name: "ArenaX (VALORANT) (5v5)",
+    head: "The Ultimate Esports Battle",
+    entry: "20 INR per person",
+    prize: "30,000 INR",
+    description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
+    rules: "● ELIGIBILITY:\n1. All players must have an active Riot Games account.\n2. Players must be at least 16 years old to participate.\n\n● TEAM COMPOSITION:\n1. Each team must consist of five (5) main players and can have up to one (1) substitute.\n2. Rosters must be submitted before the tournament begins and cannot be changed once the event starts.\n\n● MATCH FORMAT:\n1. The tournament format will be Single Elimination / Double Elimination / Round Robin as decided by the organizers.\n2. Matches will be played in Best of 1 (Bo1), Best of 3 (Bo3), or Best of 5 (Bo5) formats based on the tournament stage.\n\n● MATCH RULES:\n1. Map Selection:\n  - Maps will be selected using a veto system.\n  - Available maps: Ascent, Bind, Haven, Split, Lotus, Pearl, Sunset.\n2. Match Settings \n  - Mode: Standard (Competitive)\n  - Server: Specified by the organizers\n  - Overtime Rules: As per in-game settings (first to 13 rounds, overtime sudden death if necessary)\n3. Agent Selection:\n  - All available agents are allowed.\n  - Players must select agents within the allocated pick time.\n4. Technical Issues & Pauses:\n  - Each team is allowed one (1) 5-minute technical pause per match for hardware/software issues.\n  - Tactical pauses are limited to one (1) 60-second pause per team per half.\n  - If a player disconnects, the match will be paused for a maximum of 10 minutes before resuming.\n\n● PLAYER COMDUCT\n1. Code of Comduct\n-Players must exhibit professionalism and sportsmanship at all times.\n- Toxic behavior, harassment, or hate speech will lead to penalties.\n- Exploiting bugs, cheating, or hacking is strictly prohibited.\n2. Communication & Streaming:\n- Players must use appropriate in-game names.\n- Streaming is allowed only with prior permission from the organizers to avoid streamsnipe\n- Teams may use external voice communication tools but must comply with fair play policies\n 3. Match Reporting\n- Teams must report match results within 10 minutes of completion.\n- Any disputes must be reported immediately to the tournament admins.\n\n● PENALTIES AND DISQUALIFICATIONS:\n1. Warnings & Infractions:\n    - Minor Violations: Late check-in, excessive pause usage - Verbal warning.\n    - Major Violations: Match-fixing, cheating, toxic behavior - Match loss or disqualification.\n2. Disqualification Criteria:\n    - Use of unregistered or ineligible players without prior notice. Repeated misconduct or cheating.\n    - Failure to attend a scheduled match without prior notice.\n\n● AMIN DECISION AND FINAL RULES\n1. Tournament admins have the final say in disputes and rule clarifications.\n2. Rules may be modified based on unforeseen circumstances.\n3. By participating, all teams and players accept and adhere to these rule",
+    date: "12-13 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737670/Valorant_hzoldq.png",
+    category: "Esports & Gaming vortex",
+    register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
+  }
+  ,
+  {
+    id: 73,
+    name: "ArenaX (STUMBLE GUYZ)",
+    head: "The Ultimate Esports Battle",
+    entry: "20 INR per person",
+    prize: "4,500 INR",
+    description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
+    rules: "● General Rules\n1. The event will be conducted in a knockout format.\n2. All participants must register before the deadline. No late entries will be entertained.\n3. Players should use their own devices with the latest version of Stumble Guys installed.\n4. Any form of cheating, hacking, or unfair advantage will result in immediate disqualification.\n5. Participants must join the game lobby within the given time. Failure to do so may lead to elimination.\n6. Organizers hold the final say in any disputes or rule interpretations.\n\n● MATCH STRUCTURE:\n1. Players will compete in lobbies of up to 32 players per round.\n2. The top finishers of each round will advance to the next stage.\n3. The number of qualifiers per round depends on the number of participants.\n4. Loser's Bracket: An additional round will be conducted for eliminated players, giving a second chance to skilled players. The top finishers from this bracket will re-enter the competition.\n\n● ELIMINATION AND PROGRESSION:\n1. The event will continue until a final set of players competes for the championship.\n2. The last player standing in the final round will be declared the winner.\n\n● DEVICE AND CONNECTION:\n1. Players are responsible for ensuring their device has a stable internet connection.\n2. Organizers will not be responsible for disconnections, lag, or any technical issues on the player's side.\n3. Using external devices, controllers, or macros to gain an advantage is prohibited.\n\n● CODE OF CONDUCT:\n1. Players must maintain sportsmanship and respect fellow participants.\n2. Toxic behavior, offensive language, or harassment will lead to disqualification.\n3. Players should follow the instructions of event moderators at all times.\n\n● REGISTRATION AND PARTICIPATION:\n1. Registration will be conducted online.\n2. A nominal entry fee (if applicable) must be paid before participation.\n3. Players must provide their in-game username at registration.\n\n● DISQUALIFICATION AND PENALTIES:\n1. Players caught teaming, exploiting glitches, or using unfair means will be immediately disqualified.\n2. Any attempt to manipulate the game results in an unfair manner will lead to a permanent ban from the event.",
+    date: "12-13 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737666/Stumble_r4fevw.png",
+    category: "Esports & Gaming vortex",
+    register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
+  }
+  ,
+  {
+    id: 74,
+    name: "ArenaX (FREE FIRE) (4v4)",
+    head: "The Ultimate Esports Battle",
+    entry: "20 INR per person",
+    prize: "30,000 INR",
+    description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
+    rules: "MATCH STRUCTURE\n● Qualifier Matches - Each registered team will play three qualifier matches. Based on performance, the top 12 teams will move to the next stage.\n● Eliminator Matches - The 12 qualified teams will compete in three eliminator matches. The top 4 teams from this stage will advance to the semifinals.\n● Semifinals (Clash Squad Mode):\n- Semifinal 1: Rank 1 team vs Rank 4 team.\n- Semifinal 2: Rank 2 team vs Rank 3 team.\nThe winners of these matches will move to the final.\n● Final Match - The two semifinal winners will face off in a Clash Squad final match to determine the champion.\n\n● GENERAL RULES\n1. PC players are not allowed.\n2. If any participant gets caught using game bugs or hacks, the whole team will be disqualified.\n3. Gun properties and attributes will remain off.\n4. Team-up is not allowed in full map.\n5. Each team should join the lobby with their registered players only. If caught, the whole team will be disqualified.\n6. Character skill will be on.\n7. All teams should be there within 10 minutes after getting the custom ID and password. No team will be considered if they are late, and the match will be started after 10 minutes.",
+    date: "12-13 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737589/Freefire_ihbf9t.png",
+    category: "Esports & Gaming vortex",
+    register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
+  }
+  ,
+  {
+    id: 75,
+    name: "ArenaX (TEKKEN 8) (1v1)",
+    head: "The Ultimate Esports Battle",
+    entry: "20 INR per person",
+    prize: "4,500 INR",
+    description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
+    rules: "● ELIGIBILITY - All participants must have attained the age of 16 or above to participate in the tournament.\n\n● MATCH FORMAT\nGame Mode : Participants will engage in 1v1 matches throughout the tournament.\nNote:\n1. All matches, unless otherwise specified, will be conducted in a 1v1 format.\n2. Participants are expected to adhere to the rules and regulations outlined in the official tournament rule book.\n3. Violations may result in penalties.\n\n● COLLUSION - A player may not collude. Collusion is defined as any agreement among two (2) or more players, and/or confederates to disadvantage opposing players. Collusion includes, but is not limited to, acts such as:\n1. Soft play, which is defined as any agreement among two (2) or more players to not damage, impede, or otherwise play to a reasonable standard of competition in a game.\n2. Sending or receiving signals, electronic or otherwise, from a confederate to/from a player.\n3. Pre-arranging to split the prize money and/or any other form of compensation. Deliberately losing a game for compensation, or any other reason, or attempting to induce another player to do so.\n\n● CHEATING - Cheating is prohibited. Any modification of the game client by any player, Team, or other Team Member is prohibited.\n\n● HACKING - A player may not hack during tournament games. Hacking is defined as any modification of the game client by any player, or person acting on behalf of a player.\n\n● ADMIN DECISION AND FINAL RULES\n1. Tournament admins have the final say in disputes and rule clarifications.\n2. Rules may be modified based on unforeseen circumstances.\n3. By participating, all teams and players accept and adhere to these rules.",
+    date: "12-13 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737672/Tekken_es9mux.png",
+    category: "Esports & Gaming vortex",
+    register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
+  },
+
 
   {
     id: 42,
@@ -13,21 +83,21 @@ export const technical_events =  [
     date: "10-11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737567/ChemTech_de6w4v.png",
     category: "Chemistry chemical",
-    register:"https://forms.gle/X5iWJVRtuy31EDVL9"
-}
-,
-    {
-      id: 43,
-      name: "Revamping Biotechnology from Data to Discovery",
-      head: "The Future of AI in Healthcare",
-      entry: "50 INR",
-      prize: "1500 INR",
-      description: "Use of AI and machine learning play a crucial role in developing innovative healthcare solutions by analyzing vast amounts of medical data to improve diagnostics, treatment plans, and patient outcomes.",
-      rules: "1. Number of participants per team: 3 members per team.\n2. Pre-requisite: Participants should have an idea of AI/Machine Learning.\n3. The project should be completed prior to the presentation in the event.\n4. Presentation of the work and interaction will only be carried out during the event.\n5. Few rules and regulations will be discussed at the beginning of the event.",
-      date: "10-11 April 2025",
-      image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737653/Revamping_Bio_kglsiw.png",
-      category: "Biotechnology",
-      register:"https://forms.gle/YvkerHk8sSotpEqT6"
+    register: "https://forms.gle/X5iWJVRtuy31EDVL9"
+  }
+  ,
+  {
+    id: 43,
+    name: "Revamping Biotechnology from Data to Discovery",
+    head: "The Future of AI in Healthcare",
+    entry: "50 INR",
+    prize: "1500 INR",
+    description: "Use of AI and machine learning play a crucial role in developing innovative healthcare solutions by analyzing vast amounts of medical data to improve diagnostics, treatment plans, and patient outcomes.",
+    rules: "1. Number of participants per team: 3 members per team.\n2. Pre-requisite: Participants should have an idea of AI/Machine Learning.\n3. The project should be completed prior to the presentation in the event.\n4. Presentation of the work and interaction will only be carried out during the event.\n5. Few rules and regulations will be discussed at the beginning of the event.",
+    date: "10-11 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737653/Revamping_Bio_kglsiw.png",
+    category: "Biotechnology",
+    register: "https://forms.gle/YvkerHk8sSotpEqT6"
   }
   ,
   {
@@ -41,34 +111,34 @@ export const technical_events =  [
     "date": "12 April 2025",
     "image": "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737640/Integration_tlbxfl.png",
     "category": "Mathematics",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSdD1ipTAEwGM8Q7tM6rYT__4qS0kZECzH-4k1u5YckOioP9Lw/viewform?usp=header"
-}
-,
-    {
-      id: 45,
-      name: "Q-Trivia",
-      head: "The Ultimate Science and Sci-Fi Quiz",
-      entry: "50 INR per person",
-      prize: "6,000 INR",
-      description: "Enter a realm where science meets fiction! Battle through thrilling rounds of trivia on superheroes, sci-fi, legendary scientists, and quantum physics. Form a team of 2-3 and challenge the limits of reality. Think you can outsmart the multiverse? Prove it!",
-      rules: "1.Participants can compete only in teams of 2-3 members.\n2. No use of elctronic devices(phones , smartwatches,etc.) during the quiz.\n3. No use of assistance (googling, asking for help) is allowed.\n4. Team members must collaborate quietly without disrupting others.\n5. In case of a tie, a sudden-death question round will be held\n6. The quiz,aster's decision is final in case of disputes.",
-      date: "12 April 2025",
-      image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737643/Q_trivia_wj0q6r.png",
-      category: "Quiz Quantum",
-      register:"https://docs.google.com/forms/d/e/1FAIpQLSdgs_Z9qTLjdrTMZJKZlzFWk3yQEuECCdP3iGmWCNwzCQ1JLw/viewform?usp=header"
-    },
-    {
-      id: 46,
-      name: "Skyline Symphony",
-      head: "Engineering the Future",
-      entry: "200 INR",
-      prize: "12,000 INR",
-      description: "Attention aspiring engineers and architects! Join Skyline Symphony to design and build a high-rise model, test it with earthquake simulations, and compete to showcase your engineering skills!",
-      rules: "Event Phases:\n1. Model Construction\n2. Simulated Earthquake Testing\n3. Load Test\n\nSize & Dimensions:\n• Max. Base Area: 30cm × 30cm\n• Min. Height: 50cm\n• Max. Height: 80cm\n\nTesting Criteria:\n1. Earthquake Simulation Test:\n   • The model will be placed on a shake table with increasing intensity levels.\n   • The structure should remain intact for at least 20 seconds at maximum intensity to score full points.\n\n2. Load Bearing Test:\n   • A gradual increase of load (weights) will be applied.\n   • The maximum load before failure will be recorded.\n\nJudging Criteria:\n• Judges will evaluate the load/cost ratio of the models.\n\nRules & Regulations:\n1. All models must be built strictly following the size and material guidelines.\n2. Materials will be provided on the event site itself; any improperly constructed model may be disqualified.\n3. Use of restricted materials will lead to immediate disqualification.\n4. Judges' decisions will be final and binding.",
-      date: "10 April 2025",
-      image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737666/Skyline_Symphony_wqrilc.png",
-      category: "Engineering Civil Design",
-      register: "https://forms.gle/2Jz1jSGZCpLCUn9w6"
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSdD1ipTAEwGM8Q7tM6rYT__4qS0kZECzH-4k1u5YckOioP9Lw/viewform?usp=header"
+  }
+  ,
+  {
+    id: 45,
+    name: "Q-Trivia",
+    head: "The Ultimate Science and Sci-Fi Quiz",
+    entry: "50 INR per person",
+    prize: "6,000 INR",
+    description: "Enter a realm where science meets fiction! Battle through thrilling rounds of trivia on superheroes, sci-fi, legendary scientists, and quantum physics. Form a team of 2-3 and challenge the limits of reality. Think you can outsmart the multiverse? Prove it!",
+    rules: "1.Participants can compete only in teams of 2-3 members.\n2. No use of elctronic devices(phones , smartwatches,etc.) during the quiz.\n3. No use of assistance (googling, asking for help) is allowed.\n4. Team members must collaborate quietly without disrupting others.\n5. In case of a tie, a sudden-death question round will be held\n6. The quiz,aster's decision is final in case of disputes.",
+    date: "12 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737643/Q_trivia_wj0q6r.png",
+    category: "Quiz Quantum",
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSdgs_Z9qTLjdrTMZJKZlzFWk3yQEuECCdP3iGmWCNwzCQ1JLw/viewform?usp=header"
+  },
+  {
+    id: 46,
+    name: "Skyline Symphony",
+    head: "Engineering the Future",
+    entry: "200 INR",
+    prize: "12,000 INR",
+    description: "Attention aspiring engineers and architects! Join Skyline Symphony to design and build a high-rise model, test it with earthquake simulations, and compete to showcase your engineering skills!",
+    rules: "Event Phases:\n1. Model Construction\n2. Simulated Earthquake Testing\n3. Load Test\n\nSize & Dimensions:\n• Max. Base Area: 30cm × 30cm\n• Min. Height: 50cm\n• Max. Height: 80cm\n\nTesting Criteria:\n1. Earthquake Simulation Test:\n   • The model will be placed on a shake table with increasing intensity levels.\n   • The structure should remain intact for at least 20 seconds at maximum intensity to score full points.\n\n2. Load Bearing Test:\n   • A gradual increase of load (weights) will be applied.\n   • The maximum load before failure will be recorded.\n\nJudging Criteria:\n• Judges will evaluate the load/cost ratio of the models.\n\nRules & Regulations:\n1. All models must be built strictly following the size and material guidelines.\n2. Materials will be provided on the event site itself; any improperly constructed model may be disqualified.\n3. Use of restricted materials will lead to immediate disqualification.\n4. Judges' decisions will be final and binding.",
+    date: "10 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737666/Skyline_Symphony_wqrilc.png",
+    category: "Engineering Civil Design",
+    register: "https://forms.gle/2Jz1jSGZCpLCUn9w6"
   }
   ,
   {
@@ -82,76 +152,75 @@ export const technical_events =  [
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737666/TexPrint_jsoyed.png",
     category: "Design Textile",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSdo5S6q8U26DSNmA66jqv2mrcsnkr3gfEYNhEWEt3sJLV2-Qg/viewform?usp=header"
-}
-,
-    {
-      id: 48,
-      name: "TechBiz Quest",
-      head: "The Ultimate Business and Tech Challenge",
-      entry: "100 INR",
-      prize: "9,000 INR",
-      description: "StrataBiz is set to organize TechBiz Quest, a business and technology quiz competition. This event aims to challenge students' knowledge and analytical skills in business and technology through an engaging and competitive format.",
-      rules: "1. Teams of two only\n2. Performance time: 3-5 minutes\n3. Music track to be submitted in advance\n4. No vulgar or inappropriate content",
-      date: "13 April 2025",
-      image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737667/TexhBiz_Quest_o3edc1.png",
-      category: "Business & Technology",
-      register:"https://docs.google.com/forms/d/e/1FAIpQLSecfKVFW30XphOxKofd_bYnCf0avsNgIFV34E9XGgB9N9W24w/viewform?usp=header"
-    },
-    {
-      id: 49,
-      name: "Wall Street-Paper Trading",
-      head: "Master the Stock Market",
-      entry: "100 INR",
-      prize: "10,000 INR",
-      description: "Teams will be given virtual demat accounts to execute buy and sell orders based on dynamic market scenarios. In a room full of traders, they can engage in transactions with each other, simulating the real-time environment of a stock exchange. The winners will be determined based on the highest portfolio value at the end of the event.",
-      rules: "1. Teams of 2 to 3 members will participate.\n2. Open to 100 participants on a first-come basis.\n3. Each team gets a virtual demat account and initial capital.\n4. Multiple trading rounds with changing market scenarios.\n5. Throughout the competition, 10 news events and major market updates will be displayed on the screen.\n6. After each update, teams will have 10 minutes to strategize and 5 minutes to execute their trades.\n7. Buy/sell orders are placed via order slips.\n8. Short selling is allowed.\n9. Transactions must be validated by event facilitators.\n10. Portfolio value = Cash + Stock Value.\n11. The highest portfolio value wins.\n12. In case of a tie, the participant with more successful trades wins.\n13. Fair trading is required; manipulation leads to disqualification.\n14. Mobile phones and external help are prohibited.",
-      date: "13 April 2025",
-      image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737674/Wall_Street_Paper_t5ba3s.png",
-      category: "Finance",
-      register:"https://docs.google.com/forms/d/e/1FAIpQLSeXbWxP0rV1Dn3vQmNEITrFq-hTq2MvSsFapmRva2_ZJmM3Sg/viewform?usp=header"
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSdo5S6q8U26DSNmA66jqv2mrcsnkr3gfEYNhEWEt3sJLV2-Qg/viewform?usp=header"
   }
   ,
-    {
-      id: 50,
-      name: "Analyst Edge Competition",
-      head: "Build Your Dream Investment Portfolio",
-      entry: "300 INR",
-      prize: "10,000 INR",
-      description: "Analyst Edge is a portfolio-building challenge where teams of 2-3 strategize and invest in stocks using analysis tools. With a fixed capital and 1.5 hours, teams must build a high-value portfolio. This event is perfect for finance enthusiasts to apply market insights and investment strategies!",
-      rules: "Competition Rules:\n1. Teams of 2 to 3 members will participate.\n2. Open to 100 participants on a first-come basis.\n3. Each team will receive an initial virtual capital to build their portfolio.\n4. A curated list of stocks will be provided for investment.\n5. Teams will have access to our platform/APIs to analyze technical and fundamental data.\n6. Each team must construct a portfolio of 5 to 10 stocks within 1.5 hours.\n7. Once finalized, portfolios will be locked in and cannot be altered.\n8. Portfolio value = Cash + Stock Holdings Value at the end of the competition.\n9. In case of a tie, the team with higher initial capital utilization wins.\n10. Fair play is mandatory—any attempt at manipulation leads to disqualification.\n11. Mobile phones and external assistance are prohibited during the event.\n\nJudging Criteria:\n1. Portfolio Value – The final market value of the selected stocks.\n2. Rationale & Justification – The clarity, depth, and strategic reasoning behind stock selections.\n3. The team with the highest combined score across both parameters will be declared the winner.",
-      date: "10 April 2025",
-      image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737553/Analyst_edge_bgibx6.png",
-      category: "Finance",
-      register:"https://docs.google.com/forms/d/e/1FAIpQLSeNCBbkFh_uYULF9QIcfNpb48PKI3AIBvgV1os3ZlEBhe7yGg/viewform?usp=header"
+  {
+    id: 48,
+    name: "TechBiz Quest",
+    head: "The Ultimate Business and Tech Challenge",
+    entry: "100 INR",
+    prize: "9,000 INR",
+    description: "TechBiz Quest is an engaging and competitive event designed to test participants' knowledge, analytical skills, and business acumen. The competition consists of three rounds, with each round eliminating a set number of participants until the top-performing teams emerge as winners.",
+    date: "13 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737667/TexhBiz_Quest_o3edc1.png",
+    category: "Business & Technology",
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSecfKVFW30XphOxKofd_bYnCf0avsNgIFV34E9XGgB9N9W24w/viewform?usp=header"
+  },
+  {
+    id: 49,
+    name: "Wall Street-Paper Trading",
+    head: "Master the Stock Market",
+    entry: "100 INR",
+    prize: "10,000 INR",
+    description: "Teams will be given virtual demat accounts to execute buy and sell orders based on dynamic market scenarios. In a room full of traders, they can engage in transactions with each other, simulating the real-time environment of a stock exchange. The winners will be determined based on the highest portfolio value at the end of the event.",
+    rules: "1. Teams of 2 to 3 members will participate.\n2. Open to 100 participants on a first-come basis.\n3. Each team gets a virtual demat account and initial capital.\n4. Multiple trading rounds with changing market scenarios.\n5. Throughout the competition, 10 news events and major market updates will be displayed on the screen.\n6. After each update, teams will have 10 minutes to strategize and 5 minutes to execute their trades.\n7. Buy/sell orders are placed via order slips.\n8. Short selling is allowed.\n9. Transactions must be validated by event facilitators.\n10. Portfolio value = Cash + Stock Value.\n11. The highest portfolio value wins.\n12. In case of a tie, the participant with more successful trades wins.\n13. Fair trading is required; manipulation leads to disqualification.\n14. Mobile phones and external help are prohibited.",
+    date: "13 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737674/Wall_Street_Paper_t5ba3s.png",
+    category: "Finance",
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSeXbWxP0rV1Dn3vQmNEITrFq-hTq2MvSsFapmRva2_ZJmM3Sg/viewform?usp=header"
   }
   ,
-    {
-      id: 51,
-      name: "Escape Room",
-      head: "Crack the Code and Escape!",
-      entry: "100 INR",
-      prize: "12,000 INR",
-      description: "This 60-minute escape room may cause excessive brainstorming, spontaneous teamwork, and irreversible attraction to entrepreneurship... Prolonged exposure may lead to startup success (and a crush on your teammates). Form a team of 4 and solve 5 critical business challenges to escape before time runs out. Can you handle the heat?",
-      rules: "",
-      date: "11 April 2025",
-      image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737587/Escape_Room_pnishr.png",
-      category: "Problem Solving ecell e-cell",
-      register:"https://docs.google.com/forms/d/e/1FAIpQLSfIAQIIqzx3gCIDpolYUwDf7XQih0PaPJB0MOmHEDeDvd5o0g/viewform?usp=header"
-    },
-  
-    {
-      id: 52,
-      name: "Robo War",
-      head: "The Ultimate Battle of Robots",
-      entry: "500 INR",
-      prize: "1,30,000 INR",
-      description: "This exciting competition invites participants to design, build, and operate combat robots, showcasing their engineering skills and creativity. Teams will face off in intense, head-to-head matches, where their robots must outwit and overpower their opponents in the arena. With a focus on innovation, strategy, and sheer mechanical prowess, RoboWar is a thrilling test of endurance, precision, and teamwork.",
-      rules: "Eligibility:\n1. Participation can be individual or in teams (maximum members: 5).\n2. All participants must be registered students or professionals.\n3. Robots must comply with size and weight constraints as specified below.\n\nGeneral Rules:\n1. The competition consists of one-on-one battles.\n2. Each round lasts for a maximum of 5 minutes.\n3. Robots must start the battle from their designated positions.\n4. Participants must follow the referee’s commands at all times.\n5. A team is allowed 30 minutes to prepare for the next match.\n6. Any intentional damage to the arena will result in disqualification.\n7. The robot must be controlled only by the designated operator.\n\nRobot Specifications:\n1. Dimensions: The robot must not exceed 75 cm x 75 cm x 100 cm.\n2. Weight Limit: Two weight categories: 8kg and 15kg. The total weight should not exceed respective weight categories.\n3. Power Source: Robots must be powered by batteries within the voltage limit of 36V.\n4. Allowed Weapons: Spinning discs, hammers, and lifters.\n5. Prohibited Weapons:\n   - Fire-based weapons\n   - Liquids or corrosive substances\n   - Jamming devices\n   - Projectiles\n\nMatch Rules:\n1. A match begins at the referee’s signal.\n2. A robot wins by immobilizing its opponent for 30 seconds.\n3. Points are awarded based on aggression, control, and damage.\n4. If both robots are still operational at the end of the time limit, the winner is decided by judges based on points.\n5. If a robot is unable to move for more than 30 seconds, it will be counted as knocked out.\n\nJudging Criteria:\n1. Damage: Effectiveness of attacks on the opponent’s robot.\n2. Control: Ability to maneuver the robot strategically.\n3. Aggression: Frequency and effectiveness of attacks.\n4. Defense: Ability to withstand attacks and remain operational.\n\nSafety Regulations:\n1. All robots must pass a safety inspection before competing.\n2. Operators must wear safety gear while handling robots.\n3. The arena must be clear of non-participants before starting a match.\n4. Any violation of safety rules will result in immediate disqualification.",
-      date: "12 April 2025",
-      image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737660/Robo_War_hp56bl.png",
-      category: "Robotics some agastya",
-      register:"https://forms.gle/Mx3mZrsE2zWsNRTX6"
+  {
+    id: 50,
+    name: "Analyst Edge Competition",
+    head: "Build Your Dream Investment Portfolio",
+    entry: "300 INR",
+    prize: "10,000 INR",
+    description: "Analyst Edge is a portfolio-building challenge where teams of 2-3 strategize and invest in stocks using analysis tools. With a fixed capital and 1.5 hours, teams must build a high-value portfolio. This event is perfect for finance enthusiasts to apply market insights and investment strategies!",
+    rules: "Competition Rules:\n1. Teams of 2 to 3 members will participate.\n2. Open to 100 participants on a first-come basis.\n3. Each team will receive an initial virtual capital to build their portfolio.\n4. A curated list of stocks will be provided for investment.\n5. Teams will have access to our platform/APIs to analyze technical and fundamental data.\n6. Each team must construct a portfolio of 5 to 10 stocks within 1.5 hours.\n7. Once finalized, portfolios will be locked in and cannot be altered.\n8. Portfolio value = Cash + Stock Holdings Value at the end of the competition.\n9. In case of a tie, the team with higher initial capital utilization wins.\n10. Fair play is mandatory—any attempt at manipulation leads to disqualification.\n11. Mobile phones and external assistance are prohibited during the event.\n\nJudging Criteria:\n1. Portfolio Value – The final market value of the selected stocks.\n2. Rationale & Justification – The clarity, depth, and strategic reasoning behind stock selections.\n3. The team with the highest combined score across both parameters will be declared the winner.",
+    date: "10 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737553/Analyst_edge_bgibx6.png",
+    category: "Finance",
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSeNCBbkFh_uYULF9QIcfNpb48PKI3AIBvgV1os3ZlEBhe7yGg/viewform?usp=header"
+  }
+  ,
+  {
+    id: 51,
+    name: "Escape Room",
+    head: "Crack the Code and Escape!",
+    entry: "100 INR",
+    prize: "12,000 INR",
+    description: "This 60-minute escape room may cause excessive brainstorming, spontaneous teamwork, and irreversible attraction to entrepreneurship... Prolonged exposure may lead to startup success (and a crush on your teammates). Form a team of 4 and solve 5 critical business challenges to escape before time runs out. Can you handle the heat?",
+    rules: "",
+    date: "11 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737587/Escape_Room_pnishr.png",
+    category: "Problem Solving ecell e-cell",
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSfIAQIIqzx3gCIDpolYUwDf7XQih0PaPJB0MOmHEDeDvd5o0g/viewform?usp=header"
+  },
+
+  {
+    id: 52,
+    name: "Robo War",
+    head: "The Ultimate Battle of Robots",
+    entry: "500 INR",
+    prize: "1,30,000 INR",
+    description: "This exciting competition invites participants to design, build, and operate combat robots, showcasing their engineering skills and creativity. Teams will face off in intense, head-to-head matches, where their robots must outwit and overpower their opponents in the arena. With a focus on innovation, strategy, and sheer mechanical prowess, RoboWar is a thrilling test of endurance, precision, and teamwork.",
+    rules: "Eligibility:\n1. Participation can be individual or in teams (maximum members: 5).\n2. All participants must be registered students or professionals.\n3. Robots must comply with size and weight constraints as specified below.\n\nGeneral Rules:\n1. The competition consists of one-on-one battles.\n2. Each round lasts for a maximum of 5 minutes.\n3. Robots must start the battle from their designated positions.\n4. Participants must follow the referee’s commands at all times.\n5. A team is allowed 30 minutes to prepare for the next match.\n6. Any intentional damage to the arena will result in disqualification.\n7. The robot must be controlled only by the designated operator.\n\nRobot Specifications:\n1. Dimensions: The robot must not exceed 75 cm x 75 cm x 100 cm.\n2. Weight Limit: Two weight categories: 8kg and 15kg. The total weight should not exceed respective weight categories.\n3. Power Source: Robots must be powered by batteries within the voltage limit of 36V.\n4. Allowed Weapons: Spinning discs, hammers, and lifters.\n5. Prohibited Weapons:\n   - Fire-based weapons\n   - Liquids or corrosive substances\n   - Jamming devices\n   - Projectiles\n\nMatch Rules:\n1. A match begins at the referee’s signal.\n2. A robot wins by immobilizing its opponent for 30 seconds.\n3. Points are awarded based on aggression, control, and damage.\n4. If both robots are still operational at the end of the time limit, the winner is decided by judges based on points.\n5. If a robot is unable to move for more than 30 seconds, it will be counted as knocked out.\n\nJudging Criteria:\n1. Damage: Effectiveness of attacks on the opponent’s robot.\n2. Control: Ability to maneuver the robot strategically.\n3. Aggression: Frequency and effectiveness of attacks.\n4. Defense: Ability to withstand attacks and remain operational.\n\nSafety Regulations:\n1. All robots must pass a safety inspection before competing.\n2. Operators must wear safety gear while handling robots.\n3. The arena must be clear of non-participants before starting a match.\n4. Any violation of safety rules will result in immediate disqualification.",
+    date: "12 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737660/Robo_War_hp56bl.png",
+    category: "Robotics some agastya",
+    register: "https://forms.gle/Mx3mZrsE2zWsNRTX6"
   }
   ,
   {
@@ -166,8 +235,8 @@ export const technical_events =  [
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737636/Machine_Wars_n7fygf.png",
     category: "Robotics r-tist",
     register: "https://forms.gle/tqEZin6eSrcgtnUA7"
-}
-,
+  }
+  ,
   {
     id: 54,
     name: "Gear Blitz",
@@ -180,51 +249,51 @@ export const technical_events =  [
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737598/Gear_Blitz_lo254b.png",
     category: "Automobile & RC Racing daksh",
     register: "https://forms.gle/qNWAXiJXNo4VSPLS8"
-} 
-,
-{
-  id: 55,
-  name: "Blind Robo",
-  head: "Autonomous Navigation Challenge",
-  entry: "100 INR",
-  prize: "5,500 INR",
-  description: "Participants will receive autonomous robot cars, tasked with the challenge of coding them skillfully to navigate through a labyrinth of obstacles and reach the finish line in the shortest time possible.",
-  rules: "1. Event Overview:\n● The SPICE Society Autonomous Bot Challenge is a robotics competition where teams design and build autonomous bots capable of navigating a predefined path without a guiding line.\n● The bots must overcome obstacles such as small inclines and blockages to complete the track in the shortest time possible.\n\n2. Team Composition:\n● Each team may consist of 1-5 members.\n● Members can be students, hobbyists, or professionals.\n● A participant cannot be part of more than one team.\n\n3. Competition Rules:\n● The bot must start autonomously after an initial button press or command.\n● The bot must follow the track and navigate obstacles without external intervention.\n● If a bot remains stuck for more than 10 seconds, the team will get one manual reset (with a penalty).\n● Maximum of 4 resets allowed per round.\n● If the bot skips a checkpoint, it must return and pass through it to continue.\n● The competition consists of time trials, and the fastest bot to complete the track wins.\n\n4. Scoring & Penalties:\n● Base Score: Completion time is the primary scoring factor.\n● Penalties:\n   ○ Manual reset: +10 seconds per reset.\n   ○ Missing a checkpoint: +15 seconds.\n   ○ Touching side boundaries: +5 seconds per occurrence.\n● If no team completes the track, the farthest checkpoint reached will determine the ranking.",
-  date: "13 April 2025",
-  image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737554/Blind_Robo_rwal0o.png",
-  category: "Robotics & AI spice",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLSdeJB83t_LuQbQGugMH9h42-N2NnXnL6pBAwSnVMx3FdTX2rg/viewform?usp=header"
-}
-,
-{
-  id: 56,
-  name: "Sky Rush",
-  head: "Mastering the Skies",
-  entry: "300 INR",
-  prize: "30,000 INR",
-  description: "UAV Drone challenge, A multi-level competition that involves various challenges and obstacles in increasing order of difficulty which would screen out the most agile drone.",
-  rules: "Drone Specifications:\n● Maximum frame size: 750mm (Wheelbase)\n● Maximum Battery: 3S-6S\n● Maximum weight: 2kg (including battery)\n● Metallic props are prohibited. Turtle mode is permitted.\n● Pilots must bring at least two batteries and their own chargers; charging points will be provided.\n\nSafety Guidelines:\n● Participants must follow all safety protocols and instructions given by the event organizers.\n● Do not enter the racing area without permission from the event staff.\n● Participants must ensure their drones are in good working condition before the event.\n● Immediately cut off power when retrieving a drone after a race.\n\nRace Format:\n1. Round 1: Drag Race   - Pilots must start from a designated line and maintain a straight course to the finish line.\n2. Round 2: Obstacle Course  - Pilots must navigate an obstacle course, avoiding various obstacles.\n3. Round 3: Moving & Complex Obstacles  - Pilots must maneuver through a dynamic course with moving obstacles and complete a precision landing challenge.\n\nRace Rules and Procedures:\n● Drones must remain at the takeoff point until the start signal is given.\n● One retry is permitted per round in case of failure.\n● Pilots must cut off power when retrieving their drone after a race.\n● The flight line is clearly marked and must not be crossed.\n● Pilots must agree to any rule modifications as suggested by the organizers.\n● Flying out of bounds results in disqualification.\n● A practice session will be held one day before the event.\n● A practice session will be conducted one day prior to the event.\n\nScoring and Final Result:\nThe final score is calculated based on:\n● Total time taken to complete the course\n● Penalties for infractions, including crossing boundaries or hitting obstacles\n● The highest final score determines the winner\n\nSpectator Etiquette:\n● Spectators must not interfere with the competition or pilots.\n● Standing too close to the course or obstructing views is prohibited.\n\nGeneral Guidelines:\n● Pilots must arrive one hour before the race and be ready 15 minutes before their run.\n● No practice time is allowed 30 minutes before the race.\n● Pilots must bring at least two batteries and their own chargers; charging points will be available.\n● Batteries must be stored in LiPo safe bags or approved containers.\n● Pilots must agree to any suggested rule modifications.\n● Flying out of bounds results in immediate disqualification.\n\nOverall Scoring- The final score is determined based on:\n● Total time taken to complete the course\n● Penalties for hitting obstacles or crossing boundaries\n● The highest final score wins the SkyRush competition.",
-  date: "11 April 2025",
-  image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737672/UAV_Drone_hftdzz.png",
-  category: "Drone & Aeromodelling",
-  register:"https://forms.gle/rFkSEBvjoyLkVx8t8"
-}
+  }
+  ,
+  {
+    id: 55,
+    name: "Blind Robo",
+    head: "Autonomous Navigation Challenge",
+    entry: "100 INR",
+    prize: "5,500 INR",
+    description: "Participants will receive autonomous robot cars, tasked with the challenge of coding them skillfully to navigate through a labyrinth of obstacles and reach the finish line in the shortest time possible.",
+    rules: "1. Event Overview:\n● The SPICE Society Autonomous Bot Challenge is a robotics competition where teams design and build autonomous bots capable of navigating a predefined path without a guiding line.\n● The bots must overcome obstacles such as small inclines and blockages to complete the track in the shortest time possible.\n\n2. Team Composition:\n● Each team may consist of 1-5 members.\n● Members can be students, hobbyists, or professionals.\n● A participant cannot be part of more than one team.\n\n3. Competition Rules:\n● The bot must start autonomously after an initial button press or command.\n● The bot must follow the track and navigate obstacles without external intervention.\n● If a bot remains stuck for more than 10 seconds, the team will get one manual reset (with a penalty).\n● Maximum of 4 resets allowed per round.\n● If the bot skips a checkpoint, it must return and pass through it to continue.\n● The competition consists of time trials, and the fastest bot to complete the track wins.\n\n4. Scoring & Penalties:\n● Base Score: Completion time is the primary scoring factor.\n● Penalties:\n   ○ Manual reset: +10 seconds per reset.\n   ○ Missing a checkpoint: +15 seconds.\n   ○ Touching side boundaries: +5 seconds per occurrence.\n● If no team completes the track, the farthest checkpoint reached will determine the ranking.",
+    date: "13 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737554/Blind_Robo_rwal0o.png",
+    category: "Robotics & AI spice",
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSdeJB83t_LuQbQGugMH9h42-N2NnXnL6pBAwSnVMx3FdTX2rg/viewform?usp=header"
+  }
+  ,
+  {
+    id: 56,
+    name: "Sky Rush",
+    head: "Mastering the Skies",
+    entry: "300 INR",
+    prize: "30,000 INR",
+    description: "UAV Drone challenge, A multi-level competition that involves various challenges and obstacles in increasing order of difficulty which would screen out the most agile drone.",
+    rules: "Drone Specifications:\n● Maximum frame size: 750mm (Wheelbase)\n● Maximum Battery: 3S-6S\n● Maximum weight: 2kg (including battery)\n● Metallic props are prohibited. Turtle mode is permitted.\n● Pilots must bring at least two batteries and their own chargers; charging points will be provided.\n\nSafety Guidelines:\n● Participants must follow all safety protocols and instructions given by the event organizers.\n● Do not enter the racing area without permission from the event staff.\n● Participants must ensure their drones are in good working condition before the event.\n● Immediately cut off power when retrieving a drone after a race.\n\nRace Format:\n1. Round 1: Drag Race   - Pilots must start from a designated line and maintain a straight course to the finish line.\n2. Round 2: Obstacle Course  - Pilots must navigate an obstacle course, avoiding various obstacles.\n3. Round 3: Moving & Complex Obstacles  - Pilots must maneuver through a dynamic course with moving obstacles and complete a precision landing challenge.\n\nRace Rules and Procedures:\n● Drones must remain at the takeoff point until the start signal is given.\n● One retry is permitted per round in case of failure.\n● Pilots must cut off power when retrieving their drone after a race.\n● The flight line is clearly marked and must not be crossed.\n● Pilots must agree to any rule modifications as suggested by the organizers.\n● Flying out of bounds results in disqualification.\n● A practice session will be held one day before the event.\n● A practice session will be conducted one day prior to the event.\n\nScoring and Final Result:\nThe final score is calculated based on:\n● Total time taken to complete the course\n● Penalties for infractions, including crossing boundaries or hitting obstacles\n● The highest final score determines the winner\n\nSpectator Etiquette:\n● Spectators must not interfere with the competition or pilots.\n● Standing too close to the course or obstructing views is prohibited.\n\nGeneral Guidelines:\n● Pilots must arrive one hour before the race and be ready 15 minutes before their run.\n● No practice time is allowed 30 minutes before the race.\n● Pilots must bring at least two batteries and their own chargers; charging points will be available.\n● Batteries must be stored in LiPo safe bags or approved containers.\n● Pilots must agree to any suggested rule modifications.\n● Flying out of bounds results in immediate disqualification.\n\nOverall Scoring- The final score is determined based on:\n● Total time taken to complete the course\n● Penalties for hitting obstacles or crossing boundaries\n● The highest final score wins the SkyRush competition.",
+    date: "11 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737672/UAV_Drone_hftdzz.png",
+    category: "Drone & Aeromodelling",
+    register: "https://forms.gle/rFkSEBvjoyLkVx8t8"
+  }
 
-,
-{
-  id: 57,
-  name: "Ad Astra",
-  head: "Exploring the Future of Space",
-  entry: "100 INR",
-  prize: "12,000 INR",
-  description: "Ad Astra is a space-themed case study and presentation competition where student teams tackle real-world space challenges. Participants will research, analyze, and present innovative solutions, showcasing their creativity and critical thinking.",
-  rules: "1. General Rules\n• Team Composition: Teams must consist of 2-4 students.\n• Registration: All teams must register within the specified deadline.\n• Case Studies: Teams will be provided with 2-3 case studies/problem statements.\n• Presentation:\n  ○ Presentations must be within the allotted time limit (10-15 minutes).\n  ○ Use of visual aids (slides) is encouraged.\n  ○ Physical models or demonstrations are highly encouraged during the presentation.\n\n2. Presentation Content\n• Problem Identification & Analysis: Clear and concise identification and analysis of the given problem.\n• Proposed Solution:\n  ○ Detailed explanation of the proposed solution, including technical feasibility and rationale.\n  ○ Consideration of potential challenges and mitigation strategies.\n  ○ Innovative and creative approach to the problem.\n• Impact & Future Considerations:\n  ○ Discussion of the potential impact of the proposed solution on space exploration and society.\n  ○ Consideration of future developments and potential improvements.\n\n3. Judging Criteria\n• Creativity & Innovation: Originality and uniqueness of the proposed solution.\n• Technical Feasibility: Soundness of the proposed solution from a technical perspective.\n• Presentation & Communication: Clarity, persuasiveness, and effectiveness of the presentation.\n• Depth of Research & Analysis: Thoroughness of research and analysis of the problem and proposed solution.\n• Teamwork & Coordination: Effective teamwork and collaboration among team members.\n\n4. Disciplinary Rules\n• Plagiarism: Plagiarism in any form is strictly prohibited. Teams found to have plagiarized content will be disqualified.\n• Disruptive Behavior: Any disruptive behavior during the presentation or the event will result in points deduction or disqualification.\n• Violation of Rules: Any violation of the competition rules will result in penalties as determined by the judges.\n\n5. Final Evaluation\n• Judging Panel: A panel of judges consisting of faculty members, industry experts, and space enthusiasts will evaluate the presentations.\n• Scoring: Judges will independently score each team based on the judging criteria.\n• Decision: The final decision of the judges will be final and binding.\n\n6. Important Notes\n• This rulebook is subject to change at the discretion of the organizers.\n• Any updates or modifications to the rules will be communicated to all participating teams in advance.",
-  date: "13 April 2025",
-  image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737562/Ad_Astra_lwtori.png",
-  category: "Space & Astronomy",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLScHt5Rsv6JTzZ-zQCpqGUdKxUKCk8MSskVTCBJ6biodkyJusg/viewform?usp=header"
-}
-,
+  ,
+  {
+    id: 57,
+    name: "Ad Astra",
+    head: "Exploring the Future of Space",
+    entry: "100 INR",
+    prize: "12,000 INR",
+    description: "Ad Astra is a space-themed case study and presentation competition where student teams tackle real-world space challenges. Participants will research, analyze, and present innovative solutions, showcasing their creativity and critical thinking.",
+    rules: "1. General Rules\n• Team Composition: Teams must consist of 2-4 students.\n• Registration: All teams must register within the specified deadline.\n• Case Studies: Teams will be provided with 2-3 case studies/problem statements.\n• Presentation:\n  ○ Presentations must be within the allotted time limit (10-15 minutes).\n  ○ Use of visual aids (slides) is encouraged.\n  ○ Physical models or demonstrations are highly encouraged during the presentation.\n\n2. Presentation Content\n• Problem Identification & Analysis: Clear and concise identification and analysis of the given problem.\n• Proposed Solution:\n  ○ Detailed explanation of the proposed solution, including technical feasibility and rationale.\n  ○ Consideration of potential challenges and mitigation strategies.\n  ○ Innovative and creative approach to the problem.\n• Impact & Future Considerations:\n  ○ Discussion of the potential impact of the proposed solution on space exploration and society.\n  ○ Consideration of future developments and potential improvements.\n\n3. Judging Criteria\n• Creativity & Innovation: Originality and uniqueness of the proposed solution.\n• Technical Feasibility: Soundness of the proposed solution from a technical perspective.\n• Presentation & Communication: Clarity, persuasiveness, and effectiveness of the presentation.\n• Depth of Research & Analysis: Thoroughness of research and analysis of the problem and proposed solution.\n• Teamwork & Coordination: Effective teamwork and collaboration among team members.\n\n4. Disciplinary Rules\n• Plagiarism: Plagiarism in any form is strictly prohibited. Teams found to have plagiarized content will be disqualified.\n• Disruptive Behavior: Any disruptive behavior during the presentation or the event will result in points deduction or disqualification.\n• Violation of Rules: Any violation of the competition rules will result in penalties as determined by the judges.\n\n5. Final Evaluation\n• Judging Panel: A panel of judges consisting of faculty members, industry experts, and space enthusiasts will evaluate the presentations.\n• Scoring: Judges will independently score each team based on the judging criteria.\n• Decision: The final decision of the judges will be final and binding.\n\n6. Important Notes\n• This rulebook is subject to change at the discretion of the organizers.\n• Any updates or modifications to the rules will be communicated to all participating teams in advance.",
+    date: "13 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737562/Ad_Astra_lwtori.png",
+    category: "Space & Astronomy",
+    register: "https://docs.google.com/forms/d/e/1FAIpQLScHt5Rsv6JTzZ-zQCpqGUdKxUKCk8MSskVTCBJ6biodkyJusg/viewform?usp=header"
+  }
+  ,
   {
     id: 58,
     name: "Hackmol 6.0",
@@ -237,20 +306,20 @@ export const technical_events =  [
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737599/Hackmol_gwczwf.png",
     category: "Hackathon & Coding gdsc",
     register: "https://hackmol-6.devfolio.co/"
-}
-,
+  }
+  ,
   {
-      id: 59,
-      name: "Cryptography based CTF Event",
-      head: "Crack the Code, Capture the Flag",
-      entry: "150 INR",
-      prize: "3,000 INR",
-      description: "A one-day Capture The Flag (CTF) competition centered on cryptography challenges, where participants will decode ciphers, break encryptions, and solve security puzzles. The event aims to boost cybersecurity awareness and cryptography skills among students.",
-      rules: "",
-      date: "11 April 2025",
-      image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737571/CTF_tlys56.png",
-      category: "Cybersecurity & Cryptography",
-      register:"https://docs.google.com/forms/d/e/1FAIpQLScDNBG5rby_djKem8Uk2vz_e5jTNJktMfNVUkX3ykLpQpBTyg/viewform?usp=header"
+    id: 59,
+    name: "Cryptography based CTF Event",
+    head: "Crack the Code, Capture the Flag",
+    entry: "150 INR",
+    prize: "3,000 INR",
+    description: "A one-day Capture The Flag (CTF) competition centered on cryptography challenges, where participants will decode ciphers, break encryptions, and solve security puzzles. The event aims to boost cybersecurity awareness and cryptography skills among students.",
+    rules: "",
+    date: "11 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737571/CTF_tlys56.png",
+    category: "Cybersecurity & Cryptography",
+    register: "https://docs.google.com/forms/d/e/1FAIpQLScDNBG5rby_djKem8Uk2vz_e5jTNJktMfNVUkX3ykLpQpBTyg/viewform?usp=header"
   },
   {
     id: 60,
@@ -263,10 +332,10 @@ export const technical_events =  [
     date: "10 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737588/Code_Relay_hncohj.png",
     category: "Competitive Programming",
-    register:"https://forms.gle/c3v72bfJbBbJC5f97"
-}
+    register: "https://forms.gle/c3v72bfJbBbJC5f97"
+  }
 
-,
+  ,
   {
     id: 61,
     name: "Speed Quant",
@@ -278,8 +347,8 @@ export const technical_events =  [
     date: "10-11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737673/Speed_Quant_jouguc.png",
     category: "Competitive Programming",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSczFwncWTMSMl1rjqpNKcUJy4e-WYL-iluhqZ4MYPJYxhQVsQ/viewform?usp=header"
-}
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSczFwncWTMSMl1rjqpNKcUJy4e-WYL-iluhqZ4MYPJYxhQVsQ/viewform?usp=header"
+  }
 
   ,
   {
@@ -293,10 +362,10 @@ export const technical_events =  [
     date: "12-13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737566/Circuit_Saga_wzyuyk.png",
     category: "Electronics & Problem Solving soece",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSdx3TmpAlCFXx1UkYIjzzZCRLrYzWCKmyxBPiTrN-k8UviF_g/viewform?usp=header"
-}
-,
-{
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSdx3TmpAlCFXx1UkYIjzzZCRLrYzWCKmyxBPiTrN-k8UviF_g/viewform?usp=header"
+  }
+  ,
+  {
     id: 63,
     name: "The Lost Circuit",
     head: "Precision in Electrical Reflexes",
@@ -307,23 +376,23 @@ export const technical_events =  [
     date: "12 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737610/Lost_Circuit_ktdv8e.png",
     category: "Electronics seed",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSfAfJWPvX3DboXilS8uAYnVkW8DNAWIjXAdAFYuCX9JxcMeLA/viewform?usp=header"
-},
-// {
-//     id: 64,
-//     name: "ArenaX",
-//     head: "The Ultimate Esports Battle",
-//     entry: "20 INR",
-//     prize: "1,00,000 INR",
-//     description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
-//     rules: "",
-//     date: "12-13 April 2025",
-//     image: require("./Pics/ArenaX.png"),
-//     category: "Esports & Gaming vortex",
-//     register: "https://forms.gle/Cd7tLpcfgvtzkgSo6"
-// }
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSfAfJWPvX3DboXilS8uAYnVkW8DNAWIjXAdAFYuCX9JxcMeLA/viewform?usp=header"
+  },
+  // {
+  //     id: 64,
+  //     name: "ArenaX",
+  //     head: "The Ultimate Esports Battle",
+  //     entry: "20 INR",
+  //     prize: "1,00,000 INR",
+  //     description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
+  //     rules: "",
+  //     date: "12-13 April 2025",
+  //     image: require("./Pics/ArenaX.png"),
+  //     category: "Esports & Gaming vortex",
+  //     register: "https://forms.gle/Cd7tLpcfgvtzkgSo6"
+  // }
 
-{
+  {
     id: 65,
     name: "CAD Modeling",
     head: "Design the Future in 3D",
@@ -334,147 +403,78 @@ export const technical_events =  [
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737584/CAD_Modeling_aanqf0.png",
     category: "Design & Engineering",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSdQZ72ZaKh8kqdVkzr1rZ7zQSjsEBQts-UdRpyhhMKOFk0bWA/viewform?usp=header"
-},
-{
-  id: 66,
-  name: "AD Mad Show",
-  head: "Create the Most Witty Advertisement",
-  entry: "100 INR",
-  prize: "5,000 INR",
-  description: "Join the Ad Mad Show to unleash your creativity! Participants will receive products to create engaging, witty advertisements that captivate the audience. Showcase your marketing skills with humor and innovation!",
-  rules: "● Participation in a team with a maximum of 4 members.\n● One participant from the team will select a chit from the bowl containing the names of different products (e.g., mobile cover).\n● The team will receive the product and must frame a presentation in the form of an effective skit or advertisement.\n● The participants will be given 30 minutes to frame and arrange their presentation.\n● After 30 minutes, the team will showcase their persuading and marketing skills.\n● Maximum time: 4 minutes.\n● 1st bell after 3:30 minutes and 2nd bell after 4 minutes.\n● Exceeding the time limit will lead to negative marking.\n\nJudging Criteria:\n● Creativity and originality.\n● Effectiveness in conveying the message or product.\n● Presentation skills and audience engagement.\n● Adherence to time limits.\n● Judges may also consider factors like humor, impact, relevance, and overall entertainment value.",
-  date: "10,13 April 2025",
-  image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737551/Ad_Mad_Show_lfroko.png",
-  category: "Marketing & Advertising",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLSd_WSd5XgqIrvWxFT2Y3JJmi-XzOKVu4DYP--Qj9jB_lpXFLA/viewform?usp=header"
-}
-,
-{
-  id: 67,
-  name: "Chemistry Project Exhibition",
-  head: "Innovating Chemistry for a Sustainable Future",
-  entry: "100 INR",
-  prize: "6,000 INR",
-  description: "Discover innovative projects on Green Chemistry, Renewable Energy, Materials Science, and Environmental Protection! Explore how chemistry is driving sustainability and shaping the future.",
-  rules: "1. Eligibility:\n   ● Open to students, researchers, and enthusiasts of chemistry.\n   ● Participants must register by the specified deadline.\n\n2. Registration:\n   ● Complete the online registration form.\n   ● Submit a theme of the project by the given date.\n\n3. Safety Regulations:\n   ● No open flames or hazardous materials allowed.\n   ● Chemical substances must be properly labeled and handled with care.\n   ● Participants must follow all safety guidelines provided by the organizers.\n\n4. Judging Criteria:\n   ● Scientific Method: Use of scientific principles, research quality, and experimental design.\n   ● Creativity and Innovation: Originality and uniqueness of the project.\n   ● Relevance and Impact: Relevance to the theme and potential impact of the findings.",
-  date: "12 April 2025",
-  image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737599/Chemistry_Project_Exhibition_sbpy5g.png",
-  category: "Science & Innovation",
-  register: "https://forms.gle/6YD2FjiUmq6JNavy9"
-},
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSdQZ72ZaKh8kqdVkzr1rZ7zQSjsEBQts-UdRpyhhMKOFk0bWA/viewform?usp=header"
+  },
+  {
+    id: 66,
+    name: "AD Mad Show",
+    head: "Create the Most Witty Advertisement",
+    entry: "100 INR",
+    prize: "5,000 INR",
+    description: "Join the Ad Mad Show to unleash your creativity! Participants will receive products to create engaging, witty advertisements that captivate the audience. Showcase your marketing skills with humor and innovation!",
+    rules: "● Participation in a team with a maximum of 4 members.\n● One participant from the team will select a chit from the bowl containing the names of different products (e.g., mobile cover).\n● The team will receive the product and must frame a presentation in the form of an effective skit or advertisement.\n● The participants will be given 30 minutes to frame and arrange their presentation.\n● After 30 minutes, the team will showcase their persuading and marketing skills.\n● Maximum time: 4 minutes.\n● 1st bell after 3:30 minutes and 2nd bell after 4 minutes.\n● Exceeding the time limit will lead to negative marking.\n\nJudging Criteria:\n● Creativity and originality.\n● Effectiveness in conveying the message or product.\n● Presentation skills and audience engagement.\n● Adherence to time limits.\n● Judges may also consider factors like humor, impact, relevance, and overall entertainment value.",
+    date: "10,13 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737551/Ad_Mad_Show_lfroko.png",
+    category: "Marketing & Advertising",
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSd_WSd5XgqIrvWxFT2Y3JJmi-XzOKVu4DYP--Qj9jB_lpXFLA/viewform?usp=header"
+  }
+  ,
+  {
+    id: 67,
+    name: "Chemistry Project Exhibition",
+    head: "Innovating Chemistry for a Sustainable Future",
+    entry: "100 INR",
+    prize: "6,000 INR",
+    description: "Discover innovative projects on Green Chemistry, Renewable Energy, Materials Science, and Environmental Protection! Explore how chemistry is driving sustainability and shaping the future.",
+    rules: "1. Eligibility:\n   ● Open to students, researchers, and enthusiasts of chemistry.\n   ● Participants must register by the specified deadline.\n\n2. Registration:\n   ● Complete the online registration form.\n   ● Submit a theme of the project by the given date.\n\n3. Safety Regulations:\n   ● No open flames or hazardous materials allowed.\n   ● Chemical substances must be properly labeled and handled with care.\n   ● Participants must follow all safety guidelines provided by the organizers.\n\n4. Judging Criteria:\n   ● Scientific Method: Use of scientific principles, research quality, and experimental design.\n   ● Creativity and Innovation: Originality and uniqueness of the project.\n   ● Relevance and Impact: Relevance to the theme and potential impact of the findings.",
+    date: "12 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737599/Chemistry_Project_Exhibition_sbpy5g.png",
+    category: "Science & Innovation",
+    register: "https://forms.gle/6YD2FjiUmq6JNavy9"
+  },
 
-{
-  id: 68,
-  name:"BioExpo",
-  head: "Exploring Biotechnology Through Innovation",
-  entry: "50 INR",
-  prize: "4,500 INR",
-  description: "BioExpo is an exciting biotechnology fair where students will design and present real 3D models of biotechnology-based projects. Participants will not only build these models but also explain and demonstrate their working principles, applications, and significance in the field of biotechnology.",
-  rules: "Judges will evaluate the projects based on:\nUniqueness and Innovation – How original and creative the idea is.\nPractical Application – The real-world relevance and usefulness of the project.\nPresentation and Explanation – How well participants communicate their project ideas.\nResponse to Judges' Questions – Depth of understanding and clarity in answering queries.\n\nThe best projects will be awarded based on their creativity, feasibility, and impact. This is a great opportunity for students to showcase their skills and contribute innovative ideas to the field of biotechnology!",
-  date: "12 April 2025",
-  image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737653/Revamping_Bio_kglsiw.png",
-  category: "Biotechnology & Applied Sciences",
-  register: "https://docs.google.com/forms/d/e/1FAIpQLSc_HSj-6TRfxNKKPotXKWGpPA4t3wl6Di7UWD0NIaiY-Mvq9g/viewform?usp=header"
-}
-,
-{
-  "id": 69,
-  "name": "Physics Treasure Hunt",
-  "head": "Unlocking the Mysteries of Physic",
-  "entry": "20 INR",
-  "prize": "4,000 INR",
-  "description": "The Physics Treasure Hunt is an exciting, intellectually stimulating event designed to challenge participants with physics-based puzzles, experiments, and clues leading to the final treasure. The event is open to students with a passion for physics and problem-solving.",
-  "rules": "1. Team Coordination: Teams must stay together throughout the event.\n2. Clue Sequence: Clues must be solved in order; skipping any clue leads to disqualification.\n3. Time Limit: The hunt must be completed within the allotted time. The team solving all clues in the shortest time wins.\n4. Fair Play: Teams must not interfere with other participants' clues or progress.\n5. Use of External Aids: Mobile phones, books, and online resources are not allowed unless explicitly permitted.\n6. Safety Compliance: Participants must adhere to safety guidelines, especially for physics experiments.\n\n4. Structure of the Treasure Hunt\nThe hunt consists of multiple levels, with each level containing physics-based challenges:\n- Theoretical Clues: Solve conceptual physics questions to get the next location.\n- Experimental Tasks: Perform simple physics experiments to unlock clues.\n- Observation Challenges: Identify physics phenomena in the environment.\n- Calculation-Based Hurdles: Solve numerical problems to determine coordinates or next locations.\n\n5. Scoring and Winning Criteria\n- Each correctly solved clue earns points.\n- Bonus points may be awarded for exceptional problem-solving speed.\n- The team reaching the final treasure first, while following all rules, is declared the winner.\n- In case of a tie, a rapid-fire physics quiz will determine the winner.\n\n6. Disqualification Criteria\n- Tampering with or hiding clues.\n- Seeking unauthorized assistance.\n- Not adhering to safety or fair play guidelines.\n- Engaging in any form of misconduct.",
-  "date": "13 April 2025",
-  "image": "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737642/Physics_nyoxrw.png",
-  "category": "Physics & Problem-Solving",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLSfH2gUjCDNKEnQzxG2UfDGN7PyUanXhJZjSnnWRX5Bi7RZWpQ/viewform?usp=header"
-}
+  {
+    id: 68,
+    name: "BioExpo",
+    head: "Exploring Biotechnology Through Innovation",
+    entry: "50 INR",
+    prize: "4,500 INR",
+    description: "BioExpo is an exciting biotechnology fair where students will design and present real 3D models of biotechnology-based projects. Participants will not only build these models but also explain and demonstrate their working principles, applications, and significance in the field of biotechnology.",
+    rules: "Judges will evaluate the projects based on:\nUniqueness and Innovation – How original and creative the idea is.\nPractical Application – The real-world relevance and usefulness of the project.\nPresentation and Explanation – How well participants communicate their project ideas.\nResponse to Judges' Questions – Depth of understanding and clarity in answering queries.\n\nThe best projects will be awarded based on their creativity, feasibility, and impact. This is a great opportunity for students to showcase their skills and contribute innovative ideas to the field of biotechnology!",
+    date: "12 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737653/Revamping_Bio_kglsiw.png",
+    category: "Biotechnology & Applied Sciences",
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSc_HSj-6TRfxNKKPotXKWGpPA4t3wl6Di7UWD0NIaiY-Mvq9g/viewform?usp=header"
+  }
+  ,
+  {
+    "id": 69,
+    "name": "Physics Treasure Hunt",
+    "head": "Unlocking the Mysteries of Physic",
+    "entry": "20 INR",
+    "prize": "4,000 INR",
+    "description": "The Physics Treasure Hunt is an exciting, intellectually stimulating event designed to challenge participants with physics-based puzzles, experiments, and clues leading to the final treasure. The event is open to students with a passion for physics and problem-solving.",
+    "rules": "1. Team Coordination: Teams must stay together throughout the event.\n2. Clue Sequence: Clues must be solved in order; skipping any clue leads to disqualification.\n3. Time Limit: The hunt must be completed within the allotted time. The team solving all clues in the shortest time wins.\n4. Fair Play: Teams must not interfere with other participants' clues or progress.\n5. Use of External Aids: Mobile phones, books, and online resources are not allowed unless explicitly permitted.\n6. Safety Compliance: Participants must adhere to safety guidelines, especially for physics experiments.\n\n4. Structure of the Treasure Hunt\nThe hunt consists of multiple levels, with each level containing physics-based challenges:\n- Theoretical Clues: Solve conceptual physics questions to get the next location.\n- Experimental Tasks: Perform simple physics experiments to unlock clues.\n- Observation Challenges: Identify physics phenomena in the environment.\n- Calculation-Based Hurdles: Solve numerical problems to determine coordinates or next locations.\n\n5. Scoring and Winning Criteria\n- Each correctly solved clue earns points.\n- Bonus points may be awarded for exceptional problem-solving speed.\n- The team reaching the final treasure first, while following all rules, is declared the winner.\n- In case of a tie, a rapid-fire physics quiz will determine the winner.\n\n6. Disqualification Criteria\n- Tampering with or hiding clues.\n- Seeking unauthorized assistance.\n- Not adhering to safety or fair play guidelines.\n- Engaging in any form of misconduct.",
+    "date": "13 April 2025",
+    "image": "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737642/Physics_nyoxrw.png",
+    "category": "Physics & Problem-Solving",
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSfH2gUjCDNKEnQzxG2UfDGN7PyUanXhJZjSnnWRX5Bi7RZWpQ/viewform?usp=header"
+  }
 
-,
-{
-  id: 70,
-  name: "Physics Escape Room Challenge",
-  head: "Escape the Lab: A Physics Puzzle Adventure",
-  entry: "20 INR",
-  prize: "NIL",
-  description: "The Physics Escape Room Challenge is an interactive and engaging event where participants use physics concepts to solve puzzles and unlock clues to 'escape' within a given time frame. Teams must work together to decode scientific mysteries and reach the final exit point.",
-  rules: "1. Each team must enter the escape room together and follow the instructions provided.\n2. Participants are required to solve physics-based puzzles to unlock locks, find keys, or progress through different stages.\n3. No use of mobile phones, calculators, or external help is allowed.\n4. Clues must be solved logically without damaging any props or setup.\n5. Hints will be provided upon request, but each hint will result in a time penalty.\n6. Teams must complete the challenge within the allotted time to qualify.\n7. The team that escapes in the shortest time (with minimal hints) wins.\n\n4. Scoring System\n• Completion Time: Faster escapes score higher.\n• Hint Penalty: Each hint adds 2 minutes to the total escape time.\n• Rule Violations: Any rule-breaking will result in disqualification.",
-  date: "13 April 2025",
-  image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737642/Physics_nyoxrw.png",
-  category: "Physics & Analytical Thinking",
-  register:"https://docs.google.com/forms/d/e/1FAIpQLScw40Ot2zFrg60-goDJOk7HOMi7tu_rz-ZqzVVXqZOUCapTXg/viewform?usp=header"
-},
-{
-  id: 71,
-  name: "ArenaX (BGMI) (4v4)",
-  head: "The Ultimate Esports Battle",
-  entry: "20 INR per person",
-  prize: "30,000 INR",
-  description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
-  rules: "● MATCH STRUCTURE\n1. Round 1: Online Qualifiers\n- Teams compete in multiple matches across designated maps.\n- Top 6 teams from each group move on to the next round.\n- Duration: 3 days.\n- Remark: Matches will be streamed online.\n2. Round 2: Online Playoffs\n- Teams that qualify from Round 1 compete across various maps.\n- Top 4 teams from each group advance to the next stage.\n- Duration: 3 days.\n3. Round 3: Online Stage\n- Teams compete in multiple rounds to narrow down the competitors.\n- Top 32 teams will qualify for the Semi-Finals.\n- Duration: 2 days.\n- Remarks: Matches will be streamed online, with teams divided into groups.\n- Note: The number of Online Rounds may vary according to the number of teams registered.\n4. Semi-Finals:\n- Top 32 teams play in a double round-robin format to determine who qualifies for the LAN Finals.\n- Duration: 1 Day.\n5. Grand Finals: LAN Event\n- Top 16 teams compete in an offline LAN event at Utkansh Fest.\n- Duration: At Utkansh Fest (LAN event at venue).\n- Remarks: Matches will be played live, with/without an audience present.\n\n● POINTS SYSTEM\n1. Placement Points:\n- 1st Place: 10 points\n- 2nd Place: 8 points\n- 3rd Place: 6 points\n- 4th Place: 4 points\n- 5th Place: 3 points\n- 6th Place: 2 points\n- 7th Place: 1 point\n- 8th Place & Below: 0 points\n2. Kill Points:\n- Each kill grants 1 point.\n\n● GAME RULES\n1. Team Composition: Only registered players are allowed to compete. Using unauthorized players will lead to disqualification.\n2. Cheating & Hacking: The use of cheats, hacks, or third-party software is strictly prohibited. This includes any form of automation, wallhacks, or aim hacks.\n3. Glitch Exploits: Exploiting in-game glitches for unfair advantage is forbidden.\n4. Bug Abuse: If a critical bug is encountered, the match may be restarted at the discretion of tournament officials.\n5. Teaming: Collaborating with other teams is prohibited.\n6. In-Game Behavior: Match-fixing, feeding opponents, or intentionally disconnecting is not allowed.\n7. Recordings: Players will need to submit gameplay recordings when we ask to check any appeals.\n\n● TIE BREAKERS\nIn case of a tie, the following rules will apply in order:\n1. Total kill points across all matches.\n2. Highest placement in individual matches.\n3. Head-to-head performance between tied teams.\n\n● TECHNICAL ISSUES\n1. Disconnections: If a player disconnects before the plane takes off, the match may be restarted based on the organizer’s discretion.\n2. Server Problems: Matches may be paused, canceled, or replayed if widespread server issues occur.\n\n● CODE OF CONDUCT\n1.  Players must display fair play and respect towards opponents, teammates, and officials.\n2. Offensive language, verbal abuse, or toxic behavior will not be tolerated.\n3. Teams engaging in unsportsmanlike conduct may face disqualification.\n\n● REPORTING ISSUES\n1. Teams must report rule violations within 30 minutes after the match ends.\n2. Proof (screenshots, video clips) must be provided to support the claims.\n\n● BROADCASTING RULES\n1. Streaming Rights: Only Utkansh Fest or approved broadcasters may stream the matches.\n2. Player Streams: Players are generally not allowed to stream their matches unless explicitly approved by officials.\n\n● APPEALS PROCESS\n1. Teams may submit appeals through official channels if they believe a decision was unfair.\n2. Appeals must be submitted within the designated time frame after the match.\n\n● GENERAL RULES\n1. Vortex reserves the right to disqualify any team promoting obscenity through their act.\n2. Vortex reserves the right to cancel the prelims stage in case of unforeseen circumstances.\n3. Vortex reserves the right to change the prize money before the commencement of the prelims.\n4. In the case of any dispute, the decision of the organizers will be final and binding.\n5. The organizers are not responsible for non-completion / non-occurrence of the event.\n6. The organizers have all the right to cancel, reschedule, postpone, and amend the show. In the event of any dispute, the organizers' decisions are final and binding on the applicant.\n7. Deadlines are determined by the number of entries. The decisions of the Jury/Judges are final.\n8. The organizers reserve the right to amend the rules and format anytime.",
-  date: "12-13 April 2025",
-  image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737561/BGMI_aa2qbj.png",
-  category: "Esports & Gaming vortex",
-  register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
-}
-,
-{
-  id: 72,
-  name: "ArenaX (VALORANT) (5v5)",
-  head: "The Ultimate Esports Battle",
-  entry: "20 INR per person",
-  prize: "30,000 INR",
-  description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
-  rules: "● ELIGIBILITY:\n1. All players must have an active Riot Games account.\n2. Players must be at least 16 years old to participate.\n\n● TEAM COMPOSITION:\n1. Each team must consist of five (5) main players and can have up to one (1) substitute.\n2. Rosters must be submitted before the tournament begins and cannot be changed once the event starts.\n\n● MATCH FORMAT:\n1. The tournament format will be Single Elimination / Double Elimination / Round Robin as decided by the organizers.\n2. Matches will be played in Best of 1 (Bo1), Best of 3 (Bo3), or Best of 5 (Bo5) formats based on the tournament stage.\n\n● MATCH RULES:\n1. Map Selection:\n  - Maps will be selected using a veto system.\n  - Available maps: Ascent, Bind, Haven, Split, Lotus, Pearl, Sunset.\n2. Match Settings \n  - Mode: Standard (Competitive)\n  - Server: Specified by the organizers\n  - Overtime Rules: As per in-game settings (first to 13 rounds, overtime sudden death if necessary)\n3. Agent Selection:\n  - All available agents are allowed.\n  - Players must select agents within the allocated pick time.\n4. Technical Issues & Pauses:\n  - Each team is allowed one (1) 5-minute technical pause per match for hardware/software issues.\n  - Tactical pauses are limited to one (1) 60-second pause per team per half.\n  - If a player disconnects, the match will be paused for a maximum of 10 minutes before resuming.\n\n● PLAYER COMDUCT\n1. Code of Comduct\n-Players must exhibit professionalism and sportsmanship at all times.\n- Toxic behavior, harassment, or hate speech will lead to penalties.\n- Exploiting bugs, cheating, or hacking is strictly prohibited.\n2. Communication & Streaming:\n- Players must use appropriate in-game names.\n- Streaming is allowed only with prior permission from the organizers to avoid streamsnipe\n- Teams may use external voice communication tools but must comply with fair play policies\n 3. Match Reporting\n- Teams must report match results within 10 minutes of completion.\n- Any disputes must be reported immediately to the tournament admins.\n\n● PENALTIES AND DISQUALIFICATIONS:\n1. Warnings & Infractions:\n    - Minor Violations: Late check-in, excessive pause usage - Verbal warning.\n    - Major Violations: Match-fixing, cheating, toxic behavior - Match loss or disqualification.\n2. Disqualification Criteria:\n    - Use of unregistered or ineligible players without prior notice. Repeated misconduct or cheating.\n    - Failure to attend a scheduled match without prior notice.\n\n● AMIN DECISION AND FINAL RULES\n1. Tournament admins have the final say in disputes and rule clarifications.\n2. Rules may be modified based on unforeseen circumstances.\n3. By participating, all teams and players accept and adhere to these rule",
-  date: "12-13 April 2025",
-  image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737670/Valorant_hzoldq.png",
-  category: "Esports & Gaming vortex",
-  register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
-}
-,
-{
-  id: 73,
-  name: "ArenaX (STUMBLE GUYZ)",
-  head: "The Ultimate Esports Battle",
-  entry: "20 INR per person",
-  prize: "4,500 INR",
-  description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
-  rules: "● General Rules\n1. The event will be conducted in a knockout format.\n2. All participants must register before the deadline. No late entries will be entertained.\n3. Players should use their own devices with the latest version of Stumble Guys installed.\n4. Any form of cheating, hacking, or unfair advantage will result in immediate disqualification.\n5. Participants must join the game lobby within the given time. Failure to do so may lead to elimination.\n6. Organizers hold the final say in any disputes or rule interpretations.\n\n● MATCH STRUCTURE:\n1. Players will compete in lobbies of up to 32 players per round.\n2. The top finishers of each round will advance to the next stage.\n3. The number of qualifiers per round depends on the number of participants.\n4. Loser's Bracket: An additional round will be conducted for eliminated players, giving a second chance to skilled players. The top finishers from this bracket will re-enter the competition.\n\n● ELIMINATION AND PROGRESSION:\n1. The event will continue until a final set of players competes for the championship.\n2. The last player standing in the final round will be declared the winner.\n\n● DEVICE AND CONNECTION:\n1. Players are responsible for ensuring their device has a stable internet connection.\n2. Organizers will not be responsible for disconnections, lag, or any technical issues on the player's side.\n3. Using external devices, controllers, or macros to gain an advantage is prohibited.\n\n● CODE OF CONDUCT:\n1. Players must maintain sportsmanship and respect fellow participants.\n2. Toxic behavior, offensive language, or harassment will lead to disqualification.\n3. Players should follow the instructions of event moderators at all times.\n\n● REGISTRATION AND PARTICIPATION:\n1. Registration will be conducted online.\n2. A nominal entry fee (if applicable) must be paid before participation.\n3. Players must provide their in-game username at registration.\n\n● DISQUALIFICATION AND PENALTIES:\n1. Players caught teaming, exploiting glitches, or using unfair means will be immediately disqualified.\n2. Any attempt to manipulate the game results in an unfair manner will lead to a permanent ban from the event.",
-  date: "12-13 April 2025",
-  image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737666/Stumble_r4fevw.png",
-  category: "Esports & Gaming vortex",
-  register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
-}
-,
-{
-  id: 74,
-  name: "ArenaX (FREE FIRE) (4v4)",
-  head: "The Ultimate Esports Battle",
-  entry: "20 INR per person",
-  prize: "30,000 INR",
-  description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
-  rules: "MATCH STRUCTURE\n● Qualifier Matches - Each registered team will play three qualifier matches. Based on performance, the top 12 teams will move to the next stage.\n● Eliminator Matches - The 12 qualified teams will compete in three eliminator matches. The top 4 teams from this stage will advance to the semifinals.\n● Semifinals (Clash Squad Mode):\n- Semifinal 1: Rank 1 team vs Rank 4 team.\n- Semifinal 2: Rank 2 team vs Rank 3 team.\nThe winners of these matches will move to the final.\n● Final Match - The two semifinal winners will face off in a Clash Squad final match to determine the champion.\n\n● GENERAL RULES\n1. PC players are not allowed.\n2. If any participant gets caught using game bugs or hacks, the whole team will be disqualified.\n3. Gun properties and attributes will remain off.\n4. Team-up is not allowed in full map.\n5. Each team should join the lobby with their registered players only. If caught, the whole team will be disqualified.\n6. Character skill will be on.\n7. All teams should be there within 10 minutes after getting the custom ID and password. No team will be considered if they are late, and the match will be started after 10 minutes.",
-  date: "12-13 April 2025",
-  image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737589/Freefire_ihbf9t.png",
-  category: "Esports & Gaming vortex",
-  register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
-}
-,
-{
-  id: 75,
-  name: "ArenaX (TEKKEN 8) (1v1)",
-  head: "The Ultimate Esports Battle",
-  entry: "20 INR per person",
-  prize: "4,500 INR",
-  description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
-  rules: "● ELIGIBILITY - All participants must have attained the age of 16 or above to participate in the tournament.\n\n● MATCH FORMAT\nGame Mode : Participants will engage in 1v1 matches throughout the tournament.\nNote:\n1. All matches, unless otherwise specified, will be conducted in a 1v1 format.\n2. Participants are expected to adhere to the rules and regulations outlined in the official tournament rule book.\n3. Violations may result in penalties.\n\n● COLLUSION - A player may not collude. Collusion is defined as any agreement among two (2) or more players, and/or confederates to disadvantage opposing players. Collusion includes, but is not limited to, acts such as:\n1. Soft play, which is defined as any agreement among two (2) or more players to not damage, impede, or otherwise play to a reasonable standard of competition in a game.\n2. Sending or receiving signals, electronic or otherwise, from a confederate to/from a player.\n3. Pre-arranging to split the prize money and/or any other form of compensation. Deliberately losing a game for compensation, or any other reason, or attempting to induce another player to do so.\n\n● CHEATING - Cheating is prohibited. Any modification of the game client by any player, Team, or other Team Member is prohibited.\n\n● HACKING - A player may not hack during tournament games. Hacking is defined as any modification of the game client by any player, or person acting on behalf of a player.\n\n● ADMIN DECISION AND FINAL RULES\n1. Tournament admins have the final say in disputes and rule clarifications.\n2. Rules may be modified based on unforeseen circumstances.\n3. By participating, all teams and players accept and adhere to these rules.",
-  date: "12-13 April 2025",
-  image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737672/Tekken_es9mux.png",
-  category: "Esports & Gaming vortex",
-  register: "https://forms.gle/PyaLv6B4EpoGwa5b6"
-}
+  ,
+  {
+    id: 70,
+    name: "Physics Escape Room Challenge",
+    head: "Escape the Lab: A Physics Puzzle Adventure",
+    entry: "20 INR",
+    prize: "NIL",
+    description: "The Physics Escape Room Challenge is an interactive and engaging event where participants use physics concepts to solve puzzles and unlock clues to 'escape' within a given time frame. Teams must work together to decode scientific mysteries and reach the final exit point.",
+    rules: "1. Each team must enter the escape room together and follow the instructions provided.\n2. Participants are required to solve physics-based puzzles to unlock locks, find keys, or progress through different stages.\n3. No use of mobile phones, calculators, or external help is allowed.\n4. Clues must be solved logically without damaging any props or setup.\n5. Hints will be provided upon request, but each hint will result in a time penalty.\n6. Teams must complete the challenge within the allotted time to qualify.\n7. The team that escapes in the shortest time (with minimal hints) wins.\n\n4. Scoring System\n• Completion Time: Faster escapes score higher.\n• Hint Penalty: Each hint adds 2 minutes to the total escape time.\n• Rule Violations: Any rule-breaking will result in disqualification.",
+    date: "13 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737642/Physics_nyoxrw.png",
+    category: "Physics & Analytical Thinking",
+    register: "https://docs.google.com/forms/d/e/1FAIpQLScw40Ot2zFrg60-goDJOk7HOMi7tu_rz-ZqzVVXqZOUCapTXg/viewform?usp=header"
+  },
 
 
 
