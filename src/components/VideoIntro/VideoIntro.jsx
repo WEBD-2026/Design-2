@@ -10,7 +10,7 @@ const VideoBackground = () => {
       <div className="absolute top-0 right-0 h-full w-32 bg-gradient-to-l from-black via-transparent to-transparent"></div>
       <video autoPlay muted loop inline className="background-video"
       >
-        <source src="https://res.cloudinary.com/diiyq5fwx/video/upload/v1742741330/concert_naxqpy.mp4" type="video/mp4" />
+        <source src="https://utkansh25.sirv.com/concert.mp4" type="video/mp4" />
 
 
         Your browser does not support the video tag.
