@@ -305,7 +305,7 @@ export const technical_events = [
     date: "10-11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737599/Hackmol_gwczwf.png",
     category: "Hackathon & Coding gdsc",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    register: "https://hackmol-6.devfolio.co/"
   }
   ,
   {
