@@ -1,0 +1,119 @@
+.merch-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Button styles */
+.button-merch {
+  margin-top: 5%;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: #000000;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #3939394d;
+  outline: none;
+  overflow: hidden;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.button-merch:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+/* ✅ Fixing Card Overlapping */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 1%;
+  gap: 5%;
+  width: 100%;
+  padding: 2% 0;
+}
+
+/* ✅ Ensure Cards Do Not Overlap */
+.card {
+  width: 40%;
+  height: auto;
+  min-height: 300px;
+  /* Ensures enough space */
+  perspective: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* Prevent overlap */
+}
+
+/* ✅ Prevent Cards from Overlapping */
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ✅ Responsive Layout for Mobile */
+@media screen and (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    /* Stack cards vertically */
+    align-items: center;
+    gap: 30px;
+    /* Extra space between stacked cards */
+  }
+
+  .card {
+    width: 80%;
+    /* Increase width for better visibility */
+    min-height: 250px;
+  }
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Ensuring proper alignment */
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+/* ✅ Ensure Images Scale Properly */
+.mercht {
+  width: 90%;
+  height: auto;
+}
