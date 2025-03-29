@@ -17,15 +17,15 @@ const team1 = [
 const team2 = [
   { id: 1, name: "Aryan Panigrahy", image: "https://utkansh25.sirv.com/4.png",  role: "CULTURAL HEAD", linkedin: "#" },
   { id: 2, name: "Geetika Chopra", image: "https://utkansh25.sirv.com/3.png", role: "CULTURAL HEAD", linkedin: "https://www.linkedin.com/in/geetika8/" },
-  { id: 3, name: "Apurva", image: "https://utkansh25.sirv.com/4.png",  role: "TECHNICAL HEAD", linkedin: "#" },
-  { id: 4, name: "Pooja Gurjar", image: "https://utkansh25.sirv.com/3.png", role: "TECHNICAL HEAD", linkedin: "#" },
+  { id: 3, name: "Apurva", image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/20.png",  role: "TECHNICAL HEAD", linkedin: "#" },
+  { id: 4, name: "Pooja Gurjar", image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/21.png", role: "TECHNICAL HEAD", linkedin: "#" },
   { id: 5, name: "Vipul Jain", image: "https://utkansh25.sirv.com/Untitled%20design%20(1).png", role: "FINANCE HEAD", linkedin: "https://www.linkedin.com/in/vipul-jain-b35ba725a/" },
   { id: 6, name: "Isha Khoda", image: "https://utkansh25.sirv.com/Untitled%20design%20(2).png", role: "FINANCE HEAD", linkedin: "#" },
-  { id: 7, name: "Sameer Chaurasia", image: "https://utkansh25.sirv.com/4.png",  role: "MARKETING HEAD", linkedin: "#" },
+  { id: 7, name: "Sameer Chaurasia", image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/19.png",  role: "MARKETING HEAD", linkedin: "#" },
   { id: 8, name: "Akash Sharma", image: "https://utkansh25.sirv.com/Untitled%20design/9.png", role: "PR HEAD", linkedin: "#" },
-  { id: 9, name: "Bhakti Chopra", image: "https://utkansh25.sirv.com/4.png",  role: "PR HEAD", linkedin: "#" },
-  { id: 10, name: "Jashanpreet Kaur", image: "https://utkansh25.sirv.com/3.png", role: "DIGITAL HEAD", linkedin: "#" },
-  { id: 11, name: "Sailesh", image: "https://utkansh25.sirv.com/4.png",  role: "SOCIAM MEDIA HEAD", linkedin: "#" },
+  { id: 9, name: "Bhakti Chopra", image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/22.png",  role: "PR HEAD", linkedin: "#" },
+  { id: 10, name: "Jashanpreet Kaur", image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/23.png", role: "DIGITAL HEAD", linkedin: "#" },
+  { id: 11, name: "Sailesh", image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/24.png",  role: "SOCIAL MEDIA HEAD", linkedin: "#" },
   { id: 12, name: "Shashank Paliwal", image: "https://utkansh25.sirv.com/Untitled%20design/16.png", role: "WEB-DEV HEAD", linkedin: "#" },
   { id: 13, name: "Inder", image: "https://utkansh25.sirv.com/Untitled%20design/15.png",  role: "REFRESHMENT HEAD", linkedin: "#" },
   { id: 14, name: "Partik", image: "https://utkansh25.sirv.com/Untitled%20design/10.png", role: "VENUE MANAGEMENT HEAD", linkedin: "#" },
@@ -35,7 +35,7 @@ const team2 = [
   { id: 19, name: "Sanket", image: "https://utkansh25.sirv.com/Untitled%20design/12.png",  role: "HOSPITALITY HEAD", linkedin: "#" },
   { id: 20, name: "Suman Meena", image: "https://utkansh25.sirv.com/Untitled%20design/17.png", role: "HOSPITALITY HEAD", linkedin: "#" },
   { id: 21, name: "Rishi ", image: "https://utkansh25.sirv.com/Untitled%20design/18.png",  role: "DECORATION HEAD", linkedin: "#" },
-  { id: 22, name: "Diksha", image: "https://utkansh25.sirv.com/3.png", role: "DECORATION HEAD", linkedin: "#" }
+  // { id: 22, name: "Diksha", image: "https://utkansh25.sirv.com/3.png", role: "DECORATION HEAD", linkedin: "#" }
 ];
 
 const team = [
@@ -210,7 +210,7 @@ export default function DevelopersPage() {
                   key={fac.id}
                   image={fac.image}
                   title={fac.name}
-                  description="CONVENOR"
+                  description="CONVENER"
                   button1={fac.phone}
                   button2="Linkedin"
                   icon1={<FaPhone />}
