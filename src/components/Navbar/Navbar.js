@@ -23,7 +23,6 @@ const Navbar = () => {
           </button>
         </Link>
 
-
         <Link to={"/event"}>
           <button className="button">
             <div>
@@ -62,11 +61,13 @@ const Navbar = () => {
           </button>
         </Link>
         <Link to={"/Developers"}>
-          {<button className="button">
-            <div>
-              <span>TEAMS</span>
-            </div>
-          </button>}
+          {
+            <button className="button">
+              <div>
+                <span>TEAMS</span>
+              </div>
+            </button>
+          }
         </Link>
       </div>
       <div className="navbar_item">
@@ -90,8 +91,14 @@ const Navbar = () => {
             <Link to={"/ContactUs"}>
               <li>Contact</li>
             </Link>
+            <Link to={"/Merch"}>
+              <li>Merch</li>
+            </Link>
+            <Link to={"/Developers"}>
+              <li>Teams</li>
+            </Link>
+
             {/* <li>Contact</li> */}
-            <li>Register</li>
           </ul>
         </div>
         <div className="menu-icons" onClick={() => setClicked((prev) => !prev)}>
