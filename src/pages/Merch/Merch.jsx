@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "../../components/Navbar/Navbar.js";
+import Footer from '../../components/Footer/Footer.jsx';
 import "./merct.css";
 
 const Merch = () => {
@@ -73,6 +74,7 @@ const Merch = () => {
         </div>
 
       </div>
+      <Footer />
     </div>
   );
 }

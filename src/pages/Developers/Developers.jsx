@@ -26,13 +26,32 @@ const developers = [
     linkedin: "https://www.linkedin.com/in/devansh-davy16/",
     image: "https://utkansh25.sirv.com/Untitled%20design%20(4).png",
   },
+
+];
+const developers2 = [
   {
-    id: 2,
+    id: 1,
     name: "Nikhil Singh",
     role: "Full-Stack",
     github: "https://github.com/nikhil8615",
-    linkedin: "https://www.linkedin.com/in/nikhil-singh-a83776256",
+    linkedin: "https://in.linkedin.com/in/kushagrasaxena198",
     image: img1,
+  },
+  {
+    id: 2,
+    name: "Kushagra Saxena",
+    role: "Front-end Developer",
+    github: "https://github.com/sxnkush",
+    linkedin: "https://www.linkedin.com/in/devansh-davy16/",
+    image: "https://utkansh25.sirv.com/kusshagras.jpg",
+  },
+  {
+    id: 3,
+    name: "Jayant Joshi",
+    role: "Front-end Developer",
+    github: "https://github.com/JAYANTJOSHI001",
+    linkedin: "https://www.linkedin.com/in/jayant-joshi-642a79305",
+    image: "https://utkansh25.sirv.com/jayant%20.jpg",
   },
 ];
 
@@ -501,31 +520,28 @@ export default function DevelopersPage() {
         <div className="flex flex-wrap justify-center gap-6 mb-8">
           <button
             onClick={() => setSelectedCategory("developers")}
-            className={`px-6 py-3 rounded-lg font-semibold transition ${
-              selectedCategory === "developers"
-                ? "bg-yellow-500 text-black shadow-lg"
-                : "bg-gray-700 text-white hover:bg-gray-600"
-            }`}
+            className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "developers"
+              ? "bg-yellow-500 text-black shadow-lg"
+              : "bg-gray-700 text-white hover:bg-gray-600"
+              }`}
           >
             Developers
           </button>
           <button
             onClick={() => setSelectedCategory("team")}
-            className={`px-6 py-3 rounded-lg font-semibold transition ${
-              selectedCategory === "team"
-                ? "bg-yellow-500 text-black shadow-lg"
-                : "bg-gray-700 text-white hover:bg-gray-600"
-            }`}
+            className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "team"
+              ? "bg-yellow-500 text-black shadow-lg"
+              : "bg-gray-700 text-white hover:bg-gray-600"
+              }`}
           >
             Team
           </button>
           <button
             onClick={() => setSelectedCategory("faculty")}
-            className={`px-6 py-3 rounded-lg font-semibold transition ${
-              selectedCategory === "faculty"
-                ? "bg-yellow-500 text-black shadow-lg"
-                : "bg-gray-700 text-white hover:bg-gray-600"
-            }`}
+            className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "faculty"
+              ? "bg-yellow-500 text-black shadow-lg"
+              : "bg-gray-700 text-white hover:bg-gray-600"
+              }`}
           >
             Faculty
           </button>
@@ -554,20 +570,22 @@ export default function DevelopersPage() {
               </div>
 
               {/* Faculty 2 */}
-              {/* <div className="flex flex-wrap gap-8 justify-center">
-              {faculty2.map(fac => (
-                <Card
-                  key={fac.id}
-                  image={fac.image}
-                  title={fac.name}
-                  description={fac.department}
-                  button1="CHAIRPERSON"
-                  button2="Profile"
-                  icon2={<FaUser />}
-                  link={fac.profile}
-                />
-              ))}
-            </div> */}
+              <div className="flex flex-wrap gap-8 justify-center">
+                {developers2.map(fac => (
+                  <Card
+                    key={fac.id}
+                    image={fac.image}
+                    title={fac.name}
+                    description={fac.role}
+                    button1="Github"
+                    button2="Linkedin"
+                    icon1={<FaGithub />}
+                    icon2={<FaLinkedin />}
+                    link={fac.linkedin}
+                    link2={fac.github}
+                  />
+                ))}
+              </div>
             </>
           )}
         </div>

@@ -25,7 +25,6 @@ const eventsData = {
         { name: "The Voice", Time: "11:00 am", venue: "OAT" },
       ],
       Literature: [
-        { name: "BLACK OUT POETRY (LADC) ", Time: "11:00 am", venue: "SB-1" },
         { name: "Charter and change ", Time: "11:00 am", venue: "VCH IT building" },
       ],
       FineArts: [
@@ -114,6 +113,7 @@ const eventsData = {
         { name: "Chemistry Project Exhibition", Time: "10:00 am", venue: "Science Block" },
         { name: "Integration Bee", Time: "11:00 am", venue: "LT-303" },
         { name: "Q-trivia", Time: "11:00 am", venue: "LT-203" },
+        { name: "Bio-Expo", Time: "12:00 pm", venue: "BT Department" },
       ],
 
       Robotics: [
@@ -128,6 +128,9 @@ const eventsData = {
       ],
       Managerial: [
         { name: "Ad Mad Show ", Time: "11:00 am", venue: "Humanities Department" },
+      ],
+      Literature: [
+        { name: "Open Mic", Time: "2:00 pm", venue: "Central Lawn" },
       ],
     },
     Cultural: {
