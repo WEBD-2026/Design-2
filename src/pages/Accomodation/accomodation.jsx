@@ -49,12 +49,12 @@ function Accomodation() {
                 </div>
 
                 <div className="brutalist-card_butt">
-                  <a href="https://forms.gle/9UpxxBcGGyHgeAAb6">
-                  <button className="btn-class-name mx-auto">
-                    Book Now
-                  </button>
+                  <a href="https://www.nitj.ac.in/events_registration/utkansh_2025/login">
+                    <button className="btn-class-name mx-auto">
+                      Book Now
+                    </button>
                   </a>
-                  
+
                 </div>
               </div>
             </div>

@@ -18,14 +18,28 @@ const Merch = () => {
             Merchandise
           </h1>
           <a href="https://forms.gle/vU1mspH4nRW2pU5h6" className="button-merch">
-            Buy Now
-            <svg className="icon" viewBox="0 0 24 24" fill="currentColor">
-              <path
-                fillRule="evenodd"
-                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
+            <div className="styled-wrapper">
+              <button className="merch-button">
+                <p className="merch-button__text">
+                  <span style={{ '--index': 0 }}>B</span>
+                  <span style={{ '--index': 1 }}>U</span>
+                  <span style={{ '--index': 2 }}>Y</span>
+                  <span style={{ '--index': 3 }}> </span>
+                  <span style={{ '--index': 4 }}>N</span>
+                  <span style={{ '--index': 5 }}>O</span>
+                  <span style={{ '--index': 6 }}>W</span>
+                  <span style={{ '--index': 7 }}> </span>
+                </p>
+                <div className="merch-button__circle">
+                  <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" className="merch-button__icon" width={14}>
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor" />
+                  </svg>
+                  <svg viewBox="0 0 14 15" fill="none" width={14} xmlns="http://www.w3.org/2000/svg" className="merch-button__icon merch-button__icon--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor" />
+                  </svg>
+                </div>
+              </button>
+            </div>
           </a>
         </div>
 
