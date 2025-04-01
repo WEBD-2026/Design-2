@@ -83,7 +83,7 @@ export const technical_events = [
     date: "10-11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737567/ChemTech_de6w4v.png",
     category: "Chemistry chemical",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    register: "https://docs.google.com/forms/d/e/1FAIpQLScSA4ZYUD9SBcVoccwjQNTkTniXJV7ZsDJRhQFLbDvb1g17fA/viewform?usp=sharing"
   }
   ,
   {
