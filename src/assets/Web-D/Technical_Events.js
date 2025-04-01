@@ -413,7 +413,7 @@ export const technical_events = [
     prize: "5,000 INR",
     description: "Join the Ad Mad Show to unleash your creativity! Participants will receive products to create engaging, witty advertisements that captivate the audience. Showcase your marketing skills with humor and innovation!",
     rules: "● Participation in a team with a maximum of 4 members.\n● One participant from the team will select a chit from the bowl containing the names of different products (e.g., mobile cover).\n● The team will receive the product and must frame a presentation in the form of an effective skit or advertisement.\n● The participants will be given 30 minutes to frame and arrange their presentation.\n● After 30 minutes, the team will showcase their persuading and marketing skills.\n● Maximum time: 4 minutes.\n● 1st bell after 3:30 minutes and 2nd bell after 4 minutes.\n● Exceeding the time limit will lead to negative marking.\n\nJudging Criteria:\n● Creativity and originality.\n● Effectiveness in conveying the message or product.\n● Presentation skills and audience engagement.\n● Adherence to time limits.\n● Judges may also consider factors like humor, impact, relevance, and overall entertainment value.",
-    date: "10,13 April 2025",
+    date: "12 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737551/Ad_Mad_Show_lfroko.png",
     category: "Marketing & Advertising",
     register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
