@@ -34,7 +34,7 @@ const eventsData = {
         { name: "Monochrome pallete", Time: "4:30 pm", venue: "DRAWING HALL" },
       ],
       Movies: [
-        { name: "VISION VS REALITY ", Time: "11:00 am", venue: "LT 102" },
+        { name: "MAD ADS", Time: "11:00 am", venue: "LT 102" },
       ],
       Photography: [
         { name: "Photography Exhibition (Drishya)", Time: "10:00 am", venue: "IT Building" },
@@ -95,7 +95,7 @@ const eventsData = {
         { name: "Cultural Fusion Art", Time: "11:00 am", venue: "DRAWING HALL" },
       ],
       Movies: [
-        { name: "MAD-Ads", Time: "11:00 am", venue: "LT 102" },
+        { name: "Vision Vs Reality", Time: "11:00 am", venue: "LT 102" },
       ],
       Photography: [
         { name: "Photography Exhibition (Drishya)", Time: "10:00 am", venue: "IT Building" },

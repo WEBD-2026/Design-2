@@ -105,7 +105,7 @@ export const events =
     name: "Bhangra Fiesta",
     head: "Celebrate Punjabi Spirit with Bhangra",
     entry: "3000 INR",
-    prize: "50,000 INR",
+    prize: "65,000 INR",
     description: "One of the main events of Utkansh. Bhangra Fiesta is the event that brings participation in the form of Bhangra. Bhangra of our regions brings us close to our roots and gives us a feeling of belongingness and identity.",
     rules: "Competition Rules:\n1. Only group performances are allowed.\n2. The performance must be completely folk, and all teams must strictly adhere to the rules of Folk Bhangra.\n3. Props and dresses must be brought by the performers themselves. Use of props like kirpaan, which can harm the stage, are not allowed.\n4. Any kind of vulgarity shall not be tolerated.\n5. Team Size: 8 participants.\n6. Accompanists: Maximum of 4.\n7. Performance Time: 9-12 minutes.\n8. Additional 5 minutes for stage setup.\n9. Time will start when the first dagga on dhol is hit.\n10. Recorded dhol is NOT allowed.\n11. Teams will be disqualified if they don't show up on stage after 3 calls.\n12. The decision of the judges will be final.",
     date: "12 April 2025",
