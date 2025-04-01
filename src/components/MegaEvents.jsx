@@ -32,45 +32,36 @@ export default function MegaEvents() {
   }, []);
 
   return (
-    <div className="containerAbout w-full h-screen relative overflow-hidden flex items-center justify-center">
+    <div className="relative w-full h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div
-        className="bgAbout w-full h-full absolute top-0 bottom-0"
-        style={{
-          background: "url('/jubin-Nautyail.png')",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: "url('/jubin-Nautyail.png')" }}
       ></div>
 
-      {/* Top Black Gradient */}
-      <div
-        className="absolute top-0 left-0 w-full h-1/6"
-        style={{
-          background:
-            "linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent)",
-        }}
-      ></div>
+      {/* Overlay */}
+      {/* <div className="absolute inset-0 bg-black bg-opacity-40"></div> */}
 
+      {/* Centered Text */}
       <h1
-        className="w-100% text-white text-2xl sm:text-4xl md:text-5xl lg:text-8xl text-center"
+        className="absolute text-white text-3xl sm:text-5xl md:text-6xl lg:text-6xl text-center font-bold px-4"
         style={{
-          fontFamily: "Rockybilly",
-          textShadow: "2px 2px 8px rgba(0, 0, 0, 0.8)",
+          fontFamily: "Rockybilly, sans-serif",
+          textShadow: "2px 2px 8px rgba(0, 0, 0, 1.5)",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          zIndex: 10,
         }}
       >
         Jubin Nautiyal
       </h1>
 
+      {/* Top Black Gradient */}
+      <div className="absolute top-0 left-0 w-full h-1/6 bg-gradient-to-b from-black to-transparent"></div>
+
       {/* Bottom Black Gradient */}
-      <div
-        className="absolute bottom-0 left-0 w-full h-1/6"
-        style={{
-          background:
-            "linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent)",
-        }}
-      ></div>
+      <div className="absolute bottom-0 left-0 w-full h-1/6 bg-gradient-to-t from-black to-transparent"></div>
     </div>
   );
 }
