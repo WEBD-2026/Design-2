@@ -509,15 +509,15 @@ export const events =
   {
     "id": 38,
     "name": "Spice Wars",
-    "head": "Battle of Flavors",
-    "entry": "120 INR",
+    "head": "Registration Closed ",
+    "entry": "",
     "prize": "3,000 INR",
     "description": "Spice War is a thrilling culinary competition by the Food and Flavour Club, where participants battle to create the most flavorful and creative spice-infused dishes.",
     "rules": "Elimination Round:\n1. Each team can have a maximum of 5 members, with at least one girl mandatory.\n2. One participant from each team will pick a chit from a bowl, which will have the name of the dish they have to prepare (e.g., Salads, Sandwiches, Wraps).\n3. This round does not involve any fire-based cooking.\n4. The team will be provided with sufficient ingredients for the dish mentioned in their chit.\n5. Participants will be given a fixed amount of time to prepare and arrange their dishes.\n6. Exceeding the time limit will result in negative marking.\n7. Based on the judging criteria, teams will qualify for the next round.\n\nFinal Round:\n1. Only the qualified teams from the elimination round will proceed to this round.\n2. Each team must prepare two dishes of their own choice.\n3. This round involves fire-based cooking, and each team will be provided with an induction cooktop.\n4. The team will be given ingredients, but if they require additional ingredients, they may bring them along.\n5. Participants will be given a fixed amount of time to prepare and arrange their dishes.\n6. Exceeding the time limit will lead to negative marking.\n7. Based on the team’s performance, they will be ranked.\n\nJudging Criteria:\n1. The teams will be judged based on the following aspects:\n   - Taste and Flavour\n   - Presentation and Plating\n   - Texture and Consistency\n   - Creativity and Innovation\n   - Adherence to Time Limits and Rules\n   - Hygiene and Cleanliness\n2. Judges may also consider additional factors such as humour, impact, relevance, and overall entertainment value.",
-    "date": "11,12 April 2025",
+    "date": "11 & 12 April 2025",
     "image": "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737663/Spice_Wars_eqx1bg.png",
     "category": "Cooking",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    // register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   },
 
   {
