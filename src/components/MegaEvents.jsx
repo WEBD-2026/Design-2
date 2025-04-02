@@ -44,7 +44,7 @@ export default function MegaEvents() {
 
       {/* Centered Text */}
       <h1
-        className="absolute text-white text-3xl sm:text-5xl md:text-6xl lg:text-6xl text-center font-bold px-4"
+        className="absolute text-white text-3xl sm:text-lg md:text-6xl lg:text-6xl text-center font-bold p-6"
         style={{
           fontFamily: "Rockybilly, sans-serif",
           textShadow: "2px 2px 8px rgba(0, 0, 0, 1.5)",
