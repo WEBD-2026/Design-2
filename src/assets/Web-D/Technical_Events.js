@@ -4,71 +4,71 @@ export const technical_events = [
   {
     id: 71,
     name: "ArenaX (BGMI) (4v4)",
-    head: "The Ultimate Esports Battle",
-    entry: "20 INR per person",
+    head: "Registration Closed",
+    // entry: "20 INR per person",
     prize: "30,000 INR",
     description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
     rules: "● MATCH STRUCTURE\n1. Round 1: Online Qualifiers\n- Teams compete in multiple matches across designated maps.\n- Top 6 teams from each group move on to the next round.\n- Duration: 3 days.\n- Remark: Matches will be streamed online.\n2. Round 2: Online Playoffs\n- Teams that qualify from Round 1 compete across various maps.\n- Top 4 teams from each group advance to the next stage.\n- Duration: 3 days.\n3. Round 3: Online Stage\n- Teams compete in multiple rounds to narrow down the competitors.\n- Top 32 teams will qualify for the Semi-Finals.\n- Duration: 2 days.\n- Remarks: Matches will be streamed online, with teams divided into groups.\n- Note: The number of Online Rounds may vary according to the number of teams registered.\n4. Semi-Finals:\n- Top 32 teams play in a double round-robin format to determine who qualifies for the LAN Finals.\n- Duration: 1 Day.\n5. Grand Finals: LAN Event\n- Top 16 teams compete in an offline LAN event at Utkansh Fest.\n- Duration: At Utkansh Fest (LAN event at venue).\n- Remarks: Matches will be played live, with/without an audience present.\n\n● POINTS SYSTEM\n1. Placement Points:\n- 1st Place: 10 points\n- 2nd Place: 8 points\n- 3rd Place: 6 points\n- 4th Place: 4 points\n- 5th Place: 3 points\n- 6th Place: 2 points\n- 7th Place: 1 point\n- 8th Place & Below: 0 points\n2. Kill Points:\n- Each kill grants 1 point.\n\n● GAME RULES\n1. Team Composition: Only registered players are allowed to compete. Using unauthorized players will lead to disqualification.\n2. Cheating & Hacking: The use of cheats, hacks, or third-party software is strictly prohibited. This includes any form of automation, wallhacks, or aim hacks.\n3. Glitch Exploits: Exploiting in-game glitches for unfair advantage is forbidden.\n4. Bug Abuse: If a critical bug is encountered, the match may be restarted at the discretion of tournament officials.\n5. Teaming: Collaborating with other teams is prohibited.\n6. In-Game Behavior: Match-fixing, feeding opponents, or intentionally disconnecting is not allowed.\n7. Recordings: Players will need to submit gameplay recordings when we ask to check any appeals.\n\n● TIE BREAKERS\nIn case of a tie, the following rules will apply in order:\n1. Total kill points across all matches.\n2. Highest placement in individual matches.\n3. Head-to-head performance between tied teams.\n\n● TECHNICAL ISSUES\n1. Disconnections: If a player disconnects before the plane takes off, the match may be restarted based on the organizer’s discretion.\n2. Server Problems: Matches may be paused, canceled, or replayed if widespread server issues occur.\n\n● CODE OF CONDUCT\n1.  Players must display fair play and respect towards opponents, teammates, and officials.\n2. Offensive language, verbal abuse, or toxic behavior will not be tolerated.\n3. Teams engaging in unsportsmanlike conduct may face disqualification.\n\n● REPORTING ISSUES\n1. Teams must report rule violations within 30 minutes after the match ends.\n2. Proof (screenshots, video clips) must be provided to support the claims.\n\n● BROADCASTING RULES\n1. Streaming Rights: Only Utkansh Fest or approved broadcasters may stream the matches.\n2. Player Streams: Players are generally not allowed to stream their matches unless explicitly approved by officials.\n\n● APPEALS PROCESS\n1. Teams may submit appeals through official channels if they believe a decision was unfair.\n2. Appeals must be submitted within the designated time frame after the match.\n\n● GENERAL RULES\n1. Vortex reserves the right to disqualify any team promoting obscenity through their act.\n2. Vortex reserves the right to cancel the prelims stage in case of unforeseen circumstances.\n3. Vortex reserves the right to change the prize money before the commencement of the prelims.\n4. In the case of any dispute, the decision of the organizers will be final and binding.\n5. The organizers are not responsible for non-completion / non-occurrence of the event.\n6. The organizers have all the right to cancel, reschedule, postpone, and amend the show. In the event of any dispute, the organizers' decisions are final and binding on the applicant.\n7. Deadlines are determined by the number of entries. The decisions of the Jury/Judges are final.\n8. The organizers reserve the right to amend the rules and format anytime.",
     date: "12-13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737561/BGMI_aa2qbj.png",
     category: "Esports & Gaming vortex",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    // register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
     id: 72,
     name: "ArenaX (VALORANT) (5v5)",
-    head: "The Ultimate Esports Battle",
-    entry: "20 INR per person",
+    head: "Registration Closed",
+    // entry: "20 INR per person",
     prize: "30,000 INR",
     description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
     rules: "● ELIGIBILITY:\n1. All players must have an active Riot Games account.\n2. Players must be at least 16 years old to participate.\n\n● TEAM COMPOSITION:\n1. Each team must consist of five (5) main players and can have up to one (1) substitute.\n2. Rosters must be submitted before the tournament begins and cannot be changed once the event starts.\n\n● MATCH FORMAT:\n1. The tournament format will be Single Elimination / Double Elimination / Round Robin as decided by the organizers.\n2. Matches will be played in Best of 1 (Bo1), Best of 3 (Bo3), or Best of 5 (Bo5) formats based on the tournament stage.\n\n● MATCH RULES:\n1. Map Selection:\n  - Maps will be selected using a veto system.\n  - Available maps: Ascent, Bind, Haven, Split, Lotus, Pearl, Sunset.\n2. Match Settings \n  - Mode: Standard (Competitive)\n  - Server: Specified by the organizers\n  - Overtime Rules: As per in-game settings (first to 13 rounds, overtime sudden death if necessary)\n3. Agent Selection:\n  - All available agents are allowed.\n  - Players must select agents within the allocated pick time.\n4. Technical Issues & Pauses:\n  - Each team is allowed one (1) 5-minute technical pause per match for hardware/software issues.\n  - Tactical pauses are limited to one (1) 60-second pause per team per half.\n  - If a player disconnects, the match will be paused for a maximum of 10 minutes before resuming.\n\n● PLAYER COMDUCT\n1. Code of Comduct\n-Players must exhibit professionalism and sportsmanship at all times.\n- Toxic behavior, harassment, or hate speech will lead to penalties.\n- Exploiting bugs, cheating, or hacking is strictly prohibited.\n2. Communication & Streaming:\n- Players must use appropriate in-game names.\n- Streaming is allowed only with prior permission from the organizers to avoid streamsnipe\n- Teams may use external voice communication tools but must comply with fair play policies\n 3. Match Reporting\n- Teams must report match results within 10 minutes of completion.\n- Any disputes must be reported immediately to the tournament admins.\n\n● PENALTIES AND DISQUALIFICATIONS:\n1. Warnings & Infractions:\n    - Minor Violations: Late check-in, excessive pause usage - Verbal warning.\n    - Major Violations: Match-fixing, cheating, toxic behavior - Match loss or disqualification.\n2. Disqualification Criteria:\n    - Use of unregistered or ineligible players without prior notice. Repeated misconduct or cheating.\n    - Failure to attend a scheduled match without prior notice.\n\n● AMIN DECISION AND FINAL RULES\n1. Tournament admins have the final say in disputes and rule clarifications.\n2. Rules may be modified based on unforeseen circumstances.\n3. By participating, all teams and players accept and adhere to these rule",
     date: "12-13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737670/Valorant_hzoldq.png",
     category: "Esports & Gaming vortex",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    // register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
     id: 73,
     name: "ArenaX (STUMBLE GUYZ)",
-    head: "The Ultimate Esports Battle",
-    entry: "20 INR per person",
+    head: "Registration Closed",
+    // entry: "20 INR per person",
     prize: "4,500 INR",
     description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
     rules: "● General Rules\n1. The event will be conducted in a knockout format.\n2. All participants must register before the deadline. No late entries will be entertained.\n3. Players should use their own devices with the latest version of Stumble Guys installed.\n4. Any form of cheating, hacking, or unfair advantage will result in immediate disqualification.\n5. Participants must join the game lobby within the given time. Failure to do so may lead to elimination.\n6. Organizers hold the final say in any disputes or rule interpretations.\n\n● MATCH STRUCTURE:\n1. Players will compete in lobbies of up to 32 players per round.\n2. The top finishers of each round will advance to the next stage.\n3. The number of qualifiers per round depends on the number of participants.\n4. Loser's Bracket: An additional round will be conducted for eliminated players, giving a second chance to skilled players. The top finishers from this bracket will re-enter the competition.\n\n● ELIMINATION AND PROGRESSION:\n1. The event will continue until a final set of players competes for the championship.\n2. The last player standing in the final round will be declared the winner.\n\n● DEVICE AND CONNECTION:\n1. Players are responsible for ensuring their device has a stable internet connection.\n2. Organizers will not be responsible for disconnections, lag, or any technical issues on the player's side.\n3. Using external devices, controllers, or macros to gain an advantage is prohibited.\n\n● CODE OF CONDUCT:\n1. Players must maintain sportsmanship and respect fellow participants.\n2. Toxic behavior, offensive language, or harassment will lead to disqualification.\n3. Players should follow the instructions of event moderators at all times.\n\n● REGISTRATION AND PARTICIPATION:\n1. Registration will be conducted online.\n2. A nominal entry fee (if applicable) must be paid before participation.\n3. Players must provide their in-game username at registration.\n\n● DISQUALIFICATION AND PENALTIES:\n1. Players caught teaming, exploiting glitches, or using unfair means will be immediately disqualified.\n2. Any attempt to manipulate the game results in an unfair manner will lead to a permanent ban from the event.",
     date: "12-13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737666/Stumble_r4fevw.png",
     category: "Esports & Gaming vortex",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    // register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
     id: 74,
     name: "ArenaX (FREE FIRE) (4v4)",
-    head: "The Ultimate Esports Battle",
-    entry: "20 INR per person",
+    head: "Registration Closed",
+    // entry: "20 INR per person",
     prize: "30,000 INR",
     description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
     rules: "MATCH STRUCTURE\n● Qualifier Matches - Each registered team will play three qualifier matches. Based on performance, the top 12 teams will move to the next stage.\n● Eliminator Matches - The 12 qualified teams will compete in three eliminator matches. The top 4 teams from this stage will advance to the semifinals.\n● Semifinals (Clash Squad Mode):\n- Semifinal 1: Rank 1 team vs Rank 4 team.\n- Semifinal 2: Rank 2 team vs Rank 3 team.\nThe winners of these matches will move to the final.\n● Final Match - The two semifinal winners will face off in a Clash Squad final match to determine the champion.\n\n● GENERAL RULES\n1. PC players are not allowed.\n2. If any participant gets caught using game bugs or hacks, the whole team will be disqualified.\n3. Gun properties and attributes will remain off.\n4. Team-up is not allowed in full map.\n5. Each team should join the lobby with their registered players only. If caught, the whole team will be disqualified.\n6. Character skill will be on.\n7. All teams should be there within 10 minutes after getting the custom ID and password. No team will be considered if they are late, and the match will be started after 10 minutes.",
     date: "12-13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737589/Freefire_ihbf9t.png",
     category: "Esports & Gaming vortex",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    // register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
     id: 75,
     name: "ArenaX (TEKKEN 8) (1v1)",
-    head: "The Ultimate Esports Battle",
-    entry: "20 INR per person",
+    head: "Registration Closed",
+    // entry: "20 INR per person",
     prize: "4,500 INR",
     description: "The campus buzzed with vibrant energy as students engaged in thrilling gaming events. Intense competition arose during online qualifiers for BGMI, FreeFire, and Valorant, with teams vying for a chance at LAN matches while preparing their gear and strategies to impress a live audience.",
     rules: "● ELIGIBILITY - All participants must have attained the age of 16 or above to participate in the tournament.\n\n● MATCH FORMAT\nGame Mode : Participants will engage in 1v1 matches throughout the tournament.\nNote:\n1. All matches, unless otherwise specified, will be conducted in a 1v1 format.\n2. Participants are expected to adhere to the rules and regulations outlined in the official tournament rule book.\n3. Violations may result in penalties.\n\n● COLLUSION - A player may not collude. Collusion is defined as any agreement among two (2) or more players, and/or confederates to disadvantage opposing players. Collusion includes, but is not limited to, acts such as:\n1. Soft play, which is defined as any agreement among two (2) or more players to not damage, impede, or otherwise play to a reasonable standard of competition in a game.\n2. Sending or receiving signals, electronic or otherwise, from a confederate to/from a player.\n3. Pre-arranging to split the prize money and/or any other form of compensation. Deliberately losing a game for compensation, or any other reason, or attempting to induce another player to do so.\n\n● CHEATING - Cheating is prohibited. Any modification of the game client by any player, Team, or other Team Member is prohibited.\n\n● HACKING - A player may not hack during tournament games. Hacking is defined as any modification of the game client by any player, or person acting on behalf of a player.\n\n● ADMIN DECISION AND FINAL RULES\n1. Tournament admins have the final say in disputes and rule clarifications.\n2. Rules may be modified based on unforeseen circumstances.\n3. By participating, all teams and players accept and adhere to these rules.",
     date: "12-13 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737672/Tekken_es9mux.png",
     category: "Esports & Gaming vortex",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    // register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   },
 
 
