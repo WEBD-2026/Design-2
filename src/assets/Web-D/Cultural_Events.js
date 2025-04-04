@@ -530,7 +530,8 @@ export const events =
     "rules": "1. All the entries must have the subject as “DRISHYA_NAME.”\n2. All the entries in the Google form should be filled properly.\n3. Each entry should consist of a maximum of 3 photographs.\n4. Picture size should be greater than 5MP.\n5. Mobile clicks are also allowed (picture resolution should be greater than or equal to 5MP).\n6. Submit before 6 April 2025, 11:59 PM.\n7. The decision taken by the judges shall be final and binding. In case of any disputes, NIT Jalandhar reserves the rights in its sole discretion.",
     "date": "All Day",
     "image": "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737645/Photography_Exhibition_pa4ws0.png",
-    "category": "Photography Exhibition"
+    "category": "Photography Exhibition",
+    register: "https://forms.gle/t3dAwKmTi7iRHxvY8"
   },
 
   {

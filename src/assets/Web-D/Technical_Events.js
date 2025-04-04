@@ -131,10 +131,11 @@ export const technical_events = [
     id: 46,
     name: "Skyline Symphony",
     head: "Engineering the Future",
+    head: "Engineering the Future",
     entry: "200 INR",
     prize: "12,000 INR",
     description: "Attention aspiring engineers and architects! Join Skyline Symphony to design and build a high-rise model, test it with earthquake simulations, and compete to showcase your engineering skills!",
-    rules: "Event Phases:\n1. Model Construction\n2. Simulated Earthquake Testing\n3. Load Test\n\nSize & Dimensions:\n• Max. Base Area: 30cm × 30cm\n• Min. Height: 50cm\n• Max. Height: 80cm\n\nTesting Criteria:\n1. Earthquake Simulation Test:\n   • The model will be placed on a shake table with increasing intensity levels.\n   • The structure should remain intact for at least 20 seconds at maximum intensity to score full points.\n\n2. Load Bearing Test:\n   • A gradual increase of load (weights) will be applied.\n   • The maximum load before failure will be recorded.\n\nJudging Criteria:\n• Judges will evaluate the load/cost ratio of the models.\n\nRules & Regulations:\n1. All models must be built strictly following the size and material guidelines.\n2. Materials will be provided on the event site itself; any improperly constructed model may be disqualified.\n3. Use of restricted materials will lead to immediate disqualification.\n4. Judges' decisions will be final and binding.",
+    rules: "Number of Participants in a team: Max. of 6 members.\nEach team will be provided with some pre- decided materials & equipments(which will have some Cost associated with it) with which they have to make a model of high - rise building.\n Use of any material which is not given by the coordinators for the making of building will lead to direct disqualification. \n Maximum 2 walls of each floor should be covered.\n The team would be given upto 6 - hours maximum for model making.",
     date: "10 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737666/Skyline_Symphony_wqrilc.png",
     category: "Engineering Civil Design",
@@ -198,7 +199,7 @@ export const technical_events = [
   {
     id: 51,
     name: "Escape Room",
-    head: "Crack the Code and Escape!",
+    head: "Registration Closed",
     entry: "100 INR",
     prize: "12,000 INR",
     description: "This 60-minute escape room may cause excessive brainstorming, spontaneous teamwork, and irreversible attraction to entrepreneurship... Prolonged exposure may lead to startup success (and a crush on your teammates). Form a team of 4 and solve 5 critical business challenges to escape before time runs out. Can you handle the heat?",
@@ -206,7 +207,7 @@ export const technical_events = [
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737587/Escape_Room_pnishr.png",
     category: "Problem Solving ecell e-cell",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    // register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   },
 
   {
@@ -244,7 +245,7 @@ export const technical_events = [
     entry: "300 INR",
     prize: "24,000 INR",
     description: "Get ready for an exhilarating RC car race on exciting tracks that test speed, skill, and control. The crowd is buzzing as racers tackle sharp turns, creating suspense over whether the sleek red or agile blue car will triumph. With roaring engines, everyone anticipates the champion's reveal.",
-    rules: "This event is open to both college students and teams from other colleges \n Each team must consist of 1-5 members, and a participant cannot be part of more than one team.\n RC cars must be self-assembled or modified; ready-to-run (RTR) models are not permitted unless heavily modified.\n The event organizers reserve the right to inspect, test, or disqualify any RC car that does not meet the competition’s safety and technical standards.",
+    rules: "Sure! Here’s your text converted into a single line with `\n` after each point GEARBLITZ\nRULEBOOK\n1. General Rules\n1.1 This event is for both college students and for teams which are coming from other colleges.\n1.2. Each team must consist of 1-5 members. A participant cannot be part of more than one team.\n1.4. RC cars must be self-assembled or modified. Ready-to-run (RTR) models are not permitted unless heavily modified.\n1.5. The event organizers reserve the right to inspect, test, or disqualify any RC car that does not meet the competition’s safety and technical standards.\n2. Car Specifications\n2.1. Dimensions:\n• Maximum length: 700 mm\n• Maximum width: 400 mmm\nMaximum height: 300 mm\n2.2. Weight:\n• Should not exceed 5 kg.\n2.3. Power Source:\n• Only battery-powered RC cars are allowed.\n• Maximum allowed battery 6s.\n• Li-po & Li-ion are allowed.\n• Lead-acid are strictly prohibited\n• IC engines are strictly prohibited.\n2.4. Frequency & Control:\n• Cars must control through wireless protocols like Radio, Wi-Fi, Bluetooth etc.\n• Wired Cars are strictly prohibited\n2.5. Wheels:\n• The car must have a minimum of 4 wheels. Steering system and Suspensions are allowed.\n3. Event Categories\n3.1. Drag Race\n• Cars will compete in a straight-line acceleration race.\n• The fastest car to reach the finish line wins.\n• Track length: 30 meters.\n3.2. Obstacle Challenge\n• The track will have various obstacles like ramps, bumps, and tight turns.\n• The car completing the course in the shortest time wins.\nTime penalties will be applied for hitting obstacles.\n3.3. Off-Road Endurance\n• A rugged track with sand, gravel, and inclines will test the car’s durability and control.\n• The car completing the most laps in a set time wins.\n3.4. Time Trial\n• A closed circuit where the car must complete a lap in the shortest time.\n• Penalties for going off-track or missing checkpoints.\n4. Scoring & Judging\n4.1. Events will be judged based on time, speed, control, and technical execution.\n4.2. Any attempt to damage another participant’s RC car intentionally will result in disqualification.\n4.3. The judges’ decision will be final and binding.\n4.4. Each event will have specific scoring criteria based on speed, precision, and control.\n5. Safety & Conduct 5.1. All participants must handle their RC cars responsibly to ensure safety.\n5.2. Batteries must be handled and charged safely using approved chargers. Overcharging, puncturing, or improper disposal of batteries is strictly prohibited.\n5.3. Charging batteries in an unsafe manner (e.g., unattended charging, using damaged batteries, or overloading circuits) is not allowed.\n5.4. Participants must ensure that all batteries are stored and transported in fireproof containers or LiPo safety bags when not in use.\n5.5. Any unsportsmanlike behaviour will result in immediate disqualification.\n5. Prizes & Recognition\n6.1. Prizes: Worth Rs 25000.\n6.2. Winners in each category will receive certificates and prizes.\n6.3. Special awards for Best Design and Most Innovative Build.\n6.4. Participation certificates for all registered teams.\n6.5. Overall, Champion award for the team scoring the highest across all categories.\nFor any queries, contact Team Daksh\nAshutosh Singh: 9509185817\nLovish: 6283766321\nGet ready to race, innovate, and dominate the RC tracks.",
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737598/Gear_Blitz_lo254b.png",
     category: "Automobile & RC Racing daksh",
@@ -471,6 +472,18 @@ export const technical_events = [
     description: "The Physics Escape Room Challenge is an interactive and engaging event where participants use physics concepts to solve puzzles and unlock clues to 'escape' within a given time frame. Teams must work together to decode scientific mysteries and reach the final exit point.",
     rules: "1. Each team must enter the escape room together and follow the instructions provided.\n2. Participants are required to solve physics-based puzzles to unlock locks, find keys, or progress through different stages.\n3. No use of mobile phones, calculators, or external help is allowed.\n4. Clues must be solved logically without damaging any props or setup.\n5. Hints will be provided upon request, but each hint will result in a time penalty.\n6. Teams must complete the challenge within the allotted time to qualify.\n7. The team that escapes in the shortest time (with minimal hints) wins.\n\n4. Scoring System\n• Completion Time: Faster escapes score higher.\n• Hint Penalty: Each hint adds 2 minutes to the total escape time.\n• Rule Violations: Any rule-breaking will result in disqualification.",
     date: "12 April 2025",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737642/Physics_nyoxrw.png",
+    category: "Physics & Analytical Thinking",
+    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+  },
+  {
+    id: 76,
+    name: "BIO QUEST",
+    head: "Quiz based on biotechnology topics Time",
+    entry: "20 INR",
+    prize: "2500",
+    description: "This competition is open to all contestants. \n 2. On the spot registration will also be done \n3. Top 9 contestants will be selected on the basis of theirperformance in first round \n4. Prize money plus certificate and trophy will be awarded to winner team, whereas certificate and trophy will beawarded to the winner and runner-up team",
+    date: "10 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737642/Physics_nyoxrw.png",
     category: "Physics & Analytical Thinking",
     register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
