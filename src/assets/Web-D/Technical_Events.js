@@ -480,13 +480,13 @@ export const technical_events = [
     id: 76,
     name: "BIO QUEST",
     head: "Quiz based on biotechnology topics Time",
-    entry: "20 INR",
+    entry: "50 INR",
     prize: "2500",
     description: "This competition is open to all contestants. \n 2. On the spot registration will also be done \n3. Top 9 contestants will be selected on the basis of theirperformance in first round \n4. Prize money plus certificate and trophy will be awarded to winner team, whereas certificate and trophy will beawarded to the winner and runner-up team",
     date: "10 April 2025",
-    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737642/Physics_nyoxrw.png",
+    image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737653/Revamping_Bio_kglsiw.png",
     category: "Physics & Analytical Thinking",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSeCC322H3IOP8d2Emivd68wVBBNCBbDDWnmKJ_z7xlMzhwokA/viewform?usp=header"
   },
 
 
