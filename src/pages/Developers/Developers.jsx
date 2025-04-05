@@ -83,21 +83,21 @@ const team2 = [
     id: 1,
     name: "Aryan Panigrahy",
     image: "https://utkansh25.sirv.com/4.png",
-    role: "CULTURAL HEAD",
+    role: "CULTURAL SECRETARY",
     linkedin: "#",
   },
   {
     id: 2,
     name: "Geetika Chopra",
     image: "https://utkansh25.sirv.com/3.png",
-    role: "CULTURAL HEAD",
+    role: "CULTURAL SECRETARY",
     linkedin: "https://www.linkedin.com/in/geetika8/",
   },
   {
     id: 3,
-    name: "Apurva",
+    name: "Apurva kRISHNA",
     image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/20.png",
-    role: "TECHNICAL HEAD",
+    role: "MARKETING HEAD",
     linkedin: "#",
   },
   {
@@ -125,7 +125,7 @@ const team2 = [
     id: 7,
     name: "Sameer Chaurasia",
     image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/19.png",
-    role: "MARKETING HEAD",
+    role: "DECORATION HEAD",
     linkedin: "#",
   },
   {
@@ -153,7 +153,7 @@ const team2 = [
     id: 11,
     name: "Sailesh",
     image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/24.png",
-    role: "SOCIAL MEDIA HEAD",
+    role: "DIGITAL HEAD",
     linkedin: "#",
   },
   {
@@ -209,17 +209,17 @@ const team2 = [
     id: 20,
     name: "Suman Meena",
     image: "https://utkansh25.sirv.com/Untitled%20design/17.png",
-    role: "HOSPITALITY HEAD",
+    role: "SOCIAL MEDIA HEAD",
     linkedin: "#",
   },
   {
     id: 21,
     name: "Rishi ",
     image: "https://utkansh25.sirv.com/Untitled%20design/18.png",
-    role: "DECORATION HEAD",
+    role: "VENUE MANAGMENT  HEAD",
     linkedin: "#",
   },
-  // { id: 22, name: "Diksha", image: "https://utkansh25.sirv.com/3.png", role: "DECORATION HEAD", linkedin: "#" }
+  { id: 22, name: "Diksha", image: "https://utkansh25.sirv.com/3.png", role: "HOSPATALITY HEAD", linkedin: "#" }
 ];
 
 const team = [
@@ -519,31 +519,28 @@ export default function DevelopersPage() {
         <div className="flex flex-wrap justify-center gap-6 mb-8">
           <button
             onClick={() => setSelectedCategory("developers")}
-            className={`px-6 py-3 rounded-lg font-semibold transition ${
-              selectedCategory === "developers"
-                ? "bg-yellow-500 text-black shadow-lg"
-                : "bg-gray-700 text-white hover:bg-gray-600"
-            }`}
+            className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "developers"
+              ? "bg-yellow-500 text-black shadow-lg"
+              : "bg-gray-700 text-white hover:bg-gray-600"
+              }`}
           >
             Developers
           </button>
           <button
             onClick={() => setSelectedCategory("team")}
-            className={`px-6 py-3 rounded-lg font-semibold transition ${
-              selectedCategory === "team"
-                ? "bg-yellow-500 text-black shadow-lg"
-                : "bg-gray-700 text-white hover:bg-gray-600"
-            }`}
+            className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "team"
+              ? "bg-yellow-500 text-black shadow-lg"
+              : "bg-gray-700 text-white hover:bg-gray-600"
+              }`}
           >
             Team
           </button>
           <button
             onClick={() => setSelectedCategory("faculty")}
-            className={`px-6 py-3 rounded-lg font-semibold transition ${
-              selectedCategory === "faculty"
-                ? "bg-yellow-500 text-black shadow-lg"
-                : "bg-gray-700 text-white hover:bg-gray-600"
-            }`}
+            className={`px-6 py-3 rounded-lg font-semibold transition ${selectedCategory === "faculty"
+              ? "bg-yellow-500 text-black shadow-lg"
+              : "bg-gray-700 text-white hover:bg-gray-600"
+              }`}
           >
             Faculty
           </button>
