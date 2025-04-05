@@ -129,9 +129,7 @@ const eventsData = {
       Managerial: [
         { name: "Ad Mad Show ", Time: "11:00 am", venue: "Humanities Department" },
       ],
-      Literature: [
-        { name: "Open Mic", Time: "2:00 pm", venue: "Central Lawn" },
-      ],
+
     },
     Cultural: {
       Dramatics: [
@@ -143,6 +141,7 @@ const eventsData = {
       ],
       Literature: [
         { name: "Turn the cap", Time: "11:00 pm", venue: "SB 1" },
+        { name: "Open Mic", Time: "2:00 pm", venue: "Central Lawn" },
       ],
       Quiz: [
         { name: "Pop Culture Quiz", Time: "11:00 am", venue: "LT 101" },
