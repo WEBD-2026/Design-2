@@ -137,7 +137,7 @@ const eventsData = {
       ],
       Dance: [
         { name: "In Sync", Time: "11:00 am", venue: "LT Front", },
-        { name: "Bhangra Fiesta", Time: "11:00 am", venue: "CSH", },
+        { name: "Bhangra Fiesta", Time: "2:00 am", venue: "CSH", },
       ],
       Literature: [
         { name: "Turn the cap", Time: "11:00 pm", venue: "SB 1" },
@@ -155,7 +155,7 @@ const eventsData = {
         { name: "Glass painting", Time: "3:00 pm", venue: "DRAWING HALL" },
       ],
       RLC: [
-        { name: "Iktara", Time: "2:00 pm", venue: "CSH" },
+        { name: "Iktara", Time: "10:00 pm", venue: "CSH" },
       ],
       Fashion: [
         { name: "Nirvana", Time: "6:00 pm", venue: "MBH Ground" },

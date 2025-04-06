@@ -203,14 +203,14 @@ export const events =
     id: 15,
     name: "Charter and Change",
     head: "Shape the Future with Your Ideas",
-    entry: "250 INR",
+    entry: "100 INR",
     prize: "18,500 INR",
     description: "A NEW NATION has formed, and you are on its parliamentary committee...",
     rules: "Event Structure:\n1. The event consists of two sessions (1.5 hours each), each focused on forming a major governance policy.\n2. Topics for discussion will be released two days prior to allow research. While laptops and mobile phones are permitted, internet access, magazines, or any external sources are strictly prohibited during the competition.\n\nCompulsory Speeches:\n1. Sessions 1 & 2: Each delegate must deliver a 45-second speech (First buzzer at 35 secs, second at 45 secs). A 2% penalty will be applied for every extra 5 seconds.\n2.\n\nModerated Discussions:\n1. One unmoderated discussion (7 minutes) is allowed per session.\n2. Speeches are not compulsory but add to the score. Each delegate can deliver a maximum of three speeches.\n3. Each speech must be 35 seconds (First buzzer at 25 secs, second at 35 secs). A 2% penalty applies for every extra 5 seconds.\n\nDebate & Questioning:\n1. No questions/disagreements are allowed during compulsory speeches.\n2. In moderated discussions, a maximum of 2 questions can be asked per speech; additional queries must be submitted via chits.\n3. Replies to questions can be given immediately or later via chit.\n\nFinal Session & Charter Formation:\n1. Each delegate must deliver a 20-second conclusion speech, summarizing their stance across all two sessions.\n2. A collective charter listing three key policies must be presented before the panel.\n3. A 20-minute unmoderated discussion will be provided for charter preparation.\n\nGeneral Rules:\n1. The judges’ decision will be final in case of any disputes.\n2. The language of the event is English, and participants must maintain parliamentary decorum.",
     date: "10 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737561/Charter_and_Change_jployv.png",
     category: "Debate",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    register: "https://forms.gle/W1FHmhtGK3uxDTxr8"
   }
     ,
   {

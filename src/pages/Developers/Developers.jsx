@@ -72,7 +72,7 @@ const team1 = [
   {
     id: 3,
     name: "Shivam Prashar",
-    image: "https://utkansh25.sirv.com/Untitled%20design.png",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/2.png",
     phone: "88091-90913",
     linkedin: "https://www.linkedin.com/in/shivam-prashar-78368b227/",
   },
@@ -82,31 +82,32 @@ const team2 = [
   {
     id: 1,
     name: "Aryan Panigrahy",
-    image: "https://utkansh25.sirv.com/4.png",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/4.png",
     role: "CULTURAL SECRETARY",
     linkedin: "#",
   },
   {
     id: 2,
     name: "Geetika Chopra",
-    image: "https://utkansh25.sirv.com/3.png",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/5.png",
     role: "CULTURAL SECRETARY",
     linkedin: "https://www.linkedin.com/in/geetika8/",
   },
   {
-    id: 3,
-    name: "Apurva kRISHNA",
-    image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/20.png",
-    role: "MARKETING HEAD",
-    linkedin: "#",
-  },
-  {
     id: 4,
     name: "Pooja Gurjar",
-    image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/21.png",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/7.png",
     role: "TECHNICAL HEAD",
     linkedin: "#",
   },
+  {
+    id: 3,
+    name: "Bhuvneshwar",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/9.png",
+    role: "TECHNICAL HEAD",
+    linkedin: "#",
+  },
+  
   {
     id: 5,
     name: "Vipul Jain",
@@ -123,103 +124,124 @@ const team2 = [
   },
   {
     id: 7,
-    name: "Sameer Chaurasia",
-    image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/19.png",
-    role: "DECORATION HEAD",
+    name: "Partik",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/10.png",
+    role: "VENUE MANAGEMENT HEAD",
     linkedin: "#",
   },
   {
     id: 8,
-    name: "Akash Sharma",
-    image: "https://utkansh25.sirv.com/Untitled%20design/9.png",
-    role: "PR HEAD",
+    name: "Rishi",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/11.png",
+    role: "VENUE MANAGEMENT HEAD",
     linkedin: "#",
   },
   {
     id: 9,
-    name: "Bhakti Chopra",
-    image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/22.png",
-    role: "PR HEAD",
+    name: "Shashank Paliwal",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/12.png",
+    role: "WEB DEV HEAD",
     linkedin: "#",
   },
   {
     id: 10,
     name: "Jashanpreet Kaur",
-    image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/23.png",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/14.png",
     role: "DIGITAL HEAD",
     linkedin: "#",
   },
   {
     id: 11,
-    name: "Sailesh",
-    image: "https://utkansh25.sirv.com/Untitled%20design%20(2)/24.png",
+    name: "Sailesh Singh",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/17.png",
     role: "DIGITAL HEAD",
     linkedin: "#",
   },
   {
     id: 12,
-    name: "Shashank Paliwal",
-    image: "https://utkansh25.sirv.com/Untitled%20design/16.png",
-    role: "WEB-DEV HEAD",
-    linkedin: "#",
-  },
-  {
-    id: 13,
-    name: "Inder",
-    image: "https://utkansh25.sirv.com/Untitled%20design/15.png",
-    role: "REFRESHMENT HEAD",
-    linkedin: "#",
-  },
-  {
-    id: 14,
-    name: "Partik",
-    image: "https://utkansh25.sirv.com/Untitled%20design/10.png",
-    role: "VENUE MANAGEMENT HEAD",
-    linkedin: "#",
-  },
-  {
-    id: 15,
-    name: "Mukul",
-    image: "https://utkansh25.sirv.com/Untitled%20design/11.png",
-    role: "DISCIPLINE HEAD",
-    linkedin: "#",
-  },
-  {
-    id: 16,
-    name: "Manish Nanda",
-    image: "https://utkansh25.sirv.com/Untitled%20design/14.png",
-    role: "DISCIPLINE HEAD",
-    linkedin: "#",
-  },
-  {
-    id: 17,
-    name: "Nitesh",
-    image: "https://utkansh25.sirv.com/Untitled%20design/13.png",
-    role: "REGISTRATION HEAD",
-    linkedin: "#",
-  },
-  {
-    id: 19,
-    name: "Sanket",
-    image: "https://utkansh25.sirv.com/Untitled%20design/12.png",
-    role: "HOSPITALITY HEAD",
-    linkedin: "#",
-  },
-  {
-    id: 20,
     name: "Suman Meena",
-    image: "https://utkansh25.sirv.com/Untitled%20design/17.png",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/13.png",
     role: "SOCIAL MEDIA HEAD",
     linkedin: "#",
   },
   {
-    id: 21,
-    name: "Rishi ",
-    image: "https://utkansh25.sirv.com/Untitled%20design/18.png",
-    role: "VENUE MANAGMENT  HEAD",
+    id: 13,
+    name: "Gurmukh Singh",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/16.png",
+    role: "SOCIAL MEDIA HEAD",
     linkedin: "#",
   },
-  { id: 22, name: "Diksha", image: "https://utkansh25.sirv.com/3.png", role: "HOSPATALITY HEAD", linkedin: "#" }
+  {
+    id: 14,
+    name: "Apurva Krishna",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/15.png",
+    role: "MARKETING HEAD",
+    linkedin: "#",
+  },
+  {
+    id: 15,
+    name: "Akash",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/18.png",
+    role: "PR HEAD",
+    linkedin: "#",
+  },
+  {
+    id: 16,
+    name: "Bhakti Chopra",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/20.png",
+    role: "PR HEAD",
+    linkedin: "#",
+  },
+
+  {
+    id: 18,
+    name: "Sameer Chaurasiya",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/19.png",
+    role: "DECORATION HEAD",
+    linkedin: "#",
+  },
+  {
+    id: 19,
+    name: "Inder Papola",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/22.png",
+    role: "REFRESHMENT HEAD",
+    linkedin: "#",
+  },
+  {
+    id: 20,
+    name: "Mukul",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/21.png",
+    role: "DISCIPLINE HEAD",
+    linkedin: "#",
+  },
+  {
+    id: 21,
+    name: "Manish",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/23.png",
+    role: "DISCIPLINE HEAD",
+    linkedin: "#",
+  },
+  {
+    id: 22,
+    name: "Sanket",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/24.png",
+    role: "HOSPITALITY HEAD",
+    linkedin: "#",
+  },
+  {
+    id: 23,
+    name: "Diksha Bharadwaj",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/26.png",
+    role: "HOSPITALITY HEAD",
+    linkedin: "#",
+  },
+  {
+    id: 24,
+    name: "Nitesh",
+    image: "https://utkansh25.sirv.com/Untitled%20design%20(1)/25.png",
+    role: "REGISTRAION HEAD",
+    linkedin: "#",
+  },
 ];
 
 const team = [
@@ -611,7 +633,7 @@ export default function DevelopersPage() {
               </div>
 
               {/* Faculty 2 */}
-              {/* <div className="flex flex-wrap gap-8">
+              <div className="flex flex-wrap gap-8">
               {team2.map(fac => (
                 <Card2
                   key={fac.id}
@@ -623,7 +645,7 @@ export default function DevelopersPage() {
                   link={fac.profile}
                 />
               ))}
-            </div>  */}
+            </div> 
             </>
           )}
         </div>
