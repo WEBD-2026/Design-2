@@ -633,7 +633,7 @@ export default function DevelopersPage() {
               </div>
 
               {/* Faculty 2 */}
-              <div className="flex flex-wrap gap-8">
+              <div className="flex flex-wrap gap-8 justify-center">
               {team2.map(fac => (
                 <Card2
                   key={fac.id}
