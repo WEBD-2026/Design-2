@@ -130,16 +130,16 @@ export const technical_events = [
   {
     id: 46,
     name: "Skyline Symphony",
-    head: "Engineering the Future",
-    head: "Engineering the Future",
-    entry: "200 INR",
+    head: "Registration Closed",
+    head: "Registration Closed",
+    entry: "",
     prize: "12,000 INR",
     description: "Attention aspiring engineers and architects! Join Skyline Symphony to design and build a high-rise model, test it with earthquake simulations, and compete to showcase your engineering skills!",
     rules: "Number of Participants in a team: Max. of 6 members.\nEach team will be provided with some pre- decided materials & equipments(which will have some Cost associated with it) with which they have to make a model of high - rise building.\n Use of any material which is not given by the coordinators for the making of building will lead to direct disqualification. \n Maximum 2 walls of each floor should be covered.\n The team would be given upto 6 - hours maximum for model making.",
     date: "10 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737666/Skyline_Symphony_wqrilc.png",
     category: "Engineering Civil Design",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    // register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {

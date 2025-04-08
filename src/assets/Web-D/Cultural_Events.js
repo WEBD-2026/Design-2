@@ -195,7 +195,7 @@ export const events =
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737630/Instant_Ink_mx8nke.png",
     category: "Literary",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    register: "https://docs.google.com/forms/d/e/1FAIpQLSfnbjHaIUJZvvHZ3AKn7sCUpdyJWuy4ZCkVCVRp3bo3Y86mxQ/viewform?usp=header"
   }
 
     ,
@@ -224,7 +224,7 @@ export const events =
     date: "12 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737670/Turn_the_cap_zxxzs2.png",
     category: "Quiz",
-    register: "https://docs.google.com/forms/d/e/1FAIpQLSfnbjHaIUJZvvHZ3AKn7sCUpdyJWuy4ZCkVCVRp3bo3Y86mxQ/viewform?usp=header"
+    register: "https://forms.gle/W1FHmhtGK3uxDTxr8"
   }
 
     ,
