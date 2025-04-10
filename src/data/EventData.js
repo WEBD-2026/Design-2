@@ -19,7 +19,7 @@ const eventsData = {
     Cultural: {
       Dramatics: [
         { name: "Halla Bol", Time: "11:00 am", venue: "IT Park", },
-        { name: "Improv", Time: "03:00 pm", venue: "central lawn", },
+
       ],
       Music: [
         { name: "The Voice", Time: "11:00 am", venue: "OAT" },
