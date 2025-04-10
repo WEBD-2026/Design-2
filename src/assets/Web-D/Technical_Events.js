@@ -145,7 +145,7 @@ export const technical_events = [
   {
     id: 47,
     name: "TexPRINT",
-    head: "The Art of Textile Printing",
+    head: "Registration Closed",
     entry: "100 INR",
     prize: "5,000 INR",
     description: "TexStyle Society presents TexPrint, a block printing event celebrating creativity and tradition. Participants can design their own blocks or use available ones to print unique t-shirt motifs. Stay tuned for more details and unleash your artistic skills!",
@@ -153,7 +153,7 @@ export const technical_events = [
     date: "11 April 2025",
     image: "https://res.cloudinary.com/diiyq5fwx/image/upload/v1742737666/TexPrint_jsoyed.png",
     category: "Design Textile",
-    register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
+    // register: "https://www.nitj.ac.in/events_registration/utkansh_2025/login"
   }
   ,
   {
