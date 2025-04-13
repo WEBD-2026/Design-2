@@ -1,13 +1,17 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import img1 from "./canara.png";
+import img2 from "./hdfc.png";
+import img3 from "./icici.png";
+import img4 from "./monotech.png";
+import img5 from "./ntpc.png";
 
 const sponsers = [
-  { id: 1, img: "cocacola.png", link: "www.cocacola.com" },
-  { id: 2, img: "cocacola.png", link: "www.cocacola.com" },
-  { id: 3, img: "cocacola.png", link: "www.cocacola.com" },
-  { id: 4, img: "cocacola.png", link: "www.cocacola.com" },
-  { id: 4, img: "cocacola.png", link: "www.cocacola.com" },
-  { id: 4, img: "cocacola.png", link: "www.cocacola.com" },
+  { id: 1, img: img1, link: "https://canarabank.com/" },
+  { id: 2, img: img2, link: "https://www.hdfcbank.com/" },
+  { id: 3, img: img3, link: "https://www.icicibank.com/" },
+  { id: 4, img: img4, link: "https://monotech.in/" },
+  { id: 5, img: img5, link: "https://ntpc.co.in/" },
 ];
 export default function Sponsers() {
   return (
@@ -24,8 +28,8 @@ export default function Sponsers() {
         <div className="flex gap-16 py-4">
           {sponsers.map((item, index) => (
             <a key={index} href={item.link} className="w-56">
-              {/* <img src={item.img} alt="" className="w-56" /> */}
-              <h1>ANNOUNCING SOON </h1>
+              <img src={item.img} alt="" className="w-[164px]" />
+              {/* <h1>ANNOUNCING SOON </h1> */}
             </a>
           ))}
         </div>
