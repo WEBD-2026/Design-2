@@ -133,7 +133,7 @@ const Event = () => {
                       </a>
                     </div>
                     <div className="brutalist-card_butt">
-                      <a href={item.register}>
+                      <a href={"#"}>
                         <button className="btn-class-name">
 
                           <button>Register</button>

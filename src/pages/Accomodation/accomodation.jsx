@@ -49,11 +49,11 @@ function Accomodation() {
                 </div>
 
                 <div className="brutalist-card_butt">
-                  <a href="https://www.nitj.ac.in/events_registration/utkansh_2025/login">
+                  {/* <a href="https://www.nitj.ac.in/events_registration/utkansh_2025/login">
                     <button className="btn-class-name mx-auto">
                       Book Now
                     </button>
-                  </a>
+                  </a> */}
 
                 </div>
               </div>
