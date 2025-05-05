@@ -5,6 +5,8 @@ import img2 from "./hdfc.png";
 import img3 from "./icici.png";
 import img4 from "./monotech.png";
 import img5 from "./ntpc.png";
+import img6   from "./NO_SCAR_LOGO_NEW_page-0001-removebg-preview.png";
+import img7 from "./JioSaavn.png";
 
 const sponsers = [
   { id: 1, img: img1, link: "https://canarabank.com/" },
@@ -12,6 +14,8 @@ const sponsers = [
   { id: 3, img: img3, link: "https://www.icicibank.com/" },
   { id: 4, img: img4, link: "https://monotech.in/" },
   { id: 5, img: img5, link: "https://ntpc.co.in/" },
+  { id: 6, img: img6, link: "https://noscar.co.in/" },
+  { id: 7, img: img7, link: "https://jiosaavn.co.in/" },
 ];
 export default function Sponsers() {
   return (
