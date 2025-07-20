@@ -52,21 +52,21 @@ export default function ContactUs() {
               <FontAwesomeIcon icon={faPhone} className="text-5xl" />
              
               <a
-                href="tel:7508619568"
+                href="tel:8529083160"
                 target="_blank"
                 className="flex items-center justify-center gap-2 h-fit group hover:animate-bobble mt-5
                 "
               >
                 
-                <p>+91 7508619568</p>
+                <p>+91 8529083160</p>
               </a>
 
               <a
-                href="tel:8809190913"
+                href="tel:7726973154<"
                 target="_blank"
                 className="flex items-center justify-center gap-2 h-fit group hover:animate-bobble "
               >
-                <p>+91 8809190913</p></a>
+                <p>+91 7726973154</p></a>
               </div>
              
             </div>
